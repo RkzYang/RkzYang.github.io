@@ -6,10 +6,21 @@
     <description>Recent content in market categories on Ray K. Yang&#39;s Strategy Thinking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/market-categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A (Rough) Bibliometric Analysis on “Strategic Positioning”</title>
+      <link>/post/2019/02/26/a-rough-bibliometric-analysis-on-strategic-positioning/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/02/26/a-rough-bibliometric-analysis-on-strategic-positioning/</guid>
+      <description>I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.
+The raw data is extracted from Web of Science . The search parameters:
+TITLE: (&amp;quot;strategic positioning&amp;quot; OR &amp;quot;industry positioning&amp;quot; OR &amp;quot;market positioning&amp;quot;) Refined by: WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR ECONOMICS ) AND WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR INTERNATIONAL RELATIONS OR ECONOMICS ) AND DOCUMENT TYPES: ( ARTICLE ) AND LANGUAGES: ( ENGLISH ) Timespan: All years.</description>
+    </item>
     
     <item>
       <title>Optimal Positioning for Firms and Individuals</title>

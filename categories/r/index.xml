@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on A minimal Hugo website</title>
+    <title>R on Ray K. Yang&#39;s Strategy Thinking</title>
     <link>/categories/r/</link>
-    <description>Recent content in R on A minimal Hugo website</description>
+    <description>Recent content in R on Ray K. Yang&#39;s Strategy Thinking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>A (Rough) Bibliometric Analysis on “Strategic Positioning”</title>
+      <link>/post/2019/02/26/a-rough-bibliometric-analysis-on-strategic-positioning/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/post/2019/02/26/a-rough-bibliometric-analysis-on-strategic-positioning/</guid>
+      <description>I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.
+The raw data is extracted from Web of Science . The search parameters:
+TITLE: (&amp;quot;strategic positioning&amp;quot; OR &amp;quot;industry positioning&amp;quot; OR &amp;quot;market positioning&amp;quot;) Refined by: WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR ECONOMICS ) AND WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR INTERNATIONAL RELATIONS OR ECONOMICS ) AND DOCUMENT TYPES: ( ARTICLE ) AND LANGUAGES: ( ENGLISH ) Timespan: All years.</description>
     </item>
     
   </channel>

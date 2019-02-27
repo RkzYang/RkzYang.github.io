@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>R</title>
+      <link>/categories/r/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>business</title>
       <link>/categories/business/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
@@ -22,7 +31,7 @@
     <item>
       <title>positioning</title>
       <link>/categories/positioning/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/positioning/</guid>
       <description></description>
@@ -34,6 +43,15 @@
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/strategy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>/categories/visualization/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/visualization/</guid>
       <description></description>
     </item>
     

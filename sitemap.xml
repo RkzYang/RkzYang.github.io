@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2019/02/26/a-rough-bibliometric-analysis-on-strategic-positioning/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2019/02/25/optimal-positioning/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
@@ -18,17 +23,30 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -40,25 +58,31 @@
   
   <url>
     <loc>/tags/market-categories/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/positioning/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/positioning/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/strategy/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/visualization/</loc>
+    <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
