@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/2019/02/26/a-rough-bibliometric-analysis-on-strategic-positioning/</loc>
+    <loc>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,13 +33,13 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -63,13 +63,13 @@
   </url>
   
   <url>
-    <loc>/categories/positioning/</loc>
+    <loc>/tags/positioning/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/positioning/</loc>
+    <loc>/categories/positioning/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
