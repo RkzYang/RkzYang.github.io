@@ -6,10 +6,20 @@
     <description>Recent content in R on Yang&#39;s Strategy Thinking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results</title>
+      <link>/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
+      <description>Today, I released an R package “regrrr” on Cran. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.
+library(regrrr) data(mtcars) m0 &amp;lt;- lm(mpg ~ vs + carb + hp + wt, data = mtcars) m1 &amp;lt;- update(m0, . ~ . + wt * hp) m2 &amp;lt;- update(m1, . ~ . + wt * vs) cor.</description>
+    </item>
     
     <item>
       <title>A Quick Bibliometric Analysis on “Positioning”</title>

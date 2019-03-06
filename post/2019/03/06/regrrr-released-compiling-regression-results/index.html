@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results | Yang&#39;s Strategy Thinking</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">“regrrr”: One-stop R-toolkit for Compiling Regression Results</span></h1>
+
+<h2 class="date">2019/03/06</h2>
+</div>
+
+<main>
+
+
+
+<p>Today, I released an R package <a href="https://CRAN.R-project.org/package=regrrr" target="_blank"> “regrrr”</a> on <a href="https://cran.r-project.org" target="_blank">Cran</a>. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.</p>
+<pre class="r"><code>library(regrrr)
+data(mtcars)
+m0 &lt;- lm(mpg ~ vs + carb + hp + wt, data = mtcars)
+m1 &lt;- update(m0, . ~ . + wt * hp)
+m2 &lt;- update(m1, . ~ . + wt * vs)
+cor.table(data = m2$model)</code></pre>
+<pre><code>##          Mean  S.D.     1     2    3    4    5
+## 1.mpg   20.09  6.03  1.00                     
+## 2.vs     0.44  0.50  0.66  1.00               
+## 3.carb   2.81  1.62 -0.55 -0.57 1.00          
+## 4.hp   146.69 68.56 -0.78 -0.72 0.75 1.00     
+## 5.wt     3.22  0.98 -0.87 -0.55 0.43 0.66 1.00</code></pre>
+<pre class="r"><code>regression_table &lt;- rbind(
+combine_long_tab(to_long_tab(summary(m0)$coef),
+                 to_long_tab(summary(m1)$coef),
+                 to_long_tab(summary(m2)$coef)),
+compare_models(m0, m1, m2))
+rownames(regression_table) &lt;- NULL
+print(regression_table)</code></pre>
+<pre><code>##        Variables   Model 0   Model 1   Model 2
+## 1    (Intercept) 35.435*** 48.157*** 46.698***
+## 2                  (2.503)   (4.097)   (9.272)
+## 3             vs     1.353     1.077     2.171
+## 4                  (1.382)   (1.152)   (6.320)
+## 5           carb    -0.057    -0.043    -0.009
+## 6                  (0.449)   (0.374)   (0.426)
+## 7             hp   -0.024† -0.113***   -0.107*
+## 8                  (0.014)   (0.027)   (0.044)
+## 9             wt -3.792*** -8.071***   -7.594*
+## 10                 (0.658)   (1.307)   (3.016)
+## 11         hp:wt             0.027**    0.025†
+## 12                           (0.008)   (0.015)
+## 13         vs:wt                        -0.367
+## 14                                     (2.081)
+## 15     R_squared     0.833     0.889     0.889
+## 16 Adj_R_squared     0.808     0.867     0.862
+## 17       Delta_F            12.517**     0.031</code></pre>
+<pre class="r"><code>plot_effect(reg.coef = summary(m2)$coefficients, data = mtcars, model = m2,
+            x_var.name = &quot;wt&quot;, y_var.name = &quot;mpg&quot;, moderator.name = &quot;hp&quot;,
+            confidence_interval = TRUE,  CI_Ribbon = FALSE, 
+            xlab = &quot;Weight&quot;, ylab = &quot;MPG&quot;, moderator.lab = &quot;Horsepower&quot;) +
+ggplot2::theme(text=ggplot2::element_text(family=&quot;Times New Roman&quot;, size = 16))</code></pre>
+<p><img src="/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>As you can see from the last line of code, the plot is customizable using <a href="https://CRAN.R-project.org/package=ggplot2" target="_blank">“ggplot2”</a>. There are a couple of other function. Please see the <a href="https://www.rdocumentation.org/packages/regrrr" target="_blank">reference manual</a> for details.</p>
+<p>I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the <a href="https://github.com/RayKYang/regrrr" target="_blank"> GitHub</a> page.</p>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135383906-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rkyang" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  
+  <hr/>
+  &copy; 2019 Ray K. Yang | <a href="https://github.com/RayKYang" target="_blank">Github</a> | <a href="https://twitter.com/oyakagi" target="_blank">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+
