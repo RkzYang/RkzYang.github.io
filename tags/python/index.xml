@@ -17,7 +17,7 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
-      <description>Five days ago, the R package “reticulate”(1.11.1) was released on Cran, which allows us to directly call python objects in R1. Bloggers have been praising this ground-breaking development all the time for the enhanced interoperability between R and Python. Because with “reticulate,” we no longer need to jump between different IDEs in order to work on the same projects to leverage the complementarity between R and Python. This will certainly bring great change to the programming routine of many data scientists.</description>
+      <description>On March 6th, the R package “reticulate”(1.11.1) was released on Cran, which allows R users to directly call Python objects or use Python in an R interface.1 Bloggers have been praising this development for the ground-breaking interoperability between R and Python. With “reticulate,” we no longer need to jump between different IDEs to leverage the complementarity between R and Python. This will certainly bring big ease to the programming routine of many “bilingual” data scientist using both R and Python.</description>
     </item>
     
   </channel>
