@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interoperability in Tech. Evolution—Thoughts on “Reticulate&#34; | Yang&#39;s Strategy Thinking</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/about/">About Me</a></li>
+      
+      <li><a href="/">Blog Timeline</a></li>
+      
+      <li><a href="/categories/">Blog Categories</a></li>
+      
+      <li><a href="/tags/">Blog Tags</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<link rel="stylesheet" href="/css/github-gist.css" rel="stylesheet" id="theme-stylesheet">
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<div class="article-meta">
+<h1><span class="title">Interoperability in Tech. Evolution—Thoughts on “Reticulate&rdquo;</span></h1>
+
+<h2 class="date">2019/03/11</h2>
+</div>
+
+<main>
+
+
+
+<p>Five days ago, the R package <a href="https://CRAN.R-project.org/package=reticulate"> “reticulate”(1.11.1)</a> was released on Cran, which allows us to directly call python objects in R<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. Bloggers have been praising this ground-breaking development all the time for the enhanced interoperability between R and Python. Because with “reticulate,” we no longer need to jump between different IDEs in order to work on the same projects to leverage the complementarity between R and Python. This will certainly bring great change to the programming routine of many data scientists. As an occupational habit, I tend to think about the value creation and value capture in the dynamics of “industry” evolution. Here are some quick thoughts.</p>
+<p>First of all, “reticulate” by Rstudio will benefit many data scientists who program in R and Python. R and Python are the two most popular programming languages in data science so far. The first decision for many newcomers in data science is always: “R vs. Python, which one should I choose?” Now this headache will be significantly lessened. Especially if we can overcome the “language barrier”, we won’t be stuck in the either-or. Second, on the community level, there have been quite a few “early adopters” who have already become bilinguals. Now they will leverage the new power of “interoperability” to boost their productivity using “reticulate.” Third, thinking from the technological (and strategic) perspective, we can obviously see the increased compatibility between two programming languages. What usually follows compatibility will be an increase in the adoption rate on the provider who opens up its door to embrace other players–in this case, Rstudio. Rstudio is the superpower in the R domain. Such a move will draw more python programmers to R and retain R programmers with the new empowerment of using Python on their platform. The “one-way” compatibility<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> will greatly enhance the usability and desirability of the Rstudio as the platform provider.</p>
+<p>The release of “reticulate” is a strategic move of Rstudio. But this is not the end of the story. The interoperability will simply enlarge the overlap of R and Python communities if we draw a Venn diagram. The Python-focused IEDs are also powerful. They may match the move of Rstudio. Much more likely, the reverse “recuticate” in Python will emerge from the large open source community, by innumerable, keen, and ingenious open source developers. Even if the one-way compatibility will continue, Python-focused IEDs will not be the loser. As R users can easily operate in Python in Rstudio, they are more likely to adopt the usage of Python and contribute to the Python world. This is similar to the case when Apple allow the windows to be installed on Mac and Kindle books on iPad. Both the competing platforms will benefit from the one-way compatibility, because the enlarged overlap in the Venn chart means increase two-way traffic flowing to both sides<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>. Let along the open source provides much more flexibility to the players involved. We cannot formulate the dynamics in a game-theoretic fashion, as the other players are “competing” quite differently. For example, Anaconda, the company who distribute many Python IDEs (including JupyterLab and Spyder), have also long been providing Rstudio on their cloud and GUI. I would see “reticulate” as a strategic, and also very harmonious move to create net benefits to the open source community at large.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>More realistically, in Rstudio<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>the existing python IDEs have not provide an interface for R-Python interoperability. Python programmers tend to use JupyterLab, Rodeo, Spyder, Visual Studio Code, and PyCharm, none of which have such a function yet.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>for a more detailed analysis: <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Frenemies+in+Platform+Markets%3A+The+Case+of+Apple’s+iPad+vs.+Amazon’s+Kindle">Adner, R., Chen, J., &amp; Zhu, F. (2016). Frenemies in Platform Markets: The Case of Apple’s iPad vs. Amazon’s Kindle. Harvard Business School Technology &amp; Operations Mgt. Unit Working Paper, (15-087).</a><a href="#fnref3">↩</a></p></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135383906-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rkyang" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+  
+  <hr/>
+  &copy; 2019 Ray K. Yang | <a href="https://github.com/RayKYang" target="_blank">Github</a> | <a href="https://twitter.com/oyakagi" target="_blank">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Yang&#39;s Strategy Thinking</title>
+    <link>/categories/technology/</link>
+    <description>Recent content in technology on Yang&#39;s Strategy Thinking</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interoperability in Tech. Evolution—Thoughts on “Reticulate&#34;</title>
+      <link>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
+      <description>Five days ago, the R package “reticulate”(1.11.1) was released on Cran, which allows us to directly call python objects in R1. Bloggers have been praising this ground-breaking development all the time for the enhanced interoperability between R and Python. Because with “reticulate,” we no longer need to jump between different IDEs in order to work on the same projects to leverage the complementarity between R and Python. This will certainly bring great change to the programming routine of many data scientists.</description>
+    </item>
+    
+  </channel>
+</rss>
