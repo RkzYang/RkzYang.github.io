@@ -6,10 +6,21 @@
     <description>Recent content in Home on Yang&#39;s Strategy Thinking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Brief Review of &#34;Social Evaluation&#34; Research</title>
+      <link>/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/03/25/social-evaluation-and-institutional-complexity/</guid>
+      <description>1 Motivation 2. Biblio-Analysis 2.1 Selection Criteria 2.2 Central Sources 2.3 Central Keywords  3 Classic Papers 3.1 Top Citations 3.2 Quick Review    1 Motivation The goal of this post is to analyze the “social evaluation” research after Zuckerman (1999). Continuing on the “positioning” topic from a previous post,
+evaluating audience cognition is affectef nby the categorical structure of market.
+evaluting frame is socially constructed.</description>
+    </item>
     
     <item>
       <title>Interoperability in Tech. Evolution—Thoughts on “Reticulate&#34;</title>
@@ -75,13 +86,12 @@ TITLE: (&amp;quot;strategic positioning&amp;quot; OR &amp;quot;industry position
     </item>
     
     <item>
-      <title>Ray K. Yang&#39;s Blog</title>
+      <title>Rui K. Yang&#39;s Blog</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>.column-left{ float: left; width: 30%; text-align: center; } .column-right{ float: right; width: 70%; text-align: justify; } .column-whole{ float: right; width: 100%; text-align: justify; }     Welcome to my blog! I am currently a Ph.D. candidate in {Strategy} @ University of California, Riverside.
- My research concerns the interplay between corporate strategy and the social structure of the market. For example, I study how mergers and acquisitions (M&amp;As) change a firm&#39;s identity in relation to its peers and the inter-firm network structure, triggering the stock market&#39;s reactions.</description>
+      <description>.column-left{ float: left; width: 30%; text-align: center; } .column-right{ float: right; width: 70%; text-align: justify; } .column-whole{ float: right; width: 100%; text-align: justify; }     Welcome to my blog! I am a Ph.D. candidate in {Strategy} @ University of California, Riverside. I blog about strategy and data science.  My research concerns the interplay between corporate strategy and the social structure of the market. For instance, I study how mergers and acquisitions (M&amp;As) change a firm&#39;s identity in relation to its peers and the inter-firm network structure, triggering the stock market&#39;s reactions.</description>
     </item>
     
   </channel>
