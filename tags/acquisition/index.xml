@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>business model on Yang&#39;s Strategy Thinking</title>
-    <link>/tags/business-model/</link>
-    <description>Recent content in business model on Yang&#39;s Strategy Thinking</description>
+    <title>acquisition on Yang&#39;s Strategy Thinking</title>
+    <link>/tags/acquisition/</link>
+    <description>Recent content in acquisition on Yang&#39;s Strategy Thinking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/business-model/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/acquisition/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
       <description>Artificial intelligence (A.I.) and blockchain are the hottest new technologies right now. It would be fun to think about the future of them. Would A.I. and blockchain be the next internet, which has disrupted many traditional business models and creates many new giants across the globe? Or, since businesses have learned a lesson from the internet disruption, A.I. and blockchain will be merely incorporated into the existing technology terrain as an expansion of opportunities by the incumbents?</description>
-    </item>
-    
-    <item>
-      <title>System Mapping in Business Modeling</title>
-      <link>/post/2019/02/28/using-system-map-in-business-modeling/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019/02/28/using-system-map-in-business-modeling/</guid>
-      <description>In the past several years, I spent quite some time coaching college students in the business major on their individual/team projects. These include business model design (BUS146), strategic audit (BUS109), and marketing plan (BUS103). In each quarter, there are around 100 students enrolled in BUS103/BUS109, and 50 in BUS146. And they typically select different companies and different entrepreneurship ideas to work on.
-At some point, I realized it is crucial for them to quickly “model” a business so they can have a very clear picture of how businesses work.</description>
     </item>
     
   </channel>
