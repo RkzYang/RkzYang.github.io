@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/business/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/business/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,7 +17,29 @@
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
-      <description>Artificial intelligence (A.I.) and blockchain are the hottest new technologies right now. It would be fun to think about the future of them. Would A.I. and blockchain be the next internet, which has disrupted many traditional business models and creates many new giants across the globe? Or, since businesses have learned a lesson from the internet disruption, A.I. and blockchain will be merely incorporated into the existing technology terrain as an expansion of opportunities by the incumbents?</description>
+      <description>
+
+
+&lt;p&gt;Artificial intelligence (A.I.) and blockchain are the hottest new technologies right now. It would be fun to think about the future of them. Would A.I. and blockchain be the next internet, which has disrupted many traditional business models and creates many new giants across the globe? Or, since businesses have learned a lesson from the internet disruption, A.I. and blockchain will be merely incorporated into the existing technology terrain as an expansion of opportunities by the incumbents? Do A.I. and blockchain have the same fate?&lt;/p&gt;
+&lt;p&gt;I’ve been leaving an eye on the adoption/acquisition of new technology in the banking sector (since one of my dissertation chapters was on banking acquisitions). Here is some latest news.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.slideshare.net/accenture/machine-learning-in-banking&#34; target=&#34;_blank&#34;&gt;According to Accenture, the banking sector has a bright prospect incorporating the A.I. in its six core functions.&lt;a/&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.cnbc.com/2019/02/13/jp-morgan-is-rolling-out-the-first-us-bank-backed-cryptocurrency-to-transform-payments--.html&#34; target=&#34;_blank&#34;&gt;JP Morgan has adopted cryptocurrency in the payment businesses.&lt;a/&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.cnbc.com/2019/03/28/wells-fargo-mastercard-ceos-say-blockchain-has-yet-to-live-up-to-the-hype.html&#34; target=&#34;_blank&#34;&gt;Wells Fargo and Mastercard CEOs express doubt about blockchain.&lt;a/&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.coindesk.com/paypal-makes-its-first-ever-investment-in-a-blockchain-startup?hootPostID=71e9a7b4bdfd9e25a696028bb9a83237&#34; target=&#34;_blank&#34;&gt;PayPal made a major investment on the blockchain.&lt;a/&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Could there be a unified explanation for what is happening right now? Well, one may associate the topic of technology development with Clayton Christensen’s ‘innovator’s dilemma’ assertion, which predicts emerging new technology will quickly take over declining old ones (often depicted as the double-S curves). It’s the good management–trying best to hear about customer needs, play with competition carefully, and align resource allocation with calculated risk/benefit profiles–who prevent the incumbents from adopting new technologies. Then shouldn’t managers try their best? According to Clayton Christensen, it is difficult for good management not to do good–it is difficult for the incumbents to utilize new technologies even they tend to spot them earlier than startups. At the initiation stage of new technology, incumbents can’t risk their existing market share and customer relationships with unproven models, whereas startups have little to lose. The prediction is: startups disrupt incumbents.&lt;/p&gt;
+&lt;p&gt;However, things are different right now. The boundary between new tech. and old tech. are melting down; they are intertwined ecosystems rather than isolated communities. Incumbents right now have taken deliberate effort and allocate resource for emerging technology. They are agiler and more determined to disrupt themselves before being disrupted by others. If important pre-existing conditions are different, it might be necessary to modify the predictions from Clayton Christensen’s double-S curves.&lt;/p&gt;
+&lt;p&gt;First, the compatibility between incumbents’ existing technology and emerging technology should lower the likelihood and rate of disruption. Let’s consider two cases here. One is about different incumbent technologies: as compared to traditional banking, the higher level of digitization of PayPal allows a higher compatibility potential with blockchain (consider internet and blockchain don’t rely on a central authority/agency as traditional banking does). The other is about different emerging technologies: as compared to the blockchain, A.I. allows a higher level of compatibility with traditional banking (both banking and A.I. are aimed at decision/prediction accuracy and efficiency.)&lt;/p&gt;
+&lt;p&gt;Second, the intensity of the incumbent technology expansion should also lower the likelihood of disruption. This factor is not only related to incumbents’ existing resource base but also has something to do with management. A recent paper in SMJ&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; has updated the “double-S” framework by incorporating the “incumbent technology expansion” in predicting the rate of substituion and found empirical support for the model’s prediction efficacy.&lt;/p&gt;
+&lt;p&gt;Conclusion: since A.I. tends to have a higher level of compatibility with, and also face a stronger expansion threat from, the incumbent technology than blockchain, it’s predicted to have a lower likelihood/rate of disruption. However, contingencies should also exist due to the significant variance in incumbents’ technology, resource, and management conditions.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Adner, R., &amp;amp; Kapoor, R. (2016). &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C6&amp;q=Innovation+ecosystems+and+the+pace+of+substitution%3A+Re-examining+technology+S-curves&amp;btnG=&#34; target=&#34;_blank&#34;&gt;Innovation ecosystems and the pace of substitution: Re‐examining technology S‐curves.&lt;a/&gt; Strategic management journal, 37(4), 625-648.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -26,7 +48,77 @@
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/03/25/social-evaluation-and-institutional-complexity/</guid>
-      <description>1 Motivation 2. Biblio-Analysis 2.1 Selection Criteria 2.2 Central Sources and Keywords  3 Classic Papers 3.1 Top Citations 3.2 Summary of Top-cited Papers    1 Motivation The goal of this post is to analyze and review the “social evaluation” research tracing back to Zuckerman (1999)1. The analysis/review is based on hand-collected papers that directly and indirectly cite Zuckerman (1999). The review is not intended to be comprehensive but to understand the central ideas on the topic developed by management/sociology scholars in the past 20 years.</description>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1 Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#biblio-analysis&#34;&gt;2. Biblio-Analysis&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#selection-criteria&#34;&gt;2.1 Selection Criteria&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#central-sources-and-keywords&#34;&gt;2.2 Central Sources and Keywords&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#classic-papers&#34;&gt;3 Classic Papers&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#top-citations&#34;&gt;3.1 Top Citations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summary-of-top-cited-papers&#34;&gt;3.2 Summary of Top-cited Papers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1 Motivation&lt;/h2&gt;
+&lt;p&gt;The goal of this post is to analyze and review the “social evaluation” research tracing back to Zuckerman (1999)&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. The analysis/review is based on hand-collected papers that directly and indirectly cite Zuckerman (1999). The review is not intended to be comprehensive but to understand the central ideas on the topic developed by management/sociology scholars in the past 20 years.&lt;/p&gt;
+&lt;p&gt;Let’s continue on the “positioning” topic from &lt;a href=&#34;/post/2019/02/25/optimal-positioning/&#34; target=&#34;_blank&#34;&gt;one of my previous posts&lt;/a&gt;(firms are social actors being evaluated by social audiences), but shift our focus of discussion from “what actors do” to “what audience think.” That is, instead of an “actor” standpoint, let’s take an “audience” perspective to consider how firms as market participants are evaluated by market audiences. Reality doesn’t directly translate into human decisions; human beings can only understand reality from their brain, which is subjected to social construction. As a result, the evaluations on market participants do not come from complete rationality in a social vacuum. Rather, audiences’ cognition is shaped by the market’s categorical structure and/or the socially accepted categorical beliefs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;biblio-analysis&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. Biblio-Analysis&lt;/h2&gt;
+&lt;div id=&#34;selection-criteria&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;2.1 Selection Criteria&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_cat_eval_032619.txt&#34; target=&#34;_blank&#34;&gt; raw data&lt;/a&gt; is based on 29 hand-collected papers directed and indirectly citing Zukerman (1999) and extracted from &lt;a href=&#34;http://www.webofknowledge.com&#34; target=&#34;_blank&#34;&gt; Web of Science&lt;/a&gt;. The papers that not on the topic of “social evaluation” are excluded from the sample, based on the author’s judgment. We can get a general idea of the citation relationship among those papers from the direct citation network graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;central-sources-and-keywords&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;2.2 Central Sources and Keywords&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt; By quickly checking the origins (papers being cited) of the sampled papers, we can see that a big portion (the blue-colored cluster) is the classic institution work. It makes sense, as the discussion of the underlying mechanism of social evaluation should be related to how the evaluating standards are formed in the institutionalization processes. The summary in 3.2 will be based on the top-cited “social evaluation” papers in the red-colored cluster.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt; The inter-connected keyword clusters present the relationship among the main topics covered by this stream of research. It seems to have a quite strong “strategy” flavor&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. The most frequently used keywords include “industry”, “market”, and “performance.”&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;classic-papers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3 Classic Papers&lt;/h2&gt;
+&lt;div id=&#34;top-citations&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;3.1 Top Citations&lt;/h3&gt;
+&lt;p&gt;by frequency:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;ZUCKERMAN EW, 1999, AM J SOCIOL, V104, P1398, DOI 10.1086/210178&amp;quot;          
+## [2] &amp;quot;HSU G, 2006, ADMIN SCI QUART, V51, P420, DOI 10.2189/ASQU.51.3.420&amp;quot;        
+## [3] &amp;quot;HSU G, 2009, AM SOCIOL REV, V74, P150, DOI 10.1177/000312240907400108&amp;quot;     
+## [4] &amp;quot;PONTIKES EG, 2012, ADMIN SCI QUART, V57, P81, DOI 10.1177/0001839212446689&amp;quot;
+## [5] &amp;quot;RAO H, 2005, AM SOCIOL REV, V70, P968, DOI 10.1177/000312240507000605&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;by co-citation centrality:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central sources (top 5)&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ZUCKERMAN EW 1999        HSU G 2009      HSU G 2006-1  PONTIKES EG 2012 
+##         1.0000000         0.7142248         0.6970316         0.6754593 
+##        RAO H 2005 
+##         0.6150981&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The most frequent (by frequency count) citations are also the most central (by eigenvector centrality) citations.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary-of-top-cited-papers&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;3.2 Summary of Top-cited Papers&lt;/h3&gt;
+&lt;p&gt;Hsu et al. (2009) provide an integrative explanation for the multi-category disadvantage. The paper combines the actor- and audience-centered explantions and argues that category spanning is both difficult for the actor to manage and hard for the audience to understand. Hsu (2006) explicitly analyzes the underlying cognition mechanism in which film audiences encounter difficulties in making sense of multi-genre films. Pontikes (2012) analyzes the different segments of market audiences with distinct preferences for ambiguous classification–the difficulty of classifying startups into established categories. According to her, consumers and corporate venture capitalists are more passive market-takers who prefer startups that are easy to classify; in contrast, individual venture capitalists are market-makers who have the power to redefine the market structure and see ambiguous classification as opportunities. Rao et al. (2005) argue that the market boundaries are melting when high-status market participants’ cross the market categories–French chefs with starts in the &lt;i&gt;Guide Michelin&lt;/i&gt; make hybrid cuisines. Typically, there are cost and risk associated with “cross-category borrowings.” But they tend to attenuate when borrowings prevail. Overall, it seems to be risky to cross the categorical boundaries. But contextual contingencies for the benefit/risk profile of category-straddling exists.&lt;/p&gt;
+&lt;p&gt;References:&lt;/p&gt;
+&lt;p&gt;Zuckerman, E. W. (1999). &lt;a href=&#34;https://www.journals.uchicago.edu/doi/abs/10.1086/210178&#34; target=&#34;_blank&#34;&gt;The categorical imperative: Securities analysts and the illegitimacy discount&lt;/a&gt;. American Journal of Sociology, 104(5), 1398-1438.&lt;/p&gt;
+&lt;p&gt;Hsu, G., Hannan, M. T., &amp;amp; Koçak, Ö. (2009). &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Two+sides+of+the+same+coin%3A+How+ambiguous+classification+affects+multiple+audiences%E2%80%99+evaluations&amp;btnG=#d=gs_cit&amp;u=%2Fscholar%3Fq%3Dinfo%3Ah4EhB9sADWIJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den&#34; target=&#34;_blank&#34;&gt;Multiple category memberships in markets: An integrative theory and two empirical tests&lt;/a&gt;. American Sociological Review, 74(1), 150-169.&lt;/p&gt;
+&lt;p&gt;Hsu, G. (2006). &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Jacks+of+all+trades+and+masters+of+none%3A+Audiences%27+reactions+to+spanning+genres+in+feature+film+productio&amp;btnG=&#34; target=&#34;_blank&#34;&gt;Jacks of all trades and masters of none: Audiences’ reactions to spanning genres in feature film production&lt;/a&gt;. Administrative Science Quarterly, 51(3), 420-450.&lt;/p&gt;
+&lt;p&gt;Pontikes, E. G. (2012). &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Two+sides+of+the+same+coin%3A+How+ambiguous+classification+affects+multiple+audiences%E2%80%99+evaluations&amp;btnG=&#34; target=&#34;_blank&#34;&gt;Two sides of the same coin: How ambiguous classification affects multiple audiences’ evaluations&lt;/a&gt;. Administrative Science Quarterly, 57(1), 81-118.&lt;/p&gt;
+&lt;p&gt;Rao, H., Monin, P., &amp;amp; Durand, R. (2005). &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Border+crossing%3A+Bricolage+and+the+erosion+of+categorical+boundaries+in+French+gastronomy&amp;btnG=&#34; target=&#34;_blank&#34;&gt;Border crossing: Bricolage and the erosion of categorical boundaries in French gastronomy&lt;/a&gt;. American Sociological Review, 70(6), 968-991.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;The central idea of this paper is that firms’ stock price is affected by the categorical pattern of financial analysts’ industry coverage, which reflects the institionalized expectations for firms’ product mix straddling across various market categories.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;For the central topics in strategy research, refer to “&lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=The+intellectual+structure+of+the+strategic+management+field%3A+An+author+co-citation+analysis&amp;btnG=&#34; target=&#34;_blank&#34;&gt;the intellectual structure of the strategic management field…&lt;/a&gt;” by Nerur et al. (2008) and “&lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=What+is+strategic+management%2C+really%3F+Inductive+derivation+of+a+consensus+definition+of+the+field&amp;btnG=&#34; target=&#34;_blank&#34;&gt;what is strategic management…&lt;/a&gt;” by Nag el al. (2007)&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -35,7 +127,25 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
-      <description>On March 6th, the R package “reticulate”(1.11.1) was released on Cran, which allows R users to directly call Python objects or use Python in an R interface.1 Bloggers have been praising this development for the ground-breaking interoperability between R and Python. With “reticulate,” we no longer need to jump between different IDEs to leverage the complementarity between R and Python. This will certainly bring big ease to the programming routine of many “bilingual” data scientist using both R and Python.</description>
+      <description>
+
+
+&lt;p&gt;On March 6th, the R package &lt;a href=&#34;https://CRAN.R-project.org/package=reticulate&#34; target=&#34;_blank&#34;&gt;“reticulate”(1.11.1)&lt;/a&gt; was released on Cran, which allows R users to directly call Python objects or use Python in an R interface.&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Bloggers have been praising this development for the ground-breaking interoperability between R and Python. With “reticulate,” we no longer need to jump between different IDEs to leverage the complementarity between R and Python. This will certainly bring big ease to the programming routine of many “bilingual” data scientist using both R and Python.&lt;/p&gt;
+&lt;p&gt;As an occupational habit (I study strategy), I tend to think about the value creation and value capture in the dynamics of industry and technology evolution. Here are some thoughts on the “reticulate” case.&lt;/p&gt;
+&lt;p&gt;First of all, one the user level, “reticulate” by Rstudio will benefit those who program in both R and Python. So far, R and Python are the two most popular programming languages in data science. A decision for a newcomer in data science to make is always: “R vs. Python, which one should I choose?” Now this headache is significantly lessened. If we can overcome the “language barrier” easily, we won’t be stuck in the either-or any more.&lt;/p&gt;
+&lt;p&gt;Second, on the community level, there have already been quite a few early adopters who are R-Python bilinguals even before the pre-release of “reticulate.” They choose a language depending on which one is more readily usable for a specific problem. For bilinguals, there is no transition in their head, but there are some inefficient transitions on their fingertips. Now, they will leverage the power of “interoperability” to keep their hand movements in one place–Rstudio. These users will be engaged in Rstudio more often. What will also naturally happen? (a) the total number of R-Python bilinguals will grow; (b) the two languages will become more integrated, instead of being divided. We will see fewer (or slower growth of) packages/modules which have the same name and perform the same functionality in two languages, and also less “R vs Python comparisons.”&lt;/p&gt;
+&lt;p&gt;Third, thinking from the technological (and also strategic) perspective, we see the greatly increased compatibility between two programming languages. What follows compatibility will be an increase in the adoption rate on the technology who opens up its door to embrace other technologies. Rstudio is the superpower in the R domain. Such a move will draw many Python programmers to R and also attract and retain R users with the empowerment of R-Python interoperability. This “one-way” compatibility&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; will greatly enhance the usability and desirability of the Rstudio as a platform provider.&lt;/p&gt;
+&lt;p&gt;The release of “reticulate” is a strategic move of Rstudio. More data scientists will be stay engaged in Rstudio, or they will spend more fo their time on the platform. But this is not the end of the story. The interoperability will continuously enlarge the overlap between the R and Python communities if we draw a Venn diagram in our mind. The Python-centered IEDs are also powerful. They have great features that their users wouldn’t live without. They may match the move of Rstudio. More likely, the reverse “recuticate” in Python will emerge from the large open source community, by innumerable open source developers. Even if the one-way compatibility will continue, Python IEDs will not lose the game. As R programmers can easily operate Python in Rstudio, they are also more likely to travel and contribute to the Python world. This is similar to the case when Apple allows Microsoft’s Windows operating system to be installed on Mac and Amazon’s Kindle electronic book app installed on iPad. The competing platforms will both benefit from the one-way compatibility, because the enlarged overlap of the Venn diagram will bring “two-way” flows of traffic to both sides.&lt;a href=&#34;#fn3&#34; class=&#34;footnoteRef&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Open source can always provide more flexibility to the users, developers, and businesses involved. Perhaps we cannot formulate the dynamics of technological evolution in a game-theoretic fashion, as the players in open source are not “competing” in the same way. For example, Anaconda, the company who distribute many Python IDEs (including JupyterLab and Spyder), have long been providing Rstudio IDE on their cloud and GUI. I see “reticulate” as a strategic, but also very harmonious move to create net benefits to the open source community for data science at large.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;This can be easily done in Rstudio. &lt;a href=&#34;https://resources.rstudio.com/webinars/r-rstudio-1-2-amp-python-a-love-story-sean-lopp&#34; target=&#34;_blank&#34;&gt;Webinar by Rstudio&lt;a/&gt; &lt;a href=&#34;https://rstudio.github.io/reticulate/&#34; target=&#34;_blank&#34;&gt;Documentation by Rstudio&lt;a/&gt;&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;The existing python IDEs have not provided an interface for R-Python interoperability yet. Python programmers tend to use JupyterLab, Rodeo, Spyder, Visual Studio Code, and PyCharm, none of which have such an interoperability feature right now.&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;For a more detailed analysis: &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Frenemies+in+Platform+Markets%3A+The+Case+of+Apple’s+iPad+vs.+Amazon’s+Kindle&#34; target=&#34;_blank&#34;&gt;Adner, R., Chen, J., &amp;amp; Zhu, F. (2016). Frenemies in Platform Markets: The Case of Apple’s iPad vs. Amazon’s Kindle. Harvard Business School Technology &amp;amp; Operations Mgt. Unit Working Paper, (15-087).&lt;/a&gt;&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -44,8 +154,16 @@
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/02/28/using-system-map-in-business-modeling/</guid>
-      <description>In the past several years, I spent quite some time coaching college students in the business major on their individual/team projects. These include business model design (BUS146), strategic audit (BUS109), and marketing plan (BUS103). In each quarter, there are around 100 students enrolled in BUS103/BUS109, and 50 in BUS146. And they typically select different companies and different entrepreneurship ideas to work on.
-At some point, I realized it is crucial for them to quickly “model” a business so they can have a very clear picture of how businesses work.</description>
+      <description>
+
+
+&lt;p&gt;In the past several years, I spent quite some time coaching college students in the business major on their individual/team projects. These include business model design (BUS146), strategic audit (BUS109), and marketing plan (BUS103). In each quarter, there are around 100 students enrolled in BUS103/BUS109, and 50 in BUS146. And they typically select different companies and different entrepreneurship ideas to work on.&lt;/p&gt;
+&lt;p&gt;At some point, I realized it is crucial for them to quickly “model” a business so they can have a very clear picture of how businesses work. I also usually suggest they put all their thoughts on one paper. So they can have the big picture without missing out any important information. This is where “system mapping” can come in handy.&lt;/p&gt;
+&lt;p&gt;It involves three simple steps. First, brainstorm the essential components in a business system. Second, identify the causal linkages and loops. Third, mark the positive/negative relationships (and the leverage in the system). I find that most students can master this skill very quickly and can generate a good graph with some practice.&lt;/p&gt;
+&lt;p&gt;I also push for simplicity, as I notice the more I ask them to succinctly define the components, the more they move away from perceptual experiences to critical thinking. Such a map can be a helpful starting point for us to keep questioning ourselves on further facts, proofs, and underlying mechanisms.&lt;/p&gt;
+&lt;p&gt;Here is an example of a generic “precision online marketing” model (e.g., Google, Facebook, Youtube, etc.), made with &lt;a href=&#34;https://igraph.org/&#34; target=&#34;_blank&#34;&gt; iGraph&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-02-28-system-mapping-business-models_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -54,7 +172,25 @@ At some point, I realized it is crucial for them to quickly “model” a busine
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/02/25/optimal-positioning-for-firms-individuals/</guid>
-      <description>Imagine you are invited to a party. Probably you want to get noticed by other partygoers. Or at least you want to be recognized as a cool person by those who you are interested in and care about. The “coolness” will result in some social benefits you desire. This scene is about “social evaluation,” which applies to both individuals and firms. On the social evaluation stage, because there are peer actors (competitors) joining you, you want to stand out of the crowd to impress your audiences (customers and suppliers).</description>
+      <description>
+
+
+&lt;p&gt;Imagine you are invited to a party. Probably you want to get noticed by other partygoers. Or at least you want to be recognized as a cool person by those who you are interested in and care about. The “coolness” will result in some social benefits you desire. This scene is about “social evaluation,” which applies to both individuals and firms. On the social evaluation stage, because there are peer actors (competitors) joining you, you want to stand out of the crowd to impress your audiences (customers and suppliers). If you succeed, the peers will admire you, the audiences will adore you, and of course, you can profit from winning the esteems and relationships. The question is, “how to position yourself to be ‘cool’ to win the game?”&lt;/p&gt;
+&lt;p&gt;Practically, the first question coming to your mind might be “to what extent should I be similar to or different from others?” You obviously want to be different so that you can stand out. But you don’t want to be too different as that people think you are wired. Your goal is to “impress” them but not to “surprise” them. The difference between the two is whether you meet their expectations. The audiences have expectations on your appearances and behaviors. It can take the form of a set of commonly accepted attributes and behaviors. Those are “norms.” Importantly, you will be penalized if you fail to meet people’s expectations.&lt;/p&gt;
+&lt;p&gt;Being different is risky. Especially when it leads to a failure in meeting audience expectations, you will lose their acceptance, which sociologists call “legitimacy”. Consequently, you lose access to valuable resources and opportunities. Now you get the headache — being similar can’t make you stand out but being different places you into the danger of losing legitimacy. A simple solution, not necessarily simplistic, is to find a middle point between the two extremes — “be as legitimately different as possible.” This is a “holistic” approach, in which you consider all the audiences, attributes, and evaluation processes as a “whole”. And you have a clear goal—maximizing the total audience perceptions. It is also implementable, isn’t it? It reminds me of Confucius’ &amp;amp; Aristotle’s “Golden Mean.”&lt;/p&gt;
+&lt;p&gt;Alternatively, we can do some “analysis”.&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Then, let’s move away from the “holistic” approach and do some analysis of the positioning problem. Specifically, let’s separate the whole problem in three ways: (1) separating the audiences, (2) separating the actor attributes, and (3) separating the evaluation processes. First, different audience groups (government, customers, investors, etc.) may demand different levels of conformity vs. differentiation, so you may want to deploy a strategy to target specific audiences. Second, as audiences allocate their decision weights among multiple dimensions of difference, you can conform on most of them and only differentiate on a couple of others (we care about the dress code but worry about the outfit clash). Third, as the audiences typically engage in a categorization process before making the final selection, you can strategize for “entering the final game” and “winning the final game” separately.&lt;/p&gt;
+&lt;p&gt;I’ll be glad if the post triggers your interest (I believe it deserves some more thoughts). As audiences evaluate actors’ objective attributes with their subjective minds, there are numerous factors determining how their opinions aggregate over time and emerge as market behavior. There could also be positive and negative feedback loops for the mutual influence between actor behavior and audience perceptions.&lt;/p&gt;
+&lt;p&gt;References:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=To+be+different%2C+or+to+be+the+same%3F+It%E2%80%99s+a+question+%28and+theory%29+of+strategic+balance&amp;btnG=&#34; target=&#34;_blank&#34;&gt; Deephouse, D. L. 1999. To be different, or to be the same? It’s a question (and theory) of strategic balance. Strategic Management Journal, 20(2): 147–166. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34; https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Optimal+distinctiveness+revisited%3A+An+integrative+framework+for+understanding+the+balance+between+differentiation+and+conformity+in+individual+and+organizational+identities&amp;btnG=&#34; target=&#34;_blank&#34;&gt; Zuckerman, E. W. 2016. Optimal distinctiveness revisited: An integrative framework for understanding the balance between differentiation and conformity in individual and organizational identities. Handbook of Organizational Identity. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34; https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Optimal+distinctiveness%3A+Broadening+the+interface+between+institutional+theory+and+strategic+management&amp;btnG=&#34; target=&#34;_blank&#34;&gt; Zhao, E. Y., Fisher, G., Lounsbury, M., &amp;amp; Miller, D. 2017. Optimal distinctiveness: Broadening the interface between institutional theory and strategic management. Strategic Management Journal, 38(1): 93–113. &lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.merriam-webster.com/dictionary/analysis&#34; target=&#34;_blank&#34;&gt; Merriam-Webster&lt;/a&gt; has a definition of “analysis” — “separation of a whole into its component parts.”&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

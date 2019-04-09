@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/system-map/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/system-map/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,8 +17,16 @@
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/02/28/using-system-map-in-business-modeling/</guid>
-      <description>In the past several years, I spent quite some time coaching college students in the business major on their individual/team projects. These include business model design (BUS146), strategic audit (BUS109), and marketing plan (BUS103). In each quarter, there are around 100 students enrolled in BUS103/BUS109, and 50 in BUS146. And they typically select different companies and different entrepreneurship ideas to work on.
-At some point, I realized it is crucial for them to quickly “model” a business so they can have a very clear picture of how businesses work.</description>
+      <description>
+
+
+&lt;p&gt;In the past several years, I spent quite some time coaching college students in the business major on their individual/team projects. These include business model design (BUS146), strategic audit (BUS109), and marketing plan (BUS103). In each quarter, there are around 100 students enrolled in BUS103/BUS109, and 50 in BUS146. And they typically select different companies and different entrepreneurship ideas to work on.&lt;/p&gt;
+&lt;p&gt;At some point, I realized it is crucial for them to quickly “model” a business so they can have a very clear picture of how businesses work. I also usually suggest they put all their thoughts on one paper. So they can have the big picture without missing out any important information. This is where “system mapping” can come in handy.&lt;/p&gt;
+&lt;p&gt;It involves three simple steps. First, brainstorm the essential components in a business system. Second, identify the causal linkages and loops. Third, mark the positive/negative relationships (and the leverage in the system). I find that most students can master this skill very quickly and can generate a good graph with some practice.&lt;/p&gt;
+&lt;p&gt;I also push for simplicity, as I notice the more I ask them to succinctly define the components, the more they move away from perceptual experiences to critical thinking. Such a map can be a helpful starting point for us to keep questioning ourselves on further facts, proofs, and underlying mechanisms.&lt;/p&gt;
+&lt;p&gt;Here is an example of a generic “precision online marketing” model (e.g., Google, Facebook, Youtube, etc.), made with &lt;a href=&#34;https://igraph.org/&#34; target=&#34;_blank&#34;&gt; iGraph&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-02-28-system-mapping-business-models_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

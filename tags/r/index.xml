@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,7 +17,25 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
-      <description>On March 6th, the R package “reticulate”(1.11.1) was released on Cran, which allows R users to directly call Python objects or use Python in an R interface.1 Bloggers have been praising this development for the ground-breaking interoperability between R and Python. With “reticulate,” we no longer need to jump between different IDEs to leverage the complementarity between R and Python. This will certainly bring big ease to the programming routine of many “bilingual” data scientist using both R and Python.</description>
+      <description>
+
+
+&lt;p&gt;On March 6th, the R package &lt;a href=&#34;https://CRAN.R-project.org/package=reticulate&#34; target=&#34;_blank&#34;&gt;“reticulate”(1.11.1)&lt;/a&gt; was released on Cran, which allows R users to directly call Python objects or use Python in an R interface.&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Bloggers have been praising this development for the ground-breaking interoperability between R and Python. With “reticulate,” we no longer need to jump between different IDEs to leverage the complementarity between R and Python. This will certainly bring big ease to the programming routine of many “bilingual” data scientist using both R and Python.&lt;/p&gt;
+&lt;p&gt;As an occupational habit (I study strategy), I tend to think about the value creation and value capture in the dynamics of industry and technology evolution. Here are some thoughts on the “reticulate” case.&lt;/p&gt;
+&lt;p&gt;First of all, one the user level, “reticulate” by Rstudio will benefit those who program in both R and Python. So far, R and Python are the two most popular programming languages in data science. A decision for a newcomer in data science to make is always: “R vs. Python, which one should I choose?” Now this headache is significantly lessened. If we can overcome the “language barrier” easily, we won’t be stuck in the either-or any more.&lt;/p&gt;
+&lt;p&gt;Second, on the community level, there have already been quite a few early adopters who are R-Python bilinguals even before the pre-release of “reticulate.” They choose a language depending on which one is more readily usable for a specific problem. For bilinguals, there is no transition in their head, but there are some inefficient transitions on their fingertips. Now, they will leverage the power of “interoperability” to keep their hand movements in one place–Rstudio. These users will be engaged in Rstudio more often. What will also naturally happen? (a) the total number of R-Python bilinguals will grow; (b) the two languages will become more integrated, instead of being divided. We will see fewer (or slower growth of) packages/modules which have the same name and perform the same functionality in two languages, and also less “R vs Python comparisons.”&lt;/p&gt;
+&lt;p&gt;Third, thinking from the technological (and also strategic) perspective, we see the greatly increased compatibility between two programming languages. What follows compatibility will be an increase in the adoption rate on the technology who opens up its door to embrace other technologies. Rstudio is the superpower in the R domain. Such a move will draw many Python programmers to R and also attract and retain R users with the empowerment of R-Python interoperability. This “one-way” compatibility&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; will greatly enhance the usability and desirability of the Rstudio as a platform provider.&lt;/p&gt;
+&lt;p&gt;The release of “reticulate” is a strategic move of Rstudio. More data scientists will be stay engaged in Rstudio, or they will spend more fo their time on the platform. But this is not the end of the story. The interoperability will continuously enlarge the overlap between the R and Python communities if we draw a Venn diagram in our mind. The Python-centered IEDs are also powerful. They have great features that their users wouldn’t live without. They may match the move of Rstudio. More likely, the reverse “recuticate” in Python will emerge from the large open source community, by innumerable open source developers. Even if the one-way compatibility will continue, Python IEDs will not lose the game. As R programmers can easily operate Python in Rstudio, they are also more likely to travel and contribute to the Python world. This is similar to the case when Apple allows Microsoft’s Windows operating system to be installed on Mac and Amazon’s Kindle electronic book app installed on iPad. The competing platforms will both benefit from the one-way compatibility, because the enlarged overlap of the Venn diagram will bring “two-way” flows of traffic to both sides.&lt;a href=&#34;#fn3&#34; class=&#34;footnoteRef&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Open source can always provide more flexibility to the users, developers, and businesses involved. Perhaps we cannot formulate the dynamics of technological evolution in a game-theoretic fashion, as the players in open source are not “competing” in the same way. For example, Anaconda, the company who distribute many Python IDEs (including JupyterLab and Spyder), have long been providing Rstudio IDE on their cloud and GUI. I see “reticulate” as a strategic, but also very harmonious move to create net benefits to the open source community for data science at large.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;This can be easily done in Rstudio. &lt;a href=&#34;https://resources.rstudio.com/webinars/r-rstudio-1-2-amp-python-a-love-story-sean-lopp&#34; target=&#34;_blank&#34;&gt;Webinar by Rstudio&lt;a/&gt; &lt;a href=&#34;https://rstudio.github.io/reticulate/&#34; target=&#34;_blank&#34;&gt;Documentation by Rstudio&lt;a/&gt;&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;The existing python IDEs have not provided an interface for R-Python interoperability yet. Python programmers tend to use JupyterLab, Rodeo, Spyder, Visual Studio Code, and PyCharm, none of which have such an interoperability feature right now.&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;For a more detailed analysis: &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Frenemies+in+Platform+Markets%3A+The+Case+of+Apple’s+iPad+vs.+Amazon’s+Kindle&#34; target=&#34;_blank&#34;&gt;Adner, R., Chen, J., &amp;amp; Zhu, F. (2016). Frenemies in Platform Markets: The Case of Apple’s iPad vs. Amazon’s Kindle. Harvard Business School Technology &amp;amp; Operations Mgt. Unit Working Paper, (15-087).&lt;/a&gt;&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -26,9 +44,65 @@
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/03/10/mmem-an-r-package/</guid>
-      <description>Statistical Intuition The univariate mixed-effects model The multivariate mixed-effects model  An Implementation Example Initialization Estimation    I co-developed an R pakcage “MMeM” for estimating the variance-covariance matrix of random effects \(\mathbf{u}\) and \(\mathbf{e}\) on multiple dependent variables.
- 
-Statistical Intuition The univariate mixed-effects model In univariate mixed-effects model: \(\mathbf{y} = \mathbf{Xb} + \mathbf{Zu} + \mathbf{e}\) (1), we estimate the variance component \(\sigma_u^2\) and \(\sigma_e^2\) for \(\mathbf{u} \sim N(\mathbf{0}, \sigma_u^2\mathbf{I})\) and \(\mathbf{e} \sim N(\mathbf{0}, \sigma_e^2\mathbf{I})\).</description>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#statistical-intuition&#34;&gt;Statistical Intuition&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-univariate-mixed-effects-model&#34;&gt;The univariate mixed-effects model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-multivariate-mixed-effects-model&#34;&gt;The multivariate mixed-effects model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#an-implementation-example&#34;&gt;An Implementation Example&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#initialization&#34;&gt;Initialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#estimation&#34;&gt;Estimation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I co-developed an R pakcage &lt;a href=&#34;https://CRAN.R-project.org/package=MMeM&#34; target=&#34;_blank&#34;&gt; “MMeM”&lt;/a&gt; for estimating the variance-covariance matrix of random effects &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; on multiple dependent variables.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rdocumentation.org/packages/MMeM&#34;&gt;&lt;img src=&#34;http://www.rdocumentation.org/badges/version/MMeM&#34; alt=&#34;Rdoc&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://cran.r-project.org/package=MMeM&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/MMeM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;statistical-intuition&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Statistical Intuition&lt;/h1&gt;
+&lt;div id=&#34;the-univariate-mixed-effects-model&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The univariate mixed-effects model&lt;/h2&gt;
+&lt;p&gt;In univariate mixed-effects model: &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y} = \mathbf{Xb} + \mathbf{Zu} + \mathbf{e}\)&lt;/span&gt; (1), we estimate the variance component &lt;span class=&#34;math inline&#34;&gt;\(\sigma_u^2\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\sigma_e^2\)&lt;/span&gt; for &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u} \sim N(\mathbf{0}, \sigma_u^2\mathbf{I})\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e} \sim N(\mathbf{0}, \sigma_e^2\mathbf{I})\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;In formula (1): &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y}\)&lt;/span&gt; is n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 response vector; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{X}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{Z}\)&lt;/span&gt; are n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; p and n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; s; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{b}\)&lt;/span&gt; is p &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 coefficients vector for the fixed effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; is s &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 matrix for the random effects, &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; is n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 vector of random errors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-multivariate-mixed-effects-model&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The multivariate mixed-effects model&lt;/h2&gt;
+&lt;p&gt;In multivariate mixed-effects model: &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y} = (\mathbf{I} \otimes \mathbf{X})\mathbf{b} + (\mathbf{I} \otimes \mathbf{Z} )\mathbf{u} + \mathbf{e}\)&lt;/span&gt; (2), in which &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y} = \left\{\mathbf{y}_i\right\}_c, \mathbf{b} = \left\{\mathbf{b}_i\right\}_c, \mathbf{u} = \left\{\mathbf{u}_i\right\}_c, \mathbf{e} = \left\{\mathbf{e}_i\right\}_c, i =1, \dots, q\)&lt;/span&gt;, we estimate the variance-covariance matrix of random effects &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; on &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; response variates, namely &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{T}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{E}\)&lt;/span&gt;, for &lt;span class=&#34;math inline&#34;&gt;\(var(\mathbf{u}) = \mathbf{G} = \mathbf{T}\otimes \mathbf{I}_s, var(\mathbf{e}) = \mathbf{R} = \mathbf{E} \otimes \mathbf{I}_n, var(\mathbf{y}) = \mathbf{V} = \mathbf{T}\otimes \mathbf{ZZ}&amp;#39; + \mathbf{E} \otimes \mathbf{I}_n\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;In formula (2): &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y}\)&lt;/span&gt; is n&lt;em&gt;q &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 response vector; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{X}\)&lt;/span&gt; is n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; p design matrix for the fixed effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{b}\)&lt;/span&gt; is p&lt;/em&gt;q &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 coefficients vector for the fixed effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{Z}\)&lt;/span&gt; is n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; s design matrix for the random effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; is s&lt;em&gt;q &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 vector of the random effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; is n&lt;/em&gt;q &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 vector of random errors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;an-implementation-example&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;An Implementation Example&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;MMeM&amp;quot;)
+library(MMeM)
+data(simdata)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;initialization&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Initialization&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# initialize with a positive-definiate var-cov
+T.start = matrix(c(10, 5, 5, 15), 2, 2)
+E.start = matrix(c(10, 1, 1, 3), 2, 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;estimation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Estimation&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# using the Henderson3 estimation mothod
+results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = simdata, factor_X = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Bivariate response: V1 and V2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;print(results_henderson)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## $T.estimates
+##                 T: V1   T: V1 V2     T: V2
+## T.estimates  65.47395   9.969188  9.766204
+## T.variance  807.56303 128.824836 20.552160
+## 
+## $E.estimates
+##                E: V1  E: V1 V2     E: V2
+## E.estimates 55.74506 11.477502 41.171927
+## E.variance  11.09826  8.196899  6.054027&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -37,11 +111,89 @@ Statistical Intuition The univariate mixed-effects model In univariate mixed-eff
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
-      <description>Installation Examples compile the correlation table compile the regression table plot the moderating effect    Today, I released an R package “regrrr” on Cran. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.
-Here is the quickstart guide.
- 
-Installation To install from CRAN:
-install.packages(&amp;quot;regrrr&amp;quot;) library(regrrr) You can also use devtools to install the latest development version:</description>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#examples&#34;&gt;Examples&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#compile-the-correlation-table&#34;&gt;compile the correlation table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#compile-the-regression-table&#34;&gt;compile the regression table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#plot-the-moderating-effect&#34;&gt;plot the moderating effect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Today, I released an R package &lt;a href=&#34;https://CRAN.R-project.org/package=regrrr&#34; target=&#34;_blank&#34;&gt; “regrrr”&lt;/a&gt; on &lt;a href=&#34;https://cran.r-project.org&#34; target=&#34;_blank&#34;&gt;Cran&lt;/a&gt;. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.&lt;/p&gt;
+&lt;p&gt;Here is the quickstart guide.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rdocumentation.org/packages/regrrr&#34;&gt;&lt;img src=&#34;http://www.rdocumentation.org/badges/version/regrrr&#34; alt=&#34;Rdoc&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://cran.r-project.org/package=regrrr&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/regrrr&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;installation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;To install from CRAN:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;regrrr&amp;quot;)
+library(regrrr)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can also use devtools to install the latest development version:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;raykyang/regrrr&amp;quot;)
+library(regrrr)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Examples&lt;/h1&gt;
+&lt;div id=&#34;compile-the-correlation-table&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;compile the correlation table&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(regrrr)
+data(mtcars)
+m0 &amp;lt;- lm(mpg ~ vs + carb + hp + wt, data = mtcars)
+m1 &amp;lt;- update(m0, . ~ . + wt * hp)
+m2 &amp;lt;- update(m1, . ~ . + wt * vs)
+cor.table(data = m2$model)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##          Mean  S.D.     1     2    3    4    5
+## 1.mpg   20.09  6.03  1.00                     
+## 2.vs     0.44  0.50  0.66  1.00               
+## 3.carb   2.81  1.62 -0.55 -0.57 1.00          
+## 4.hp   146.69 68.56 -0.78 -0.72 0.75 1.00     
+## 5.wt     3.22  0.98 -0.87 -0.55 0.43 0.66 1.00&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;compile-the-regression-table&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;compile the regression table&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;regression_table &amp;lt;- rbind(
+combine_long_tab(to_long_tab(summary(m0)$coef),
+                 to_long_tab(summary(m1)$coef),
+                 to_long_tab(summary(m2)$coef)),
+compare_models(m0, m1, m2))
+rownames(regression_table) &amp;lt;- NULL
+print(regression_table)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##        Variables   Model 0   Model 1   Model 2
+## 1    (Intercept) 35.435*** 48.157*** 46.698***
+## 2                  (2.503)   (4.097)   (9.272)
+## 3             vs     1.353     1.077     2.171
+## 4                  (1.382)   (1.152)   (6.320)
+## 5           carb    -0.057    -0.043    -0.009
+## 6                  (0.449)   (0.374)   (0.426)
+## 7             hp   -0.024† -0.113***   -0.107*
+## 8                  (0.014)   (0.027)   (0.044)
+## 9             wt -3.792*** -8.071***   -7.594*
+## 10                 (0.658)   (1.307)   (3.016)
+## 11         hp:wt             0.027**    0.025†
+## 12                           (0.008)   (0.015)
+## 13         vs:wt                        -0.367
+## 14                                     (2.081)
+## 15     R_squared     0.833     0.889     0.889
+## 16 Adj_R_squared     0.808     0.867     0.862
+## 17       Delta_F            12.517**     0.031&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plot-the-moderating-effect&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;plot the moderating effect&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot_effect(reg.coef = summary(m2)$coefficients, data = mtcars, model = m2,
+            x_var.name = &amp;quot;wt&amp;quot;, y_var.name = &amp;quot;mpg&amp;quot;, moderator.name = &amp;quot;hp&amp;quot;,
+            confidence_interval = TRUE,  CI_Ribbon = FALSE, 
+            xlab = &amp;quot;Weight&amp;quot;, ylab = &amp;quot;MPG&amp;quot;, moderator.lab = &amp;quot;Horsepower&amp;quot;) +
+ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;As you can see from the last line of code, the plot is customizable using &lt;a href=&#34;https://CRAN.R-project.org/package=ggplot2&#34; target=&#34;_blank&#34;&gt;“ggplot2”&lt;/a&gt;. There are a couple of other functions. Please see the &lt;a href=&#34;https://www.rdocumentation.org/packages/regrrr&#34; target=&#34;_blank&#34;&gt;reference manual on R documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the &lt;a href=&#34;https://github.com/RayKYang/regrrr&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt; page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -50,9 +202,27 @@ install.packages(&amp;quot;regrrr&amp;quot;) library(regrrr) You can also use de
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
-      <description>I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.
-The raw data is extracted from Web of Science. The search parameters:
-TITLE: (&amp;quot;strategic positioning&amp;quot; OR &amp;quot;industry positioning&amp;quot; OR &amp;quot;market positioning&amp;quot;) Refined by: WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR ECONOMICS ) AND WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR INTERNATIONAL RELATIONS OR ECONOMICS ) AND DOCUMENT TYPES: ( ARTICLE ) AND LANGUAGES: ( ENGLISH ) Timespan: All years.</description>
+      <description>
+
+
+&lt;p&gt;I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_02262019.txt&#34; target=&#34;_blank&#34;&gt; raw data&lt;/a&gt; is extracted from &lt;a href=&#34;http://www.webofknowledge.com&#34; target=&#34;_blank&#34;&gt; Web of Science&lt;/a&gt;. The search parameters:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;TITLE: (&amp;quot;strategic positioning&amp;quot; OR &amp;quot;industry positioning&amp;quot; OR &amp;quot;market positioning&amp;quot;)
+Refined by: WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR ECONOMICS ) AND WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR INTERNATIONAL RELATIONS OR ECONOMICS ) AND DOCUMENT TYPES: ( ARTICLE ) AND LANGUAGES: ( ENGLISH )
+Timespan: All years. 
+Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I used the R package &lt;a href=&#34;http://www.bibliometrix.org&#34; target=&#34;_blank&#34;&gt; “bibliometrix”&lt;/a&gt; to conduct (1) “bibliographic coupling” and (2) “co-citation” analysis.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Bibliographic coupling analysis allows us to explore the “confluence and interactions” among recent papers. Two articles are bibliographically coupled if they co-cited at least one article.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Co-citation analysis allows us to trace back to the origin of thoughts and classic papers. Two articles have a co-citation tie if they are both cited in a third article.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Reference:&lt;/p&gt;
+&lt;p&gt;Aria, M. &amp;amp; Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, Journal of Informetrics, 11(4), pp 959-975, Elsevier.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

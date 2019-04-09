@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,9 +17,65 @@
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/03/10/mmem-an-r-package/</guid>
-      <description>Statistical Intuition The univariate mixed-effects model The multivariate mixed-effects model  An Implementation Example Initialization Estimation    I co-developed an R pakcage “MMeM” for estimating the variance-covariance matrix of random effects \(\mathbf{u}\) and \(\mathbf{e}\) on multiple dependent variables.
- 
-Statistical Intuition The univariate mixed-effects model In univariate mixed-effects model: \(\mathbf{y} = \mathbf{Xb} + \mathbf{Zu} + \mathbf{e}\) (1), we estimate the variance component \(\sigma_u^2\) and \(\sigma_e^2\) for \(\mathbf{u} \sim N(\mathbf{0}, \sigma_u^2\mathbf{I})\) and \(\mathbf{e} \sim N(\mathbf{0}, \sigma_e^2\mathbf{I})\).</description>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#statistical-intuition&#34;&gt;Statistical Intuition&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-univariate-mixed-effects-model&#34;&gt;The univariate mixed-effects model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-multivariate-mixed-effects-model&#34;&gt;The multivariate mixed-effects model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#an-implementation-example&#34;&gt;An Implementation Example&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#initialization&#34;&gt;Initialization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#estimation&#34;&gt;Estimation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I co-developed an R pakcage &lt;a href=&#34;https://CRAN.R-project.org/package=MMeM&#34; target=&#34;_blank&#34;&gt; “MMeM”&lt;/a&gt; for estimating the variance-covariance matrix of random effects &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; on multiple dependent variables.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rdocumentation.org/packages/MMeM&#34;&gt;&lt;img src=&#34;http://www.rdocumentation.org/badges/version/MMeM&#34; alt=&#34;Rdoc&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://cran.r-project.org/package=MMeM&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/MMeM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;statistical-intuition&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Statistical Intuition&lt;/h1&gt;
+&lt;div id=&#34;the-univariate-mixed-effects-model&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The univariate mixed-effects model&lt;/h2&gt;
+&lt;p&gt;In univariate mixed-effects model: &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y} = \mathbf{Xb} + \mathbf{Zu} + \mathbf{e}\)&lt;/span&gt; (1), we estimate the variance component &lt;span class=&#34;math inline&#34;&gt;\(\sigma_u^2\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\sigma_e^2\)&lt;/span&gt; for &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u} \sim N(\mathbf{0}, \sigma_u^2\mathbf{I})\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e} \sim N(\mathbf{0}, \sigma_e^2\mathbf{I})\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;In formula (1): &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y}\)&lt;/span&gt; is n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 response vector; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{X}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{Z}\)&lt;/span&gt; are n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; p and n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; s; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{b}\)&lt;/span&gt; is p &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 coefficients vector for the fixed effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; is s &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 matrix for the random effects, &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; is n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 vector of random errors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-multivariate-mixed-effects-model&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The multivariate mixed-effects model&lt;/h2&gt;
+&lt;p&gt;In multivariate mixed-effects model: &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y} = (\mathbf{I} \otimes \mathbf{X})\mathbf{b} + (\mathbf{I} \otimes \mathbf{Z} )\mathbf{u} + \mathbf{e}\)&lt;/span&gt; (2), in which &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y} = \left\{\mathbf{y}_i\right\}_c, \mathbf{b} = \left\{\mathbf{b}_i\right\}_c, \mathbf{u} = \left\{\mathbf{u}_i\right\}_c, \mathbf{e} = \left\{\mathbf{e}_i\right\}_c, i =1, \dots, q\)&lt;/span&gt;, we estimate the variance-covariance matrix of random effects &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; on &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; response variates, namely &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{T}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{E}\)&lt;/span&gt;, for &lt;span class=&#34;math inline&#34;&gt;\(var(\mathbf{u}) = \mathbf{G} = \mathbf{T}\otimes \mathbf{I}_s, var(\mathbf{e}) = \mathbf{R} = \mathbf{E} \otimes \mathbf{I}_n, var(\mathbf{y}) = \mathbf{V} = \mathbf{T}\otimes \mathbf{ZZ}&amp;#39; + \mathbf{E} \otimes \mathbf{I}_n\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;In formula (2): &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{y}\)&lt;/span&gt; is n&lt;em&gt;q &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 response vector; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{X}\)&lt;/span&gt; is n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; p design matrix for the fixed effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{b}\)&lt;/span&gt; is p&lt;/em&gt;q &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 coefficients vector for the fixed effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{Z}\)&lt;/span&gt; is n &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; s design matrix for the random effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; is s&lt;em&gt;q &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 vector of the random effects; &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; is n&lt;/em&gt;q &lt;span class=&#34;math inline&#34;&gt;\(\times\)&lt;/span&gt; 1 vector of random errors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;an-implementation-example&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;An Implementation Example&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;MMeM&amp;quot;)
+library(MMeM)
+data(simdata)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;initialization&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Initialization&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# initialize with a positive-definiate var-cov
+T.start = matrix(c(10, 5, 5, 15), 2, 2)
+E.start = matrix(c(10, 1, 1, 3), 2, 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;estimation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Estimation&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# using the Henderson3 estimation mothod
+results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = simdata, factor_X = TRUE)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Bivariate response: V1 and V2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;print(results_henderson)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## $T.estimates
+##                 T: V1   T: V1 V2     T: V2
+## T.estimates  65.47395   9.969188  9.766204
+## T.variance  807.56303 128.824836 20.552160
+## 
+## $E.estimates
+##                E: V1  E: V1 V2     E: V2
+## E.estimates 55.74506 11.477502 41.171927
+## E.variance  11.09826  8.196899  6.054027&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -28,11 +84,89 @@ Statistical Intuition The univariate mixed-effects model In univariate mixed-eff
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
-      <description>Installation Examples compile the correlation table compile the regression table plot the moderating effect    Today, I released an R package “regrrr” on Cran. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.
-Here is the quickstart guide.
- 
-Installation To install from CRAN:
-install.packages(&amp;quot;regrrr&amp;quot;) library(regrrr) You can also use devtools to install the latest development version:</description>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#examples&#34;&gt;Examples&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#compile-the-correlation-table&#34;&gt;compile the correlation table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#compile-the-regression-table&#34;&gt;compile the regression table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#plot-the-moderating-effect&#34;&gt;plot the moderating effect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Today, I released an R package &lt;a href=&#34;https://CRAN.R-project.org/package=regrrr&#34; target=&#34;_blank&#34;&gt; “regrrr”&lt;/a&gt; on &lt;a href=&#34;https://cran.r-project.org&#34; target=&#34;_blank&#34;&gt;Cran&lt;/a&gt;. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.&lt;/p&gt;
+&lt;p&gt;Here is the quickstart guide.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.rdocumentation.org/packages/regrrr&#34;&gt;&lt;img src=&#34;http://www.rdocumentation.org/badges/version/regrrr&#34; alt=&#34;Rdoc&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://cran.r-project.org/package=regrrr&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/regrrr&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;installation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Installation&lt;/h1&gt;
+&lt;p&gt;To install from CRAN:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;regrrr&amp;quot;)
+library(regrrr)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can also use devtools to install the latest development version:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;raykyang/regrrr&amp;quot;)
+library(regrrr)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;examples&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Examples&lt;/h1&gt;
+&lt;div id=&#34;compile-the-correlation-table&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;compile the correlation table&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(regrrr)
+data(mtcars)
+m0 &amp;lt;- lm(mpg ~ vs + carb + hp + wt, data = mtcars)
+m1 &amp;lt;- update(m0, . ~ . + wt * hp)
+m2 &amp;lt;- update(m1, . ~ . + wt * vs)
+cor.table(data = m2$model)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##          Mean  S.D.     1     2    3    4    5
+## 1.mpg   20.09  6.03  1.00                     
+## 2.vs     0.44  0.50  0.66  1.00               
+## 3.carb   2.81  1.62 -0.55 -0.57 1.00          
+## 4.hp   146.69 68.56 -0.78 -0.72 0.75 1.00     
+## 5.wt     3.22  0.98 -0.87 -0.55 0.43 0.66 1.00&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;compile-the-regression-table&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;compile the regression table&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;regression_table &amp;lt;- rbind(
+combine_long_tab(to_long_tab(summary(m0)$coef),
+                 to_long_tab(summary(m1)$coef),
+                 to_long_tab(summary(m2)$coef)),
+compare_models(m0, m1, m2))
+rownames(regression_table) &amp;lt;- NULL
+print(regression_table)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##        Variables   Model 0   Model 1   Model 2
+## 1    (Intercept) 35.435*** 48.157*** 46.698***
+## 2                  (2.503)   (4.097)   (9.272)
+## 3             vs     1.353     1.077     2.171
+## 4                  (1.382)   (1.152)   (6.320)
+## 5           carb    -0.057    -0.043    -0.009
+## 6                  (0.449)   (0.374)   (0.426)
+## 7             hp   -0.024† -0.113***   -0.107*
+## 8                  (0.014)   (0.027)   (0.044)
+## 9             wt -3.792*** -8.071***   -7.594*
+## 10                 (0.658)   (1.307)   (3.016)
+## 11         hp:wt             0.027**    0.025†
+## 12                           (0.008)   (0.015)
+## 13         vs:wt                        -0.367
+## 14                                     (2.081)
+## 15     R_squared     0.833     0.889     0.889
+## 16 Adj_R_squared     0.808     0.867     0.862
+## 17       Delta_F            12.517**     0.031&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plot-the-moderating-effect&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;plot the moderating effect&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot_effect(reg.coef = summary(m2)$coefficients, data = mtcars, model = m2,
+            x_var.name = &amp;quot;wt&amp;quot;, y_var.name = &amp;quot;mpg&amp;quot;, moderator.name = &amp;quot;hp&amp;quot;,
+            confidence_interval = TRUE,  CI_Ribbon = FALSE, 
+            xlab = &amp;quot;Weight&amp;quot;, ylab = &amp;quot;MPG&amp;quot;, moderator.lab = &amp;quot;Horsepower&amp;quot;) +
+ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;As you can see from the last line of code, the plot is customizable using &lt;a href=&#34;https://CRAN.R-project.org/package=ggplot2&#34; target=&#34;_blank&#34;&gt;“ggplot2”&lt;/a&gt;. There are a couple of other functions. Please see the &lt;a href=&#34;https://www.rdocumentation.org/packages/regrrr&#34; target=&#34;_blank&#34;&gt;reference manual on R documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the &lt;a href=&#34;https://github.com/RayKYang/regrrr&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt; page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>
