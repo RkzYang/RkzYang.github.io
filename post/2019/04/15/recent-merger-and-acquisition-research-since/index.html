@@ -9,7 +9,14 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
-    
+    <meta property="og:title" content="Citation Analysis of Recent Acquisition Research" />
+<meta property="og:description" content="merger and acquisition research since 2008" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2019/04/15/recent-merger-and-acquisition-research-since/" />
+<meta property="og:image" content="/Yang_logo.png" />
+<meta property="article:published_time" content="2019-04-15T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-04-15T00:00:00&#43;00:00"/>
+
 
     
 <meta name="twitter:card" content="summary">
@@ -70,37 +77,41 @@
 
 <div id="TOC">
 <ul>
-<li><a href="#central-themes">1 Central Themes</a><ul>
-<li><a href="#network-of-co-occurrence-keywords">1.1 Network of Co-occurrence Keywords</a></li>
-<li><a href="#mds-mapping-of-the-conceptual-structure">1.2 MDS Mapping of the Conceptual Structure</a></li>
+<li><a href="#sample-and-data">1 Sample and Data</a></li>
+<li><a href="#central-themes">2 Central Themes</a><ul>
+<li><a href="#network-of-co-occurrence-keywords">2.1 Network of Co-occurrence Keywords</a></li>
+<li><a href="#mds-mapping-of-the-conceptual-structure">2.2 MDS Mapping of the Conceptual Structure</a></li>
 </ul></li>
-<li><a href="#central-papers">2 Central Papers</a><ul>
-<li><a href="#the-main-stream-papers">2.1 the “Main Stream” Papers</a></li>
-<li><a href="#the-classic-papers">2.2 the “Classic” Papers</a></li>
+<li><a href="#central-papers">3 Central Papers</a><ul>
+<li><a href="#the-main-stream-papers">3.1 the “Main Stream” Papers</a></li>
+<li><a href="#the-classic-papers">3.2 the “Classic” Papers</a></li>
 </ul></li>
 </ul>
 </div>
 
-<p>The sample used in this analysis contains 160 articles on “mergers and acquisitions” published on top management and finance journals since 2008.</p>
+<div id="sample-and-data" class="section level1">
+<h1>1 Sample and Data</h1>
+<p>The <a href="https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_MnA_04152019.txt" target="_blank">sample</a> used in this analysis contains 160 articles on “mergers and acquisitions” published on top management and finance journals since 2008.</p>
+</div>
 <div id="central-themes" class="section level1">
-<h1>1 Central Themes</h1>
+<h1>2 Central Themes</h1>
 <div id="network-of-co-occurrence-keywords" class="section level2">
-<h2>1.1 Network of Co-occurrence Keywords</h2>
+<h2>2.1 Network of Co-occurrence Keywords</h2>
 <p><img src="/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 <p>This graph shows the most common themes (top 30 co-occuring keywords) of these papers.</p>
 </div>
 <div id="mds-mapping-of-the-conceptual-structure" class="section level2">
-<h2>1.2 MDS Mapping of the Conceptual Structure</h2>
+<h2>2.2 MDS Mapping of the Conceptual Structure</h2>
 <p><img src="/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <p>We can use MDS (Multi-dimentional Scaling) to map the distance among the common themes.</p>
 </div>
 </div>
 <div id="central-papers" class="section level1">
-<h1>2 Central Papers</h1>
+<h1>3 Central Papers</h1>
 <p><img src="/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
 <div id="the-main-stream-papers" class="section level2">
-<h2>2.1 the “Main Stream” Papers</h2>
-<pre><code>## [1] &quot;most central sources (top 20)&quot;</code></pre>
+<h2>3.1 the “Main Stream” Papers</h2>
+<pre><code>## [1] &quot;most central papers (top 20) in bibliographic coupling network&quot;</code></pre>
 <pre><code>##   BARKEMA HG, 2008       KIM JY, 2009   NADOLSKA A, 2014 
 ##          1.0000000          0.8682856          0.8598660 
 ##       KIM JY, 2011 HALEBLIAN JJ, 2017   GORANOVA M, 2010 
@@ -118,9 +129,9 @@
 <p>To identify the “main stream” papers, we can construct a “bibliographic coupling” (BC) network to see which papers co-cited the same prior research with other papers. The top 20 “main stream” (by eigenvector centrality in the BC network) papers.</p>
 </div>
 <div id="the-classic-papers" class="section level2">
-<h2>2.2 the “Classic” Papers</h2>
+<h2>3.2 the “Classic” Papers</h2>
 <p><img src="/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
-<pre><code>## [1] &quot;most central sources (top 20)&quot;</code></pre>
+<pre><code>## [1] &quot;most central papers (top 20) in co-citation network&quot;</code></pre>
 <pre><code>##    MOELLER SB 2004   HALEBLIAN J 1999     JENSEN MC 1986 
 ##          1.0000000          0.9891969          0.9313744 
 ##       MORCK R 1990   HAYWARD MLA 2002 HASPESLAGH P. 1991 
