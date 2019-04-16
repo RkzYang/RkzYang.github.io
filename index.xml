@@ -6,10 +6,91 @@
     <description>Recent content in Home on Yang&#39;s Strategy Thinking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Citation Analysis of Recent Acquisition Research</title>
+      <link>/post/2019/04/15/recent-merger-and-acquisition-research-since/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019/04/15/recent-merger-and-acquisition-research-since/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#central-themes&#34;&gt;1 Central Themes&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#network-of-co-occurrence-keywords&#34;&gt;1.1 Network of Co-occurrence Keywords&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mds-mapping-of-the-conceptual-structure&#34;&gt;1.2 MDS Mapping of the Conceptual Structure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#central-papers&#34;&gt;2 Central Papers&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-main-stream-papers&#34;&gt;2.1 the “Main Stream” Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-classic-papers&#34;&gt;2.2 the “Classic” Papers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The sample used in this analysis contains 160 articles on “mergers and acquisitions” published on top management and finance journals since 2008.&lt;/p&gt;
+&lt;div id=&#34;central-themes&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1 Central Themes&lt;/h1&gt;
+&lt;div id=&#34;network-of-co-occurrence-keywords&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1.1 Network of Co-occurrence Keywords&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This graph shows the most common themes (top 30 co-occuring keywords) of these papers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mds-mapping-of-the-conceptual-structure&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1.2 MDS Mapping of the Conceptual Structure&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We can use MDS (Multi-dimentional Scaling) to map the distance among the common themes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;central-papers&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2 Central Papers&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;the-main-stream-papers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.1 the “Main Stream” Papers&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central sources (top 20)&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   BARKEMA HG, 2008       KIM JY, 2009   NADOLSKA A, 2014 
+##          1.0000000          0.8682856          0.8598660 
+##       KIM JY, 2011 HALEBLIAN JJ, 2017   GORANOVA M, 2010 
+##          0.8555986          0.8210859          0.7714827 
+##    DEVERS CE, 2013 STEINBACH AL, 2017      KROLL M, 2008 
+##          0.7253757          0.7121932          0.7104844 
+##  MUEHLFELD K, 2012  EL-KHATIB R, 2015     ELLIS KM, 2011 
+##          0.6669592          0.6612580          0.6551406 
+##  MCDONALD ML, 2008      SHI W, 2017-1 HEIMERIKS KH, 2012 
+##          0.6185902          0.5899796          0.5799630 
+##  GRAEBNER ME, 2009      ZOLLO M, 2009     ELLIS KM, 2009 
+##          0.5753946          0.5740604          0.5715228 
+##        YIM S, 2013      ZOLLO M, 2010 
+##          0.5578773          0.5558791&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To identify the “main stream” papers, we can construct a “bibliographic coupling” (BC) network to see which papers co-cited the same prior research with other papers. The top 20 “main stream” (by eigenvector centrality in the BC network) papers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-classic-papers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.2 the “Classic” Papers&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central sources (top 20)&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    MOELLER SB 2004   HALEBLIAN J 1999     JENSEN MC 1986 
+##          1.0000000          0.9891969          0.9313744 
+##       MORCK R 1990   HAYWARD MLA 2002 HASPESLAGH P. 1991 
+##          0.8737119          0.8477468          0.7896179 
+##   HAYWARD MLA 1997       KING DR 2004        ROLL R 1986 
+##          0.7119846          0.7104482          0.6958790 
+##       ZOLLO M 2004    MASULIS RW 2007  MOELLER SB 2005-1 
+##          0.6931354          0.6809497          0.6665792 
+##     ASQUITH P 1983     ANDRADE G 2001     JENSEN MC 1976 
+##          0.6269530          0.6209498          0.5782434 
+##  MALMENDIER U 2008  HALEBLIAN JJ 2006      FULLER K 2002 
+##          0.5702609          0.5595749          0.5314969 
+##  HECKMAN JJ 1979-1     GOMPERS P 2003 
+##          0.5272799          0.5248858&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To identify the “classic” papers, we can construct a “co-citation” (CC) network to see which papers are cited together with other papers by later researchers. The top 20 “classic” (by eigenvector centrality in the CC network) papers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>A.I./Blockchain Adoption and Technology Substitution</title>
