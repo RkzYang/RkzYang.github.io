@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>acquisition on Yang&#39;s Strategy Thinking</title>
+    <title>acquisition on Yang&#39;s Strategy Thinking &#43; Data Science</title>
     <link>/tags/acquisition/</link>
-    <description>Recent content in acquisition on Yang&#39;s Strategy Thinking</description>
+    <description>Recent content in acquisition on Yang&#39;s Strategy Thinking &#43; Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
@@ -46,8 +45,8 @@
 &lt;/div&gt;
 &lt;div id=&#34;mds-mapping-of-the-conceptual-structure&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 MDS Mapping of the Conceptual Structure&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;We can use MDS (Multi-dimentional Scaling) to map the distance among the common themes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We can use MDS (Multi-dimentional Scaling) and Dendrogram to map the distance/dissimilarity among the themes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;central-papers&#34; class=&#34;section level1&#34;&gt;
@@ -115,13 +114,14 @@
 &lt;/ul&gt;
 &lt;p&gt;Could there be a unified explanation for what is happening right now? Well, one may associate the topic of technology development with Clayton Christensen’s ‘innovator’s dilemma’ assertion, which predicts emerging new technology will quickly take over declining old ones (often depicted as the double-S curves). It’s the good management–trying best to hear about customer needs, play with competition carefully, and align resource allocation with calculated risk/benefit profiles–who prevent the incumbents from adopting new technologies. Then shouldn’t managers try their best? According to Clayton Christensen, it is difficult for good management not to do good–it is difficult for the incumbents to utilize new technologies even they tend to spot them earlier than startups. At the initiation stage of new technology, incumbents can’t risk their existing market share and customer relationships with unproven models, whereas startups have little to lose. The prediction is: startups disrupt incumbents.&lt;/p&gt;
 &lt;p&gt;However, things are different right now. The boundary between new tech. and old tech. are melting down; they are intertwined ecosystems rather than isolated communities. Incumbents right now have taken deliberate effort and allocate resource for emerging technology. They are agiler and more determined to disrupt themselves before being disrupted by others. If important pre-existing conditions are different, it might be necessary to modify the predictions from Clayton Christensen’s double-S curves.&lt;/p&gt;
-&lt;p&gt;First, the compatibility between incumbents’ existing technology and emerging technology should lower the likelihood and rate of disruption. Let’s consider two cases here. One is about different incumbent technologies: as compared to traditional banking, the higher level of digitization of PayPal allows a higher compatibility potential with blockchain (consider internet and blockchain don’t rely on a central authority/agency as traditional banking does). The other is about different emerging technologies: as compared to the blockchain, A.I. allows a higher level of compatibility with traditional banking (both banking and A.I. are aimed at decision/prediction accuracy and efficiency.)&lt;/p&gt;
-&lt;p&gt;Second, the intensity of the incumbent technology expansion should also lower the likelihood of disruption. This factor is not only related to incumbents’ existing resource base but also has something to do with management. A recent paper in SMJ&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; has updated the “double-S” framework by incorporating the “incumbent technology expansion” in predicting the rate of substituion and found empirical support for the model’s prediction efficacy.&lt;/p&gt;
+&lt;p&gt;First, the compatibility between incumbents’ existing technology and emerging technology should lower the likelihood and rate of disruption.
+Let’s consider two cases here. One is about different incumbent technologies: as compared to traditional banking, the higher level of digitization of PayPal allows a higher compatibility potential with blockchain (consider internet and blockchain don’t rely on a central authority/agency as traditional banking does). The other is about different emerging technologies: as compared to the blockchain, A.I. allows a higher level of compatibility with traditional banking (both banking and A.I. are aimed at decision/prediction accuracy and efficiency.)&lt;/p&gt;
+&lt;p&gt;Second, the intensity of the incumbent technology expansion should also lower the likelihood of disruption. This factor is not only related to incumbents’ existing resource base but also has something to do with management. A recent paper in SMJ&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; has updated the “double-S” framework by incorporating the “incumbent technology expansion” in predicting the rate of substituion and found empirical support for the model’s prediction efficacy.&lt;/p&gt;
 &lt;p&gt;Conclusion: since A.I. tends to have a higher level of compatibility with, and also face a stronger expansion threat from, the incumbent technology than blockchain, it’s predicted to have a lower likelihood/rate of disruption. However, contingencies should also exist due to the significant variance in incumbents’ technology, resource, and management conditions.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Adner, R., &amp;amp; Kapoor, R. (2016). &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C6&amp;q=Innovation+ecosystems+and+the+pace+of+substitution%3A+Re-examining+technology+S-curves&amp;btnG=&#34; target=&#34;_blank&#34;&gt;Innovation ecosystems and the pace of substitution: Re‐examining technology S‐curves.&lt;a/&gt; Strategic management journal, 37(4), 625-648.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Adner, R., &amp;amp; Kapoor, R. (2016). &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C6&amp;q=Innovation+ecosystems+and+the+pace+of+substitution%3A+Re-examining+technology+S-curves&amp;btnG=&#34; target=&#34;_blank&#34;&gt;Innovation ecosystems and the pace of substitution: Re‐examining technology S‐curves.&lt;a/&gt; Strategic management journal, 37(4), 625-648.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

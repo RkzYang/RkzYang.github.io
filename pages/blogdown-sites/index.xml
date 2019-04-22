@@ -1,0 +1,62 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown sites on Yang&#39;s Strategy Thinking &#43; Data Science</title>
+    <link>/pages/blogdown-sites/</link>
+    <description>Recent content in blogdown sites on Yang&#39;s Strategy Thinking &#43; Data Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Dec 2999 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/pages/blogdown-sites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>xxx</title>
+      <link>/blog_template/</link>
+      <pubDate>Tue, 31 Dec 2999 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_template/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>A Growing Collection of Blogdown Sites</title>
+      <link>/note/2019/04/22/a-growing-collection-of-blogdown-sites/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2019/04/22/a-growing-collection-of-blogdown-sites/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#tutorials&#34;&gt;Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#websites&#34;&gt;Websites&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is a growing collection of blogdown tutorials and websites.&lt;/p&gt;
+&lt;div id=&#34;tutorials&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tutorials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;Blogdown Documentation&lt;/a&gt; (by Yihui Xie, Amber Thomas, Alison Hill)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apreshill.rbind.io/post/up-and-running-with-blogdown/&#34; target=&#34;_blank&#34;&gt;Blogdown Tutorial&lt;/a&gt; (by Alison Hill)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;websites&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Websites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yihui.name/&#34; target=&#34;_blank&#34;&gt;Yihui Xie’s Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://robjhyndman.com&#34; target=&#34;_blank&#34;&gt;Rob J. Hyndman’s Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://livefreeordichotomize.com&#34; target=&#34;_blank&#34;&gt;Live Free or Dichotomize&lt;/a&gt; (by Lucy and Nick)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.emilyzabor.com/&#34; target=&#34;_blank&#34;&gt;Emily C. Zabor’s Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

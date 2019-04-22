@@ -1,33 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes on A minimal Hugo website</title>
+    <title>Notes on Yang&#39;s Strategy Thinking &#43; Data Science</title>
     <link>/note/</link>
-    <description>Recent content in Notes on A minimal Hugo website</description>
+    <description>Recent content in Notes on Yang&#39;s Strategy Thinking &#43; Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Another Note on A blogdown Tutorial</title>
-      <link>/note/2017/06/14/another-note/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/note/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
-    </item>
     
     <item>
-      <title>A Quick Note on Two Beautiful Websites</title>
-      <link>/note/2017/06/13/a-quick-note/</link>
-      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      <title>A Growing Collection of Blogdown Sites</title>
+      <link>/note/2019/04/22/a-growing-collection-of-blogdown-sites/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/note/2017/06/13/a-quick-note/</guid>
-      <description>To me, the two most impressive websites based on blogdown are:
- Rob J Hyndman&amp;rsquo;s personal website. Live Free or Dichotomize by Lucy and Nick et al.  I&amp;rsquo;m sure there will be more.</description>
+      <guid>/note/2019/04/22/a-growing-collection-of-blogdown-sites/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#tutorials&#34;&gt;Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#websites&#34;&gt;Websites&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is a growing collection of blogdown tutorials and websites.&lt;/p&gt;
+&lt;div id=&#34;tutorials&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tutorials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;Blogdown Documentation&lt;/a&gt; (by Yihui Xie, Amber Thomas, Alison Hill)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apreshill.rbind.io/post/up-and-running-with-blogdown/&#34; target=&#34;_blank&#34;&gt;Blogdown Tutorial&lt;/a&gt; (by Alison Hill)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;websites&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Websites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://yihui.name/&#34; target=&#34;_blank&#34;&gt;Yihui Xie’s Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://robjhyndman.com&#34; target=&#34;_blank&#34;&gt;Rob J. Hyndman’s Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://livefreeordichotomize.com&#34; target=&#34;_blank&#34;&gt;Live Free or Dichotomize&lt;/a&gt; (by Lucy and Nick)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.emilyzabor.com/&#34; target=&#34;_blank&#34;&gt;Emily C. Zabor’s Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>
