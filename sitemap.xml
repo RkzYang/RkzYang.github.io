@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/note/2019/04/22/an-ongoging-collection-of-blogdown-sites/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
   </url>
@@ -84,7 +89,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -146,13 +151,13 @@
   </url>
   
   <url>
-    <loc>/pages/blogdown/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/blogdown/</loc>
+    <loc>/pages/blogdown/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
