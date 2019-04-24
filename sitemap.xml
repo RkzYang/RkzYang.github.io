@@ -8,13 +8,13 @@
   </url>
   
   <url>
-    <loc>/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</loc>
-    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
+    <loc>/note/2019/04/24/an-ongoging-collection-of-nlp-startups/</loc>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/note/2019/04/22/an-ongoging-collection-of-blogdown-sites/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <loc>/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</loc>
+    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -83,25 +83,25 @@
   
   <url>
     <loc>/pages/marketing/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/pages/nlp/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/note/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/pages/</loc>
-    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,19 +118,13 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/r/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r-package/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -138,6 +132,12 @@
   <url>
     <loc>/tags/r-package/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r-package/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -169,13 +169,13 @@
   </url>
   
   <url>
-    <loc>/pages/blogdown/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/blogdown/</loc>
+    <loc>/pages/blogdown/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -211,13 +211,13 @@
   </url>
   
   <url>
-    <loc>/categories/positioning/</loc>
+    <loc>/tags/positioning/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/positioning/</loc>
+    <loc>/categories/positioning/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -241,13 +241,13 @@
   </url>
   
   <url>
-    <loc>/categories/visualization/</loc>
+    <loc>/tags/visualization/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/visualization/</loc>
+    <loc>/categories/visualization/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
