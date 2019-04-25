@@ -668,7 +668,12 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
 &lt;div class=&#34;column-left&#34;&gt;
 
 &lt;p&gt; &lt;/p&gt;
-&lt;img src=&#34;/./about_files/awesome.png&#34; alt=&#34;R.K. Yang&#34; width=&#34;68%&#34; height=&#34;68%&#34;/&gt;
+&lt;img srcset=&#34;
+/./about_files/goodx3.png x3, 
+/./about_files/goodx2.png x2, 
+/./about_files/goodx1.png x1&#34;
+
+src=&#34;/./about_files/awesome.png&#34; alt=&#34;R.K. Yang&#34;&gt;
 &lt;/div&gt;
 &lt;p&gt; &lt;/p&gt;
 
