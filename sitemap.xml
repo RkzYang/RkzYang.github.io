@@ -245,6 +245,15 @@
   </url>
   
   <url>
+    <loc>/research/research/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
   </url>
   
