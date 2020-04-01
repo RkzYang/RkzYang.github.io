@@ -2,7 +2,7 @@
     "path" : "~/Documents/R Yang/Wed_Dev/RYangPhD_BlogDown/rkyCustomize/xmin_theme",
     "sortOrder" : [
         {
-            "ascending" : false,
+            "ascending" : true,
             "columnIndex" : 2
         }
     ]
