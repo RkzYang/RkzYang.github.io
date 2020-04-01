@@ -17,6 +17,28 @@
       
       <guid>/ent/aim-think-walk/</guid>
       <description>
+---
+title: &#34;Aim, Think, and Act: System Maps for Mental State&#34;
+description: &#39;think through these system maps to safeguard self-motivation and avoid pitfalls&#39;
+author: &#39;&#39;
+date: &#39;2020-03-31&#39;
+slug: aim-think-walk
+categories:
+  - entrepreneurship
+tags:
+  - personal development
+  - system map
+twitter:
+  card: &#34;summary&#34;
+  title: &#34;system mapping of self-motivation&#34;
+  site: &#34;@rky_phd&#34;
+  description: &#34;using system mapping to motivate yourself&#34;
+  image: &#34;https://www.yang.management/Yang_logo.png&#34;
+output:
+  blogdown::html_page:
+    toc: true
+---
+
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
