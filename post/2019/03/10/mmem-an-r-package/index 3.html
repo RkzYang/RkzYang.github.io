@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="when you have multiple dependent variables, and you want to model the random and mixed effects, you can use the &#39;MMeM&#39; R Package">
+    <title>“MMeM”: Modeling the Multivariate Mixed-effects | Rui Yang | Ray Yang, Strategy, U. California, Riverside</title>
+    
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    <meta property="og:title" content="“MMeM”: Modeling the Multivariate Mixed-effects" />
+<meta property="og:description" content="when you have multiple dependent variables, and you want to model the random and mixed effects, you can use the &#39;MMeM&#39; R Package" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2019/03/10/mmem-an-r-package/" />
+
+<meta property="og:image" content="/Yang_logo.png" />
+<meta property="article:published_time" content="2019-03-10T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-03-10T00:00:00&#43;00:00"/><meta property="og:site_name" content="Yang&#39;s Strategy Thinking" />
+
+
+    
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@rky_phd">
+<meta name="twitter:title" content="&#39;MMeM&#39;: Modeling the Multivariate Mixed-effects">
+<meta name="twitter:image" content="https://www.yang.management/R.jpeg">
+
+
+
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/pages/">Pages</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+  </body>
+
+<link rel="stylesheet" href="/css/github-gist.css" rel="stylesheet" id="theme-stylesheet">
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<div class="article-meta">
+<h1><span class="title">“MMeM”: Modeling the Multivariate Mixed-effects</span></h1>
+
+<h2 class="date">2019/03/10</h2>
+
+<p class="terms">
+  
+  
+  Categories: <a href="/categories/r">R</a> <a href="/categories/r-package">R Package</a> <a href="/categories/visualization">visualization</a> 
+  
+  
+  
+  Tags: <a href="/tags/r">R</a> <a href="/tags/r-package">R Package</a> <a href="/tags/visualization">visualization</a> 
+  
+  
+</p>
+
+<img src="" />
+
+</div>
+
+<main>
+
+
+<div id="TOC">
+<ul>
+<li><a href="#statistical-intuition">Statistical Intuition</a><ul>
+<li><a href="#the-univariate-mixed-effects-model">The univariate mixed-effects model</a></li>
+<li><a href="#the-multivariate-mixed-effects-model">The multivariate mixed-effects model</a></li>
+</ul></li>
+<li><a href="#an-implementation-example">An Implementation Example</a><ul>
+<li><a href="#initialization">Initialization</a></li>
+<li><a href="#estimation">Estimation</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>I co-developed an R pakcage <a href="https://CRAN.R-project.org/package=MMeM" target="_blank"> “MMeM”</a> for estimating the variance-covariance matrix of random effects <span class="math inline">\(\mathbf{u}\)</span> and <span class="math inline">\(\mathbf{e}\)</span> on multiple dependent variables.</p>
+<p><a href="http://www.rdocumentation.org/packages/MMeM"><img src="http://www.rdocumentation.org/badges/version/MMeM" alt="Rdoc" /></a>
+<a href="https://cran.r-project.org/package=MMeM"><img src="https://cranlogs.r-pkg.org/badges/MMeM" /></a></p>
+<div id="statistical-intuition" class="section level1">
+<h1>Statistical Intuition</h1>
+<div id="the-univariate-mixed-effects-model" class="section level2">
+<h2>The univariate mixed-effects model</h2>
+<p>In univariate mixed-effects model: <span class="math inline">\(\mathbf{y} = \mathbf{Xb} + \mathbf{Zu} + \mathbf{e}\)</span> (1), we estimate the variance component <span class="math inline">\(\sigma_u^2\)</span> and <span class="math inline">\(\sigma_e^2\)</span> for <span class="math inline">\(\mathbf{u} \sim N(\mathbf{0}, \sigma_u^2\mathbf{I})\)</span> and <span class="math inline">\(\mathbf{e} \sim N(\mathbf{0}, \sigma_e^2\mathbf{I})\)</span>.</p>
+<p>In formula (1):
+<span class="math inline">\(\mathbf{y}\)</span> is n <span class="math inline">\(\times\)</span> 1 response vector;
+<span class="math inline">\(\mathbf{X}\)</span> and <span class="math inline">\(\mathbf{Z}\)</span> are n <span class="math inline">\(\times\)</span> p and n <span class="math inline">\(\times\)</span> s;
+<span class="math inline">\(\mathbf{b}\)</span> is p <span class="math inline">\(\times\)</span> 1 coefficients vector for the fixed effects;
+<span class="math inline">\(\mathbf{u}\)</span> is s <span class="math inline">\(\times\)</span> 1 matrix for the random effects,
+<span class="math inline">\(\mathbf{e}\)</span> is n <span class="math inline">\(\times\)</span> 1 vector of random errors.</p>
+</div>
+<div id="the-multivariate-mixed-effects-model" class="section level2">
+<h2>The multivariate mixed-effects model</h2>
+<p>In multivariate mixed-effects model: <span class="math inline">\(\mathbf{y} = (\mathbf{I} \otimes \mathbf{X})\mathbf{b} + (\mathbf{I} \otimes \mathbf{Z} )\mathbf{u} + \mathbf{e}\)</span> (2), in which <span class="math inline">\(\mathbf{y} = \left\{\mathbf{y}_i\right\}_c, \mathbf{b} = \left\{\mathbf{b}_i\right\}_c, \mathbf{u} = \left\{\mathbf{u}_i\right\}_c, \mathbf{e} = \left\{\mathbf{e}_i\right\}_c, i =1, \dots, q\)</span>, we estimate the variance-covariance matrix of random effects <span class="math inline">\(\mathbf{u}\)</span> and <span class="math inline">\(\mathbf{e}\)</span> on <span class="math inline">\(q\)</span> response variates, namely <span class="math inline">\(\mathbf{T}\)</span> and <span class="math inline">\(\mathbf{E}\)</span>, for
+<span class="math inline">\(var(\mathbf{u}) = \mathbf{G} = \mathbf{T}\otimes \mathbf{I}_s, var(\mathbf{e}) = \mathbf{R} = \mathbf{E} \otimes \mathbf{I}_n, var(\mathbf{y}) = \mathbf{V} = \mathbf{T}\otimes \mathbf{ZZ}&#39; + \mathbf{E} \otimes \mathbf{I}_n\)</span>.</p>
+<p>In formula (2):
+<span class="math inline">\(\mathbf{y}\)</span> is n<em>q <span class="math inline">\(\times\)</span> 1 response vector;
+<span class="math inline">\(\mathbf{X}\)</span> is n <span class="math inline">\(\times\)</span> p design matrix for the fixed effects;
+<span class="math inline">\(\mathbf{b}\)</span> is p</em>q <span class="math inline">\(\times\)</span> 1 coefficients vector for the fixed effects;
+<span class="math inline">\(\mathbf{Z}\)</span> is n <span class="math inline">\(\times\)</span> s design matrix for the random effects;
+<span class="math inline">\(\mathbf{u}\)</span> is s<em>q <span class="math inline">\(\times\)</span> 1 vector of the random effects;
+<span class="math inline">\(\mathbf{e}\)</span> is n</em>q <span class="math inline">\(\times\)</span> 1 vector of random errors.</p>
+</div>
+</div>
+<div id="an-implementation-example" class="section level1">
+<h1>An Implementation Example</h1>
+<pre class="r"><code># install.packages(&quot;MMeM&quot;)
+library(MMeM)
+data(simdata)</code></pre>
+<div id="initialization" class="section level2">
+<h2>Initialization</h2>
+<pre class="r"><code># initialize with a positive-definiate var-cov
+T.start = matrix(c(10, 5, 5, 15), 2, 2)
+E.start = matrix(c(10, 1, 1, 3), 2, 2)</code></pre>
+</div>
+<div id="estimation" class="section level2">
+<h2>Estimation</h2>
+<pre class="r"><code># using the Henderson3 estimation mothod
+results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = simdata, factor_X = TRUE)</code></pre>
+<pre><code>## Bivariate response: V1 and V2</code></pre>
+<pre class="r"><code>print(results_henderson)</code></pre>
+<pre><code>## $T.estimates
+##                 T: V1   T: V1 V2     T: V2
+## T.estimates  65.47395   9.969188  9.766204
+## T.variance  807.56303 128.824836 20.552160
+## 
+## $E.estimates
+##                E: V1  E: V1 V2     E: V2
+## E.estimates 55.74506 11.477502 41.171927
+## E.variance  11.09826  8.196899  6.054027</code></pre>
+</div>
+</div>
+
+</main>
+
+
+
+<hr>
+
+<style type="text/css">
+table {
+  border:1px #FFFFFF;
+}
+</style>
+
+ <table style="width:100%">
+  <tr>
+    <th align="left">
+      <a href="/post/2019/03/06/regrrr-released-compiling-regression-results/"> « Previous</a>
+  </th>
+    <th align="right"><a href="/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/">Next » </a>
+  </th></tr>
+ </table> 
+
+
+
+
+
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+width: 32px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+<span style="color: silver;">Share on: </span><div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/www.yang.management\/post\/2019\/03\/10\/mmem-an-r-package\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=https:\/\/www.yang.management\/post\/2019\/03\/10\/mmem-an-r-package\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/www.yang.management\/post\/2019\/03\/10\/mmem-an-r-package\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+
+</div>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135383906-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rkyang" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+  
+  <hr/>
+  &copy; 2019 <a href='https://www.yang.management' target='_self'>Yang.Management</a> | <a href="https://github.com/RkzYang" target="_blank">GitHub</a> | <a href="https://twitter.com/rky_phd" target="_blank">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+

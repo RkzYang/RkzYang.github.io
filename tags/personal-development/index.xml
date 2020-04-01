@@ -12,33 +12,11 @@
     
     <item>
       <title>Aim, Think, and Act: System Maps for Mental State</title>
-      <link>/ent/aim-think-walk/</link>
+      <link>/ent_tools/aim-think-walk/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/ent/aim-think-walk/</guid>
+      <guid>/ent_tools/aim-think-walk/</guid>
       <description>
----
-title: &#34;Aim, Think, and Act: System Maps for Mental State&#34;
-description: &#39;think through these system maps to safeguard self-motivation and avoid pitfalls&#39;
-author: &#39;&#39;
-date: &#39;2020-03-31&#39;
-slug: aim-think-walk
-categories:
-  - entrepreneurship
-tags:
-  - personal development
-  - system map
-twitter:
-  card: &#34;summary&#34;
-  title: &#34;system mapping of self-motivation&#34;
-  site: &#34;@rky_phd&#34;
-  description: &#34;using system mapping to motivate yourself&#34;
-  image: &#34;https://www.yang.management/Yang_logo.png&#34;
-output:
-  blogdown::html_page:
-    toc: true
----
-
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -57,7 +35,7 @@ output:
 &lt;li&gt;Search more (frequency) and search farther (space).&lt;/li&gt;
 &lt;li&gt;Don’t estimate the time needed for making improvement based on the current solution.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/ENT/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The first type of self-motivator is goal-setting. For the future, not only you need to have a CLEAR goal, but also you need to make it very CHALLENGING&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and even seem impossible&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. Aiming high generates aspiration, which will trigger SEARCH behavior&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. The more you keep aiming high, the more frequently and farther you search for alternative solutions. It is natural and typical that you don’t find a solution each time you search. But the more you search, the more likely you will experience an epiphany and find the ONE idea among a series of many ideas to improve your condition effectively and drastically. Keep aiming high, because the fulfillment of your aspiration from an improvement of your condition will also weaken your aspiration.&lt;/p&gt;
 &lt;p&gt;The pitfall is not to repeatedly and frequently energize your aspiration by keeping a clear and challenging goal, because it may seem to take a long time. You develop a false belief, when you estimate the time to make needed improvement based on the current rate of progress. It seems to take a long time because you have not yet found the solution to expedite your growth. Finding a solution requires more search. More search is driven by your aspiration, which is energized by your goal. Take as much time as you need to set your goal. Write it on your wall.&lt;/p&gt;
 &lt;/div&gt;
@@ -68,7 +46,7 @@ output:
 &lt;li&gt;Expect the DELAY to use the right solution to solve the right problem.&lt;/li&gt;
 &lt;li&gt;Avoid quick fix (e.g. instant gratification).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/ENT/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The second type of self-motivator is problem-solving. Your success is the way you spend your time doing your BEST—the way you take the talent you were born with and all the knowledge and skills you’ve since developed in the past and using them toward a problem at present. We have limited mental capacity to mobilize rationality and need time to reason&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. It takes time for us to think through to find the most important problem to solve. It also takes time to find the fundamental solution—the right one. If you use the right solution to solve the right problem, you also solve all the problems. It is once and for all.&lt;/p&gt;
 &lt;p&gt;The pitfall is not to take time and think deep enough to find the fundamental solution. This critical step only requires patience. But since there is a DELAY for the fundamental solution to takes effect in addressing the problem, your emotional thinking and physiological drive will offer a quick fix. The less patience you have, the more you are tempted to use the quick fix. However, the quick fix, such as an instant gratification or a duct tape, can only solve your current problem by shifting the burden to the near future—leaving you with more problems to solve. Think hard before you act.&lt;/p&gt;
 &lt;/div&gt;
@@ -79,7 +57,7 @@ output:
 &lt;li&gt;Expect the DELAY.&lt;/li&gt;
 &lt;li&gt;Fix the goal (and never compromise).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/ENT/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The third type of self-motivator is action-taking. A quote by Jack Welch: “you pick a general direction and implement it like hell.” Expect the delay when you gradually put things together for the action taken to take effect. Live in the present. Mentally, focus on the task to reach a “flow” state&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;, in which you are fully immersed in a feeling of energized focus and enjoyment in the process. Just live in the present, and let your action take its course in improving your condition, as your goal has been fixed to rest yourself in the “flow”.&lt;/p&gt;
 &lt;p&gt;The pitfall is not to focus on the action with a fixed goal but too much on the gap between your current condition and your goal. It is easy to think fast than act fast. Usually when people don’t act fast, they think too much. The more you move your mental energy away from the action to worry about the condition, the more psychological stress you imprudently develop, urging you and tempting you to compromise your goal. When you tune your mind into such a compromise channel, the delay for action to improve condition will seem forever and become so hard to endure. If you don’t like a mixed feeling of relaxing and helpless, fix your goal and focus on your action, not your condition.&lt;/p&gt;
 &lt;/div&gt;

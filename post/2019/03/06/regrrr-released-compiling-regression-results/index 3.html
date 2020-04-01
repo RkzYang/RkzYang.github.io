@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="R package for compiling and plotting regression results, including moderating effects">
+    <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results | Rui Yang | Ray Yang, Strategy, U. California, Riverside</title>
+    
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    <meta property="og:title" content="“regrrr”: One-stop R-toolkit for Compiling Regression Results" />
+<meta property="og:description" content="R package for compiling and plotting regression results, including moderating effects" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2019/03/06/regrrr-released-compiling-regression-results/" />
+
+<meta property="og:image" content="/Yang_logo.png" />
+<meta property="article:published_time" content="2019-03-06T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-03-06T00:00:00&#43;00:00"/><meta property="og:site_name" content="Yang&#39;s Strategy Thinking" />
+
+
+    
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@rky_phd">
+<meta name="twitter:title" content="&#39;regrrr&#39;: One-stop R-toolkit for Compiling Regression Results">
+<meta name="twitter:image" content="https://www.yang.management/R.jpeg">
+
+
+
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/about/">About</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/pages/">Pages</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+  </body>
+
+<link rel="stylesheet" href="/css/github-gist.css" rel="stylesheet" id="theme-stylesheet">
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<div class="article-meta">
+<h1><span class="title">“regrrr”: One-stop R-toolkit for Compiling Regression Results</span></h1>
+
+<h2 class="date">2019/03/06</h2>
+
+<p class="terms">
+  
+  
+  Categories: <a href="/categories/r">R</a> <a href="/categories/r-package">R Package</a> <a href="/categories/visualization">visualization</a> 
+  
+  
+  
+  Tags: <a href="/tags/r">R</a> <a href="/tags/r-package">R Package</a> <a href="/tags/visualization">visualization</a> 
+  
+  
+</p>
+
+<img src="" />
+
+</div>
+
+<main>
+
+
+<div id="TOC">
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#examples">Examples</a><ul>
+<li><a href="#compile-the-correlation-table">compile the correlation table</a></li>
+<li><a href="#compile-the-regression-table">compile the regression table</a></li>
+<li><a href="#plot-the-moderating-effect">plot the moderating effect</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>Today, I released an R package <a href="https://CRAN.R-project.org/package=regrrr" target="_blank"> “regrrr”</a> on <a href="https://cran.r-project.org" target="_blank">Cran</a>. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.</p>
+<p>Here is the quickstart guide.</p>
+<p><a href="http://www.rdocumentation.org/packages/regrrr"><img src="http://www.rdocumentation.org/badges/version/regrrr" alt="Rdoc" /></a>
+<a href="https://cran.r-project.org/package=regrrr"><img src="https://cranlogs.r-pkg.org/badges/regrrr" /></a></p>
+<div id="installation" class="section level1">
+<h1>Installation</h1>
+<p>To install from CRAN:</p>
+<pre><code>install.packages(&quot;regrrr&quot;)
+library(regrrr)</code></pre>
+<p>You can also use devtools to install the latest development version:</p>
+<pre><code>devtools::install_github(&quot;raykyang/regrrr&quot;)
+library(regrrr)</code></pre>
+</div>
+<div id="examples" class="section level1">
+<h1>Examples</h1>
+<div id="compile-the-correlation-table" class="section level2">
+<h2>compile the correlation table</h2>
+<pre class="r"><code>library(regrrr)
+data(mtcars)
+m0 &lt;- lm(mpg ~ vs + carb + hp + wt, data = mtcars)
+m1 &lt;- update(m0, . ~ . + wt * hp)
+m2 &lt;- update(m1, . ~ . + wt * vs)
+cor.table(data = m2$model)</code></pre>
+<pre><code>##          Mean  S.D.     1     2    3    4    5
+## 1.mpg   20.09  6.03  1.00                     
+## 2.vs     0.44  0.50  0.66  1.00               
+## 3.carb   2.81  1.62 -0.55 -0.57 1.00          
+## 4.hp   146.69 68.56 -0.78 -0.72 0.75 1.00     
+## 5.wt     3.22  0.98 -0.87 -0.55 0.43 0.66 1.00</code></pre>
+</div>
+<div id="compile-the-regression-table" class="section level2">
+<h2>compile the regression table</h2>
+<pre class="r"><code>regression_table &lt;- rbind(
+combine_long_tab(to_long_tab(summary(m0)$coef),
+                 to_long_tab(summary(m1)$coef),
+                 to_long_tab(summary(m2)$coef)),
+compare_models(m0, m1, m2))
+rownames(regression_table) &lt;- NULL
+print(regression_table)</code></pre>
+<pre><code>##        Variables   Model 0   Model 1   Model 2
+## 1    (Intercept) 35.435*** 48.157*** 46.698***
+## 2                  (2.503)   (4.097)   (9.272)
+## 3             vs     1.353     1.077     2.171
+## 4                  (1.382)   (1.152)   (6.320)
+## 5           carb    -0.057    -0.043    -0.009
+## 6                  (0.449)   (0.374)   (0.426)
+## 7             hp   -0.024† -0.113***   -0.107*
+## 8                  (0.014)   (0.027)   (0.044)
+## 9             wt -3.792*** -8.071***   -7.594*
+## 10                 (0.658)   (1.307)   (3.016)
+## 11         hp:wt             0.027**    0.025†
+## 12                           (0.008)   (0.015)
+## 13         vs:wt                        -0.367
+## 14                                     (2.081)
+## 15     R_squared     0.833     0.889     0.889
+## 16 Adj_R_squared     0.808     0.867     0.862
+## 17       Delta_F            12.517**     0.031</code></pre>
+</div>
+<div id="plot-the-moderating-effect" class="section level2">
+<h2>plot the moderating effect</h2>
+<pre class="r"><code>plot_effect(reg.coef = summary(m2)$coefficients, data = mtcars, model = m2,
+            x_var.name = &quot;wt&quot;, y_var.name = &quot;mpg&quot;, moderator.name = &quot;hp&quot;,
+            confidence_interval = TRUE,  CI_Ribbon = FALSE, 
+            xlab = &quot;Weight&quot;, ylab = &quot;MPG&quot;, moderator.lab = &quot;Horsepower&quot;) +
+ggplot2::theme(text=ggplot2::element_text(family=&quot;Times New Roman&quot;, size = 16))</code></pre>
+<p><img src="/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>As you can see from the last line of code, the plot is customizable using <a href="https://CRAN.R-project.org/package=ggplot2" target="_blank">“ggplot2”</a>. There are a couple of other functions. Please see the <a href="https://www.rdocumentation.org/packages/regrrr" target="_blank">reference manual on R documentation</a> for details.</p>
+<p>I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the <a href="https://github.com/RayKYang/regrrr" target="_blank"> GitHub</a> page.</p>
+</div>
+</div>
+
+</main>
+
+
+
+<hr>
+
+<style type="text/css">
+table {
+  border:1px #FFFFFF;
+}
+</style>
+
+ <table style="width:100%">
+  <tr>
+    <th align="left">
+      <a href="/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/"> « Previous</a>
+  </th>
+    <th align="right"><a href="/post/2019/03/10/mmem-an-r-package/">Next » </a>
+  </th></tr>
+ </table> 
+
+
+
+
+
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+width: 32px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+<span style="color: silver;">Share on: </span><div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/www.yang.management\/post\/2019\/03\/06\/regrrr-released-compiling-regression-results\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=https:\/\/www.yang.management\/post\/2019\/03\/06\/regrrr-released-compiling-regression-results\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/www.yang.management\/post\/2019\/03\/06\/regrrr-released-compiling-regression-results\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+
+</div>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135383906-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rkyang" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+  
+  <hr/>
+  &copy; 2019 <a href='https://www.yang.management' target='_self'>Yang.Management</a> | <a href="https://github.com/RkzYang" target="_blank">GitHub</a> | <a href="https://twitter.com/rky_phd" target="_blank">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+

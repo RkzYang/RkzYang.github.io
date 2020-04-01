@@ -21,13 +21,13 @@
   </url>
   
   <url>
-    <loc>/pages/blogdown/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/blogdown/</loc>
+    <loc>/pages/blogdown/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -49,7 +49,7 @@
   </url>
   
   <url>
-    <loc>/ent/aim-think-walk/</loc>
+    <loc>/ent_tools/aim-think-walk/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,7 +59,7 @@
   </url>
   
   <url>
-    <loc>/ent/</loc>
+    <loc>/ent_tools/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -197,13 +197,13 @@
   </url>
   
   <url>
-    <loc>/categories/positioning/</loc>
+    <loc>/tags/positioning/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/positioning/</loc>
+    <loc>/categories/positioning/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -244,13 +244,13 @@
   </url>
   
   <url>
-    <loc>/categories/visualization/</loc>
+    <loc>/tags/visualization/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/visualization/</loc>
+    <loc>/categories/visualization/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -266,7 +266,7 @@
   </url>
   
   <url>
-    <loc>/ent/using-system-map-in-business-modeling/</loc>
+    <loc>/ent_tools/using-system-map-in-business-modeling/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
