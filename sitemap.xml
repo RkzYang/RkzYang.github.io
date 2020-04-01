@@ -21,13 +21,13 @@
   </url>
   
   <url>
-    <loc>/tags/blogdown/</loc>
+    <loc>/pages/blogdown/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/pages/blogdown/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -46,6 +46,58 @@
   <url>
     <loc>/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ent/aim-think-walk/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/str_consulting/an-ongoing-collection-of-strategy-matrices/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ent/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/str_consulting/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/entrepreneurship/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/personal-development/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/strategy/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/strategy/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/system-map/</loc>
+    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -100,12 +152,6 @@
   
   <url>
     <loc>/categories/business/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/strategy/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -220,14 +266,8 @@
   </url>
   
   <url>
-    <loc>/post/2019/02/28/using-system-map-in-business-modeling/</loc>
+    <loc>/ent/using-system-map-in-business-modeling/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/system-map/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

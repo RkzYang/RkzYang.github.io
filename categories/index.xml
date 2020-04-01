@@ -20,20 +20,29 @@
     </item>
     
     <item>
-      <title>business</title>
-      <link>/categories/business/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <title>entrepreneurship</title>
+      <link>/categories/entrepreneurship/</link>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/business/</guid>
+      <guid>/categories/entrepreneurship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>strategy</title>
       <link>/categories/strategy/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/strategy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>business</title>
+      <link>/categories/business/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/business/</guid>
       <description></description>
     </item>
     
