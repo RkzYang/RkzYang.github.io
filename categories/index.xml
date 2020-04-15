@@ -20,6 +20,33 @@
     </item>
     
     <item>
+      <title>business</title>
+      <link>/categories/business/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>positioning</title>
+      <link>/categories/positioning/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/positioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>/categories/visualization/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>entrepreneurship</title>
       <link>/categories/entrepreneurship/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
@@ -38,29 +65,11 @@
     </item>
     
     <item>
-      <title>business</title>
-      <link>/categories/business/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/business/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>technology</title>
       <link>/categories/technology/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>positioning</title>
-      <link>/categories/positioning/</link>
-      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/positioning/</guid>
       <description></description>
     </item>
     
@@ -79,15 +88,6 @@
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/r-package/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>visualization</title>
-      <link>/categories/visualization/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/visualization/</guid>
       <description></description>
     </item>
     

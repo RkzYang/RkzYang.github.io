@@ -5,10 +5,73 @@
     <description>Recent content in Python on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mapping Twitter Topics and Sentiment about FAAMG Companies since Covid-19 Outbreak</title>
+      <link>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1 Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#procedures&#34;&gt;2 Procedures&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#data-source&#34;&gt;2.1 Data Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#topic-modeling&#34;&gt;2.2 Topic Modeling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#results&#34;&gt;3 Results&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#perceptual-map-of-faamg-based-on-topic-sentiment&#34;&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#keywords-co-occurrence-network-on-each-topic&#34;&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1 Motivation&lt;/h1&gt;
+&lt;p&gt;On a whim, I mapped out what people say (the text) and feel (the sentiment) about the top tech companies (FAAMG) on twitter since the Covid-19 outbreak. The keywords and sentiment that are associated with the main topics should differ across these companies.&lt;/p&gt;
+&lt;p&gt;By no means I am drawing any causal association here. But the story starts with checking the recent price movements of the FAAMG stocks. But obviously Covid-19 has impacted these companies quite differently.
+&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;procedures&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2 Procedures&lt;/h1&gt;
+&lt;div id=&#34;data-source&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.1 Data Source&lt;/h2&gt;
+&lt;p&gt;For each company, I downloaded 1,000 tweets containing the company name as the hashtag (e.g. “#amazon” for Amazon).
+I used Python module “tweepy” to stream the data and set the “since” parameter to ‘2020-03-01’, which collects a sample of 1,000 tweets since March 1st.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;topic-modeling&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.2 Topic Modeling&lt;/h2&gt;
+&lt;p&gt;Using Python module “gensim”, I detected three most significant topics (including Covid-19, business, and daily life), which are named by the associated keywords (most relevant terms).
+&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;
+Using Python module “vaderSentiment”, I computed sentiment scores for each tweet and aggregated the scores by company. The topic-based sentiment scores are used to construct the perceptual map, in which each company takes a different position.
+Using Python module “nltk”, I find the most frequent topic-based co-occurring words for each company.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;results&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3 Results&lt;/h1&gt;
+&lt;div id=&#34;perceptual-map-of-faamg-based-on-topic-sentiment&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;pentual map and the positioning of each company&#34;&gt;
+It looks Amazon does well on all topics, especially on Covid-19-related topic. Microsoft and Apple do well on “Business”.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;keywords-co-occurrence-network-on-each-topic&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/h2&gt;
+&lt;p&gt;Here are the work keywords co-occurrence patterns for each topic of these companies.
+&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Interoperability in Tech. Evolution—Thoughts on “Reticulate&#34;</title>

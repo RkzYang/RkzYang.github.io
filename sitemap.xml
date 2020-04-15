@@ -49,6 +49,53 @@
   </url>
   
   <url>
+    <loc>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/research/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/business/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/positioning/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/positioning/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/visualization/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/visualization/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/ent_tools/aim-think-walk/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
@@ -151,12 +198,6 @@
   </url>
   
   <url>
-    <loc>/categories/business/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -197,26 +238,8 @@
   </url>
   
   <url>
-    <loc>/categories/positioning/</loc>
-    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/positioning/</loc>
-    <lastmod>2019-03-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/python/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -239,18 +262,6 @@
   
   <url>
     <loc>/categories/r-package/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/visualization/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/visualization/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -286,11 +297,6 @@
   
   <url>
     <loc>/research/research/</loc>
-  </url>
-  
-  <url>
-    <loc>/research/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

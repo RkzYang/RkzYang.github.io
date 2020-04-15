@@ -20,6 +20,33 @@
     </item>
     
     <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>positioning</title>
+      <link>/tags/positioning/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/positioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visualization</title>
+      <link>/tags/visualization/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>personal development</title>
       <link>/tags/personal-development/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
@@ -83,24 +110,6 @@
     </item>
     
     <item>
-      <title>positioning</title>
-      <link>/tags/positioning/</link>
-      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/positioning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>/tags/python/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>R</title>
       <link>/tags/r/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -115,15 +124,6 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/r-package/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>visualization</title>
-      <link>/tags/visualization/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/visualization/</guid>
       <description></description>
     </item>
     

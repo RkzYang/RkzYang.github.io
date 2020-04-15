@@ -24,6 +24,69 @@
     </item>
     
     <item>
+      <title>Mapping Twitter Topics and Sentiment about FAAMG Companies since Covid-19 Outbreak</title>
+      <link>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1 Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#procedures&#34;&gt;2 Procedures&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#data-source&#34;&gt;2.1 Data Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#topic-modeling&#34;&gt;2.2 Topic Modeling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#results&#34;&gt;3 Results&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#perceptual-map-of-faamg-based-on-topic-sentiment&#34;&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#keywords-co-occurrence-network-on-each-topic&#34;&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1 Motivation&lt;/h1&gt;
+&lt;p&gt;On a whim, I mapped out what people say (the text) and feel (the sentiment) about the top tech companies (FAAMG) on twitter since the Covid-19 outbreak. The keywords and sentiment that are associated with the main topics should differ across these companies.&lt;/p&gt;
+&lt;p&gt;By no means I am drawing any causal association here. But the story starts with checking the recent price movements of the FAAMG stocks. But obviously Covid-19 has impacted these companies quite differently.
+&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;procedures&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2 Procedures&lt;/h1&gt;
+&lt;div id=&#34;data-source&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.1 Data Source&lt;/h2&gt;
+&lt;p&gt;For each company, I downloaded 1,000 tweets containing the company name as the hashtag (e.g. “#amazon” for Amazon).
+I used Python module “tweepy” to stream the data and set the “since” parameter to ‘2020-03-01’, which collects a sample of 1,000 tweets since March 1st.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;topic-modeling&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.2 Topic Modeling&lt;/h2&gt;
+&lt;p&gt;Using Python module “gensim”, I detected three most significant topics (including Covid-19, business, and daily life), which are named by the associated keywords (most relevant terms).
+&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;
+Using Python module “vaderSentiment”, I computed sentiment scores for each tweet and aggregated the scores by company. The topic-based sentiment scores are used to construct the perceptual map, in which each company takes a different position.
+Using Python module “nltk”, I find the most frequent topic-based co-occurring words for each company.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;results&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3 Results&lt;/h1&gt;
+&lt;div id=&#34;perceptual-map-of-faamg-based-on-topic-sentiment&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;pentual map and the positioning of each company&#34;&gt;
+It looks Amazon does well on all topics, especially on Covid-19-related topic. Microsoft and Apple do well on “Business”.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;keywords-co-occurrence-network-on-each-topic&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/h2&gt;
+&lt;p&gt;Here are the work keywords co-occurrence patterns for each topic of these companies.
+&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Aim, Think, and Act: System Maps for Mental State</title>
       <link>/ent_tools/aim-think-walk/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
@@ -49,8 +112,8 @@
 &lt;li&gt;Don’t estimate the time needed for making improvement based on the current solution.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The first type of self-motivator is goal-setting. For the future, not only you need to have a CLEAR goal, but also you need to make it very CHALLENGING&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and even seem impossible&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. Aiming high generates aspiration, which will trigger SEARCH behavior&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. The more you keep aiming high, the more frequently and farther you search for alternative solutions. It is natural and typical that you don’t find a solution each time you search. But the more you search, the more likely you will experience an epiphany and find the ONE idea among a series of many ideas to improve your condition effectively and drastically. Keep aiming high, because the fulfillment of your aspiration from an improvement of your condition will also weaken your aspiration.&lt;/p&gt;
-&lt;p&gt;The pitfall is not to repeatedly and frequently energize your aspiration by keeping a clear and challenging goal, because it may seem to take a long time. You develop a false belief, when you estimate the time to make needed improvement based on the current rate of progress. It seems to take a long time because you have not yet found the solution to expedite your growth. Finding a solution requires more search. More search is driven by your aspiration, which is energized by your goal. Take as much time as you need to set your goal. Write it on your wall.&lt;/p&gt;
+&lt;p&gt;The first type of self-motivator is goal-setting. For the future, not only you need to have a CLEAR goal, but also you need to make it CHALLENGING&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and even seem impossible&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. Aiming high generates aspiration, which will trigger SEARCH behavior&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. The more you keep aiming high, the more frequently and farther you search for alternative solutions. It is natural and typical that you don’t find a solution each time you search. But the more you search, the more likely you will experience an epiphany and find the ONE idea among a series of many ideas to improve your condition effectively and drastically. Keep aiming high, because the fulfillment of your aspiration from an improvement of your condition will also weaken your aspiration.&lt;/p&gt;
+&lt;p&gt;The pitfall: not to repeatedly and frequently energize your aspiration by keeping a clear and challenging goal, because it may seem to take a long time. You develop a false belief when you estimate the time needed to make improvement based on the current rate of progress. It seems to take a long time because you have not yet found the solution to expedite your growth. Finding a solution requires more search. More search is driven by your aspiration, which is energized by your goal. Take as much time as you need to set your goal. Write it on your wall.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;think-deep-and-prevent-shifting-burden&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Think Deep and Prevent ‘Shifting Burden’&lt;/h2&gt;
@@ -61,18 +124,18 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The second type of self-motivator is problem-solving. Your success is the way you spend your time doing your BEST—the way you take the talent you were born with and all the knowledge and skills you’ve since developed in the past and using them toward a problem at present. We have limited mental capacity to mobilize rationality and need time to reason&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. It takes time for us to think through to find the most important problem to solve. It also takes time to find the fundamental solution—the right one. If you use the right solution to solve the right problem, you also solve all the problems. It is once and for all.&lt;/p&gt;
-&lt;p&gt;The pitfall is not to take time and think deep enough to find the fundamental solution. This critical step only requires patience. But since there is a DELAY for the fundamental solution to takes effect in addressing the problem, your emotional thinking and physiological drive will offer a quick fix. The less patience you have, the more you are tempted to use the quick fix. However, the quick fix, such as an instant gratification or a duct tape, can only solve your current problem by shifting the burden to the near future—leaving you with more problems to solve. Think hard before you act.&lt;/p&gt;
+&lt;p&gt;The pitfall: not to take time and think deep enough to find the fundamental solution. This critical step only requires patience. But since there is a DELAY for the fundamental solution to takes effect in addressing the problem, your emotional thinking and physiological drive will offer a quick fix. The less patience you have, the more you are tempted to use the quick fix. However, the quick fix, such as an instant gratification or a duct tape, can only solve your current problem by shifting the burden to the near future—leaving you with more problems to solve. Think hard before you act.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;act-fast-and-prevent-eroding-goals&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Act Fast and Prevent ‘Eroding Goals’&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Take action.&lt;/li&gt;
+&lt;li&gt;FOCUS on the action.&lt;/li&gt;
 &lt;li&gt;Expect the DELAY.&lt;/li&gt;
-&lt;li&gt;Fix the goal (and never compromise).&lt;/li&gt;
+&lt;li&gt;FIX the goal (and never compromise).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The third type of self-motivator is action-taking. A quote by Jack Welch: “you pick a general direction and implement it like hell.” Expect the delay when you gradually put things together for the action taken to take effect. Live in the present. Mentally, focus on the task to reach a “flow” state&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;, in which you are fully immersed in a feeling of energized focus and enjoyment in the process. Just live in the present, and let your action take its course in improving your condition, as your goal has been fixed to rest yourself in the “flow”.&lt;/p&gt;
-&lt;p&gt;The pitfall is not to focus on the action with a fixed goal but too much on the gap between your current condition and your goal. It is easy to think fast than act fast. Usually when people don’t act fast, they think too much. The more you move your mental energy away from the action to worry about the condition, the more psychological stress you imprudently develop, urging you and tempting you to compromise your goal. When you tune your mind into such a compromise channel, the delay for action to improve condition will seem forever and become so hard to endure. If you don’t like a mixed feeling of relaxing and helpless, fix your goal and focus on your action, not your condition.&lt;/p&gt;
+&lt;p&gt;The third type of self-motivator is action-taking. A quote by Jack Welch: “you pick a general direction and implement it like hell.” Expect the DELAY for the action taken to take effect. Live in the PRESENT. Focus on the task flow&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;, in which you are fully immersed in a feeling of energized focus and enjoyment in the process. This is a simple 3-step process: fix your goal in your mind, rest your focus in the action, and let the action take its course to improve the condition.&lt;/p&gt;
+&lt;p&gt;The pitfall: not to focus on the action with a fixed goal but too much on the gap between your current condition and your goal. It is easy to think fast than act fast. Usually when people don’t act fast, they think too much. The more you move your mental energy away from the action to worry about the condition, the more psychological stress you imprudently develop, urging you and tempting you to compromise your goal. When you tune your mind into such a compromise channel, the delay for action to improve condition will seem forever and become so hard to endure. If you don’t like a mixed feeling of relaxing and helpless, fix your goal and focus on your action, not your condition.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
@@ -180,7 +243,6 @@ As a tool of strategic decision making, each matrix is made of two analytical di
       <description>
 
 
-&lt;p&gt;This result is based on Henandez’s ASQ and MS (only two) papers. Further investigations are underway.&lt;/p&gt;
 &lt;div id=&#34;central-themes-network-of-co-occurrence-keywords&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;1 Central Themes: Network of Co-occurrence Keywords&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
@@ -189,26 +251,22 @@ As a tool of strategic decision making, each matrix is made of two analytical di
 &lt;h2&gt;2 the “Classic” Papers&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central papers (top 30) in co-citation network&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##        AHUJA G 2012        LAVIE D 2006       ZAHEER A 2005 
-##            1.000000            1.000000            1.000000 
-##        AHUJA G 2000        ANJOS F 2015        DEVOS E 2009 
-##            1.000000            1.000000            1.000000 
-##     GULATI R 1999-1        ROGAN M 2014       RYALL MD 2007 
-##            1.000000            1.000000            1.000000 
-##      SHAVER JM 2006    BARABASI AL 1999        BURT R. 1992 
-##            1.000000            1.000000            1.000000 
-##      BUSKENS V 2008        ERDOS P 1959    HERNANDEZ E 2015 
-##            1.000000            1.000000            1.000000 
-##         LIN N. 2001       PHELPS C 2012     PODOLNY JM 2001 
-##            1.000000            1.000000            1.000000 
-##       ROGAN M. 2013 TATARYNOWICZ A 2016       GREVE H. 2014 
-##            1.000000            1.000000            1.000000 
-##  HASPESLAGH P. 1991     HIGGINS MJ 2006       ZAHEER A 2010 
-##            1.000000            1.000000            1.000000 
-##       BAUM JAC 2000      PORRINI P 2004        SYTCH M 2014 
-##            1.000000            1.000000            1.000000 
-##    HERNANDEZ E 2018     MINDRUTA D 2016         BALA V 2000 
-##            0.572516            0.572516            0.572516&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##       BAUM JAC 2000        ANJOS F 2015       GREVE H. 2014        LAVIE D 2006 
+##            1.000000            1.000000            1.000000            1.000000 
+##       PHELPS C 2012     PODOLNY JM 2001      PORRINI P 2004 TATARYNOWICZ A 2016 
+##            1.000000            1.000000            1.000000            1.000000 
+##       ZAHEER A 2010        AHUJA G 2000        ERDOS P 1959     GULATI R 1999-1 
+##            1.000000            1.000000            1.000000            1.000000 
+##  HASPESLAGH P. 1991    HERNANDEZ E 2015     HIGGINS MJ 2006         LIN N. 2001 
+##            1.000000            1.000000            1.000000            1.000000 
+##       ROGAN M. 2013        ROGAN M 2014        SYTCH M 2014       ZAHEER A 2005 
+##            1.000000            1.000000            1.000000            1.000000 
+##        BURT R. 1992      BUSKENS V 2008        DEVOS E 2009        AHUJA G 2012 
+##            1.000000            1.000000            1.000000            1.000000 
+##    BARABASI AL 1999       RYALL MD 2007      SHAVER JM 2006       ADLER N. 2005 
+##            1.000000            1.000000            1.000000            0.572516 
+##        ARORA A 1990         BALA V 2000 
+##            0.572516            0.572516&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
     </item>
