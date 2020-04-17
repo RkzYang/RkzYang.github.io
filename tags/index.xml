@@ -20,20 +20,38 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>/tags/python/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <title>big firms</title>
+      <link>/tags/big-firms/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>/tags/big-firms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>market categories</title>
+      <link>/tags/market-categories/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/market-categories/</guid>
       <description></description>
     </item>
     
     <item>
       <title>positioning</title>
       <link>/tags/positioning/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/positioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     
@@ -97,15 +115,6 @@
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/life-cycle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>market categories</title>
-      <link>/tags/market-categories/</link>
-      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/market-categories/</guid>
       <description></description>
     </item>
     

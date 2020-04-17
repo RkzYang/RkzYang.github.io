@@ -22,7 +22,7 @@
     <item>
       <title>business</title>
       <link>/categories/business/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/business/</guid>
       <description></description>
@@ -31,9 +31,18 @@
     <item>
       <title>positioning</title>
       <link>/categories/positioning/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/positioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strategy</title>
+      <link>/categories/strategy/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/strategy/</guid>
       <description></description>
     </item>
     
@@ -52,15 +61,6 @@
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/entrepreneurship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>strategy</title>
-      <link>/categories/strategy/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/strategy/</guid>
       <description></description>
     </item>
     
