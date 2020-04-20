@@ -5,10 +5,45 @@
     <description>Recent content in life cycle on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/life-cycle/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dalio&#39;s Micro-economic &#39;Machine&#39; and Short-term and Long-term Debt Cycles</title>
+      <link>/investing/the-short-term-and-long-term-debt-cycle/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/investing/the-short-term-and-long-term-debt-cycle/</guid>
+      <description>
+---
+title: &#34;Dalio&#39;s Micro-economic &#39;Machine&#39; and Short-term and Long-term Debt Cycles&#34;
+author: &#39;&#39;
+date: &#39;2020-04-18&#39;
+slug: the-short-term-and-long-term-debt-cycle
+categories:
+  - business
+tags:
+  - banking
+  - life cycle
+  - system map
+---
+
+
+
+&lt;div id=&#34;backgroud&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1. Backgroud&lt;/h1&gt;
+&lt;p&gt;Ray Dalio at Bridgewater Associates has provided a model (in narratives in his book and an animation video), which illustrates how the macro-economy and the banking system work in a mechanical way like a machine. I converted the model into a system map. Bridgewater’s performance and track record have proved the quality of his decision making, which allows him to be consistently correct in betting on what happens next in the economy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mapping-the-micro-economic-machine&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2. Mapping the Micro-economic ‘Machine’&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/investing/2020-04-18-the-short-term-and-long-term-debt-cycle_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In this beautifully concise model, there are two essential parts, the short-term debt cycle (the solid grey lines) and the long-term debt cycle (the red dotted lines). Borrowing creates cycles, as we create more credit than we produce.&lt;/p&gt;
+&lt;p&gt;When interest rate hits zero, and the central bank can no longer stimulate the economy with a lower interest rate, we come to the end of the long-term debt cycle and enter into the stage of deleveraging and reflation (a.k.a. “the lost decade”). Next, we will wait and see if the government can execute a beautiful deleveraging (by controlling the rate of money-printing relative to the growth of debt).&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>A.I./Blockchain Adoption and Technology Substitution</title>

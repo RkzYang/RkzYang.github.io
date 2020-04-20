@@ -49,24 +49,88 @@
   </url>
   
   <url>
-    <loc>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/research/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/big-firms/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+    <loc>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/acquisition/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/banking/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/business/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/positioning/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/positioning/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/strategy/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/visualization/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/investing/the-short-term-and-long-term-debt-cycle/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/investing/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/life-cycle/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/system-map/</loc>
+    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/big-firms/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -78,36 +142,12 @@
   </url>
   
   <url>
-    <loc>/categories/positioning/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/positioning/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/strategy/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/python/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/visualization/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -159,12 +199,6 @@
   </url>
   
   <url>
-    <loc>/tags/system-map/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/note/2019/05/21/an-ongoing-collection-of-nlp-startups/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
   </url>
@@ -209,30 +243,12 @@
   </url>
   
   <url>
-    <loc>/tags/acquisition/</loc>
-    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/banking/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/business-model/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/life-cycle/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

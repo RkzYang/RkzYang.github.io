@@ -5,10 +5,49 @@
     <description>Recent content in strategy on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/strategy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tracking the Change of Industry Positioning Caused by an Acquisition</title>
+      <link>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1. Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mapping-the-positioning-and-tracking-the-movement&#34;&gt;2. Mapping the Positioning and Tracking the Movement&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-biplot&#34;&gt;2.1 the Biplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-3-d-and-2-d-scatterplots-based-on-mds&#34;&gt;2.2 the 3-D and 2-D Scatterplots based on MDS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1. Motivation&lt;/h1&gt;
+&lt;p&gt;Due to enduring resource heterogeneity, firms tend to hold persistent positionings within an established industry (like commercial banking). However, transformative corporate actions may alter a firm’s asset structure and create a new industry for the acquirer. Thus, we can map out the industry positions and track the position change caused by an acquisition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mapping-the-positioning-and-tracking-the-movement&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2. Mapping the Positioning and Tracking the Movement&lt;/h1&gt;
+&lt;div id=&#34;the-biplot&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.1 the Biplot&lt;/h2&gt;
+&lt;p&gt;Consider commercial banks as an example. Different banks may hold differently structured financial asset portfolios and occupy different positions. We can assess a bank’s position based on the proportion of cash, commercial loans, mortgage loans, etc., as a percentage in the total asset (i.e., multiple dimensions). A biplot can provide us a quick intuition about how those dimensions relate to one another. However, the relative positions shown on biplot would not be accurate due to the loss of information in dimension reduction.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/biplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-3-d-and-2-d-scatterplots-based-on-mds&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.2 the 3-D and 2-D Scatterplots based on MDS&lt;/h2&gt;
+&lt;p&gt;As an alternative approach, we can build distance-based features by exploring the inter-firm distance using multi-dimensional scaling (MDS). On Feb. 12th, 2018, Pacific Premier Bancorp launched an acquisition of Grandpoint Capital. Using this acquisition event as an example, we can first calculate the interfirm distance using MDS and then track how the acquisition shifts a bank’s position (in both a 3-D and 2-D scatter plots).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/3d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/2d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Mapping out the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
@@ -22,7 +61,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#the-positioning-by-industry-presence-across-sic-categories&#34;&gt;1 the positioning by industry presence across SIC categories&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#the-positioning-by-competition-description-in-10-k-filing&#34;&gt;2 the positioning by competition description in 10-K filing&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#calculate-the-positioning-based-on-the-competition-description&#34;&gt;2.1 calculate the positioning based on the competition description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#calculating-positioning-based-on-the-competition-description&#34;&gt;2.1 calculating positioning based on the competition description&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#the-final-result-positioning-by-competition-description&#34;&gt;2.2 the final result: positioning by competition description&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -38,9 +77,9 @@ Big public firms typically straddle across multiple SIC industry categories. So 
 &lt;div id=&#34;the-positioning-by-competition-description-in-10-k-filing&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2 the positioning by competition description in 10-K filing&lt;/h1&gt;
 &lt;p&gt;The SIC-code might be “backward-looking,” as firms tend to quite if particular combinations of multiple-industry business lines create economic inefficiencies. Only efficient multi-industry presence survives.&lt;/p&gt;
-&lt;p&gt;In contrast, the SEC filings may reflect managers’ current understanding of what they do. Especially when they characterize their competition, managers tend to draw their forward-looking expectations on the various forms of competitive threats. Some scholars have used the text-based approach to calculate inter-industry distance&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;div id=&#34;calculate-the-positioning-based-on-the-competition-description&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;2.1 calculate the positioning based on the competition description&lt;/h2&gt;
+&lt;p&gt;In contrast, the SEC filings may reflect managers’ current understanding of what they do. Especially when they characterize their competition, managers tend to draw their forward-looking expectations on the various forms of competitive threats. Some scholars&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; and companies&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; have used the text-based approach to calculate inter-industry distance.&lt;/p&gt;
+&lt;div id=&#34;calculating-positioning-based-on-the-competition-description&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.1 calculating positioning based on the competition description&lt;/h2&gt;
 &lt;p&gt;I collected the competition description texts of the largest 17 tech companies. Below are some frequently used words in those statements.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/word_cloud_competition_description.png&#34; alt=&#34;word cloud competition description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I ran an LDA topic modeling with 11 latent topics, which yields a low perplexity score.&lt;/p&gt;
@@ -61,9 +100,73 @@ Big public firms typically straddle across multiple SIC industry categories. So 
 &lt;ol&gt;
 &lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;for example: &lt;br&gt;Teece, D. J., Rumelt, R., Dosi, G., &amp;amp; Winter, S. (1994). Understanding corporate coherence: Theory and evidence. Journal of economic behavior &amp;amp; organization, 23(1), 1-30.&lt;br&gt;
 &lt;br&gt;Litov, L. P., Moreton, P., &amp;amp; Zenger, T. R. (2012). Corporate strategy, analyst coverage, and the uniqueness paradox. Management Science, 58(10), 1797-1815.Lien, L. B., &amp;amp; Klein, P. G. (2013).&lt;br&gt;
-&lt;br&gt;Can the survivor principle survive diversification?. Organization Science, 24(5), 1478-1494.&lt;br&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://hobergphillips.tuck.dartmouth.edu/&lt;a&gt;&#34;&gt;&lt;a href=&#34;https://hobergphillips.tuck.dartmouth.edu/&#34; class=&#34;uri&#34;&gt;https://hobergphillips.tuck.dartmouth.edu/&lt;/a&gt;&lt;a&gt;&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;br&gt;Lien, L. B., &amp;amp; Klein, P. G. (2013). Can the survivor principle survive diversification?. Organization Science, 24(5), 1478-1494.&lt;br&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://hobergphillips.tuck.dartmouth.edu&#34; class=&#34;uri&#34;&gt;https://hobergphillips.tuck.dartmouth.edu&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.google.com/search?&amp;q=+Rethinking+Comparable+Companies+Morningstar&#34;&gt;Morningstart’s Company Comparables System&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mapping Twitter Topics and Sentiment about FAAMG Companies since Covid-19 Outbreak</title>
+      <link>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1 Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#procedures&#34;&gt;2 Procedures&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#data-source&#34;&gt;2.1 Data Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#topic-modeling&#34;&gt;2.2 Topic Modeling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#results&#34;&gt;3 Results&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#perceptual-map-of-faamg-based-on-topic-sentiment&#34;&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#keywords-co-occurrence-network-on-each-topic&#34;&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1 Motivation&lt;/h1&gt;
+&lt;p&gt;On a whim, I mapped out what people say (the text) and feel (the sentiment) about the top tech companies (FAAMG) on twitter since the Covid-19 outbreak. The keywords and sentiment that are associated with the main topics should differ across these companies.&lt;/p&gt;
+&lt;p&gt;By no means I am drawing any causal association here. But the story starts with checking the recent price movements of the FAAMG stocks. Obviously, Covid-19 has impacted these companies quite differently.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;procedures&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2 Procedures&lt;/h1&gt;
+&lt;div id=&#34;data-source&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.1 Data Source&lt;/h2&gt;
+&lt;p&gt;For each company, I downloaded 1,000 tweets containing the company name as the hashtag (e.g. “#amazon” for Amazon).
+I used Python module “tweepy” to stream the data and set the “since” parameter to ‘2020-03-01’, which collects a sample of 1,000 tweets since March 1st.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;topic-modeling&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.2 Topic Modeling&lt;/h2&gt;
+&lt;p&gt;Using Python module “gensim”, I detected three most significant topics (including Covid-19, business, and daily life), which are named by the associated keywords (most relevant terms).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Using Python module “vaderSentiment”, I computed sentiment scores for each tweet and aggregated the scores by company. The topic-based sentiment scores are used to construct the perceptual map, in which each company takes a different position.
+Using Python module “nltk”, I find the most frequent topic-based co-occurring words for each company.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;results&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3 Results&lt;/h1&gt;
+&lt;div id=&#34;perceptual-map-of-faamg-based-on-topic-sentiment&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;perceptual map and the positioning of each company&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It looks Amazon does well on all topics, especially on Covid-19-related topic. Microsoft and Apple do well on “Business”.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;keywords-co-occurrence-network-on-each-topic&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/h2&gt;
+&lt;p&gt;Here are the work keywords co-occurrence patterns for each topic of these companies.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;Amazon Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;Apple Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;Facebook Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;Google Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;Microsoft Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>

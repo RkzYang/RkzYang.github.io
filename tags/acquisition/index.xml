@@ -5,10 +5,49 @@
     <description>Recent content in acquisition on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/acquisition/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tracking the Change of Industry Positioning Caused by an Acquisition</title>
+      <link>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1. Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mapping-the-positioning-and-tracking-the-movement&#34;&gt;2. Mapping the Positioning and Tracking the Movement&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-biplot&#34;&gt;2.1 the Biplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-3-d-and-2-d-scatterplots-based-on-mds&#34;&gt;2.2 the 3-D and 2-D Scatterplots based on MDS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1. Motivation&lt;/h1&gt;
+&lt;p&gt;Due to enduring resource heterogeneity, firms tend to hold persistent positionings within an established industry (like commercial banking). However, transformative corporate actions may alter a firm’s asset structure and create a new industry for the acquirer. Thus, we can map out the industry positions and track the position change caused by an acquisition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mapping-the-positioning-and-tracking-the-movement&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2. Mapping the Positioning and Tracking the Movement&lt;/h1&gt;
+&lt;div id=&#34;the-biplot&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.1 the Biplot&lt;/h2&gt;
+&lt;p&gt;Consider commercial banks as an example. Different banks may hold differently structured financial asset portfolios and occupy different positions. We can assess a bank’s position based on the proportion of cash, commercial loans, mortgage loans, etc., as a percentage in the total asset (i.e., multiple dimensions). A biplot can provide us a quick intuition about how those dimensions relate to one another. However, the relative positions shown on biplot would not be accurate due to the loss of information in dimension reduction.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/biplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-3-d-and-2-d-scatterplots-based-on-mds&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.2 the 3-D and 2-D Scatterplots based on MDS&lt;/h2&gt;
+&lt;p&gt;As an alternative approach, we can build distance-based features by exploring the inter-firm distance using multi-dimensional scaling (MDS). On Feb. 12th, 2018, Pacific Premier Bancorp launched an acquisition of Grandpoint Capital. Using this acquisition event as an example, we can first calculate the interfirm distance using MDS and then track how the acquisition shifts a bank’s position (in both a 3-D and 2-D scatter plots).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/3d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/2d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Citation Analysis of Recent Acquisition Research</title>
