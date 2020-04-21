@@ -5,17 +5,17 @@
     <description>Recent content in Tags on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2999 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Tue, 31 Dec 2999 00:00:00 +0000</pubDate>
+      <title>personal development</title>
+      <link>/tags/personal-development/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/blogdown/</guid>
+      <guid>/tags/personal-development/</guid>
       <description></description>
     </item>
     
@@ -101,15 +101,6 @@
     </item>
     
     <item>
-      <title>personal development</title>
-      <link>/tags/personal-development/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/personal-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>business model</title>
       <link>/tags/business-model/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
@@ -124,15 +115,6 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Package</title>
-      <link>/tags/r-package/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r-package/</guid>
       <description></description>
     </item>
     

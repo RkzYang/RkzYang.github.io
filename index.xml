@@ -24,6 +24,52 @@
     </item>
     
     <item>
+      <title>Cognitive Biases to Avoid in Decision Making</title>
+      <link>/ent_tools/cognitive-biases-to-avoid-in-decision-making/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/ent_tools/cognitive-biases-to-avoid-in-decision-making/</guid>
+      <description>
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Affect Heuristic
+&lt;br&gt; Letting current positive and negative emotions (e.g., fear, pleasure, surprise) influence decisions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ambiguity Aversion
+&lt;br&gt; Tendency to prefer known/certain probabilities over uncertain probabilities.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Anchoring Bias
+&lt;br&gt; Letting an initial piece of information influence decisions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Availability Bias
+&lt;br&gt; Letting instances that came to mind at ease influence decisions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bandwagon Effect
+&lt;br&gt; Doing what others do.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Confirmation Bias
+&lt;br&gt; Tendency to filter information that confirms one’s prior beliefs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Decoy Effect
+&lt;br&gt; Letting asymmetrically dominated alternatives influence choice.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Default Bias
+&lt;br&gt; The psychological inertia to remain at the status quo.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Framing Effect
+&lt;br&gt; Letting the way the options are framed influence decisions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Impact Bias
+&lt;br&gt; Overestimate the long-term impact of an event.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Loss Aversion
+&lt;br&gt; Letting losses loom larger than corresponding gains.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Overconfidence
+&lt;br&gt; Overvalue the benefit and underestimate the risk.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Outcome Bias
+&lt;br&gt; Letting a prior decision outcome influence subsequent independent decisions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Representativeness Bias
+&lt;br&gt; Tendency to compare a new event with a prototype in mind.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Selective perception
+&lt;br&gt; Tndency to ignore information to avoid emotional discomfort and contradictpry beliefs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sunk-cost Bias
+&lt;br&gt; Tendency to continue an endeavor once an investment (money, effort, or time) has been made.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tracking the Change of Industry Positioning Caused by an Acquisition</title>
       <link>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
@@ -54,7 +100,7 @@
 &lt;/div&gt;
 &lt;div id=&#34;the-3-d-and-2-d-scatterplots-based-on-mds&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 the 3-D and 2-D Scatterplots based on MDS&lt;/h2&gt;
-&lt;p&gt;As an alternative approach, we can build distance-based features by exploring the inter-firm distance using multi-dimensional scaling (MDS). On Feb. 12th, 2018, Pacific Premier Bancorp launched an acquisition of Grandpoint Capital. Using this acquisition event as an example, we can first calculate the interfirm distance using MDS and then track how the acquisition shifts a bank’s position (in both a 3-D and 2-D scatter plots).&lt;/p&gt;
+&lt;p&gt;In an alternative approach, we can build distance-based features by exploring the inter-firm distance using multi-dimensional scaling (MDS). On Feb. 12th, 2018, Pacific Premier Bancorp launched an acquisition of Grandpoint Capital. Using this acquisition event as an example, we can first calculate the interfirm distance using MDS and then track how the acquisition shifts a bank’s position (in both a 3-D and 2-D scatter plots).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/3d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/2d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;

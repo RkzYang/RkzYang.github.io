@@ -41,7 +41,7 @@
 &lt;/div&gt;
 &lt;div id=&#34;the-3-d-and-2-d-scatterplots-based-on-mds&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 the 3-D and 2-D Scatterplots based on MDS&lt;/h2&gt;
-&lt;p&gt;As an alternative approach, we can build distance-based features by exploring the inter-firm distance using multi-dimensional scaling (MDS). On Feb. 12th, 2018, Pacific Premier Bancorp launched an acquisition of Grandpoint Capital. Using this acquisition event as an example, we can first calculate the interfirm distance using MDS and then track how the acquisition shifts a bank’s position (in both a 3-D and 2-D scatter plots).&lt;/p&gt;
+&lt;p&gt;In an alternative approach, we can build distance-based features by exploring the inter-firm distance using multi-dimensional scaling (MDS). On Feb. 12th, 2018, Pacific Premier Bancorp launched an acquisition of Grandpoint Capital. Using this acquisition event as an example, we can first calculate the interfirm distance using MDS and then track how the acquisition shifts a bank’s position (in both a 3-D and 2-D scatter plots).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/3d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/2d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;

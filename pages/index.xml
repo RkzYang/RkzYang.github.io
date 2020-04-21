@@ -5,19 +5,10 @@
     <description>Recent content in Pages on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2999 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>blogdown</title>
-      <link>/pages/blogdown/</link>
-      <pubDate>Tue, 31 Dec 2999 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/blogdown/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>strategy</title>
@@ -43,6 +34,15 @@
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/pages/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>/pages/blogdown/</link>
+      <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/blogdown/</guid>
       <description></description>
     </item>
     

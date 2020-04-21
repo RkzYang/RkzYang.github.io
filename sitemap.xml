@@ -3,42 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2999-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/pages/</loc>
-    <lastmod>2999-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2999-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/pages/blogdown/</loc>
-    <lastmod>2999-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/blogdown/</loc>
-    <lastmod>2999-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/blogging/</loc>
-    <lastmod>2999-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/blog-template/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
   </url>
@@ -46,6 +10,41 @@
   <url>
     <loc>/</loc>
     <lastmod>2999-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ent_tools/cognitive-biases-to-avoid-in-decision-making/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/ent_tools/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/entrepreneurship/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/personal-development/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -169,25 +168,13 @@
   </url>
   
   <url>
-    <loc>/ent_tools/</loc>
+    <loc>/pages/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/str_consulting/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/entrepreneurship/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/personal-development/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -238,6 +225,12 @@
   </url>
   
   <url>
+    <loc>/pages/blogdown/</loc>
+    <lastmod>2019-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/2019/04/15/recent-merger-and-acquisition-research-since/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
@@ -271,12 +264,6 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-package/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
