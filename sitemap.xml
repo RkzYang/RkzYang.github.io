@@ -13,8 +13,37 @@
   </url>
   
   <url>
+    <loc>/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/str_consulting/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/strategy/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/strategy/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -84,12 +113,6 @@
   
   <url>
     <loc>/tags/positioning/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/strategy/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -165,24 +188,6 @@
   <url>
     <loc>/str_consulting/an-ongoing-collection-of-strategy-matrices/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/str_consulting/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/pages/strategy/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
