@@ -17,6 +17,29 @@
       
       <guid>/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</guid>
       <description>
+---
+title: An Ongoing Collection of Mission Statements and Vision Statements
+description: &#34;a collection of mission statements and vision statements&#34;
+author: &#39;&#39;
+date: &#39;2020-05-03&#39;
+images: 
+- Yang_logo.png
+slug: an-ongoing-collection-of-vision-statement-vision-statement
+categories:
+  - strategy
+pages:
+  - strategy
+twitter:
+  card: &#34;summary&#34;
+  title: &#34;Mission Statements and Vision Statements (a Collection)&#34;
+  site: &#34;@rky_phd&#34;
+  description: &#34;a collection of mission statements and vision statements&#34;
+  image: &#34;https://www.yang.management/Yang_logo.png&#34;
+output:
+  blogdown::html_page:
+    toc: true
+---
+
 
 
 &lt;p&gt;Here is a collection of mission statements and vision statements.&lt;/p&gt;
@@ -66,7 +89,7 @@ Uber: Smarter transportation with fewer cars and greater access. Transportation 
 Walmart: Be the destination for customers to save money, no matter how they want to shop.&lt;/code&gt;&lt;/pre&gt;
 &lt;br&gt;
 &lt;hr&gt;
-&lt;p&gt;Want to &lt;a href=&#34;https://forms.gle/iNBzJYY6b2d6SxFcA&#34;&gt;Add to the List&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Want to &lt;a href=&#34;https://forms.gle/iNBzJYY6b2d6SxFcA&#34; target=&#34;_blank&#34;&gt;Add to the List&lt;/a&gt;?&lt;/p&gt;
 </description>
     </item>
     
@@ -246,7 +269,13 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;li&gt;&lt;a href=&#34;#business-strategy&#34;&gt;2.1 Business Strategy&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#corporate-strategy&#34;&gt;2.2 Corporate Strategy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#general-purpose-matrices-1&#34;&gt;1 General-purpose Matrices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#strategic-management-1&#34;&gt;2 Strategic Management&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#business-strategy-1&#34;&gt;2.1 Business Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#corporate-strategy-1&#34;&gt;2.2 Corporate Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#innovation-strategy&#34;&gt;3 Innovation Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#innovation-strategy-1&#34;&gt;3 Innovation Strategy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -281,6 +310,64 @@ As a tool for strategic decision making, each matrix is made of two analytical d
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=merger+acquisition+integration+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;M&amp;amp;A Integration Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;interdependence&lt;/strong&gt; (acquirer v. target) × &lt;strong&gt;autonomy&lt;/strong&gt; (target)]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=outsourcing+strategy+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Outsourcing Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;strategic impact&lt;/strong&gt; × &lt;strong&gt;cost benefit&lt;/strong&gt;]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=kraljic+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Kraljic Purchase Control Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;strategic impact&lt;/strong&gt; × &lt;strong&gt;cost benefit&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Bartlett+Ghoshal+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Bartlett &amp;amp; Ghoshal Globalization Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;global standardization&lt;/strong&gt; (↓cost) × &lt;strong&gt;local customization&lt;/strong&gt; (↑—
+title: An Ongoing Collection of Strategy Matrices
+description: “a collection of ‘matrix’ frameworks in strategic management and entrepreneurship”
+author: ’’
+date: ‘2020-03-31’
+images:&lt;/li&gt;
+&lt;li&gt;Yang_logo.png
+slug: an-ongoing-collection-of-strategy-matrices
+categories:
+&lt;ul&gt;
+&lt;li&gt;strategy
+pages:&lt;/li&gt;
+&lt;li&gt;strategy
+twitter:
+card: “summary”
+title: “Strategy Matrices”
+site: “&lt;span class=&#34;citation&#34;&gt;@rky_phd&lt;/span&gt;”
+description: “a collection of strategy matrices (analytical frameworks)”
+image: “&lt;a href=&#34;https://www.yang.management/Yang_logo.png&#34; class=&#34;uri&#34;&gt;https://www.yang.management/Yang_logo.png&lt;/a&gt;”
+output:
+blogdown::html_page:
+toc: true
+—&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is a collection of analytical matrices in strategic management and entrepreneurship.
+As a tool for strategic decision making, each matrix is made of two analytical dimensions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;general-purpose-matrices-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1 General-purpose Matrices&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=swot+analysis&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;SWOT Analysis&lt;/a&gt; [analytical dimensions: &lt;strong&gt;external/internal&lt;/strong&gt; × &lt;strong&gt;harmful/helpful&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=swot+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;TOWS Analysis&lt;/a&gt; [analytical dimensions: &lt;strong&gt;(strength vs. weakness)&lt;/strong&gt; × &lt;strong&gt;(opportunities vs. threats)&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=eisenhower+framework&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Eisenhower Priority Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;urgency&lt;/strong&gt; × &lt;strong&gt;importance&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=risk+reward+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Risk Reward Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;risk&lt;/strong&gt; × &lt;strong&gt;reward&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=skill+will+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Skill-Will Matrix for Managing &amp;amp; Leading People &lt;/a&gt; [analytical dimensions: &lt;strong&gt;people’s will&lt;/strong&gt; × &lt;strong&gt;people’s skill&lt;/strong&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;strategic-management-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2 Strategic Management&lt;/h1&gt;
+&lt;div id=&#34;business-strategy-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.1 Business Strategy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=generic+strategies+porter&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Generic Strategies&lt;/a&gt; [analytical dimensions: &lt;strong&gt;market scope&lt;/strong&gt; × &lt;strong&gt;profit driver&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Miles+%26+Snow&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Miles &amp;amp; Snow’s Strategic Type&lt;/a&gt; [analytical dimensions: &lt;strong&gt;environment&lt;/strong&gt; × &lt;strong&gt;action&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=BCG+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;BCG Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;market growth&lt;/strong&gt; × &lt;strong&gt;market share&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Blue+ocean+Four+Actions&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Blue Ocean Strategy: Four-Action Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;relative performance&lt;/strong&gt; × &lt;strong&gt;perceived value&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=competitor+identification+market+resource+similarity&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Competitor Identification Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;market overlap&lt;/strong&gt; × &lt;strong&gt;resource similarity&lt;/strong&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;corporate-strategy-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.2 Corporate Strategy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=ansoff+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Ansoff Growth Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;product&lt;/strong&gt; (old vs. new) × &lt;strong&gt;market&lt;/strong&gt; (old vs. new)]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=merger+acquisition+integration+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;M&amp;amp;A Integration Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;interdependence&lt;/strong&gt; (acquirer v. target) × &lt;strong&gt;autonomy&lt;/strong&gt; (target)]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=outsourcing+strategy+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Outsourcing Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;strategic impact&lt;/strong&gt; × &lt;strong&gt;cost benefit&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=kraljic+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Kraljic Purchase Control Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;strategic impact&lt;/strong&gt; × &lt;strong&gt;cost benefit&lt;/strong&gt;]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Bartlett+Ghoshal+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Bartlett &amp;amp; Ghoshal Globalization Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;global standardization&lt;/strong&gt; (↓cost) × &lt;strong&gt;local customization&lt;/strong&gt; (↑value)]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Bartlett+Ghoshal+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Stakeholder Interest Influence Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;stakeholder power&lt;/strong&gt; × &lt;strong&gt;stakeholder interest&lt;/strong&gt;]&lt;/li&gt;
 &lt;/ul&gt;
@@ -299,7 +386,25 @@ As a tool for strategic decision making, each matrix is made of two analytical d
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Human-Centered%2C+Systems-Minded+Design&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Standford Human-Systems Design-thinking Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;creation&lt;/strong&gt; (understand vs. create) × &lt;strong&gt;abstraction&lt;/strong&gt; (concrete vs. abstract)]
 &lt;br&gt;
 &lt;hr&gt;
-Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c9dS9&#34;&gt;TELL ME&lt;/a&gt; to add it!&lt;/li&gt;
+Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c9dS9&#34; target=&#34;_blank&#34;&gt;TELL ME&lt;/a&gt; to add it!
+value)]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Bartlett+Ghoshal+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Stakeholder Interest Influence Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;stakeholder power&lt;/strong&gt; × &lt;strong&gt;stakeholder interest&lt;/strong&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;innovation-strategy-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3 Innovation Strategy&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=innovation+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Types of Innovation&lt;/a&gt; [analytical dimensions: &lt;strong&gt;problem maturity&lt;/strong&gt; × &lt;strong&gt;solution maturity&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Perrow+technology+typology+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Perrow’s Technology Typology Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;task analyzability&lt;/strong&gt; × &lt;strong&gt;task variability&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=perrow+coupling-interaction+diagram&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Perrow’s Coupling-Interaction Diagram&lt;/a&gt; [analytical dimensions: &lt;strong&gt;system coupling&lt;/strong&gt; (tight vs. loose) × &lt;strong&gt;system interaction&lt;/strong&gt; (linear vs. complex)]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Product+process+change+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Product-Process Change Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;product change&lt;/strong&gt; × &lt;strong&gt;process change&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Abernathy+and+Clark+Typology&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Abernathy &amp;amp; Clark Innovation Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;market creation&lt;/strong&gt; (low vs. high) × &lt;strong&gt;technological change&lt;/strong&gt; (low vs. high)]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=How-Wow-Now+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;How-Wow-Now Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;novelty&lt;/strong&gt; × &lt;strong&gt;feasibility&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=verganti+design-driven+radical+change+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Verganti’s Innovation Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;new technology&lt;/strong&gt; × &lt;strong&gt;new meaning&lt;/strong&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Human-Centered%2C+Systems-Minded+Design&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Standford Human-Systems Design-thinking Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;creation&lt;/strong&gt; (understand vs. create) × &lt;strong&gt;abstraction&lt;/strong&gt; (concrete vs. abstract)]
+&lt;br&gt;
+&lt;hr&gt;
+Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c9dS9&#34; target=&#34;_blank&#34;&gt;TELL ME&lt;/a&gt; to add it!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 </description>
