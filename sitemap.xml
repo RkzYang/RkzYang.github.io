@@ -13,14 +13,61 @@
   </url>
   
   <url>
-    <loc>/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <loc>/positioning/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/business/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/market-categories/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/positioning/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/positioning/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/strategy/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/positioning/the-positioning-of-stock-fundamentas/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -42,24 +89,12 @@
   </url>
   
   <url>
-    <loc>/categories/strategy/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/ent_tools/cognitive-biases-to-avoid-in-decision-making/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/ent_tools/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -100,24 +135,6 @@
   </url>
   
   <url>
-    <loc>/categories/business/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/positioning/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/positioning/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/visualization/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -153,12 +170,6 @@
   
   <url>
     <loc>/tags/big-firms/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/market-categories/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
