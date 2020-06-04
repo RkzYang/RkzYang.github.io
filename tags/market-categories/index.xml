@@ -11,30 +11,43 @@
     
     
     <item>
-      <title>the Positioning of Stock Fundamentals</title>
+      <title>the Positioning of Stock Fundamentals and Abnormal Stock Returns</title>
       <link>/positioning/the-positioning-of-stock-fundamentas/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/positioning/the-positioning-of-stock-fundamentas/</guid>
       <description>
 
-
-&lt;p&gt;According to Warren Buffet, buying a stock is like acquiring an ownership interest in the business for a company. Thus, for Buffet, stock fundamentals matter.&lt;/p&gt;
-&lt;p&gt;Do companies traded on the stock market have a positioing – a relative standing to each other in terms of the fundamentals (financials) – to determine performance? According to strategy researchers, the answer is YES.&lt;/p&gt;
+&lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;This post is intended to serve three purposes:
-&lt;ul&gt;
-&lt;li&gt;&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;train a neural network to demostrate the predictive power of the fundamental-positionings on stock returns in the SH/SZ stock exchange.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;introduce a data base called “Tushare Pro” for the China mainland stock markets, crypto-currencies, and more. The data used for the analysis below is accessible through Tushare for free.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;if you are interested in Tushare data, your can register through &lt;a href=&#34;https://tushare.pro/register?reg=366051&#34; class=&#34;uri&#34;&gt;https://tushare.pro/register?reg=366051&lt;/a&gt;, which will allow me to receive 50 points in community for enhanced data access. Thank You! (My research will benefit from the data!)&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1 Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pipeline&#34;&gt;2 Pipeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#result&#34;&gt;3 Result&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1 Motivation&lt;/h1&gt;
+&lt;p&gt;According to Warren Buffet, buying a stock is like “acquiring an ownership interest in the business of a company.” Buffet tends to only care about the fundamentals of the stocks he buys.&lt;/p&gt;
+&lt;p&gt;Here the question is: do companies have a “fundamental positioning” – a relative standing to peer firms in terms of the financial fundamentals – to determine the differences in stock returns?&lt;/p&gt;
+&lt;p&gt;As a strategist, I consider a stock as a winner only when it beats the market. In other words, I only care about the “winner premium,” the amount of returns above the expected level. I will explore utilizing the “fundamental positionings” to pick (predict) winner stocks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pipeline&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2 Pipeline&lt;/h1&gt;
+&lt;p&gt;To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering or selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings &lt;b&gt;prior to&lt;/b&gt; the holding period (90 days).&lt;/p&gt;
+&lt;p&gt;To examine the predictive power of fundamental positionings, I left the base financial ratios along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space.&lt;/p&gt;
+&lt;p&gt;After finding the best model from bayesian hyperparameter tuning, we can evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.&lt;/p&gt;
+&lt;p&gt;The data is streamed from “Tushare,” which provides free access to the SH/SZ stock exchange.&lt;/p&gt;
+&lt;p&gt;If you are interested in Tushare data, you can register through &lt;a href=&#34;https://tushare.pro/register?reg=366051&#34; class=&#34;uri&#34;&gt;https://tushare.pro/register?reg=366051&lt;/a&gt;. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;result&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3 Result&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/investing/stock_fundamental_positioning/figure-html/abnormal_returns.png&#34; alt=&#34;predictions&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the above graph, the points in yellow are winners that beat the market, whereas the points in purple are “losers” that fail to beat the market. If we use the algorithm to pick the top three winners, I will indeed generate positive abnormal returns for us. The mean squared error of the model is 0.019.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/investing/stock_fundamental_positioning/figure-html/importance.png&#34; alt=&#34;importance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This graph shows the relative importance of the features. I added a prefix “R” (relative standing) to the variable names to denote the “fundamental positioning” features. Around half of these important features are fundamental positionings. This shows the positioning (which is based on the percentile ranking of a focal company relative to industry peers) does contribute to the prediction of stock market returns, in addition to the financial ratios (which does not involve firm-to-firm comparisons).&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -98,7 +111,7 @@ Big public firms typically straddle across multiple SIC industry categories. So 
     </item>
     
     <item>
-      <title>A Summary of Recent &#34;Social Evaluation&#34; Research</title>
+      <title>A Summary of Recent &#39;Social Evaluation&#39; Research</title>
       <link>/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -128,6 +141,7 @@ Big public firms typically straddle across multiple SIC industry categories. So 
 &lt;h2&gt;2. Biblio-Analysis&lt;/h2&gt;
 &lt;div id=&#34;selection-criteria&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;2.1 Selection Criteria&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: The curvature argument has been deprecated in favour of strength&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_cat_eval_032619.txt&#34; target=&#34;_blank&#34;&gt; raw data&lt;/a&gt; is based on 29 hand-collected papers directed and indirectly citing Zukerman (1999) and extracted from &lt;a href=&#34;http://www.webofknowledge.com&#34; target=&#34;_blank&#34;&gt; Web of Science&lt;/a&gt;. The papers that not on the topic of “social evaluation” are excluded from the sample, based on the author’s judgment. We can get a general idea of the citation relationship among those papers from the direct citation network graph.&lt;/p&gt;
 &lt;/div&gt;
@@ -185,6 +199,27 @@ The inter-connected keyword clusters present the relationship among the main top
       
       <guid>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
       <description>
+---
+title: A Quick Bibliometric Analysis on “Positioning”
+description: &#39;Tracing the history and development of “positioning” thinkings&#39;
+author: &#39;&#39;
+date: &#39;2019-02-26&#39;
+images: 
+- Yang_logo.png
+slug: a-quick-bibliometric-analysis-on-strategic-positioning
+categories:
+  - positioning
+  - visualization
+tags:
+  - market categories
+twitter:
+  card: &#34;summary&#34;
+  title: &#34;Bibliometric Analysis on &#39;Positioning&#39;&#34;
+  site: &#34;@rky_phd&#34;
+  description: &#34;Tracing the history and development of &#39;positioning&#39; thinkings&#34;
+  image: &#34;https://www.yang.management/Yang_logo.png&#34;
+---
+
 
 
 &lt;p&gt;I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.&lt;/p&gt;

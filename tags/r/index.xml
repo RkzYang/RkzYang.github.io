@@ -210,35 +210,5 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
 </description>
     </item>
     
-    <item>
-      <title>A Quick Bibliometric Analysis on “Positioning”</title>
-      <link>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
-      <description>
-
-
-&lt;p&gt;I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_02262019.txt&#34; target=&#34;_blank&#34;&gt; raw data&lt;/a&gt; is extracted from &lt;a href=&#34;http://www.webofknowledge.com&#34; target=&#34;_blank&#34;&gt; Web of Science&lt;/a&gt;.
-The search parameters:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;TITLE: (&amp;quot;strategic positioning&amp;quot; OR &amp;quot;industry positioning&amp;quot; OR &amp;quot;market positioning&amp;quot;)
-Refined by: WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR ECONOMICS ) AND WEB OF SCIENCE CATEGORIES: ( MANAGEMENT OR BUSINESS OR INTERNATIONAL RELATIONS OR ECONOMICS ) AND DOCUMENT TYPES: ( ARTICLE ) AND LANGUAGES: ( ENGLISH )
-Timespan: All years. 
-Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I used the R package &lt;a href=&#34;http://www.bibliometrix.org&#34; target=&#34;_blank&#34;&gt; “bibliometrix”&lt;/a&gt; to conduct (1) “bibliographic coupling” and (2) “co-citation” analysis.&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Bibliographic coupling analysis allows us to explore the “confluence and interactions” among recent papers. Two articles are bibliographically coupled if they co-cited at least one article.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Co-citation analysis allows us to trace back to the origin of thoughts and classic papers. Two articles have a co-citation tie if they are both cited in a third article.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Reference:&lt;/p&gt;
-&lt;p&gt;Aria, M. &amp;amp; Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, Journal of Informetrics, 11(4), pp 959-975, Elsevier.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

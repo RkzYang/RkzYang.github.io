@@ -31,19 +31,13 @@
   </url>
   
   <url>
-    <loc>/categories/business/</loc>
+    <loc>/tags/big-firms/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/market-categories/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/positioning/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -135,6 +129,12 @@
   </url>
   
   <url>
+    <loc>/categories/business/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/visualization/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -166,12 +166,6 @@
   <url>
     <loc>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/big-firms/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -281,12 +275,6 @@
   <url>
     <loc>/tags/r/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

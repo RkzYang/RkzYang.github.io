@@ -5,38 +5,10 @@
     <description>Recent content in business on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/business/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>the Positioning of Stock Fundamentals</title>
-      <link>/positioning/the-positioning-of-stock-fundamentas/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/positioning/the-positioning-of-stock-fundamentas/</guid>
-      <description>
-
-
-&lt;p&gt;According to Warren Buffet, buying a stock is like acquiring an ownership interest in the business for a company. Thus, for Buffet, stock fundamentals matter.&lt;/p&gt;
-&lt;p&gt;Do companies traded on the stock market have a positioing – a relative standing to each other in terms of the fundamentals (financials) – to determine performance? According to strategy researchers, the answer is YES.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This post is intended to serve three purposes:
-&lt;ul&gt;
-&lt;li&gt;&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;train a neural network to demostrate the predictive power of the fundamental-positionings on stock returns in the SH/SZ stock exchange.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;introduce a data base called “Tushare Pro” for the China mainland stock markets, crypto-currencies, and more. The data used for the analysis below is accessible through Tushare for free.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;if you are interested in Tushare data, your can register through &lt;a href=&#34;https://tushare.pro/register?reg=366051&#34; class=&#34;uri&#34;&gt;https://tushare.pro/register?reg=366051&lt;/a&gt;, which will allow me to receive 50 points in community for enhanced data access. Thank You! (My research will benefit from the data!)&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>Tracking the Change of Industry Positioning Caused by an Acquisition</title>
@@ -339,7 +311,7 @@ Let’s consider two cases here. One is about different incumbent technologies: 
     </item>
     
     <item>
-      <title>A Summary of Recent &#34;Social Evaluation&#34; Research</title>
+      <title>A Summary of Recent &#39;Social Evaluation&#39; Research</title>
       <link>/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -369,6 +341,7 @@ Let’s consider two cases here. One is about different incumbent technologies: 
 &lt;h2&gt;2. Biblio-Analysis&lt;/h2&gt;
 &lt;div id=&#34;selection-criteria&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;2.1 Selection Criteria&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: The curvature argument has been deprecated in favour of strength&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_cat_eval_032619.txt&#34; target=&#34;_blank&#34;&gt; raw data&lt;/a&gt; is based on 29 hand-collected papers directed and indirectly citing Zukerman (1999) and extracted from &lt;a href=&#34;http://www.webofknowledge.com&#34; target=&#34;_blank&#34;&gt; Web of Science&lt;/a&gt;. The papers that not on the topic of “social evaluation” are excluded from the sample, based on the author’s judgment. We can get a general idea of the citation relationship among those papers from the direct citation network graph.&lt;/p&gt;
 &lt;/div&gt;

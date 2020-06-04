@@ -165,7 +165,7 @@ Let’s consider two cases here. One is about different incumbent technologies: 
     </item>
     
     <item>
-      <title>A Summary of Recent &#34;Social Evaluation&#34; Research</title>
+      <title>A Summary of Recent &#39;Social Evaluation&#39; Research</title>
       <link>/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
@@ -195,6 +195,7 @@ Let’s consider two cases here. One is about different incumbent technologies: 
 &lt;h2&gt;2. Biblio-Analysis&lt;/h2&gt;
 &lt;div id=&#34;selection-criteria&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;2.1 Selection Criteria&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: The curvature argument has been deprecated in favour of strength&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_cat_eval_032619.txt&#34; target=&#34;_blank&#34;&gt; raw data&lt;/a&gt; is based on 29 hand-collected papers directed and indirectly citing Zukerman (1999) and extracted from &lt;a href=&#34;http://www.webofknowledge.com&#34; target=&#34;_blank&#34;&gt; Web of Science&lt;/a&gt;. The papers that not on the topic of “social evaluation” are excluded from the sample, based on the author’s judgment. We can get a general idea of the citation relationship among those papers from the direct citation network graph.&lt;/p&gt;
 &lt;/div&gt;
@@ -452,6 +453,27 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
       
       <guid>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
       <description>
+---
+title: A Quick Bibliometric Analysis on “Positioning”
+description: &#39;Tracing the history and development of “positioning” thinkings&#39;
+author: &#39;&#39;
+date: &#39;2019-02-26&#39;
+images: 
+- Yang_logo.png
+slug: a-quick-bibliometric-analysis-on-strategic-positioning
+categories:
+  - positioning
+  - visualization
+tags:
+  - market categories
+twitter:
+  card: &#34;summary&#34;
+  title: &#34;Bibliometric Analysis on &#39;Positioning&#39;&#34;
+  site: &#34;@rky_phd&#34;
+  description: &#34;Tracing the history and development of &#39;positioning&#39; thinkings&#34;
+  image: &#34;https://www.yang.management/Yang_logo.png&#34;
+---
+
 
 
 &lt;p&gt;I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.&lt;/p&gt;

@@ -5,10 +5,51 @@
     <description>Recent content in big firms on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/big-firms/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>the Positioning of Stock Fundamentals and Abnormal Stock Returns</title>
+      <link>/positioning/the-positioning-of-stock-fundamentas/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/positioning/the-positioning-of-stock-fundamentas/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1 Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pipeline&#34;&gt;2 Pipeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#result&#34;&gt;3 Result&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1 Motivation&lt;/h1&gt;
+&lt;p&gt;According to Warren Buffet, buying a stock is like “acquiring an ownership interest in the business of a company.” Buffet tends to only care about the fundamentals of the stocks he buys.&lt;/p&gt;
+&lt;p&gt;Here the question is: do companies have a “fundamental positioning” – a relative standing to peer firms in terms of the financial fundamentals – to determine the differences in stock returns?&lt;/p&gt;
+&lt;p&gt;As a strategist, I consider a stock as a winner only when it beats the market. In other words, I only care about the “winner premium,” the amount of returns above the expected level. I will explore utilizing the “fundamental positionings” to pick (predict) winner stocks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pipeline&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2 Pipeline&lt;/h1&gt;
+&lt;p&gt;To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering or selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings &lt;b&gt;prior to&lt;/b&gt; the holding period (90 days).&lt;/p&gt;
+&lt;p&gt;To examine the predictive power of fundamental positionings, I left the base financial ratios along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space.&lt;/p&gt;
+&lt;p&gt;After finding the best model from bayesian hyperparameter tuning, we can evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.&lt;/p&gt;
+&lt;p&gt;The data is streamed from “Tushare,” which provides free access to the SH/SZ stock exchange.&lt;/p&gt;
+&lt;p&gt;If you are interested in Tushare data, you can register through &lt;a href=&#34;https://tushare.pro/register?reg=366051&#34; class=&#34;uri&#34;&gt;https://tushare.pro/register?reg=366051&lt;/a&gt;. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;result&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3 Result&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/investing/stock_fundamental_positioning/figure-html/abnormal_returns.png&#34; alt=&#34;predictions&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In the above graph, the points in yellow are winners that beat the market, whereas the points in purple are “losers” that fail to beat the market. If we use the algorithm to pick the top three winners, I will indeed generate positive abnormal returns for us. The mean squared error of the model is 0.019.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/investing/stock_fundamental_positioning/figure-html/importance.png&#34; alt=&#34;importance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This graph shows the relative importance of the features. I added a prefix “R” (relative standing) to the variable names to denote the “fundamental positioning” features. Around half of these important features are fundamental positionings. This shows the positioning (which is based on the percentile ranking of a focal company relative to industry peers) does contribute to the prediction of stock market returns, in addition to the financial ratios (which does not involve firm-to-firm comparisons).&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Mapping out the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>

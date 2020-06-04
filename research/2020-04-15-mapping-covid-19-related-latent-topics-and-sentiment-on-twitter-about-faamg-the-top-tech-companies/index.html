@@ -1,0 +1,53 @@
+
+<div id="TOC">
+<ul>
+<li><a href="#motivation">1 Motivation</a></li>
+<li><a href="#procedures">2 Procedures</a><ul>
+<li><a href="#data-source">2.1 Data Source</a></li>
+<li><a href="#topic-modeling">2.2 Topic Modeling</a></li>
+</ul></li>
+<li><a href="#results">3 Results</a><ul>
+<li><a href="#perceptual-map-of-faamg-based-on-topic-sentiment">3.1 Perceptual Map of FAAMG Based on Topic Sentiment</a></li>
+<li><a href="#keywords-co-occurrence-network-on-each-topic">3.2 Keywords Co-occurrence Network on Each Topic</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="motivation" class="section level1">
+<h1>1 Motivation</h1>
+<p>On a whim, I mapped out what people say (the text) and feel (the sentiment) about the top tech companies (FAAMG) on twitter since the Covid-19 outbreak. The keywords and sentiment that are associated with the main topics should differ across these companies.</p>
+<p>By no means I am drawing any causal association here. But the story starts with checking the recent price movements of the FAAMG stocks. Obviously, Covid-19 has impacted these companies quite differently.</p>
+<p><img src="/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png" alt="FAAMG stock price"></p>
+</div>
+<div id="procedures" class="section level1">
+<h1>2 Procedures</h1>
+<div id="data-source" class="section level2">
+<h2>2.1 Data Source</h2>
+<p>For each company, I downloaded 1,000 tweets containing the company name as the hashtag (e.g. “#amazon” for Amazon).
+I used Python module “tweepy” to stream the data and set the “since” parameter to ‘2020-03-01’, which collects a sample of 1,000 tweets since March 1st.</p>
+</div>
+<div id="topic-modeling" class="section level2">
+<h2>2.2 Topic Modeling</h2>
+<p>Using Python module “gensim”, I detected three most significant topics (including Covid-19, business, and daily life), which are named by the associated keywords (most relevant terms).</p>
+<p><img src="/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png" alt="latent topics and revevant terms"></p>
+<p>Using Python module “vaderSentiment”, I computed sentiment scores for each tweet and aggregated the scores by company. The topic-based sentiment scores are used to construct the perceptual map, in which each company takes a different position.
+Using Python module “nltk”, I find the most frequent topic-based co-occurring words for each company.</p>
+</div>
+</div>
+<div id="results" class="section level1">
+<h1>3 Results</h1>
+<div id="perceptual-map-of-faamg-based-on-topic-sentiment" class="section level2">
+<h2>3.1 Perceptual Map of FAAMG Based on Topic Sentiment</h2>
+<p><img src="/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png" alt="perceptual map and the positioning of each company"></p>
+<p>It looks Amazon does well on all topics, especially on Covid-19-related topic. Microsoft and Apple do well on “Business”.</p>
+</div>
+<div id="keywords-co-occurrence-network-on-each-topic" class="section level2">
+<h2>3.2 Keywords Co-occurrence Network on Each Topic</h2>
+<p>Here are the work keywords co-occurrence patterns for each topic of these companies.</p>
+<p><img src="/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png" alt="Amazon Word-Association Network"></p>
+<p><img src="/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png" alt="Apple Word-Association Network"></p>
+<p><img src="/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png" alt="Facebook Word-Association Network"></p>
+<p><img src="/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png" alt="Google Word-Association Network"></p>
+<p><img src="/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png" alt="Microsoft Word-Association Network"></p>
+</div>
+</div>

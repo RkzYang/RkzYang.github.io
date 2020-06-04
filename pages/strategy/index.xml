@@ -17,29 +17,6 @@
       
       <guid>/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</guid>
       <description>
----
-title: An Ongoing Collection of Mission Statements and Vision Statements
-description: &#34;a collection of mission statements and vision statements&#34;
-author: &#39;&#39;
-date: &#39;2020-05-03&#39;
-images: 
-- Yang_logo.png
-slug: an-ongoing-collection-of-vision-statement-vision-statement
-categories:
-  - strategy
-pages:
-  - strategy
-twitter:
-  card: &#34;summary&#34;
-  title: &#34;Mission Statements and Vision Statements (a Collection)&#34;
-  site: &#34;@rky_phd&#34;
-  description: &#34;a collection of mission statements and vision statements&#34;
-  image: &#34;https://www.yang.management/Yang_logo.png&#34;
-output:
-  blogdown::html_page:
-    toc: true
----
-
 
 
 &lt;p&gt;Here is a collection of mission statements and vision statements.&lt;/p&gt;
