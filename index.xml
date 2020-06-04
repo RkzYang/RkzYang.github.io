@@ -52,7 +52,7 @@
 &lt;p&gt;After finding the best model from bayesian hyperparameter tuning, we can evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.&lt;/p&gt;
 &lt;p&gt;The data is streamed from “Tushare,” which provides free access to the SH/SZ stock exchange.&lt;/p&gt;
 &lt;p&gt;If you are interested in Tushare data, you can register through &lt;a href=&#34;https://tushare.pro/register?reg=366051&#34; class=&#34;uri&#34;&gt;https://tushare.pro/register?reg=366051&lt;/a&gt;. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/positioning/2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;result&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;3 Result&lt;/h1&gt;
