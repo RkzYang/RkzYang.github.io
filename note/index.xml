@@ -163,28 +163,6 @@
       
       <guid>/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</guid>
       <description>
----
-title: &#39;A List of Market Trackers and Economy Indicators&#39;
-description: &#34;a collection of Market Trackers&#34;
-author: &#39;&#39;
-date: &#39;2019-02-01&#39;
-images: 
-- Yang_logo.png
-slug: an-imcomplete-collection-of-market-trackers
-pages:
-  - research
-twitter:
-  card: &#34;summary&#34;
-  title: &#34;Collection of Market Trackers&#34;
-  site: &#34;@rky_phd&#34;
-  description: &#34;a collection of Market Trackers&#34;
-  image: &#34;https://www.yang.management/Yang_logo.png&#34;
-output:
-  blogdown::html_page:
-    toc: true
-
----
-
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
