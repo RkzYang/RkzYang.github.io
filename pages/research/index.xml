@@ -17,12 +17,36 @@
       
       <guid>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</guid>
       <description>
+---
+title: &#39;An Ongoing Collection of Data Sources&#39;
+description: &#34;a collection of Data Sources&#34;
+author: &#39;&#39;
+date: &#39;2019-06-21&#39;
+images: 
+- Yang_logo.png
+slug: an-ongoing-collection-of-interesting-data-sources
+pages:
+  - research
+twitter:
+  card: &#34;summary&#34;
+  title: &#34;Collection of Data Sources&#34;
+  site: &#34;@rky_phd&#34;
+  description: &#34;a collection of Data Sources&#34;
+  image: &#34;https://www.yang.management/Yang_logo.png&#34;
+output:
+  blogdown::html_page:
+    toc: true
+---
+
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#industries-and-economies&#34;&gt;Industries and Economies&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#companies&#34;&gt;Companies&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#internet-and-patents&#34;&gt;Internet and Patents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#industries-and-economies-1&#34;&gt;Industries and Economies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#companies-1&#34;&gt;Companies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#internet-and-patents-1&#34;&gt;Internet and Patents&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -48,7 +72,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.sec.gov/edgar/&#34; target=&#34;_blank&#34;&gt;Edgar (SEC Filings)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.crunchbase.com/&#34; target=&#34;_blank&#34;&gt;Crunchbase (Startups)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.quandl.com/&#34; target=&#34;_blank&#34;&gt;Quandl (Alternative Data)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wind.com.cn/en/&#34; target=&#34;_blank&#34;&gt;Wind (Chinese Listed Firms)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wind.com.cn/en/Default.html&#34; target=&#34;_blank&#34;&gt;Wind (Chinese Listed Firms)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://tushare.org/&#34; target=&#34;_blank&#34;&gt;Tushare (Chinese Firms, Alternative Data, Crypto)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -58,7 +82,43 @@
 &lt;li&gt;&lt;a href=&#34;https://archive.org/&#34; target=&#34;_blank&#34;&gt;Internet Archives&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ietf.org&#34; target=&#34;_blank&#34;&gt;Internet Documnets&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://developer.imdb.com/&#34; target=&#34;_blank&#34;&gt;IMDb Movies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;www.nber.org/patents/&#34; target=&#34;_blank&#34;&gt;NBER Patents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nber.org/patents/&#34; target=&#34;_blank&#34;&gt;NBER Patents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uspto.gov/&#34; target=&#34;_blank&#34;&gt;USPTO Patents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is an ongoing collection of data sources.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;industries-and-economies-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Industries and Economies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bea.gov/&#34; target=&#34;_blank&#34;&gt;Bureau of Economic Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov&#34; target=&#34;_blank&#34;&gt;Census Bureau&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/data/&#34; target=&#34;_blank&#34;&gt;Bureau of Labor Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ibisworld.com/&#34; target=&#34;_blank&#34;&gt;IBIS Industry Research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cepii.fr/CEPII/en/&#34; target=&#34;_blank&#34;&gt;CEPII World Economy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.followthemoney.org/&#34; target=&#34;_blank&#34;&gt;Follow the Money (Tracking Campaign Contribution)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ogj.com/&#34; target=&#34;_blank&#34;&gt;Oil&amp;amp;Gas Journal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.worldbank.org/&#34; target=&#34;_blank&#34;&gt;World Bank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oecd.org/&#34; target=&#34;_blank&#34;&gt;OECD (Organisation for Economic Cooperation and Development)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eugenesoftware.la.psu.edu/&#34; target=&#34;_blank&#34;&gt;EUGene (Political Science)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;companies-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Companies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sec.gov/edgar/&#34; target=&#34;_blank&#34;&gt;Edgar (SEC Filings)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.crunchbase.com/&#34; target=&#34;_blank&#34;&gt;Crunchbase (Startups)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quandl.com/&#34; target=&#34;_blank&#34;&gt;Quandl (Alternative Data)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wind.com.cn/en/Default.html&#34; target=&#34;_blank&#34;&gt;Wind (Chinese Listed Firms)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tushare.org/&#34; target=&#34;_blank&#34;&gt;Tushare (Chinese Firms, Alternative Data, Crypto)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;internet-and-patents-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Internet and Patents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://archive.org/&#34; target=&#34;_blank&#34;&gt;Internet Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ietf.org&#34; target=&#34;_blank&#34;&gt;Internet Documnets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.imdb.com/&#34; target=&#34;_blank&#34;&gt;IMDb Movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nber.org/patents/&#34; target=&#34;_blank&#34;&gt;NBER Patents&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.uspto.gov/&#34; target=&#34;_blank&#34;&gt;USPTO Patents&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
