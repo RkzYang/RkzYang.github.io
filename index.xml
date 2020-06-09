@@ -855,11 +855,11 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-virtualization-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Virtualization’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;Virtualization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Virtualization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Consider a form of commodity that is under private ownership but does not enter the market exchange, like the electricity coming from a private generator. Because electrical energy would be the same from different generators, electricity can be pooled together to create greater efficiencies than private generators. Thus, in most societies, individual households are renting electricity from public utility companies instead of owning it. In this case, &lt;b&gt;utility companies create a virtual version of electricity resources for households&lt;/b&gt;, which do not own real generators. Similarly, there is room to improve societal efficiency by converting some forms of ownership to rentorship, especially when private ownership creates underutilized resources.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;When individual companies perform similar business functions using the computer, it is possible to &lt;b&gt;improve societal efficiency by pooling the computing and storage resources together and create a virtual instance of a greater computer system&lt;/b&gt;. For individual companies, renting the virtual instances to have applications running on top of it is more efficient than owning (and maintaining) the actual hardware. Also, virtual instances create the flexibility for different companies with customized needs to experiment with new applications, without allocating a budget to acquire hardware before the profit potential of new applications becomes predictable.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;When A.I. becomes the new electricity, cloud computing becomes the new power station, &lt;b&gt;pooling resources to create on-demand availability to businesses and individuals&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Similar to the resource pooling logic, but in a different efficiency-improving mechanism, &lt;b&gt;under-utilized assets can be pooled together from (shared by) the supply side to better match with demand&lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In this case, renting is still more economical than owning, but the societal cost reduction comes from the information brokerage.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When A.I. becomes the new electricity, cloud computing becomes the new power station, &lt;b&gt;pooling resources creates on-demand availability to businesses and individuals&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Similar to the resource pooling logic, but in a different efficiency-improving mechanism, &lt;b&gt;under-utilized assets can be pooled together from (shared by) the supply side to better match with demand&lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In this case, renting is still more economical than owning, but the societal cost reduction comes from the information brokerage.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -1055,36 +1055,12 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
       
       <guid>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</guid>
       <description>
----
-title: &#39;An Ongoing Collection of Data Sources&#39;
-description: &#34;a collection of Data Sources&#34;
-author: &#39;&#39;
-date: &#39;2019-06-21&#39;
-images: 
-- Yang_logo.png
-slug: an-ongoing-collection-of-interesting-data-sources
-pages:
-  - research
-twitter:
-  card: &#34;summary&#34;
-  title: &#34;Collection of Data Sources&#34;
-  site: &#34;@rky_phd&#34;
-  description: &#34;a collection of Data Sources&#34;
-  image: &#34;https://www.yang.management/Yang_logo.png&#34;
-output:
-  blogdown::html_page:
-    toc: true
----
-
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#industries-and-economies&#34;&gt;Industries and Economies&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#companies&#34;&gt;Companies&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#internet-and-patents&#34;&gt;Internet and Patents&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#industries-and-economies-1&#34;&gt;Industries and Economies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#companies-1&#34;&gt;Companies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#internet-and-patents-1&#34;&gt;Internet and Patents&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -1115,42 +1091,6 @@ output:
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div id=&#34;internet-and-patents&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Internet and Patents&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://archive.org/&#34; target=&#34;_blank&#34;&gt;Internet Archives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ietf.org&#34; target=&#34;_blank&#34;&gt;Internet Documnets&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.imdb.com/&#34; target=&#34;_blank&#34;&gt;IMDb Movies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nber.org/patents/&#34; target=&#34;_blank&#34;&gt;NBER Patents&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.uspto.gov/&#34; target=&#34;_blank&#34;&gt;USPTO Patents&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is an ongoing collection of data sources.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;industries-and-economies-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Industries and Economies&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bea.gov/&#34; target=&#34;_blank&#34;&gt;Bureau of Economic Analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.census.gov&#34; target=&#34;_blank&#34;&gt;Census Bureau&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/data/&#34; target=&#34;_blank&#34;&gt;Bureau of Labor Statistics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ibisworld.com/&#34; target=&#34;_blank&#34;&gt;IBIS Industry Research&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cepii.fr/CEPII/en/&#34; target=&#34;_blank&#34;&gt;CEPII World Economy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.followthemoney.org/&#34; target=&#34;_blank&#34;&gt;Follow the Money (Tracking Campaign Contribution)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ogj.com/&#34; target=&#34;_blank&#34;&gt;Oil&amp;amp;Gas Journal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.worldbank.org/&#34; target=&#34;_blank&#34;&gt;World Bank&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.oecd.org/&#34; target=&#34;_blank&#34;&gt;OECD (Organisation for Economic Cooperation and Development)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://eugenesoftware.la.psu.edu/&#34; target=&#34;_blank&#34;&gt;EUGene (Political Science)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;companies-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Companies&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sec.gov/edgar/&#34; target=&#34;_blank&#34;&gt;Edgar (SEC Filings)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.crunchbase.com/&#34; target=&#34;_blank&#34;&gt;Crunchbase (Startups)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.quandl.com/&#34; target=&#34;_blank&#34;&gt;Quandl (Alternative Data)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wind.com.cn/en/Default.html&#34; target=&#34;_blank&#34;&gt;Wind (Chinese Listed Firms)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tushare.org/&#34; target=&#34;_blank&#34;&gt;Tushare (Chinese Firms, Alternative Data, Crypto)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;internet-and-patents-1&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Internet and Patents&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://archive.org/&#34; target=&#34;_blank&#34;&gt;Internet Archives&lt;/a&gt;&lt;/li&gt;
