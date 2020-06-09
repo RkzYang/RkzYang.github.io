@@ -42,6 +42,8 @@
       
       <li><a href="/pages/">Pages</a></li>
       
+      <li><a href="/series/">Series</a></li>
+      
     </ul>
     <hr/>
     </nav>
@@ -68,6 +70,10 @@
   Tags: <a href="/tags/market-categories">market-categories</a> <a href="/tags/big-firms">big firms</a> 
   
   
+  
+  
+  
+  
 </p>
 
 <img src="" />
@@ -88,16 +94,14 @@
 <div id="motivation" class="section level1">
 <h1>1 Motivation</h1>
 <p>According to Warren Buffet, buying a stock is like “acquiring an ownership interest in the business of a company.” Buffet tends to only care about the fundamentals of the stocks he buys.</p>
-<p>Here the question is: do companies have a “fundamental positioning” – a relative standing to peer firms in terms of the financial fundamentals – to determine the differences in stock returns?</p>
-<p>As a strategist, I consider a stock as a winner only when it beats the market. In other words, I only care about the “winner premium,” the amount of returns above the expected level. I will explore utilizing the “fundamental positionings” to pick (predict) winner stocks.</p>
+<p>Here the question is: do companies have a “fundamental positioning” – a relative standing to peer firms in terms of the financial fundamentals — to determine the differences in stock returns?</p>
+<p>As a strategist, I consider a stock as a winner only when it <b>beats the market</b>. In other words, I only care about the “winner premium” — the stock returns above the expected level (a.k.a. above-normal rate of returns). I will explore utilizing the “fundamental positionings” to pick (predict) winner stocks.</p>
 </div>
 <div id="pipeline" class="section level1">
 <h1>2 Pipeline</h1>
-<p>To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering or selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings <b>prior to</b> the holding period (90 days).</p>
-<p>To examine the predictive power of fundamental positionings, I left the base financial ratios along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space.</p>
-<p>After finding the best model from bayesian hyperparameter tuning, we can evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.</p>
-<p>The data is streamed from “Tushare,” which provides free access to the SH/SZ stock exchange.</p>
-<p>If you are interested in Tushare data, you can register through <a href="https://tushare.pro/register?reg=366051" class="uri">https://tushare.pro/register?reg=366051</a>. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.</p>
+<p>To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering/selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings <b>prior to</b> the holding period (90 days). To examine the predictive power of fundamental positionings, I left the base financial ratio variables along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space. After finding the best model from bayesian hyperparameter tuning, we can then evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.</p>
+<p>The data is streamed from “<a href="https://pypi.org/project/tushare/"> Tushare</a>,” which provides free access to the SH/SZ stock exchange.</p>
+<!---If you are interested in Tushare data, you can register through https://tushare.pro/register?reg=366051. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.-->
 <p><img src="/positioning/2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 </div>
 <div id="result" class="section level1">
@@ -217,7 +221,7 @@ src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM
 </script>
   
   <hr/>
-  &copy; 2019 <a href='https://www.yang.management' target='_self'>Yang.Management</a> | <a href="https://github.com/RkzYang" target="_blank">GitHub</a> | <a href="https://twitter.com/rky_phd" target="_blank">Twitter</a>
+  &copy; <a href='https://www.yang.management' target='_self'>Yang.Management</a> 2019 - 2020 | <a href="https://github.com/RkzYang" target="_blank">GitHub</a> | <a href="https://twitter.com/rky_phd" target="_blank">Twitter</a>
   
   </footer>
   </body>

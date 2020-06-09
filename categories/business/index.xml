@@ -72,7 +72,7 @@
     </item>
     
     <item>
-      <title>Mapping out the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
+      <title>the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
       <link>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -434,7 +434,7 @@ The inter-connected keyword clusters present the relationship among the main top
 &lt;p&gt;It involves three simple steps. First, brainstorm the essential components in a business system. Second, identify the causal linkages and loops. Third, mark the positive/negative relationships (and the leverage in the system). I find that most students can master this skill very quickly and can generate a good graph with some practice.&lt;/p&gt;
 &lt;p&gt;I also push for simplicity, as I notice the more I ask them to succinctly define the components, the more they move away from perceptual experiences to critical thinking. Such a map can be a helpful starting point for us to keep questioning ourselves on further facts, proofs, and underlying mechanisms.&lt;/p&gt;
 &lt;p&gt;Here is an example of a generic “precision online marketing” model (e.g., Google, Facebook, Youtube, etc.), made with &lt;a href=&#34;https://igraph.org/&#34; target=&#34;_blank&#34;&gt; iGraph&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-02-28-system-mapping-business-models_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/ent_tools/2019-02-28-system-mapping-business-models_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

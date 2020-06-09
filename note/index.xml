@@ -5,10 +5,65 @@
     <description>Recent content in Notes on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An Ongoing Collection of Data Sources</title>
+      <link>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#industries-and-economies&#34;&gt;Industries and Economies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#companies&#34;&gt;Companies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#internet-and-patents&#34;&gt;Internet and Patents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is an ongoing collection of data sources.&lt;/p&gt;
+&lt;div id=&#34;industries-and-economies&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Industries and Economies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bea.gov/&#34; target=&#34;_blank&#34;&gt;Bureau of Economic Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov&#34; target=&#34;_blank&#34;&gt;Census Bureau&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/data/&#34; target=&#34;_blank&#34;&gt;Bureau of Labor Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ibisworld.com/&#34; target=&#34;_blank&#34;&gt;IBIS Industry Research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cepii.fr/CEPII/en/&#34; target=&#34;_blank&#34;&gt;CEPII World Economy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.followthemoney.org/&#34; target=&#34;_blank&#34;&gt;Follow the Money (Tracking Campaign Contribution)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ogj.com/&#34; target=&#34;_blank&#34;&gt;Oil&amp;amp;Gas Journal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.worldbank.org/&#34; target=&#34;_blank&#34;&gt;World Bank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oecd.org/&#34; target=&#34;_blank&#34;&gt;OECD (Organisation for Economic Cooperation and Development)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eugenesoftware.la.psu.edu/&#34; target=&#34;_blank&#34;&gt;EUGene (Political Science)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;companies&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Companies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sec.gov/edgar/&#34; target=&#34;_blank&#34;&gt;Edgar (SEC Filings)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.crunchbase.com/&#34; target=&#34;_blank&#34;&gt;Crunchbase (Startups)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quandl.com/&#34; target=&#34;_blank&#34;&gt;Quandl (Alternative Data)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wind.com.cn/en/&#34; target=&#34;_blank&#34;&gt;Wind (Chinese Listed Firms)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tushare.org/&#34; target=&#34;_blank&#34;&gt;Tushare (Chinese Firms, Alternative Data, Crypto)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;internet-and-patents&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Internet and Patents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://archive.org/&#34; target=&#34;_blank&#34;&gt;Internet Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ietf.org&#34; target=&#34;_blank&#34;&gt;Internet Documnets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.imdb.com/&#34; target=&#34;_blank&#34;&gt;IMDb Movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;www.nber.org/patents/&#34; target=&#34;_blank&#34;&gt;NBER Patents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uspto.gov/&#34; target=&#34;_blank&#34;&gt;USPTO Patents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>An Ongoing Collection of NLP Startups</title>
@@ -96,6 +151,88 @@
 &lt;li&gt;&lt;a href=&#34;https://robjhyndman.com&#34; target=&#34;_blank&#34;&gt;Rob J. Hyndman’s Website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://livefreeordichotomize.com&#34; target=&#34;_blank&#34;&gt;Live Free or Dichotomize&lt;/a&gt; (by Lucy and Nick)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.emilyzabor.com/&#34; target=&#34;_blank&#34;&gt;Emily C. Zabor’s Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A List of Market Trackers of Economy Indicators</title>
+      <link>/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#fred&#34;&gt;FRED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bea&#34;&gt;BEA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#fed&#34;&gt;FED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bls&#34;&gt;BLS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#census&#34;&gt;Census&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#graph&#34;&gt;Graph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#other&#34;&gt;Other&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;fred&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;FRED&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/TB3MS&#34; target=&#34;_blank&#34;&gt;3-Month Bill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/IRLTLT01USM156N&#34; target=&#34;_blank&#34;&gt;10-year Bond&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/GDPC1&#34; target=&#34;_blank&#34;&gt;Real GDP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/WALCL&#34; target=&#34;_blank&#34;&gt;Total Assets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/GFDEGDQ188S&#34; target=&#34;_blank&#34;&gt;Debt to GDP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bea&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;BEA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bea.gov/data/gdp/gross-domestic-product&#34; target=&#34;_blank&#34;&gt;GDP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bea.gov/data/intl-trade-investment/international-transactions&#34; target=&#34;_blank&#34;&gt;International Trade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;fed&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;FED&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/MANMM101USM189S&#34; target=&#34;_blank&#34;&gt;M1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.federalreserve.gov/releases/h6/&#34; target=&#34;_blank&#34;&gt;M2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/MABMM301USM189S&#34; target=&#34;_blank&#34;&gt;M3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bls&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;BLS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/cpi/home.htm&#34; target=&#34;_blank&#34;&gt;CPI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/ppi/home.htm&#34; target=&#34;_blank&#34;&gt;PPI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/ces/home.htm&#34; target=&#34;_blank&#34;&gt;CES&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;census&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Census&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/retail/index.html&#34; target=&#34;_blank&#34;&gt;Retail&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/construction/nrc/index.html&#34; target=&#34;_blank&#34;&gt;Residential Construction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/mtis/index.html&#34; target=&#34;_blank&#34;&gt;Manufacturing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;graph&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Graph&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.longtermtrends.net/market-cap-to-gdp/&#34; target=&#34;_blank&#34;&gt;Market Cap. to GDP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ycharts.com/indicators/reports/finra_margin_statistics&#34; target=&#34;_blank&#34;&gt;FINRA Margin Debt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=who+is+buying+equities&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Equity Buyers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://money.cnn.com/data/fear-and-greed/&#34; target=&#34;_blank&#34;&gt;Fear v. Greed Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://finance.yahoo.com/quote/%5EVIX?p=%5EVIX&#34; target=&#34;_blank&#34;&gt;Vix Volatility Index&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conference-board.org/data/consumerconfidence.cfm&#34; target=&#34;_blank&#34;&gt;Consumer Confidence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.estimize.com/&#34; target=&#34;_blank&#34;&gt;Estimize Prediction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gurufocus.com/guru/warren+buffett/current-portfolio/portfolio&#34; target=&#34;_blank&#34;&gt;Buffet Portfolio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 </description>

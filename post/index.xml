@@ -453,27 +453,6 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
       
       <guid>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
       <description>
----
-title: A Quick Bibliometric Analysis on “Positioning”
-description: &#39;Tracing the history and development of “positioning” thinkings&#39;
-author: &#39;&#39;
-date: &#39;2019-02-26&#39;
-images: 
-- Yang_logo.png
-slug: a-quick-bibliometric-analysis-on-strategic-positioning
-categories:
-  - positioning
-  - visualization
-tags:
-  - market categories
-twitter:
-  card: &#34;summary&#34;
-  title: &#34;Bibliometric Analysis on &#39;Positioning&#39;&#34;
-  site: &#34;@rky_phd&#34;
-  description: &#34;Tracing the history and development of &#39;positioning&#39; thinkings&#34;
-  image: &#34;https://www.yang.management/Yang_logo.png&#34;
----
-
 
 
 &lt;p&gt;I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.&lt;/p&gt;

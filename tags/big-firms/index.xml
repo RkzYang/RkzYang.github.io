@@ -29,16 +29,14 @@
 &lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;1 Motivation&lt;/h1&gt;
 &lt;p&gt;According to Warren Buffet, buying a stock is like “acquiring an ownership interest in the business of a company.” Buffet tends to only care about the fundamentals of the stocks he buys.&lt;/p&gt;
-&lt;p&gt;Here the question is: do companies have a “fundamental positioning” – a relative standing to peer firms in terms of the financial fundamentals – to determine the differences in stock returns?&lt;/p&gt;
-&lt;p&gt;As a strategist, I consider a stock as a winner only when it beats the market. In other words, I only care about the “winner premium,” the amount of returns above the expected level. I will explore utilizing the “fundamental positionings” to pick (predict) winner stocks.&lt;/p&gt;
+&lt;p&gt;Here the question is: do companies have a “fundamental positioning” – a relative standing to peer firms in terms of the financial fundamentals — to determine the differences in stock returns?&lt;/p&gt;
+&lt;p&gt;As a strategist, I consider a stock as a winner only when it &lt;b&gt;beats the market&lt;/b&gt;. In other words, I only care about the “winner premium” — the stock returns above the expected level (a.k.a. above-normal rate of returns). I will explore utilizing the “fundamental positionings” to pick (predict) winner stocks.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;pipeline&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2 Pipeline&lt;/h1&gt;
-&lt;p&gt;To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering or selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings &lt;b&gt;prior to&lt;/b&gt; the holding period (90 days).&lt;/p&gt;
-&lt;p&gt;To examine the predictive power of fundamental positionings, I left the base financial ratios along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space.&lt;/p&gt;
-&lt;p&gt;After finding the best model from bayesian hyperparameter tuning, we can evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.&lt;/p&gt;
-&lt;p&gt;The data is streamed from “Tushare,” which provides free access to the SH/SZ stock exchange.&lt;/p&gt;
-&lt;p&gt;If you are interested in Tushare data, you can register through &lt;a href=&#34;https://tushare.pro/register?reg=366051&#34; class=&#34;uri&#34;&gt;https://tushare.pro/register?reg=366051&lt;/a&gt;. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.&lt;/p&gt;
+&lt;p&gt;To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering/selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings &lt;b&gt;prior to&lt;/b&gt; the holding period (90 days). To examine the predictive power of fundamental positionings, I left the base financial ratio variables along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space. After finding the best model from bayesian hyperparameter tuning, we can then evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.&lt;/p&gt;
+&lt;p&gt;The data is streamed from “&lt;a href=&#34;https://pypi.org/project/tushare/&#34;&gt; Tushare&lt;/a&gt;,” which provides free access to the SH/SZ stock exchange.&lt;/p&gt;
+&lt;!---If you are interested in Tushare data, you can register through https://tushare.pro/register?reg=366051. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.--&gt;
 &lt;p&gt;&lt;img src=&#34;/positioning/2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;result&#34; class=&#34;section level1&#34;&gt;
@@ -52,7 +50,7 @@
     </item>
     
     <item>
-      <title>Mapping out the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
+      <title>the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
       <link>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       

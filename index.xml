@@ -42,16 +42,14 @@
 &lt;div id=&#34;motivation&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;1 Motivation&lt;/h1&gt;
 &lt;p&gt;According to Warren Buffet, buying a stock is like “acquiring an ownership interest in the business of a company.” Buffet tends to only care about the fundamentals of the stocks he buys.&lt;/p&gt;
-&lt;p&gt;Here the question is: do companies have a “fundamental positioning” – a relative standing to peer firms in terms of the financial fundamentals – to determine the differences in stock returns?&lt;/p&gt;
-&lt;p&gt;As a strategist, I consider a stock as a winner only when it beats the market. In other words, I only care about the “winner premium,” the amount of returns above the expected level. I will explore utilizing the “fundamental positionings” to pick (predict) winner stocks.&lt;/p&gt;
+&lt;p&gt;Here the question is: do companies have a “fundamental positioning” – a relative standing to peer firms in terms of the financial fundamentals — to determine the differences in stock returns?&lt;/p&gt;
+&lt;p&gt;As a strategist, I consider a stock as a winner only when it &lt;b&gt;beats the market&lt;/b&gt;. In other words, I only care about the “winner premium” — the stock returns above the expected level (a.k.a. above-normal rate of returns). I will explore utilizing the “fundamental positionings” to pick (predict) winner stocks.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;pipeline&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2 Pipeline&lt;/h1&gt;
-&lt;p&gt;To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering or selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings &lt;b&gt;prior to&lt;/b&gt; the holding period (90 days).&lt;/p&gt;
-&lt;p&gt;To examine the predictive power of fundamental positionings, I left the base financial ratios along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space.&lt;/p&gt;
-&lt;p&gt;After finding the best model from bayesian hyperparameter tuning, we can evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.&lt;/p&gt;
-&lt;p&gt;The data is streamed from “Tushare,” which provides free access to the SH/SZ stock exchange.&lt;/p&gt;
-&lt;p&gt;If you are interested in Tushare data, you can register through &lt;a href=&#34;https://tushare.pro/register?reg=366051&#34; class=&#34;uri&#34;&gt;https://tushare.pro/register?reg=366051&lt;/a&gt;. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.&lt;/p&gt;
+&lt;p&gt;To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering/selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings &lt;b&gt;prior to&lt;/b&gt; the holding period (90 days). To examine the predictive power of fundamental positionings, I left the base financial ratio variables along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space. After finding the best model from bayesian hyperparameter tuning, we can then evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.&lt;/p&gt;
+&lt;p&gt;The data is streamed from “&lt;a href=&#34;https://pypi.org/project/tushare/&#34;&gt; Tushare&lt;/a&gt;,” which provides free access to the SH/SZ stock exchange.&lt;/p&gt;
+&lt;!---If you are interested in Tushare data, you can register through https://tushare.pro/register?reg=366051. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.--&gt;
 &lt;p&gt;&lt;img src=&#34;/positioning/2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;result&#34; class=&#34;section level1&#34;&gt;
@@ -232,7 +230,7 @@ Walmart: Be the destination for customers to save money, no matter how they want
     </item>
     
     <item>
-      <title>Mapping out the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
+      <title>the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
       <link>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
@@ -432,13 +430,7 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;li&gt;&lt;a href=&#34;#business-strategy&#34;&gt;2.1 Business Strategy&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#corporate-strategy&#34;&gt;2.2 Corporate Strategy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#general-purpose-matrices-1&#34;&gt;1 General-purpose Matrices&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#strategic-management-1&#34;&gt;2 Strategic Management&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#business-strategy-1&#34;&gt;2.1 Business Strategy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#corporate-strategy-1&#34;&gt;2.2 Corporate Strategy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#innovation-strategy&#34;&gt;3 Innovation Strategy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#innovation-strategy-1&#34;&gt;3 Innovation Strategy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -473,64 +465,6 @@ As a tool for strategic decision making, each matrix is made of two analytical d
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=merger+acquisition+integration+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;M&amp;amp;A Integration Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;interdependence&lt;/strong&gt; (acquirer v. target) × &lt;strong&gt;autonomy&lt;/strong&gt; (target)]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=outsourcing+strategy+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Outsourcing Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;strategic impact&lt;/strong&gt; × &lt;strong&gt;cost benefit&lt;/strong&gt;]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=kraljic+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Kraljic Purchase Control Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;strategic impact&lt;/strong&gt; × &lt;strong&gt;cost benefit&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Bartlett+Ghoshal+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Bartlett &amp;amp; Ghoshal Globalization Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;global standardization&lt;/strong&gt; (↓cost) × &lt;strong&gt;local customization&lt;/strong&gt; (↑—
-title: An Ongoing Collection of Strategy Matrices
-description: “a collection of ‘matrix’ frameworks in strategic management and entrepreneurship”
-author: ’’
-date: ‘2020-03-31’
-images:&lt;/li&gt;
-&lt;li&gt;Yang_logo.png
-slug: an-ongoing-collection-of-strategy-matrices
-categories:
-&lt;ul&gt;
-&lt;li&gt;strategy
-pages:&lt;/li&gt;
-&lt;li&gt;strategy
-twitter:
-card: “summary”
-title: “Strategy Matrices”
-site: “&lt;span class=&#34;citation&#34;&gt;@rky_phd&lt;/span&gt;”
-description: “a collection of strategy matrices (analytical frameworks)”
-image: “&lt;a href=&#34;https://www.yang.management/Yang_logo.png&#34; class=&#34;uri&#34;&gt;https://www.yang.management/Yang_logo.png&lt;/a&gt;”
-output:
-blogdown::html_page:
-toc: true
-—&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Here is a collection of analytical matrices in strategic management and entrepreneurship.
-As a tool for strategic decision making, each matrix is made of two analytical dimensions.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;general-purpose-matrices-1&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;1 General-purpose Matrices&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=swot+analysis&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;SWOT Analysis&lt;/a&gt; [analytical dimensions: &lt;strong&gt;external/internal&lt;/strong&gt; × &lt;strong&gt;harmful/helpful&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=swot+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;TOWS Analysis&lt;/a&gt; [analytical dimensions: &lt;strong&gt;(strength vs. weakness)&lt;/strong&gt; × &lt;strong&gt;(opportunities vs. threats)&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=eisenhower+framework&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Eisenhower Priority Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;urgency&lt;/strong&gt; × &lt;strong&gt;importance&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=risk+reward+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Risk Reward Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;risk&lt;/strong&gt; × &lt;strong&gt;reward&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=skill+will+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Skill-Will Matrix for Managing &amp;amp; Leading People &lt;/a&gt; [analytical dimensions: &lt;strong&gt;people’s will&lt;/strong&gt; × &lt;strong&gt;people’s skill&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;strategic-management-1&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;2 Strategic Management&lt;/h1&gt;
-&lt;div id=&#34;business-strategy-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;2.1 Business Strategy&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=generic+strategies+porter&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Generic Strategies&lt;/a&gt; [analytical dimensions: &lt;strong&gt;market scope&lt;/strong&gt; × &lt;strong&gt;profit driver&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Miles+%26+Snow&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Miles &amp;amp; Snow’s Strategic Type&lt;/a&gt; [analytical dimensions: &lt;strong&gt;environment&lt;/strong&gt; × &lt;strong&gt;action&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=BCG+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;BCG Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;market growth&lt;/strong&gt; × &lt;strong&gt;market share&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Blue+ocean+Four+Actions&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Blue Ocean Strategy: Four-Action Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;relative performance&lt;/strong&gt; × &lt;strong&gt;perceived value&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=competitor+identification+market+resource+similarity&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Competitor Identification Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;market overlap&lt;/strong&gt; × &lt;strong&gt;resource similarity&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;corporate-strategy-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;2.2 Corporate Strategy&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=ansoff+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Ansoff Growth Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;product&lt;/strong&gt; (old vs. new) × &lt;strong&gt;market&lt;/strong&gt; (old vs. new)]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=merger+acquisition+integration+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;M&amp;amp;A Integration Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;interdependence&lt;/strong&gt; (acquirer v. target) × &lt;strong&gt;autonomy&lt;/strong&gt; (target)]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=outsourcing+strategy+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Outsourcing Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;strategic impact&lt;/strong&gt; × &lt;strong&gt;cost benefit&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=kraljic+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Kraljic Purchase Control Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;strategic impact&lt;/strong&gt; × &lt;strong&gt;cost benefit&lt;/strong&gt;]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Bartlett+Ghoshal+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Bartlett &amp;amp; Ghoshal Globalization Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;global standardization&lt;/strong&gt; (↓cost) × &lt;strong&gt;local customization&lt;/strong&gt; (↑value)]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Bartlett+Ghoshal+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Stakeholder Interest Influence Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;stakeholder power&lt;/strong&gt; × &lt;strong&gt;stakeholder interest&lt;/strong&gt;]&lt;/li&gt;
 &lt;/ul&gt;
@@ -549,25 +483,581 @@ As a tool for strategic decision making, each matrix is made of two analytical d
 &lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Human-Centered%2C+Systems-Minded+Design&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Standford Human-Systems Design-thinking Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;creation&lt;/strong&gt; (understand vs. create) × &lt;strong&gt;abstraction&lt;/strong&gt; (concrete vs. abstract)]
 &lt;br&gt;
 &lt;hr&gt;
-Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c9dS9&#34; target=&#34;_blank&#34;&gt;TELL ME&lt;/a&gt; to add it!
-value)]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Bartlett+Ghoshal+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Stakeholder Interest Influence Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;stakeholder power&lt;/strong&gt; × &lt;strong&gt;stakeholder interest&lt;/strong&gt;]&lt;/li&gt;
+Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c9dS9&#34; target=&#34;_blank&#34;&gt;TELL ME&lt;/a&gt; to add it!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;innovation-strategy-1&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;3 Innovation Strategy&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Costoco</title>
+      <link>/companies/mapping-costoco/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-costoco/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Costco_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Costco’s membership renewal rates in the united states and Canada have remained at roughly 90 %. The traffic - driving values that Costco offers in its stores is fueled by cost leverage and procurement strength that, in turn, feeds additional store visits.&lt;/p&gt;
+&lt;p&gt;Costco has achieved a competitive advantage based on its intangible assets and cost leadership. The firm’s membership subscription model has held steady through the financial crisis, the rise of Amazon and its Prime memberships. In addition to cost management and distribution leverage, Costco’s low prices are enabled by its procurement strength.&lt;/p&gt;
+&lt;p&gt;Costco sells roughly 3,700 different stock - keeping units in its stores, a fraction of the 75,000 to 80,000 at Walmart in the United States. The retailer offers a significantly higher number of items via its marketplace. Costco’s sales per SKU were over 30 million, towering above Walmart’s less than 3 million and target’s $1 million, contributing to its procurement cost advantage.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Costco benefits from a number of traffic drivers, particularly its food offerings ( 53 % of fiscal 2019 sales ) and fuel. Fuel sales serve as a meaningful counterpoint to traffic pressure from digital sellers. With in-store prepared food offerings and a well-developed private - label portfolio, Costco’s store offering is well distinguished. With in-store ready food offerings, the Kirkland signature brand, accounts for around a quarter of Costco’s sales, excluding fuel and is also margin- accretive.&lt;/p&gt;
+&lt;p&gt;Costco has been increasing its e-commerce efforts ( roughly 4 % of sales ), focusing on items not available in stores ( including travel and other services ) and a distinguished product novelty. The digitization of retail has strained all traditional sellers, but we believe it is better placed than most. Costco’s e-commerce efforts are currently focused on items that it doesn’t offer in stores.&lt;/p&gt;
+&lt;p&gt;An acceleration in the digitization of retail could affect Costco’s results. Pressure should intensify on traditional rivals to deliver omnichannel solutions that incur added payment costs. The pressure should intensify on traditional competitors to provide omnichannel solutions.&lt;/p&gt;
+&lt;p&gt;The firm has thrived under a variety of conditions, but as competition increases and it expands into new markets, the degree of difficulty also rises. Costco also handles a significant amount of customer data, and a breach could expose it to financial and reputational risk. The firm also faces several costs that are, at least in large part, outside its control, including wages (particularly its gaps against competitors), currency, trade policy, and the broader macroeconomic environment. Costco has worked under a different system, but it faces a number of costs.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3-D Printing</title>
+      <link>/tech_categories/mapping-three-d-printing/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-three-d-printing/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=innovation+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Types of Innovation&lt;/a&gt; [analytical dimensions: &lt;strong&gt;problem maturity&lt;/strong&gt; × &lt;strong&gt;solution maturity&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Perrow+technology+typology+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Perrow’s Technology Typology Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;task analyzability&lt;/strong&gt; × &lt;strong&gt;task variability&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=perrow+coupling-interaction+diagram&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Perrow’s Coupling-Interaction Diagram&lt;/a&gt; [analytical dimensions: &lt;strong&gt;system coupling&lt;/strong&gt; (tight vs. loose) × &lt;strong&gt;system interaction&lt;/strong&gt; (linear vs. complex)]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Product+process+change+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Product-Process Change Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;product change&lt;/strong&gt; × &lt;strong&gt;process change&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Abernathy+and+Clark+Typology&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Abernathy &amp;amp; Clark Innovation Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;market creation&lt;/strong&gt; (low vs. high) × &lt;strong&gt;technological change&lt;/strong&gt; (low vs. high)]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=How-Wow-Now+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;How-Wow-Now Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;novelty&lt;/strong&gt; × &lt;strong&gt;feasibility&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=verganti+design-driven+radical+change+matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Verganti’s Innovation Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;new technology&lt;/strong&gt; × &lt;strong&gt;new meaning&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=Human-Centered%2C+Systems-Minded+Design&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Standford Human-Systems Design-thinking Matrix&lt;/a&gt; [analytical dimensions: &lt;strong&gt;creation&lt;/strong&gt; (understand vs. create) × &lt;strong&gt;abstraction&lt;/strong&gt; (concrete vs. abstract)]
-&lt;br&gt;
-&lt;hr&gt;
-Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c9dS9&#34; target=&#34;_blank&#34;&gt;TELL ME&lt;/a&gt; to add it!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-3-d-printing-system&#34;&gt;Overview of the ‘3-D Printing’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-3-d-printing-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘3-D Printing’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/3D_Printing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Additive manufacturing (3-D Printing) beats subtractive manufacturing (traditional manufacturing) by reducing cost and increasing flexibility, &lt;i&gt;at the same time&lt;/i&gt;. If the natural selection favors the more efficient production mode that generates less economic waste, 3-D printing will be the sure winner.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; In essence, 3-D printers can &lt;b&gt;mass-produce customized physical objects&lt;/b&gt; (Mass Customization).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Traditionally, assembly lines are intended to utilize standardized modules to construct complexities at higher levels&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. However, the modularity in subtractive manufacturing is such imperfect that the supply chain in fact carries the organizational costs from the individual modules to the assembling (and inter-firm transaction) processes&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. As a result, the entire supply chain is comprised of specialized firms handing each standardized module&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Since specialized firms can not be efficient without a stable demand to continuously reward their internal standardized processes, the rigidity in the entire supply chain will either fail to meet the changing demand or &lt;b&gt;transfer the “rigidity” cost from the entire supply chain to specialized firms due to demand fluctuation&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mass customization breaks the standardization-customization compromise made by assembly lines. The technology of 3-D printing reverse-engineers the supply chain problem. Instead of preparing modules for unseen complexity, manufacturers can eliminate the complexity by more directly acting on the demand and shortening the cycle of design between the point of consumption and point of production&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;. The middlemen are eliminated as &lt;b&gt;the module-producing and assembling processes are replaced by a single data input file for a 3-D printer&lt;/b&gt;. The end product can be both scalable and personalized, depending on the demand.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Winter, Sidney G. Economic&amp;quot; natural selection&amp;quot; and the theory of the firm. Vol. 4. Institute of Public Policy Studies, University of Michigan, 1964.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Simon, Herbert A. “The architecture of complexity.” Facets of systems science. Springer, Boston, MA, 1991. 457-476.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Newman, Stephen T., et al. “Process planning for additive and subtractive manufacturing technologies.” CIRP Annals 64.1 (2015): 467-470&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Williamson, O. E. “1975: Markets and hierarchies. New York: Free Press.” (1975).&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;Mertz, Leslie. “Dream it, design it, print it in 3-D: what can 3-D printing do for you?.” IEEE pulse 4.6 (2013): 15-21.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Block Chain</title>
+      <link>/tech_categories/mapping-block-chain/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-block-chain/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-block-chain-system&#34;&gt;Overview of the ‘Block Chain’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-block-chain-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Block Chain’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Block_Chain_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If natural selection optimizes for local efficiency &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and the total entropy in the universe is ever-increasing&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, there exists a trade-off between the order of the social structure and the freedom of the interacting agents. A social system limits individual freedom according to the limitation of inter-connectivity &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. For example, when we rely on market transactions to exchange (connect) specialized productions (divided labor), we give power to intermediaries (firms, government, communities) to fill in the gap in inter-connectivity (in which intermediaries connect with unconnected participants). &lt;b&gt;Thus, when everyone is connected with everyone else, we don’t need to rely on intermediaries to maintain order&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The full connectivity creates a new social structure. Because social structure serves as the medium for agency, the new social structure will enable us to achieve what’s impossible in the past &lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Because &lt;i&gt;all&lt;/i&gt; participants are interconnected with one another, &lt;b&gt;the entire system prevents the emergence of a central intermediary from manipulating the flow of information&lt;/b&gt;. As there is no information asymmetry, all ownership contracts are secured (automatically verified) and transparent &lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Free from information brokerage and the need for trusted third-parties, the ownership contracts associated with any virtual usage or value can facilitate transactive collaborations among autonomous agents. &lt;b&gt;The costs (and needs) for trust or order are eliminated at the system level across the fully connected social structure&lt;/b&gt;. The efficiency gain created by specialization (with division of labor and separation of tasks) is no longer bounded by the extent of market exchange for integrating unconnected agents. System integration will directly derive from the complete inter-connectivity and enhance system-wide wealth.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Hannan, Michael T., and John Freeman. “The population ecology of organizations.” American journal of sociology 82.5 (1977): 929-964.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Denbigh, Kenneth George, and Kenneth George Denbigh. The principles of chemical equilibrium: with applications in chemistry and chemical engineering. Cambridge University Press, 1981.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Simon, Herbert A. “The architecture of complexity.” Facets of systems science. Springer, Boston, MA, 1991. 457-476.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Anthony Giddens. The constitution of society: Outline of the theory of structuration. Univ of California Press, 1984.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;Nakamoto, Satoshi. Bitcoin: A peer-to-peer electronic cash system. Manubot, 2019.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Marketing</title>
+      <link>/tech_categories/mapping-digital-marketing/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-digital-marketing/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-digital-marketing-system&#34;&gt;Overview of the ‘Digital Marketing’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-digital-marketing-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Digital Marketing’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Digital_Marketing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Digital marketing utilizes new forms of media to increase the content ROI relative to the traditional media (i.e., the commercials on mass media). In the traditional mode, it is not only costly to create rich content catering to different tastes but also impossible to control the traffic-conversion rate in the long tails &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Digitization reduces content creation cost and enables niche content creators to expose their content to the entire global audience. &lt;b&gt;Niche content is more effective and efficient in traffic generation and conversion rate because of greater relevancy and closer relationship with niche audience.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A key component of the digitization process is user data. User data sit on the consumer side of the content exchange process. Traditional content relying on one-sided communication fails to connect with the differing consumer minds &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. By contrast, in each vertical niche, connections and relationships are often repeated and interactive. Continuous user feedback becomes readily available from the continuous exchange of real human needs and wants. &lt;b&gt;Valuable user data reveals profitable problems and new solutions, which is either unavailable or costly to collect from the traditional channel&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The instant feedback also comes directly from the ROI of the content creation and user interaction process. Digital marketers can directly read the metrics on a dashboard and relate such metrics to their content’s economic performance &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;The learning cycle will dramatically decrease for digital marketers to quickly pivot their content or find better product matches to improve content performance&lt;/b&gt;. In digital marketing, quick learners can survive and scale their content quickly.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Anderson, Chris. The long tail: Why the future of business is selling less of more. Hachette Books, 2006.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Kamins, Michael A., et al. “Two-sided versus one-sided celebrity endorsements: The impact on advertising effectiveness and credibility.” Journal of advertising 18.2 (1989): 4-10.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Morris, Neil. “Understanding digital marketing: marketing strategies for engaging the digital generation.” (2009): 384-387.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>E-commerce</title>
+      <link>/tech_categories/mapping-e-commerce/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-e-commerce/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-e-commerce-system&#34;&gt;Overview of the ‘E-commerce’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-e-commerce-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘E-commerce’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/E_Commerce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;E-commerce allows the transactions of goods and services to be conducted electronically on the internet. &lt;b&gt;The ease of electronic transaction transforms the organization form due to the reduction in transaction cost&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. For consumers, online shopping reduces the search cost for desired products. For sellers, the reduced communication cost enables businesses to outsource core functions (such as marketing, inventory, distribution, etc.) to e-commerce platforms or external providers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The supply chain is deconstructed to allows e-commerce participants to easily switch transacting partners both up-stream and down-stream. Core business functions become easily accessible commodities, offered by specialized platforms (marketing cloud, on-demand inventory, delivery services) &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;The efficiency boost from business-processes outsourcing and automation enables sellers to focus on selling and responding quickly to market demand&lt;/b&gt;. Meanwhile, platforms replace traditional supply chain and enjoy significant network effects and high customer switching cost.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Because it is less efficient to perform many business functions in-house, value chains decompose as businesses reorganize to compete primarily on their effectiveness in selling. This gives power to the consumers facing an increasing number of options to choose from. However, increasing options also bring about information overload, in various vertical categories. &lt;b&gt;Content influencers reintermediate the selling process with richer content to get closer to particular market segments &lt;/b&gt;. However, content richness in one segment reduces the reach for many, driving the ever-increasing content fragmentation &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Williamson, O. E. “1975: Markets and hierarchies. New York: Free Press.” (1975).&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Markus, M. Lynne, and Claudia Loebbecke. “Commoditized digital processes and business community platforms: New opportunities and challenges for digital business strategies.” Mis Quarterly 37.2 (2013): 649-653.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Wurster, Thomas S. Blown to bits: How the new economics of information transforms strategy. Harvard Business School Press, 1999.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Internet of Things</title>
+      <link>/tech_categories/mapping-internet-of-things/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-internet-of-things/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-internet-of-things-system&#34;&gt;Overview of the ‘Internet of Things’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-internet-of-things-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Internet of Things’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/IoT_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Specialization creates efficiency &lt;b&gt;Integration increases wealth&lt;/b&gt;. In modern societies, specialized “things” — physical objects created by specialized producers — result in the lack of integration among the divided things and thus leave money on the table. The total wealth in an economy lies in the efficiency boost from specialized producers, which ultimately need to bring their products together through market exchange mechanism &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;New combinations generate innovation. Innovation resides in the new linkages resulting from the new combinations of exiting things &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In the digital age, &lt;b&gt;new connections between existing things create new data dimensions&lt;/b&gt;, which leads to new opportunities for cost saving and value creation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Right after new connections among existing things generate stabilized benefits for existing users and producers, the newly integrated system starts to form new sub-systems at higher-level complexities &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. Again, &lt;b&gt;new cost-saving and value-creation opportunities will emerge from the higher-level connections among the lower-level subsystems&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Smith, Adam. The Wealth of Nations: An inquiry into the nature and causes of the Wealth of Nations. Harriman House Limited, 2010.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Schumpeter, Joseph A. Capitalism, socialism and democracy. routledge, 2013.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Simon, Herbert A. “The architecture of complexity.” Facets of systems science. Springer, Boston, MA, 1991. 457-476.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Platform</title>
+      <link>/tech_categories/mapping-n-sided-markets/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-n-sided-markets/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-platform-system&#34;&gt;Overview of the ‘Platform’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-platform-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Platform’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/N_Sided_Market_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Platforms play the “game of power” by leveraging network effects. Power can be created through a virtuous cycle in which increased numbers of platform users continuously increase user experience and disproportional user dependency on the platform &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;As long as a platform can dominate a vertical field, the network effects will ultimately pay off by reducing the marginal cost for user acquisition and user retention to zero, and increasing switching cost on the user side to infinity.&lt;/b&gt; We often call this phenomenon “winner take all” &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. As a result, platforms subsidize the users or the third-party sellers (complementors) until the asymmetric dependency is established.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Single-sided network effect (or same-side network effect) occurs when a focal user can interact with a greater number of others joining the same network and using the same platform. Telephone, internet, and online social networks (almost any technology) are all this kind. As Metcalfe’s law states, the possible interconnections within the network are proportional to the square of the total number of connected users &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;After widespread adoption, users will consider the platform as an indispensable commodity. The platform enjoys significant economy of scale.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Multi-sided network effect (or cross-side network effect) occurs when a focal user can derive greater value when a greater number of complementors joining the platform &lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. At the system level, &lt;b&gt;Multi-sided network effects reduce the total transaction costs in the multi-sides markets by reorganizing the functional components within a traditional value chain&lt;/b&gt;. &lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; By reconstructing social and economic networks, platforms can deconstruct a value chain into separate parts, attract participants (and pool resources) from each part, and utilize multi-sided network effect to leverage the scale and asymmetric dependencies over individual users/complementors.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Casciaro, Tiziana, and Mikolaj Jan Piskorski. “Power imbalance, mutual dependence, and constraint absorption: A closer look at resource dependence theory.” Administrative science quarterly 50.2 (2005): 167-199.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Eisenmann, Thomas, Geoffrey Parker, and Marshall W. Van Alstyne. “Strategies for two-sided markets.” Harvard business review 84.10 (2006): 92.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Metcalfe, Bob. “Metcalfe’s law after 40 years of ethernet.” Computer 46.12 (2013): 26-31.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Parker, Geoffrey G., and Marshall W. Van Alstyne. “Two-sided network effects: A theory of information product design.” Management science 51.10 (2005): 1494-1504.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;Rochet, Jean‐Charles, and Jean Tirole. “Two‐sided markets: a progress report.” The RAND journal of economics 37.3 (2006): 645-667.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/tech_categories/mapping-open-source/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-open-source/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-open-source-system&#34;&gt;Overview of the ‘Open Source’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-open-source-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Open Source’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Open_Source_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Organizations are often instruments of purpose. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Organizations create efficiency by getting individuals to work towards a common goal. However, &lt;b&gt; organizations may confine productivity and block free knowledge flows when a purpose is not commonly shared and clearly defined. &lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Emerging new technologies tend to benefit from free knowledge flows across organizational boundaries. &lt;b&gt;In the case of innovation, organizational boundaries become the barriers for good ideas to connect and interact&lt;/b&gt;. Thus, proprietory ownership of good ideas not only prevents external minds from connecting with internal minds, but also causes internal minds to miss out on the opportunity of good ideas from external inter-connected minds. Opportunity cost can quickly override the ownership benefits and render the good in-house ideas obsolete.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Good ideas should not be constrained to serve a pre-defined purpose. Without such constraint, good ideas can freely inter-connect across organizations, locations, and industries to become great ideas, which are otherwise impossible if the source code is “closed” for narrow commercial interests. &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;b&gt;With free connections between new ideas and the self-regulation protocols within open-source communities, new technologies and new use cases constantly emerge&lt;/b&gt;. Thus, open-source developers can continuously crowdsource good ideas and conveniently build on modularized packages to create higher-level complexities.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;March, James G., and Robert I. Sutton. “Crossroads—organizational performance as a dependent variable.” Organization science 8.6 (1997): 698-706.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Valentine, Melissa A., et al. “Flash organizations: Crowdsourcing complex work by structuring crowds as organizations.” Proceedings of the 2017 CHI conference on human factors in computing systems. 2017.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Lerner, Josh, and Jean Tirole. “Some simple economics of open source.” The journal of industrial economics 50.2 (2002): 197-234.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>/tech_categories/mapping-robotics/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-robotics/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-robotics-system&#34;&gt;Overview of the ‘Robotics’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-robotics-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Robotics’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Robotics_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Because robotics are built with standardized programs, robotics can leverage the scale curve. The marginal production cost reduces as the volume increases. Yet, with integration with A.I., robotics are now being programmed to perform more and more complex tasks. &lt;b&gt;Enhanced programmability will generate more and more value creation at a constant production cost&lt;/b&gt;. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Compatible with A.I. &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, robotics can fulfill highly customized needs. This means &lt;b&gt;A.I. powered robotics can learn from data and become smarter over time &lt;/b&gt;. With better user experience, A.I.-powered robots have the opportunity to spend more time interacting with human users, which creates opportunities to extract user data for improving the performance in fulfilling personalized needs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Data integration across different users or across different use cases will accelerate the learning curve of robotics to a higher rate&lt;/b&gt;. Robot-to-robot connections allow inter-robotic collaborations in creating enhanced solutions. &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; As a result of increasing adoption, user-robot interactions will continuously generate user feedback, which, in turn, continuously reveal unsolved problems and create new business opportunities.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;McKenna, Regis. “Marketing is everything.” (1991): 65-79.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Kober, Jens, J. Andrew Bagnell, and Jan Peters. “Reinforcement learning in robotics: A survey.” The International Journal of Robotics Research 32.11 (2013): 1238-1274.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Mondada, Francesco, et al.“The cooperation of swarm-bots: Physical interactions in collective robotics.” IEEE Robotics &amp;amp; Automation Magazine 12.2 (2005): 21-28.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Social Media</title>
+      <link>/tech_categories/mapping-social-media/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-social-media/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-social-media-system&#34;&gt;Overview of the ‘Social Media’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-social-media-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Social Media’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Social_Media_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;What individuals choose and like are socially constructed. Human behaviors are under constant social influence instead of a result of rational reasoning. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; With traditional media (such as the commercials on mass media), it is unlikely for marketers to know &lt;b&gt;the likelihood of a product being sold to an audience&lt;/b&gt;. With social media and the information to predict consumer choice, it becomes an easy task.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The data of social connections can predict consumer choice because social networks are the primary source of information for human minds. In fact, networks not only preserve important information but also project the social identity of individuals. &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; Users on virtual social networks self-identify themselves in the social circles and communities, which continuously and automatically &lt;b&gt;generates market segmentation and precise targeting data at zero cost for the owners of social media sites&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;User social engagement comes with a positive feedback loop of network effects, through which user experience increases as more other users are joining the network. &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; The primary goal for social media sites is to grow and retain the user base through optimizing the user interface. &lt;b&gt;A disproportionally larger user base allows social media sites to continuously convert zero-cost user data into profitable ad recommendations. &lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Pescosolido, Bernice A. “Beyond rational choice: The social dynamics of how people seek help.” American journal of sociology 97.4 (1992): 1096-1138.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Podolny, Joel M. “Networks as the pipes and prisms of the market.” American journal of sociology 107.1 (2001): 33-60.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Katz, Michael L., and Carl Shapiro. “Systems competition and network effects.” Journal of economic perspectives 8.2 (1994): 93-115.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Uber</title>
+      <link>/companies/mapping-uber/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-uber/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Uber_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Uber ’s position in the autonomous vehicle race could equalize gross and net revenue, after no longer needing to pay drivers. Uber technologies have matched riders with drivers completing trips over billions of miles. At the end of 2019, Uber had 111 million users who used the firm’s ridesharing or food delivery services at least once a month.&lt;/p&gt;
+&lt;p&gt;Uber helps people get from point A to point B by taking ride requests and matching them with drivers available in the area. The firm refers to this as personal mobility, which also shorter - distance transportation via electronic bikes and scooters. Uber faces stiff competition from players such as Lyft (in the U.S.) and didi, a business in which uber has a 20 % holding after the sale of its operations in China to didi in 2016. while uber no longer operates in China, it does compete with didi in other regions around the world. The market remains fragmented, and uber competes with many local ridesharing platforms and taxis. Globally, the market is fragmented. Uber has a 30% global market share and will be the leader in the total addressable ridesharing market ( excluding China ) by 2024.&lt;/p&gt;
+&lt;p&gt;The firm ’s food delivery service will be one of the main revenue growth drivers for the firm as it will benefit from cross-selling to its large ridesharing user base. Further, utilize of uber ’s overall on-demand platform can also help the firm progress toward profitability. Uber has been in talks to acquire Grubhub in an all-stock deal for each Grubhub share. The addition of GrubHub could strengthen the supply and demand sides of uber ’s network effect moat source. On the supply side, the firm would be better able to attract and retain restaurants. With more food delivery requests, uber is likely to also maintain more of its ride-hailing drivers. Also, this may not only reduce diner acquisition costs for uber but will also allow uber to more effectively cross-sell its two main businesses to a larger user base.&lt;/p&gt;
+&lt;p&gt;The ridesharing platform benefits from network effects and valuable intangible assets in the form of user data. These sustainable competitive advantages will help uber to become profitable and generate excess returns on invested capital. Uber ’s network effects benefit drivers and riders, creating a continuous virtuous cycle. As the number of drivers increased, the timeliness and reliability of the service improved. The riders on the platform benefit as more drivers are added, and existing drivers benefit from more riders, making the driver ’s use even more efficient. The increase in vehicle capacity usage is growing in the average number of rides dispatched per unique uber vehicle.&lt;/p&gt;
+&lt;p&gt;As uber benefits from its network effect, it gains access to valuable intangible assets in the form of user data, which helps the firm improve its services. In turn, Uber ‘s service may become more effective as it further monetizes real-time supply and demand-driven pricing. Uber may also use extensive data and knowledge to tap into other markets. Uber may use this data to tap into other markets. The firm may also increase its vehicles’ capacity usage. The firm compiles data from the rider app about the locations users request rides to and from and at what times of the day. When combined with the user-generated driver ratings, we think such information helps uber improve the timeliness of matching riders with drivers. Such overall enhancement in service could help the firm strengthen its network effect by increasing users and ride requests per user, which helps uber gather additional data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Virtualization</title>
+      <link>/tech_categories/mapping-virtualization/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-virtualization/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-virtualization-system&#34;&gt;Overview of the ‘Virtualization’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-virtualization-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Virtualization’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Virtualization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Consider a form of commodity that is under private ownership but does not enter the market exchange, like the electricity coming from a private generator. Because electrical energy would be the same from different generators, electricity can be pooled together to create greater efficiencies than private generators. Thus, in most societies, individual households are renting electricity from public utility companies instead of owning it. In this case, &lt;b&gt;utility companies create a virtual version of electricity resources for households&lt;/b&gt;, which do not own real generators. Similarly, there is room to improve societal efficiency by converting some forms of ownership to rentorship, especially when private ownership creates underutilized resources.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When individual companies perform similar business functions using the computer, it is possible to &lt;b&gt;improve societal efficiency by pooling the computing and storage resources together and create a virtual instance of a greater computer system&lt;/b&gt;. For individual companies, renting the virtual instances to have applications running on top of it is more efficient than owning (and maintaining) the actual hardware. Also, virtual instances create the flexibility for different companies with customized needs to experiment with new applications, without allocating a budget to acquire hardware before the profit potential of new applications becomes predictable.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When A.I. becomes the new electricity, cloud computing becomes the new power station, &lt;b&gt;pooling resources to create on-demand availability to businesses and individuals&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Similar to the resource pooling logic, but in a different efficiency-improving mechanism, &lt;b&gt;under-utilized assets can be pooled together from (shared by) the supply side to better match with demand&lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In this case, renting is still more economical than owning, but the societal cost reduction comes from the information brokerage.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Kumar, Sanjay, et al. “vManage: loosely coupled platform and virtualization management in data centers.” Proceedings of the 6th international conference on Autonomic computing. 2009.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Schor, Juliet. “Debating the sharing economy.” Journal of Self-Governance and Management Economics 4.3 (2016): 7-22.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Salesforce</title>
+      <link>/companies/mapping-salesforce/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-salesforce/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Salesforce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Netflix</title>
+      <link>/companies/mapping-netflix/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-netflix/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Netflix_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>/companies/mapping-microsoft/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-microsoft/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Microsoft_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Modularization creates servitizatrion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nvidia</title>
+      <link>/companies/mapping-nvidia/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-nvidia/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Nvidia_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>/companies/mapping-google/</link>
+      <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-google/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Google_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facebook</title>
+      <link>/companies/mapping-facebook/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-facebook/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Facebook_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Facebook ’s ad revenue per user has been growing continuously, demonstrating the value that advertisers see in working with the firm. The application of AI technology to Facebook ’s various offerings, along with the launch of VR products, will increase user engagement, driving further growth in advertising revenue. Facebook provides the most massive audience and the most valuable data for social network online advertising.&lt;/p&gt;
+&lt;p&gt;The firm’s Facebook app, along with Instagram, Messenger, and WhatsApp, is among the world’s most widely used apps on both Android and iPhone smartphones. Facebook is taking steps to further monetize its various Apps, such as providing interactive video ads. The firm is also applying artificial intelligence and virtual and augmented reality technologies to various products, which may increase Facebook user engagement even further, helping to further generate attractive revenue growth from advertisers in the future.&lt;/p&gt;
+&lt;p&gt;The company’s main offerings all have strong network effects. These network effects serve to both create barriers to success for new social - network upstarts as well as barriers to exit for existing users who might leave behind friends, contacts, pictures, memories, and more by departing to alternative platforms. Facebook has emerged and established itself as the clear-cut social media leader.&lt;/p&gt;
+&lt;p&gt;Facebook has also slowly become an entertainment hub, which helps increase engagement and user time spent on Facebook. The users are posting more videos and providing a live video feed from where they are at a certain point in time. Additional apps created by developers on the Facebook platform also help maintain users within the Facebook ecosystem. Users are on Facebook and Instagram a combined 65 minutes per day (compared with a daily 64 - minute average during 2016 - 2018 ) posting videos and photos.&lt;/p&gt;
+&lt;p&gt;Unlike any other online platform globally, Facebook has accumulated data about everyone with Facebook and/or an Instagram account. Without the need for cookies enabled on desktop or mobile browsers, the firm knows its users ’ browsing history on many non-Facebook sites or apps. With access to such data and to billions of photos and videos uploaded by its users, Facebook continues to enhance the social network by offering even more relevant content. This positive feedback loop further increases the value of its data asset, which only Facebook and its advertising partners can monetize. Specifically, Facebook monetizes user information only by using it to increase the effectiveness of its advertisers. Advertisers ’ willingness to use Facebook is demonstrated by the 26 % average annual growth of Facebook ’s average ad revenue per user (ARPU), during the past five years.&lt;/p&gt;
+&lt;p&gt;Facebook ’s large and growing user base and the rich data that it generates help advertisers post more effective target ads, in terms of brand awareness, resulting in a high return on investment (ROI). Most Facebook users are now accessing Facebook and its apps via mobile devices. Thus, the main driver behind the growth of online advertising has been the mobile advertising market and video advertisers.&lt;/p&gt;
+&lt;p&gt;The firm ’s management has demonstrated its focus on long-term returns on investments. With a large amount of cash, along with little debt, Facebook is well-positioned to make additional investments in acquisitions or more research and development. The firm will continue to make decisions regarding capital allocation that are beneficial for its social network users and its shareholders.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apple</title>
+      <link>/companies/mapping-apple/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-apple/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Apple_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Apple has plenty of opportunities to reap the rewards of its iPhone business. Apple’s iPhone and IOS operating systems have consistently been rated at the head of the pack in terms of customer loyalty, engagement, and security, which bodes well for long-term customer retention. Apple pay, Apple Watch, Apple TV, and Airpods are also driving incremental revenue and helping to retain iPhone users over time.&lt;/p&gt;
+&lt;p&gt;Apple’s walled garden approach for its popular iOS allows it to charge a premium for relatively commoditized hardware not too different from that sold by companies like Samsung, and Dell. Customer switching costs are elevated for Apple users as a non-apple IOS experience does not exist. Unlike computing platforms for the windows or android ecosystems that boast PCs and smartphones, Apple enjoys stellar returns on its devices by offering unique user experiences with its iOS ecosystem.&lt;/p&gt;
+&lt;p&gt;The robust App store helped foster iPhone adoption and grew Apple’s user base, with applications ranging from productivity, social media, gaming, and so on. Apple has also been focusing on newer software and services to augment the user experience and retain customers. For Apple’s customers, few other technology titans are offering comparable expertise in both hardware and software design, which allows the firm to more seamlessly build integrated products.&lt;/p&gt;
+&lt;p&gt;Competitors such as Samsung and Google specialize in hardware and software, respectively. But neither Samsung nor Google has been able to offer a comprehensive and integrated product like the iPhone. Both have attempted to develop software or operating systems (Samsung’s Tizen OS) and hardware (Google’s Pixel smartphone). Nonetheless, Apple’s expertise in both hardware and software represents an intangible asset that even the strongest of tech firms have struggled to replicate.&lt;/p&gt;
+&lt;p&gt;The active base of apple devices reached 1.5 billion at the end of 2019, up from 1. 4 billion a year prior, showing the strong stickiness Apple has created. These switching costs are not insurmountable, illustrated by the rise and fall of former mobile device titans such as Nokia, Motorola, and Blackberry. Apple may not be immune to pitfalls, as consumer sentiment for technology gadgets can be unforgiving, with one buggy or subpar product potentially driving customers to other companies.&lt;/p&gt;
+&lt;p&gt;Apple’s integration of hardware and software also supports its developer networks. Apple iOS will be loaded on to only a handful of screen sizes or iPhone models, versus the hundreds of devices and manufacturers that support android. This leads to a more fragmented Android ecosystem, which is relatively harder for developers to support. Some competitors are willing to sell hardware at essentially cost to drive revenue or stickiness in other business segments. A recent focus on AI assistants such as Google Now and Amazon Alexa has also put pressure on apple’s Siri that has fallen behind its peers in efficacy. Herein lies another area Apple may face headwinds if consumers further prioritize voice-recognition capabilities. Apple’s device may be at risk as it is not likely to supersede their iOS counterparts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amazon</title>
+      <link>/companies/mapping-amazon/</link>
+      <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-amazon/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Amazon_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Amazon dominates North America ’s online retail category with estimated gross merchandise volume (GMV) of approximately $275 billion in the region during 2019. With more than half of the world ’s internet users coming from developing markets, Amazon has ample international growth opportunities for its marketplaces, cloud services, advertising, and devices. Amazon’s device portfolio - including Kindle, Fire TV, Dash, Echo, and Alexa - enabled products - are intriguing customer acquisition/retention tools.&lt;/p&gt;
+&lt;p&gt;The combination of competitive pricing, unparalleled logistics capabilities and speed, and high- level customer service makes Amazon an increasingly vital distribution channel for consumer brands. Amazon maintains a consumer value proposition by expediting the Prime shipping and expanding digital content library, and new member benefits. As the traditional brick-and-mortar retail industry has undergone a period of rapid transformation over the past several years.&lt;/p&gt;
+&lt;p&gt;Amazon generates strong cash flow from seller services, which is reinvested in advertising, service, and website enhancements that keep its marketplace strong. Amazon’s brand has come to represent low prices, a wide selection, convenience, and superior customer service — a rare combination among retailers. Amazon ’s operational efficiency of the distribution network, which satisfies consumer demand for free and expedited shipping.&lt;/p&gt;
+&lt;p&gt;Amazon benefits from a network effect, as low prices, an expansive breadth of products, and a user-friendly interface attract millions of customers, which in return, attract merchants of all kinds to amazon.com. Customer reviews, product recommendations, and wish lists increase in relevance as more consumers and products are added to the amazon platform, enhancing its network effect. The customer reviews and product recommendations are growing in presence as more retailers are adding to the site, enhancing the network effect.&lt;/p&gt;
+&lt;p&gt;Amazon has continued to develop into a formidable player in digital media, given its vast content offerings, into new verticals, and the ability to sell hardware. Amazon ’s cloud computing offerings possess more than 3 times the computing capacity in use than the next 10 largest providers combined. With investments in additional capacity and other innovations, AWS has become an increasingly positive gross margin contributor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alibaba</title>
+      <link>/companies/mapping-alibaba/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/companies/mapping-alibaba/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;/companies/Alibaba_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Ongoing Collection of Data Sources</title>
+      <link>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#industries-and-economies&#34;&gt;Industries and Economies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#companies&#34;&gt;Companies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#internet-and-patents&#34;&gt;Internet and Patents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is an ongoing collection of data sources.&lt;/p&gt;
+&lt;div id=&#34;industries-and-economies&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Industries and Economies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bea.gov/&#34; target=&#34;_blank&#34;&gt;Bureau of Economic Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov&#34; target=&#34;_blank&#34;&gt;Census Bureau&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/data/&#34; target=&#34;_blank&#34;&gt;Bureau of Labor Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ibisworld.com/&#34; target=&#34;_blank&#34;&gt;IBIS Industry Research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cepii.fr/CEPII/en/&#34; target=&#34;_blank&#34;&gt;CEPII World Economy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.followthemoney.org/&#34; target=&#34;_blank&#34;&gt;Follow the Money (Tracking Campaign Contribution)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ogj.com/&#34; target=&#34;_blank&#34;&gt;Oil&amp;amp;Gas Journal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.worldbank.org/&#34; target=&#34;_blank&#34;&gt;World Bank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.oecd.org/&#34; target=&#34;_blank&#34;&gt;OECD (Organisation for Economic Cooperation and Development)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eugenesoftware.la.psu.edu/&#34; target=&#34;_blank&#34;&gt;EUGene (Political Science)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;companies&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Companies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sec.gov/edgar/&#34; target=&#34;_blank&#34;&gt;Edgar (SEC Filings)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.crunchbase.com/&#34; target=&#34;_blank&#34;&gt;Crunchbase (Startups)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.quandl.com/&#34; target=&#34;_blank&#34;&gt;Quandl (Alternative Data)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wind.com.cn/en/&#34; target=&#34;_blank&#34;&gt;Wind (Chinese Listed Firms)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tushare.org/&#34; target=&#34;_blank&#34;&gt;Tushare (Chinese Firms, Alternative Data, Crypto)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;internet-and-patents&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Internet and Patents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://archive.org/&#34; target=&#34;_blank&#34;&gt;Internet Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ietf.org&#34; target=&#34;_blank&#34;&gt;Internet Documnets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.imdb.com/&#34; target=&#34;_blank&#34;&gt;IMDb Movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;www.nber.org/patents/&#34; target=&#34;_blank&#34;&gt;NBER Patents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uspto.gov/&#34; target=&#34;_blank&#34;&gt;USPTO Patents&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 </description>
@@ -1114,7 +1604,7 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
 &lt;p&gt;It involves three simple steps. First, brainstorm the essential components in a business system. Second, identify the causal linkages and loops. Third, mark the positive/negative relationships (and the leverage in the system). I find that most students can master this skill very quickly and can generate a good graph with some practice.&lt;/p&gt;
 &lt;p&gt;I also push for simplicity, as I notice the more I ask them to succinctly define the components, the more they move away from perceptual experiences to critical thinking. Such a map can be a helpful starting point for us to keep questioning ourselves on further facts, proofs, and underlying mechanisms.&lt;/p&gt;
 &lt;p&gt;Here is an example of a generic “precision online marketing” model (e.g., Google, Facebook, Youtube, etc.), made with &lt;a href=&#34;https://igraph.org/&#34; target=&#34;_blank&#34;&gt; iGraph&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-02-28-system-mapping-business-models_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/ent_tools/2019-02-28-system-mapping-business-models_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1125,27 +1615,6 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
       
       <guid>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
       <description>
----
-title: A Quick Bibliometric Analysis on “Positioning”
-description: &#39;Tracing the history and development of “positioning” thinkings&#39;
-author: &#39;&#39;
-date: &#39;2019-02-26&#39;
-images: 
-- Yang_logo.png
-slug: a-quick-bibliometric-analysis-on-strategic-positioning
-categories:
-  - positioning
-  - visualization
-tags:
-  - market categories
-twitter:
-  card: &#34;summary&#34;
-  title: &#34;Bibliometric Analysis on &#39;Positioning&#39;&#34;
-  site: &#34;@rky_phd&#34;
-  description: &#34;Tracing the history and development of &#39;positioning&#39; thinkings&#34;
-  image: &#34;https://www.yang.management/Yang_logo.png&#34;
----
-
 
 
 &lt;p&gt;I had a whim and wanted to do some quick bibliometric analysis on the topic of “strategic positioning”.&lt;/p&gt;
@@ -1193,6 +1662,88 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
 &lt;ol&gt;
 &lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.merriam-webster.com/dictionary/analysis&#34; target=&#34;_blank&#34;&gt; Merriam-Webster&lt;/a&gt; has a definition of “analysis” — “separation of a whole into its component parts.”&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A List of Market Trackers of Economy Indicators</title>
+      <link>/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#fred&#34;&gt;FRED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bea&#34;&gt;BEA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#fed&#34;&gt;FED&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#bls&#34;&gt;BLS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#census&#34;&gt;Census&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#graph&#34;&gt;Graph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#other&#34;&gt;Other&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;fred&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;FRED&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/TB3MS&#34; target=&#34;_blank&#34;&gt;3-Month Bill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/IRLTLT01USM156N&#34; target=&#34;_blank&#34;&gt;10-year Bond&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/GDPC1&#34; target=&#34;_blank&#34;&gt;Real GDP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/WALCL&#34; target=&#34;_blank&#34;&gt;Total Assets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/GFDEGDQ188S&#34; target=&#34;_blank&#34;&gt;Debt to GDP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bea&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;BEA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bea.gov/data/gdp/gross-domestic-product&#34; target=&#34;_blank&#34;&gt;GDP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bea.gov/data/intl-trade-investment/international-transactions&#34; target=&#34;_blank&#34;&gt;International Trade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;fed&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;FED&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/MANMM101USM189S&#34; target=&#34;_blank&#34;&gt;M1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.federalreserve.gov/releases/h6/&#34; target=&#34;_blank&#34;&gt;M2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/MABMM301USM189S&#34; target=&#34;_blank&#34;&gt;M3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bls&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;BLS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/cpi/home.htm&#34; target=&#34;_blank&#34;&gt;CPI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/ppi/home.htm&#34; target=&#34;_blank&#34;&gt;PPI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/ces/home.htm&#34; target=&#34;_blank&#34;&gt;CES&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;census&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Census&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/retail/index.html&#34; target=&#34;_blank&#34;&gt;Retail&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/construction/nrc/index.html&#34; target=&#34;_blank&#34;&gt;Residential Construction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/mtis/index.html&#34; target=&#34;_blank&#34;&gt;Manufacturing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;graph&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Graph&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.longtermtrends.net/market-cap-to-gdp/&#34; target=&#34;_blank&#34;&gt;Market Cap. to GDP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ycharts.com/indicators/reports/finra_margin_statistics&#34; target=&#34;_blank&#34;&gt;FINRA Margin Debt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.google.com/search?q=who+is+buying+equities&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;Equity Buyers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://money.cnn.com/data/fear-and-greed/&#34; target=&#34;_blank&#34;&gt;Fear v. Greed Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://finance.yahoo.com/quote/%5EVIX?p=%5EVIX&#34; target=&#34;_blank&#34;&gt;Vix Volatility Index&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.conference-board.org/data/consumerconfidence.cfm&#34; target=&#34;_blank&#34;&gt;Consumer Confidence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.estimize.com/&#34; target=&#34;_blank&#34;&gt;Estimize Prediction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gurufocus.com/guru/warren+buffett/current-portfolio/portfolio&#34; target=&#34;_blank&#34;&gt;Buffet Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -1293,13 +1844,13 @@ src=&#34;/./about_files/awesome.png&#34; alt=&#34;Rui Yang Strategy Ray Yang Str
 
 &lt;div class=&#34;column-right&#34;&gt;
 
-&lt;p&gt;Welcome to my blog! I am a Ph.D. candidate in &lt;a href=&#34;https://en.wikipedia.org/wiki/Strategic_management&#34; target=&#34;_blank&#34;&gt;Strategic Management&lt;/a&gt; at the &lt;a href=&#34;https://profiles.ucr.edu/app/home/profile/ryang007&#34; target=&#34;_blank&#34;&gt;University of California, Riverside&lt;/a&gt; (my current &lt;a href=&#34;/Yang-CV.pdf&#34;&gt;&lt;b&gt;C.V.&lt;/b&gt;&lt;/a&gt;). 
+&lt;p&gt;Welcome to my blog! I am a Ph.D. candidate in Strategic Management (&lt;a href=&#34;/Yang-CV.pdf&#34;&gt;&lt;b&gt;C.V.&lt;/b&gt;&lt;/a&gt;) at the &lt;a href=&#34;https://profiles.ucr.edu/app/home/profile/ryang007&#34; target=&#34;_blank&#34;&gt;University of California, Riverside&lt;/a&gt;. 
  &lt;!–– href=&#34;/research/research/&#34; target=&#34;_blank&#34; Current Research ––&gt;
 &lt;hr&gt;
-&lt;p&gt;My research concerns (1) firm agentic capabilities to impact and react to the market environments, and relatedly, (2) the interplay between environment-shaping strategies and performance-shaping environment. For example, I examine how mergers and acquisitions (M&amp;As) change a firm&#39;s industry positioning and the inter-firm network structure, which drives firm market valuations. 
+&lt;p&gt;My research concerns (1) firm agentic capabilities to impact and react to the market environments, and relatedly, (2) the interplay between environment-shaping strategies and performance-shaping environment. For example, I examine how mergers and acquisitions (M&amp;As) transform firm industry positioning and inter-firm resource connections. I also study networked innovation ecosystems and seek to uncover the drivers to a firm&#39;s market value. 
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;As a management theorist and a data science hobbyist, I came to two realizations: (1) human brains are built to produce and consume theories (2) data allow humans to see further and theorize deeper. As we envision and observe how things connect, our minds naturally turn to what makes them tick, generating new knowledge in a loop of causal inference and probabilistic prediction.&lt;/p&gt;
+&lt;p&gt;As a management theorist and a machine learning hobbyist, I realize: (1) human brains are built to produce and consume theories, (2) data allow humans to see further and theorize deeper, and (3) humans can achieve more by knowing how to empower and delegate machines. As we envision and observe how things connect, our minds naturally turn to what makes them tick, producing knowledge in an accelerating loop of causal inference and probabilistic prediction.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;column-whole&#34;&gt;

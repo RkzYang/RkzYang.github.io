@@ -5,9 +5,28 @@
     <description>Recent content in Series on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mapping-companies</title>
+      <link>/series/mapping-companies/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/series/mapping-companies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapping-technologies</title>
+      <link>/series/mapping-technologies/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/series/mapping-technologies/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

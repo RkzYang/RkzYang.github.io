@@ -1,0 +1,359 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mapping-technologies on Rui Yang | Ray Yang, Strategy, U. California, Riverside</title>
+    <link>/series/mapping-technologies/</link>
+    <description>Recent content in mapping-technologies on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/series/mapping-technologies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3-D Printing</title>
+      <link>/tech_categories/mapping-three-d-printing/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-three-d-printing/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-3-d-printing-system&#34;&gt;Overview of the ‘3-D Printing’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-3-d-printing-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘3-D Printing’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/3D_Printing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Additive manufacturing (3-D Printing) beats subtractive manufacturing (traditional manufacturing) by reducing cost and increasing flexibility, &lt;i&gt;at the same time&lt;/i&gt;. If the natural selection favors the more efficient production mode that generates less economic waste, 3-D printing will be the sure winner.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; In essence, 3-D printers can &lt;b&gt;mass-produce customized physical objects&lt;/b&gt; (Mass Customization).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Traditionally, assembly lines are intended to utilize standardized modules to construct complexities at higher levels&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. However, the modularity in subtractive manufacturing is such imperfect that the supply chain in fact carries the organizational costs from the individual modules to the assembling (and inter-firm transaction) processes&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. As a result, the entire supply chain is comprised of specialized firms handing each standardized module&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Since specialized firms can not be efficient without a stable demand to continuously reward their internal standardized processes, the rigidity in the entire supply chain will either fail to meet the changing demand or &lt;b&gt;transfer the “rigidity” cost from the entire supply chain to specialized firms due to demand fluctuation&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mass customization breaks the standardization-customization compromise made by assembly lines. The technology of 3-D printing reverse-engineers the supply chain problem. Instead of preparing modules for unseen complexity, manufacturers can eliminate the complexity by more directly acting on the demand and shortening the cycle of design between the point of consumption and point of production&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;. The middlemen are eliminated as &lt;b&gt;the module-producing and assembling processes are replaced by a single data input file for a 3-D printer&lt;/b&gt;. The end product can be both scalable and personalized, depending on the demand.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Winter, Sidney G. Economic&amp;quot; natural selection&amp;quot; and the theory of the firm. Vol. 4. Institute of Public Policy Studies, University of Michigan, 1964.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Simon, Herbert A. “The architecture of complexity.” Facets of systems science. Springer, Boston, MA, 1991. 457-476.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Newman, Stephen T., et al. “Process planning for additive and subtractive manufacturing technologies.” CIRP Annals 64.1 (2015): 467-470&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Williamson, O. E. “1975: Markets and hierarchies. New York: Free Press.” (1975).&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;Mertz, Leslie. “Dream it, design it, print it in 3-D: what can 3-D printing do for you?.” IEEE pulse 4.6 (2013): 15-21.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Block Chain</title>
+      <link>/tech_categories/mapping-block-chain/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-block-chain/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-block-chain-system&#34;&gt;Overview of the ‘Block Chain’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-block-chain-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Block Chain’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Block_Chain_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If natural selection optimizes for local efficiency &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and the total entropy in the universe is ever-increasing&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, there exists a trade-off between the order of the social structure and the freedom of the interacting agents. A social system limits individual freedom according to the limitation of inter-connectivity &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. For example, when we rely on market transactions to exchange (connect) specialized productions (divided labor), we give power to intermediaries (firms, government, communities) to fill in the gap in inter-connectivity (in which intermediaries connect with unconnected participants). &lt;b&gt;Thus, when everyone is connected with everyone else, we don’t need to rely on intermediaries to maintain order&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The full connectivity creates a new social structure. Because social structure serves as the medium for agency, the new social structure will enable us to achieve what’s impossible in the past &lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Because &lt;i&gt;all&lt;/i&gt; participants are interconnected with one another, &lt;b&gt;the entire system prevents the emergence of a central intermediary from manipulating the flow of information&lt;/b&gt;. As there is no information asymmetry, all ownership contracts are secured (automatically verified) and transparent &lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Free from information brokerage and the need for trusted third-parties, the ownership contracts associated with any virtual usage or value can facilitate transactive collaborations among autonomous agents. &lt;b&gt;The costs (and needs) for trust or order are eliminated at the system level across the fully connected social structure&lt;/b&gt;. The efficiency gain created by specialization (with division of labor and separation of tasks) is no longer bounded by the extent of market exchange for integrating unconnected agents. System integration will directly derive from the complete inter-connectivity and enhance system-wide wealth.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Hannan, Michael T., and John Freeman. “The population ecology of organizations.” American journal of sociology 82.5 (1977): 929-964.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Denbigh, Kenneth George, and Kenneth George Denbigh. The principles of chemical equilibrium: with applications in chemistry and chemical engineering. Cambridge University Press, 1981.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Simon, Herbert A. “The architecture of complexity.” Facets of systems science. Springer, Boston, MA, 1991. 457-476.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Anthony Giddens. The constitution of society: Outline of the theory of structuration. Univ of California Press, 1984.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;Nakamoto, Satoshi. Bitcoin: A peer-to-peer electronic cash system. Manubot, 2019.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Marketing</title>
+      <link>/tech_categories/mapping-digital-marketing/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-digital-marketing/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-digital-marketing-system&#34;&gt;Overview of the ‘Digital Marketing’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-digital-marketing-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Digital Marketing’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Digital_Marketing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Digital marketing utilizes new forms of media to increase the content ROI relative to the traditional media (i.e., the commercials on mass media). In the traditional mode, it is not only costly to create rich content catering to different tastes but also impossible to control the traffic-conversion rate in the long tails &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Digitization reduces content creation cost and enables niche content creators to expose their content to the entire global audience. &lt;b&gt;Niche content is more effective and efficient in traffic generation and conversion rate because of greater relevancy and closer relationship with niche audience.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A key component of the digitization process is user data. User data sit on the consumer side of the content exchange process. Traditional content relying on one-sided communication fails to connect with the differing consumer minds &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. By contrast, in each vertical niche, connections and relationships are often repeated and interactive. Continuous user feedback becomes readily available from the continuous exchange of real human needs and wants. &lt;b&gt;Valuable user data reveals profitable problems and new solutions, which is either unavailable or costly to collect from the traditional channel&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The instant feedback also comes directly from the ROI of the content creation and user interaction process. Digital marketers can directly read the metrics on a dashboard and relate such metrics to their content’s economic performance &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;The learning cycle will dramatically decrease for digital marketers to quickly pivot their content or find better product matches to improve content performance&lt;/b&gt;. In digital marketing, quick learners can survive and scale their content quickly.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Anderson, Chris. The long tail: Why the future of business is selling less of more. Hachette Books, 2006.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Kamins, Michael A., et al. “Two-sided versus one-sided celebrity endorsements: The impact on advertising effectiveness and credibility.” Journal of advertising 18.2 (1989): 4-10.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Morris, Neil. “Understanding digital marketing: marketing strategies for engaging the digital generation.” (2009): 384-387.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>E-commerce</title>
+      <link>/tech_categories/mapping-e-commerce/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-e-commerce/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-e-commerce-system&#34;&gt;Overview of the ‘E-commerce’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-e-commerce-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘E-commerce’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/E_Commerce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;E-commerce allows the transactions of goods and services to be conducted electronically on the internet. &lt;b&gt;The ease of electronic transaction transforms the organization form due to the reduction in transaction cost&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. For consumers, online shopping reduces the search cost for desired products. For sellers, the reduced communication cost enables businesses to outsource core functions (such as marketing, inventory, distribution, etc.) to e-commerce platforms or external providers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The supply chain is deconstructed to allows e-commerce participants to easily switch transacting partners both up-stream and down-stream. Core business functions become easily accessible commodities, offered by specialized platforms (marketing cloud, on-demand inventory, delivery services) &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;The efficiency boost from business-processes outsourcing and automation enables sellers to focus on selling and responding quickly to market demand&lt;/b&gt;. Meanwhile, platforms replace traditional supply chain and enjoy significant network effects and high customer switching cost.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Because it is less efficient to perform many business functions in-house, value chains decompose as businesses reorganize to compete primarily on their effectiveness in selling. This gives power to the consumers facing an increasing number of options to choose from. However, increasing options also bring about information overload, in various vertical categories. &lt;b&gt;Content influencers reintermediate the selling process with richer content to get closer to particular market segments &lt;/b&gt;. However, content richness in one segment reduces the reach for many, driving the ever-increasing content fragmentation &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Williamson, O. E. “1975: Markets and hierarchies. New York: Free Press.” (1975).&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Markus, M. Lynne, and Claudia Loebbecke. “Commoditized digital processes and business community platforms: New opportunities and challenges for digital business strategies.” Mis Quarterly 37.2 (2013): 649-653.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Wurster, Thomas S. Blown to bits: How the new economics of information transforms strategy. Harvard Business School Press, 1999.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Internet of Things</title>
+      <link>/tech_categories/mapping-internet-of-things/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-internet-of-things/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-internet-of-things-system&#34;&gt;Overview of the ‘Internet of Things’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-internet-of-things-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Internet of Things’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/IoT_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Specialization creates efficiency &lt;b&gt;Integration increases wealth&lt;/b&gt;. In modern societies, specialized “things” — physical objects created by specialized producers — result in the lack of integration among the divided things and thus leave money on the table. The total wealth in an economy lies in the efficiency boost from specialized producers, which ultimately need to bring their products together through market exchange mechanism &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;New combinations generate innovation. Innovation resides in the new linkages resulting from the new combinations of exiting things &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In the digital age, &lt;b&gt;new connections between existing things create new data dimensions&lt;/b&gt;, which leads to new opportunities for cost saving and value creation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Right after new connections among existing things generate stabilized benefits for existing users and producers, the newly integrated system starts to form new sub-systems at higher-level complexities &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. Again, &lt;b&gt;new cost-saving and value-creation opportunities will emerge from the higher-level connections among the lower-level subsystems&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Smith, Adam. The Wealth of Nations: An inquiry into the nature and causes of the Wealth of Nations. Harriman House Limited, 2010.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Schumpeter, Joseph A. Capitalism, socialism and democracy. routledge, 2013.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Simon, Herbert A. “The architecture of complexity.” Facets of systems science. Springer, Boston, MA, 1991. 457-476.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Platform</title>
+      <link>/tech_categories/mapping-n-sided-markets/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-n-sided-markets/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-platform-system&#34;&gt;Overview of the ‘Platform’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-platform-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Platform’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/N_Sided_Market_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Platforms play the “game of power” by leveraging network effects. Power can be created through a virtuous cycle in which increased numbers of platform users continuously increase user experience and disproportional user dependency on the platform &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;As long as a platform can dominate a vertical field, the network effects will ultimately pay off by reducing the marginal cost for user acquisition and user retention to zero, and increasing switching cost on the user side to infinity.&lt;/b&gt; We often call this phenomenon “winner take all” &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. As a result, platforms subsidize the users or the third-party sellers (complementors) until the asymmetric dependency is established.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Single-sided network effect (or same-side network effect) occurs when a focal user can interact with a greater number of others joining the same network and using the same platform. Telephone, internet, and online social networks (almost any technology) are all this kind. As Metcalfe’s law states, the possible interconnections within the network are proportional to the square of the total number of connected users &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;After widespread adoption, users will consider the platform as an indispensable commodity. The platform enjoys significant economy of scale.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Multi-sided network effect (or cross-side network effect) occurs when a focal user can derive greater value when a greater number of complementors joining the platform &lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. At the system level, &lt;b&gt;Multi-sided network effects reduce the total transaction costs in the multi-sides markets by reorganizing the functional components within a traditional value chain&lt;/b&gt;. &lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; By reconstructing social and economic networks, platforms can deconstruct a value chain into separate parts, attract participants (and pool resources) from each part, and utilize multi-sided network effect to leverage the scale and asymmetric dependencies over individual users/complementors.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Casciaro, Tiziana, and Mikolaj Jan Piskorski. “Power imbalance, mutual dependence, and constraint absorption: A closer look at resource dependence theory.” Administrative science quarterly 50.2 (2005): 167-199.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Eisenmann, Thomas, Geoffrey Parker, and Marshall W. Van Alstyne. “Strategies for two-sided markets.” Harvard business review 84.10 (2006): 92.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Metcalfe, Bob. “Metcalfe’s law after 40 years of ethernet.” Computer 46.12 (2013): 26-31.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Parker, Geoffrey G., and Marshall W. Van Alstyne. “Two-sided network effects: A theory of information product design.” Management science 51.10 (2005): 1494-1504.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;Rochet, Jean‐Charles, and Jean Tirole. “Two‐sided markets: a progress report.” The RAND journal of economics 37.3 (2006): 645-667.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/tech_categories/mapping-open-source/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-open-source/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-open-source-system&#34;&gt;Overview of the ‘Open Source’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-open-source-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Open Source’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Open_Source_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Organizations are often instruments of purpose. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Organizations create efficiency by getting individuals to work towards a common goal. However, &lt;b&gt; organizations may confine productivity and block free knowledge flows when a purpose is not commonly shared and clearly defined. &lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Emerging new technologies tend to benefit from free knowledge flows across organizational boundaries. &lt;b&gt;In the case of innovation, organizational boundaries become the barriers for good ideas to connect and interact&lt;/b&gt;. Thus, proprietory ownership of good ideas not only prevents external minds from connecting with internal minds, but also causes internal minds to miss out on the opportunity of good ideas from external inter-connected minds. Opportunity cost can quickly override the ownership benefits and render the good in-house ideas obsolete.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Good ideas should not be constrained to serve a pre-defined purpose. Without such constraint, good ideas can freely inter-connect across organizations, locations, and industries to become great ideas, which are otherwise impossible if the source code is “closed” for narrow commercial interests. &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;b&gt;With free connections between new ideas and the self-regulation protocols within open-source communities, new technologies and new use cases constantly emerge&lt;/b&gt;. Thus, open-source developers can continuously crowdsource good ideas and conveniently build on modularized packages to create higher-level complexities.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;March, James G., and Robert I. Sutton. “Crossroads—organizational performance as a dependent variable.” Organization science 8.6 (1997): 698-706.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Valentine, Melissa A., et al. “Flash organizations: Crowdsourcing complex work by structuring crowds as organizations.” Proceedings of the 2017 CHI conference on human factors in computing systems. 2017.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Lerner, Josh, and Jean Tirole. “Some simple economics of open source.” The journal of industrial economics 50.2 (2002): 197-234.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>/tech_categories/mapping-robotics/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-robotics/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-robotics-system&#34;&gt;Overview of the ‘Robotics’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-robotics-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Robotics’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Robotics_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Because robotics are built with standardized programs, robotics can leverage the scale curve. The marginal production cost reduces as the volume increases. Yet, with integration with A.I., robotics are now being programmed to perform more and more complex tasks. &lt;b&gt;Enhanced programmability will generate more and more value creation at a constant production cost&lt;/b&gt;. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Compatible with A.I. &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, robotics can fulfill highly customized needs. This means &lt;b&gt;A.I. powered robotics can learn from data and become smarter over time &lt;/b&gt;. With better user experience, A.I.-powered robots have the opportunity to spend more time interacting with human users, which creates opportunities to extract user data for improving the performance in fulfilling personalized needs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;b&gt;Data integration across different users or across different use cases will accelerate the learning curve of robotics to a higher rate&lt;/b&gt;. Robot-to-robot connections allow inter-robotic collaborations in creating enhanced solutions. &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; As a result of increasing adoption, user-robot interactions will continuously generate user feedback, which, in turn, continuously reveal unsolved problems and create new business opportunities.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;McKenna, Regis. “Marketing is everything.” (1991): 65-79.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Kober, Jens, J. Andrew Bagnell, and Jan Peters. “Reinforcement learning in robotics: A survey.” The International Journal of Robotics Research 32.11 (2013): 1238-1274.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Mondada, Francesco, et al.“The cooperation of swarm-bots: Physical interactions in collective robotics.” IEEE Robotics &amp;amp; Automation Magazine 12.2 (2005): 21-28.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Social Media</title>
+      <link>/tech_categories/mapping-social-media/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-social-media/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-social-media-system&#34;&gt;Overview of the ‘Social Media’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-social-media-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Social Media’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Social_Media_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;What individuals choose and like are socially constructed. Human behaviors are under constant social influence instead of a result of rational reasoning. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; With traditional media (such as the commercials on mass media), it is unlikely for marketers to know &lt;b&gt;the likelihood of a product being sold to an audience&lt;/b&gt;. With social media and the information to predict consumer choice, it becomes an easy task.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The data of social connections can predict consumer choice because social networks are the primary source of information for human minds. In fact, networks not only preserve important information but also project the social identity of individuals. &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; Users on virtual social networks self-identify themselves in the social circles and communities, which continuously and automatically &lt;b&gt;generates market segmentation and precise targeting data at zero cost for the owners of social media sites&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;User social engagement comes with a positive feedback loop of network effects, through which user experience increases as more other users are joining the network. &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; The primary goal for social media sites is to grow and retain the user base through optimizing the user interface. &lt;b&gt;A disproportionally larger user base allows social media sites to continuously convert zero-cost user data into profitable ad recommendations. &lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Pescosolido, Bernice A. “Beyond rational choice: The social dynamics of how people seek help.” American journal of sociology 97.4 (1992): 1096-1138.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Podolny, Joel M. “Networks as the pipes and prisms of the market.” American journal of sociology 107.1 (2001): 33-60.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Katz, Michael L., and Carl Shapiro. “Systems competition and network effects.” Journal of economic perspectives 8.2 (1994): 93-115.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Virtualization</title>
+      <link>/tech_categories/mapping-virtualization/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tech_categories/mapping-virtualization/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview-of-the-virtualization-system&#34;&gt;Overview of the ‘Virtualization’ System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;overview-of-the-virtualization-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview of the ‘Virtualization’ System&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/tech_categories/Virtualization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Consider a form of commodity that is under private ownership but does not enter the market exchange, like the electricity coming from a private generator. Because electrical energy would be the same from different generators, electricity can be pooled together to create greater efficiencies than private generators. Thus, in most societies, individual households are renting electricity from public utility companies instead of owning it. In this case, &lt;b&gt;utility companies create a virtual version of electricity resources for households&lt;/b&gt;, which do not own real generators. Similarly, there is room to improve societal efficiency by converting some forms of ownership to rentorship, especially when private ownership creates underutilized resources.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When individual companies perform similar business functions using the computer, it is possible to &lt;b&gt;improve societal efficiency by pooling the computing and storage resources together and create a virtual instance of a greater computer system&lt;/b&gt;. For individual companies, renting the virtual instances to have applications running on top of it is more efficient than owning (and maintaining) the actual hardware. Also, virtual instances create the flexibility for different companies with customized needs to experiment with new applications, without allocating a budget to acquire hardware before the profit potential of new applications becomes predictable.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When A.I. becomes the new electricity, cloud computing becomes the new power station, &lt;b&gt;pooling resources to create on-demand availability to businesses and individuals&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Similar to the resource pooling logic, but in a different efficiency-improving mechanism, &lt;b&gt;under-utilized assets can be pooled together from (shared by) the supply side to better match with demand&lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In this case, renting is still more economical than owning, but the societal cost reduction comes from the information brokerage.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Kumar, Sanjay, et al. “vManage: loosely coupled platform and virtualization management in data centers.” Proceedings of the 6th international conference on Autonomic computing. 2009.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Schor, Juliet. “Debating the sharing economy.” Journal of Self-Governance and Management Economics 4.3 (2016): 7-22.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
