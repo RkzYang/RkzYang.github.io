@@ -13,6 +13,29 @@
   </url>
   
   <url>
+    <loc>/note/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/note/2020/06/09/quant-finance-data/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pages/research/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -62,12 +85,6 @@
   <url>
     <loc>/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -333,18 +350,6 @@
   <url>
     <loc>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/note/</loc>
-    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/pages/research/</loc>
-    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

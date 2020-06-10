@@ -5,13 +5,36 @@
     <description>Recent content in research on Rui Yang | Ray Yang, Strategy, U. California, Riverside</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/pages/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>An Ongoing Collection of Data Sources</title>
+      <title>Quant Finance Data Source (Highly Recommended)</title>
+      <link>/note/2020/06/09/quant-finance-data/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2020/06/09/quant-finance-data/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#tushare&#34;&gt;Tushare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;tushare&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tushare&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tushare.pro/&#34; target=&#34;_blank&#34;&gt;Tushare&lt;/a&gt; is an open-source data interface for Chinese stock market, cryptocurrency, and alternative data. The data can be accessed through its &lt;a href=&#34;https://pypi.org/project/tushare/&#34; target=&#34;_blank&#34;&gt;Python module&lt;/a&gt;. It is the &lt;b&gt;best&lt;/b&gt; data source of this kind I have seen so far.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Ongoing Collection of Data Sources (Strategy Research)</title>
       <link>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       

@@ -24,6 +24,29 @@
     </item>
     
     <item>
+      <title>Quant Finance Data Source (Highly Recommended)</title>
+      <link>/note/2020/06/09/quant-finance-data/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/note/2020/06/09/quant-finance-data/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#tushare&#34;&gt;Tushare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;tushare&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Tushare&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tushare.pro/&#34; target=&#34;_blank&#34;&gt;Tushare&lt;/a&gt; is an open-source data interface for Chinese stock market, cryptocurrency, and alternative data. The data can be accessed through its &lt;a href=&#34;https://pypi.org/project/tushare/&#34; target=&#34;_blank&#34;&gt;Python module&lt;/a&gt;. It is the &lt;b&gt;best&lt;/b&gt; data source of this kind I have seen so far.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>the Positioning of Stock Fundamentals and Abnormal Stock Returns</title>
       <link>/positioning/the-positioning-of-stock-fundamentas/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
@@ -565,7 +588,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;If natural selection optimizes for local efficiency &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and the total entropy in the universe is ever-increasing&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, there exists a trade-off between the order of the social structure and the freedom of the interacting agents. A social system limits individual freedom according to the limitation of inter-connectivity &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. For example, when we rely on market transactions to exchange (connect) specialized productions (divided labor), we give power to intermediaries (firms, government, communities) to fill in the gap in inter-connectivity (in which intermediaries connect with unconnected participants). &lt;b&gt;Thus, when everyone is connected with everyone else, we don’t need to rely on intermediaries to maintain order&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The full connectivity creates a new social structure. Because social structure serves as the medium for agency, the new social structure will enable us to achieve what’s impossible in the past &lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Because &lt;i&gt;all&lt;/i&gt; participants are interconnected with one another, &lt;b&gt;the entire system prevents the emergence of a central intermediary from manipulating the flow of information&lt;/b&gt;. As there is no information asymmetry, all ownership contracts are secured (automatically verified) and transparent &lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Free from information brokerage and the need for trusted third-parties, the ownership contracts associated with any virtual usage or value can facilitate transactive collaborations among autonomous agents. &lt;b&gt;The costs (and needs) for trust or order are eliminated at the system level across the fully connected social structure&lt;/b&gt;. The efficiency gain created by specialization (with division of labor and separation of tasks) is no longer bounded by the extent of market exchange for integrating unconnected agents. System integration will directly derive from the complete inter-connectivity and enhance system-wide wealth.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Free from information brokerage and the need for trusted third-parties, the ownership contracts associated with any virtual usage or value can facilitate transactive collaborations among autonomous agents. &lt;b&gt;The costs (and needs) for trust or order are eliminated at the system level across the fully connected peer-to-peer network&lt;/b&gt;. The efficiency gain created by specialization (with division of labor and separation of tasks) is no longer bounded by the extent of market exchange for integrating unconnected agents. System integration will directly derive from the complete inter-connectivity and enhance system-wide wealth.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -859,7 +882,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Consider a form of commodity that is under private ownership but does not enter the market exchange, like the electricity coming from a private generator. Because electrical energy would be the same from different generators, electricity can be pooled together to create greater efficiencies than private generators. Thus, in most societies, individual households are renting electricity from public utility companies instead of owning it. In this case, &lt;b&gt;utility companies create a virtual version of electricity resources for households&lt;/b&gt;, which do not own real generators. Similarly, there is room to improve societal efficiency by converting some forms of ownership to rentorship, especially when private ownership creates underutilized resources.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;When individual companies perform similar business functions using the computer, it is possible to &lt;b&gt;improve societal efficiency by pooling the computing and storage resources together and create a virtual instance of a greater computer system&lt;/b&gt;. For individual companies, renting the virtual instances to have applications running on top of it is more efficient than owning (and maintaining) the actual hardware. Also, virtual instances create the flexibility for different companies with customized needs to experiment with new applications, without allocating a budget to acquire hardware before the profit potential of new applications becomes predictable.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;When A.I. becomes the new electricity, cloud computing becomes the new power station, &lt;b&gt;pooling resources creates on-demand availability to businesses and individuals&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Similar to the resource pooling logic, but in a different efficiency-improving mechanism, &lt;b&gt;under-utilized assets can be pooled together from (shared by) the supply side to better match with demand&lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In this case, renting is still more economical than owning, but the societal cost reduction comes from the information brokerage.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When A.I. becomes the new electricity, cloud computing becomes the new power station, &lt;b&gt;pooling resources creates on-demand availability to businesses and individuals&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Similar to the resource pooling logic, but in a different efficiency-improving mechanism, &lt;b&gt;under-utilized assets can be pooled together from (and shared by) the supply side to better match with demand&lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In this case, renting is still more economical than owning, but the societal cost reduction comes from the information brokerage.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -1049,7 +1072,7 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
     </item>
     
     <item>
-      <title>An Ongoing Collection of Data Sources</title>
+      <title>An Ongoing Collection of Data Sources (Strategy Research)</title>
       <link>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       

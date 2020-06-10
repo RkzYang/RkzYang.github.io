@@ -7,8 +7,8 @@
     },
     "right" : {
         "panelheight" : 1033,
-        "splitterpos" : 639,
-        "topwindowstate" : "EXCLUSIVE",
+        "splitterpos" : 671,
+        "topwindowstate" : "NORMAL",
         "windowheight" : 1071
     }
 }
