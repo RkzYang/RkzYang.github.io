@@ -1,14 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Rui Yang Ph.D. in Strategy</title>
+    <title>Series on Rui Yang | Ph.D. in Strategy</title>
     <link>/series/</link>
-    <description>Recent content in Series on Rui Yang Ph.D. in Strategy</description>
+    <description>Recent content in Series on Rui Yang | Ph.D. in Strategy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>causal-inference-basics</title>
+      <link>/series/causal-inference-basics/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/series/causal-inference-basics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>companies-system-mapping</title>

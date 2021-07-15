@@ -3,6 +3,69 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/research/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/series/causal-inference-basics/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/research/causal_inference_basics/causal-inference-difference-in-difference/</loc>
+    <lastmod>2021-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/research/causal_inference_basics/causal-inference-matching/</loc>
+    <lastmod>2021-06-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/research/causal_inference_basics/causal-inference-fixed-effects/</loc>
+    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/research/causal_inference_basics/causal-inference-pt-control/</loc>
+    <lastmod>2021-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/research/causal_inference_basics/causal-inference-collider-bias/</loc>
+    <lastmod>2021-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/research/causal_inference_basics/causal-inference-instrument-variable/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/research/causal_inference_basics/causal-inference-control-variable/</loc>
+    <lastmod>2021-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/note/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -23,11 +86,6 @@
     <loc>/pages/research/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -114,12 +172,6 @@
   <url>
     <loc>/tags/personal-development/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/research/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -216,12 +268,6 @@
   <url>
     <loc>/companies/mapping-costoco/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
