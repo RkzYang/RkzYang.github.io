@@ -133,14 +133,15 @@ results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = s
 &lt;li&gt;&lt;a href=&#34;#compile-the-correlation-table&#34;&gt;compile the correlation table&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#compile-the-regression-table&#34;&gt;compile the regression table&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#plot-the-moderating-effect&#34;&gt;plot the moderating effect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#plot-the-moderating-effect-with-a-linear-spline&#34;&gt;plot the moderating effect with a linear spline&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Today, I released an R package &lt;a href=&#34;https://CRAN.R-project.org/package=regrrr&#34; target=&#34;_blank&#34;&gt; “regrrr”&lt;/a&gt; on &lt;a href=&#34;https://cran.r-project.org&#34; target=&#34;_blank&#34;&gt;Cran&lt;/a&gt;. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.&lt;/p&gt;
+&lt;p&gt;In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. Thus, I developed this &lt;a href=&#34;https://CRAN.R-project.org/package=regrrr&#34; target=&#34;_blank&#34;&gt;“regrrr”&lt;/a&gt; package &lt;a href=&#34;https://cran.r-project.org/package=regrrr&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/regrrr&#34; /&gt;&lt;/a&gt; to help do the job.&lt;/p&gt;
 &lt;p&gt;Here is the quickstart guide.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.rdocumentation.org/packages/regrrr&#34;&gt;&lt;img src=&#34;http://www.rdocumentation.org/badges/version/regrrr&#34; alt=&#34;Rdoc&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://cran.r-project.org/package=regrrr&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/regrrr&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- [![Rdoc](http://www.rdocumentation.org/badges/version/regrrr)](http://www.rdocumentation.org/packages/regrrr) --&gt;
+&lt;!-- &lt;a href=&#34;https://www.rdocumentation.org/packages/regrrr/versions/0.1.1&#34; target=&#34;_blank&#34;&gt;package&lt;/a&gt; --&gt;
 &lt;div id=&#34;installation&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Installation&lt;/h1&gt;
 &lt;p&gt;To install from CRAN:&lt;/p&gt;
@@ -154,8 +155,12 @@ library(regrrr)&lt;/code&gt;&lt;/pre&gt;
 &lt;h1&gt;Examples&lt;/h1&gt;
 &lt;div id=&#34;compile-the-correlation-table&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;compile the correlation table&lt;/h2&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(regrrr)
-data(mtcars)
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(regrrr)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Registered S3 methods overwritten by &amp;#39;tibble&amp;#39;:
+##   method     from  
+##   format.tbl pillar
+##   print.tbl  pillar&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(mtcars)
 m0 &amp;lt;- lm(mpg ~ vs + carb + hp + wt, data = mtcars)
 m1 &amp;lt;- update(m0, . ~ . + wt * hp)
 m2 &amp;lt;- update(m1, . ~ . + wt * vs)
@@ -203,7 +208,18 @@ print(regression_table)&lt;/code&gt;&lt;/pre&gt;
             xlab = &amp;quot;Weight&amp;quot;, ylab = &amp;quot;MPG&amp;quot;, moderator.lab = &amp;quot;Horsepower&amp;quot;) +
 ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;As you can see from the last line of code, the plot is customizable using &lt;a href=&#34;https://CRAN.R-project.org/package=ggplot2&#34; target=&#34;_blank&#34;&gt;“ggplot2”&lt;/a&gt;. There are a couple of other functions. Please see the &lt;a href=&#34;https://www.rdocumentation.org/packages/regrrr&#34; target=&#34;_blank&#34;&gt;reference manual on R documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plot-the-moderating-effect-with-a-linear-spline&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;plot the moderating effect with a linear spline&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(lspline)
+data(mtcars)
+m3 &amp;lt;- lm(mpg ~ vs + carb + hp + lspline(wt, knots = 4, marginal = FALSE) * hp, data = mtcars)
+plot_effect(reg.coef=summary(m3)$coefficients, data = mtcars, model = m3, 
+            x_var.name = &amp;quot;wt&amp;quot;, y_var.name = &amp;quot;mpg&amp;quot;, moderator.name = &amp;quot;hp&amp;quot;,
+            xlab=&amp;quot;Weight&amp;quot;, ylab=&amp;quot;MPG&amp;quot;, moderator.lab=&amp;quot;Horsepower&amp;quot;) +
+ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;As we can see from the last line of code, the plot is customizable using &lt;a href=&#34;https://CRAN.R-project.org/package=ggplot2&#34; target=&#34;_blank&#34;&gt;“ggplot2”&lt;/a&gt;. There are a couple of other functions. Please see the &lt;a href=&#34;https://www.rdocumentation.org/packages/regrrr&#34; target=&#34;_blank&#34;&gt;reference manual on R documentation&lt;/a&gt; for details.&lt;/p&gt;
 &lt;p&gt;I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the &lt;a href=&#34;https://github.com/RayKYang/regrrr&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt; page.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;

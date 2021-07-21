@@ -90,14 +90,15 @@
 <li><a href="#compile-the-correlation-table">compile the correlation table</a></li>
 <li><a href="#compile-the-regression-table">compile the regression table</a></li>
 <li><a href="#plot-the-moderating-effect">plot the moderating effect</a></li>
+<li><a href="#plot-the-moderating-effect-with-a-linear-spline">plot the moderating effect with a linear spline</a></li>
 </ul></li>
 </ul>
 </div>
 
-<p>Today, I released an R package <a href="https://CRAN.R-project.org/package=regrrr" target="_blank"> “regrrr”</a> on <a href="https://cran.r-project.org" target="_blank">Cran</a>. In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. This package does the job.</p>
+<p>In strategy/management research, we always need to compile the regression results into the publishable format and sometimes plot the moderating effects. Thus, I developed this <a href="https://CRAN.R-project.org/package=regrrr" target="_blank">“regrrr”</a> package <a href="https://cran.r-project.org/package=regrrr"><img src="https://cranlogs.r-pkg.org/badges/regrrr" /></a> to help do the job.</p>
 <p>Here is the quickstart guide.</p>
-<p><a href="http://www.rdocumentation.org/packages/regrrr"><img src="http://www.rdocumentation.org/badges/version/regrrr" alt="Rdoc" /></a>
-<a href="https://cran.r-project.org/package=regrrr"><img src="https://cranlogs.r-pkg.org/badges/regrrr" /></a></p>
+<!-- [![Rdoc](http://www.rdocumentation.org/badges/version/regrrr)](http://www.rdocumentation.org/packages/regrrr) -->
+<!-- <a href="https://www.rdocumentation.org/packages/regrrr/versions/0.1.1" target="_blank">package</a> -->
 <div id="installation" class="section level1">
 <h1>Installation</h1>
 <p>To install from CRAN:</p>
@@ -111,8 +112,12 @@ library(regrrr)</code></pre>
 <h1>Examples</h1>
 <div id="compile-the-correlation-table" class="section level2">
 <h2>compile the correlation table</h2>
-<pre class="r"><code>library(regrrr)
-data(mtcars)
+<pre class="r"><code>library(regrrr)</code></pre>
+<pre><code>## Registered S3 methods overwritten by &#39;tibble&#39;:
+##   method     from  
+##   format.tbl pillar
+##   print.tbl  pillar</code></pre>
+<pre class="r"><code>data(mtcars)
 m0 &lt;- lm(mpg ~ vs + carb + hp + wt, data = mtcars)
 m1 &lt;- update(m0, . ~ . + wt * hp)
 m2 &lt;- update(m1, . ~ . + wt * vs)
@@ -160,7 +165,18 @@ print(regression_table)</code></pre>
             xlab = &quot;Weight&quot;, ylab = &quot;MPG&quot;, moderator.lab = &quot;Horsepower&quot;) +
 ggplot2::theme(text=ggplot2::element_text(family=&quot;Times New Roman&quot;, size = 16))</code></pre>
 <p><img src="/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>As you can see from the last line of code, the plot is customizable using <a href="https://CRAN.R-project.org/package=ggplot2" target="_blank">“ggplot2”</a>. There are a couple of other functions. Please see the <a href="https://www.rdocumentation.org/packages/regrrr" target="_blank">reference manual on R documentation</a> for details.</p>
+</div>
+<div id="plot-the-moderating-effect-with-a-linear-spline" class="section level2">
+<h2>plot the moderating effect with a linear spline</h2>
+<pre class="r"><code>library(lspline)
+data(mtcars)
+m3 &lt;- lm(mpg ~ vs + carb + hp + lspline(wt, knots = 4, marginal = FALSE) * hp, data = mtcars)
+plot_effect(reg.coef=summary(m3)$coefficients, data = mtcars, model = m3, 
+            x_var.name = &quot;wt&quot;, y_var.name = &quot;mpg&quot;, moderator.name = &quot;hp&quot;,
+            xlab=&quot;Weight&quot;, ylab=&quot;MPG&quot;, moderator.lab=&quot;Horsepower&quot;) +
+ggplot2::theme(text=ggplot2::element_text(family=&quot;Times New Roman&quot;, size = 16))</code></pre>
+<p><img src="/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>As we can see from the last line of code, the plot is customizable using <a href="https://CRAN.R-project.org/package=ggplot2" target="_blank">“ggplot2”</a>. There are a couple of other functions. Please see the <a href="https://www.rdocumentation.org/packages/regrrr" target="_blank">reference manual on R documentation</a> for details.</p>
 <p>I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the <a href="https://github.com/RayKYang/regrrr" target="_blank"> GitHub</a> page.</p>
 </div>
 </div>
