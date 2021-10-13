@@ -5,10 +5,19 @@
     <description>Recent content in Categories on Rui Yang | Ph.D. in Strategy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>strategy</title>
+      <link>/categories/strategy/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/strategy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>positioning</title>
@@ -16,15 +25,6 @@
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/positioning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>strategy</title>
-      <link>/categories/strategy/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/strategy/</guid>
       <description></description>
     </item>
     
