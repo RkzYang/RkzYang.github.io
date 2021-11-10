@@ -3,6 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</loc>
+    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/investing/</loc>
+    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/</loc>
+    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/research/</loc>
+    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</loc>
     <lastmod>2021-06-23T00:00:00+00:00</lastmod>
   </url>
@@ -23,11 +51,6 @@
     <loc>/series/causal-inference-basics/</loc>
     <lastmod>2021-06-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -107,20 +130,8 @@
   </url>
   
   <url>
-    <loc>/pages/</loc>
-    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/note/2020/06/09/quant-finance-data/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/pages/research/</loc>
-    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -218,12 +229,6 @@
   <url>
     <loc>/investing/the-short-term-and-long-term-debt-cycle/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/investing/</loc>
-    <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

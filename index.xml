@@ -5,10 +5,94 @@
     <description>Recent content in 𝕐  on Rui Yang | Ph.D. in Strategy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A List of Data Sources for Real Estate Market Analysis</title>
+      <link>/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#general-market-environmental-condition&#34;&gt;General Market / Environmental Condition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#price&#34;&gt;Price&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#supply&#34;&gt;Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#buyerrenter-demographics&#34;&gt;Buyer/Renter Demographics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#neighborhood-local-information&#34;&gt;Neighborhood / Local Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#online-listing&#34;&gt;Online Listing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#property-information&#34;&gt;Property Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#calculators&#34;&gt;Calculators&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;general-market-environmental-condition&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;General Market / Environmental Condition&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nar.realtor/&#34; target=&#34;_blank&#34;&gt;National Association of Realtors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.epa.gov/&#34; target=&#34;_blank&#34;&gt;Environmental Protection Agency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;price&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Price&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fhfa.gov/DataTools/Downloads/pages/house-price-index.aspx&#34; target=&#34;_blank&#34;&gt;Federal Housing Finance Agency (FHFA) House Price Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nahb.org/News-and-Economics/Housing-Economics/National-Statistics/New-and-Existing-Home-Sales-Reports&#34; target=&#34;_blank&#34;&gt;National Association of Homebuilders (NAHB) Home Prices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;supply&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Supply&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/&#34; target=&#34;_blank&#34;&gt;U.S. Census Bureau on New Residential Construction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;buyerrenter-demographics&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Buyer/Renter Demographics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dol.gov/general/topic/statistics&#34; target=&#34;_blank&#34;&gt;U.S. Department of Labor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/&#34; target=&#34;_blank&#34;&gt;Bureau of Labor Statistics (job quality and availability)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://censusreporter.org/&#34; target=&#34;_blank&#34;&gt;https://censusreporter.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/MSACSR&#34; target=&#34;_blank&#34;&gt;U.S. Federal Reserve (inventories / demographics)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;neighborhood-local-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Neighborhood / Local Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.neighborhoodscout.com/&#34; target=&#34;_blank&#34;&gt;NeighborhoodScout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.city-data.com/&#34; target=&#34;_blank&#34;&gt;City-Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;online-listing&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Online Listing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.redfin.com/&#34; target=&#34;_blank&#34;&gt;Redfin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.trulia.com/&#34; target=&#34;_blank&#34;&gt;Trulia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zillow.com/&#34; target=&#34;_blank&#34;&gt;Zillow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.realtytrac.com/&#34; target=&#34;_blank&#34;&gt;RealtyTrac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.realtor.com/&#34; target=&#34;_blank&#34;&gt;Realtor.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.movoto.com/&#34; target=&#34;_blank&#34;&gt;Movoto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;property-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Property Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://crsdata.com/&#34; target=&#34;_blank&#34;&gt;CRS Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;calculators&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Calculators&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.biggerpockets.com/investment-calculators&#34; target=&#34;_blank&#34;&gt;Biggerpockets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.biggerpockets.com/mortgage-calculator&#34; target=&#34;_blank&#34;&gt;Mortgage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Regression Discontinuity Design</title>
@@ -107,8 +191,10 @@
 &lt;p&gt;Ontology:
 The truth lies in the things that we can’t see from our eyes. The invisible generates the visible under natural laws and processes. Thus, the “observational” data (what we see from our eyes) stems from the underlying mechanism (what we can’t see from our eyes). Then, our mind comes to help (to develop theories), with reasoning and inference, see what is behind the data.&lt;/p&gt;
 &lt;p&gt;Epistemology:
-We need to be suspicious about what see from our eyes because data can be misguiding, especially when we shut off our reasoning mind and stop making inference. In other words, the frontend phenomenon (e.g., the data) can be illusional when we stop seeking to understand the backend processes (e.g., the processes that generate the data). As researchers, we need to be self-reflective about how we know what we know.&lt;/p&gt;
-&lt;p&gt;Counterfactual Reasoning:
+We need to be suspicious about what we see from our eyes because data can be misguiding, especially when we shut off our reasoning mind and stop making the inference. In other words, the frontend phenomenon (e.g., the data) can be illusional when we stop seeking to understand the backend processes (e.g., the processes that generate the data). Researchers need to be self-reflective and self-critical about HOW we know what we know.&lt;/p&gt;
+&lt;p&gt;Inference:
+We can use what we see from our eyes (observational data) to recover the underlying truth with our mind (reasoning techniques). There are two elements: first, we know that what we see from eyes (e.g., data) comes from the underlying truth (e.g., probability); second, we know some properties about the truth (e.g., distribution) so that we generate estimates from the what our eyes see (e.g., sample).&lt;/p&gt;
+&lt;p&gt;Counterfactuals:
 The reality (i.e., a data point), events that have already occurred, is a probabilistic ‘realization’ of the underlying mechanism (i.e., probability distribution). To recover the truth, we need to construct the alternatives to the reality just like looking for the missing pieces to complete a puzzle. Fact (what happens) does not equate to the truth (which determines what happens). Fact itself does not predict fact. Truth, recovered from the fact and its alternative, will be able to predict fact.&lt;/p&gt;
 </description>
     </item>
@@ -1693,8 +1779,7 @@ The inter-connected keyword clusters present the relationship among the main top
 &lt;/div&gt;
 
 &lt;p&gt;I co-developed an R pakcage &lt;a href=&#34;https://CRAN.R-project.org/package=MMeM&#34; target=&#34;_blank&#34;&gt; “MMeM”&lt;/a&gt; for estimating the variance-covariance matrix of random effects &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; on multiple dependent variables.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.rdocumentation.org/packages/MMeM&#34;&gt;&lt;img src=&#34;http://www.rdocumentation.org/badges/version/MMeM&#34; alt=&#34;Rdoc&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://cran.r-project.org/package=MMeM&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/MMeM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=MMeM&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/MMeM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div id=&#34;statistical-intuition&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Statistical Intuition&lt;/h1&gt;
 &lt;div id=&#34;the-univariate-mixed-effects-model&#34; class=&#34;section level2&#34;&gt;

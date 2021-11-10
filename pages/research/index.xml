@@ -5,10 +5,94 @@
     <description>Recent content in research on Rui Yang | Ph.D. in Strategy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/pages/research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A List of Data Sources for Real Estate Market Analysis</title>
+      <link>/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#general-market-environmental-condition&#34;&gt;General Market / Environmental Condition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#price&#34;&gt;Price&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#supply&#34;&gt;Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#buyerrenter-demographics&#34;&gt;Buyer/Renter Demographics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#neighborhood-local-information&#34;&gt;Neighborhood / Local Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#online-listing&#34;&gt;Online Listing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#property-information&#34;&gt;Property Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#calculators&#34;&gt;Calculators&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;general-market-environmental-condition&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;General Market / Environmental Condition&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nar.realtor/&#34; target=&#34;_blank&#34;&gt;National Association of Realtors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.epa.gov/&#34; target=&#34;_blank&#34;&gt;Environmental Protection Agency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;price&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Price&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fhfa.gov/DataTools/Downloads/pages/house-price-index.aspx&#34; target=&#34;_blank&#34;&gt;Federal Housing Finance Agency (FHFA) House Price Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nahb.org/News-and-Economics/Housing-Economics/National-Statistics/New-and-Existing-Home-Sales-Reports&#34; target=&#34;_blank&#34;&gt;National Association of Homebuilders (NAHB) Home Prices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;supply&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Supply&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/&#34; target=&#34;_blank&#34;&gt;U.S. Census Bureau on New Residential Construction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;buyerrenter-demographics&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Buyer/Renter Demographics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dol.gov/general/topic/statistics&#34; target=&#34;_blank&#34;&gt;U.S. Department of Labor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bls.gov/&#34; target=&#34;_blank&#34;&gt;Bureau of Labor Statistics (job quality and availability)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://censusreporter.org/&#34; target=&#34;_blank&#34;&gt;https://censusreporter.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fred.stlouisfed.org/series/MSACSR&#34; target=&#34;_blank&#34;&gt;U.S. Federal Reserve (inventories / demographics)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;neighborhood-local-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Neighborhood / Local Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.neighborhoodscout.com/&#34; target=&#34;_blank&#34;&gt;NeighborhoodScout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.city-data.com/&#34; target=&#34;_blank&#34;&gt;City-Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;online-listing&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Online Listing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.redfin.com/&#34; target=&#34;_blank&#34;&gt;Redfin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.trulia.com/&#34; target=&#34;_blank&#34;&gt;Trulia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zillow.com/&#34; target=&#34;_blank&#34;&gt;Zillow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.realtytrac.com/&#34; target=&#34;_blank&#34;&gt;RealtyTrac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.realtor.com/&#34; target=&#34;_blank&#34;&gt;Realtor.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.movoto.com/&#34; target=&#34;_blank&#34;&gt;Movoto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;property-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Property Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://crsdata.com/&#34; target=&#34;_blank&#34;&gt;CRS Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;calculators&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Calculators&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.biggerpockets.com/investment-calculators&#34; target=&#34;_blank&#34;&gt;Biggerpockets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.biggerpockets.com/mortgage-calculator&#34; target=&#34;_blank&#34;&gt;Mortgage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Quant Finance Data Source (Highly Recommended)</title>

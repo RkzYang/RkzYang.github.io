@@ -23,8 +23,10 @@
 &lt;p&gt;Ontology:
 The truth lies in the things that we can’t see from our eyes. The invisible generates the visible under natural laws and processes. Thus, the “observational” data (what we see from our eyes) stems from the underlying mechanism (what we can’t see from our eyes). Then, our mind comes to help (to develop theories), with reasoning and inference, see what is behind the data.&lt;/p&gt;
 &lt;p&gt;Epistemology:
-We need to be suspicious about what see from our eyes because data can be misguiding, especially when we shut off our reasoning mind and stop making inference. In other words, the frontend phenomenon (e.g., the data) can be illusional when we stop seeking to understand the backend processes (e.g., the processes that generate the data). As researchers, we need to be self-reflective about how we know what we know.&lt;/p&gt;
-&lt;p&gt;Counterfactual Reasoning:
+We need to be suspicious about what we see from our eyes because data can be misguiding, especially when we shut off our reasoning mind and stop making the inference. In other words, the frontend phenomenon (e.g., the data) can be illusional when we stop seeking to understand the backend processes (e.g., the processes that generate the data). Researchers need to be self-reflective and self-critical about HOW we know what we know.&lt;/p&gt;
+&lt;p&gt;Inference:
+We can use what we see from our eyes (observational data) to recover the underlying truth with our mind (reasoning techniques). There are two elements: first, we know that what we see from eyes (e.g., data) comes from the underlying truth (e.g., probability); second, we know some properties about the truth (e.g., distribution) so that we generate estimates from the what our eyes see (e.g., sample).&lt;/p&gt;
+&lt;p&gt;Counterfactuals:
 The reality (i.e., a data point), events that have already occurred, is a probabilistic ‘realization’ of the underlying mechanism (i.e., probability distribution). To recover the truth, we need to construct the alternatives to the reality just like looking for the missing pieces to complete a puzzle. Fact (what happens) does not equate to the truth (which determines what happens). Fact itself does not predict fact. Truth, recovered from the fact and its alternative, will be able to predict fact.&lt;/p&gt;
 </description>
     </item>
@@ -315,8 +317,7 @@ The inter-connected keyword clusters present the relationship among the main top
 &lt;/div&gt;
 
 &lt;p&gt;I co-developed an R pakcage &lt;a href=&#34;https://CRAN.R-project.org/package=MMeM&#34; target=&#34;_blank&#34;&gt; “MMeM”&lt;/a&gt; for estimating the variance-covariance matrix of random effects &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; on multiple dependent variables.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.rdocumentation.org/packages/MMeM&#34;&gt;&lt;img src=&#34;http://www.rdocumentation.org/badges/version/MMeM&#34; alt=&#34;Rdoc&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://cran.r-project.org/package=MMeM&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/MMeM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=MMeM&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/MMeM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div id=&#34;statistical-intuition&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Statistical Intuition&lt;/h1&gt;
 &lt;div id=&#34;the-univariate-mixed-effects-model&#34; class=&#34;section level2&#34;&gt;

@@ -95,8 +95,7 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;/div&gt;
 
 &lt;p&gt;I co-developed an R pakcage &lt;a href=&#34;https://CRAN.R-project.org/package=MMeM&#34; target=&#34;_blank&#34;&gt; “MMeM”&lt;/a&gt; for estimating the variance-covariance matrix of random effects &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{u}\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\mathbf{e}\)&lt;/span&gt; on multiple dependent variables.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.rdocumentation.org/packages/MMeM&#34;&gt;&lt;img src=&#34;http://www.rdocumentation.org/badges/version/MMeM&#34; alt=&#34;Rdoc&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://cran.r-project.org/package=MMeM&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/MMeM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=MMeM&#34;&gt;&lt;img src=&#34;https://cranlogs.r-pkg.org/badges/MMeM&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div id=&#34;statistical-intuition&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Statistical Intuition&lt;/h1&gt;
 &lt;div id=&#34;the-univariate-mixed-effects-model&#34; class=&#34;section level2&#34;&gt;
