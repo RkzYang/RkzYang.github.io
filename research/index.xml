@@ -150,18 +150,60 @@
       <guid>/research/causal_inference_basics/causal-inference-instrument-variable/</guid>
       <description>
 
-
-&lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#causality-graph&#34;&gt;Causality Graph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#generate-the-data-for-analysis&#34;&gt;Generate the Data for Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#visualization&#34;&gt;Visualization&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#remove-differences-in-x-not-explained-by-z-vs.remove-differences-in-y-not-explained-by-z&#34;&gt;Remove “Differences in X NOT explained by Z” vs. Remove “Differences in Y NOT explained by Z”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#retain-differences-in-x-and-y-explained-by-z-step-by-step&#34;&gt;Retain “Differences in X and Y explained by Z” step by step&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#run-the-regression-and-check-the-estimate-of-x&#34;&gt;Run the Regression and Check the Estimate of X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;remove-differences-in-x-not-explained-by-w-vs.remove-differences-in-y-not-explained-by-w&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Remove “Differences in X NOT explained by W” vs. Remove “Differences in Y NOT explained by W”&lt;/h1&gt;
+
+&lt;div id=&#34;causality-graph&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Causality Graph&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;retain-differences-in-x-and-y-explained-by-z-step-by-step&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Retain “Differences in X and Y explained by Z” step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;generate-the-data-for-analysis&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Generate the Data for Analysis&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# DGP
+set.seed(66)
+# Z is a binary variable in this case, but it can also be continuous.
+df &amp;lt;- data.frame(Z = c(rep(0, 100), rep(1, 100)), 
+                 W = rnorm(200)) %&amp;gt;%
+  # Z affects X
+  mutate(X = .5 + 2*W + 2*Z + rnorm(200)) %&amp;gt;% 
+  # Z does NOT affect either Y or W (God&amp;#39;s Game)
+  mutate(Y = -X + 4*W + 1 + rnorm(200)) %&amp;gt;% 
+  group_by(Z) %&amp;gt;%
+  mutate(mean_X=mean(X), mean_Y=mean(Y)) %&amp;gt;%
+  ungroup()&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visualization&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Visualization&lt;/h1&gt;
+&lt;div id=&#34;remove-differences-in-x-not-explained-by-z-vs.remove-differences-in-y-not-explained-by-z&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Remove “Differences in X NOT explained by Z” vs. Remove “Differences in Y NOT explained by Z”&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;retain-differences-in-x-and-y-explained-by-z-step-by-step&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Retain “Differences in X and Y explained by Z” step by step&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;run-the-regression-and-check-the-estimate-of-x&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Run the Regression and Check the Estimate of X&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(AER)
+# Z is the instrument variable
+summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;% 
+  coef() %&amp;gt;% 
+  regrrr::to_long_tab()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   n.r        var_      beta
+## 1   1 (Intercept)    1.318*
+## 2   1               (0.583)
+## 3   2           X -1.089***
+## 4   2               (0.300)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
     </item>
