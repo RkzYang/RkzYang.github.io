@@ -314,6 +314,174 @@ summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;%
     </item>
     
     <item>
+      <title>Sample Selection Bias</title>
+      <link>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#causality-graph&#34;&gt;Causality Graph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#dgp&#34;&gt;DGP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#run-heckman-regression&#34;&gt;Run Heckman Regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#visualization&#34;&gt;Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#double-check&#34;&gt;Double Check&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;causality-graph&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Causality Graph&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;dgp&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;DGP&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(66)
+# Generate Exogenous Variables
+df &amp;lt;- data.frame(X = runif(300) * 10, 
+                 W = runif(300) * 5, 
+                 U = runif(300) * 2, 
+                 Z = c(rep(0, 150), rep(1, 150))) %&amp;gt;%
+  # God&amp;#39;s Game
+  # X (Visible) affects Y, W (Invisible) and U (Invisible) affect Y
+  mutate(Y = .1 + .5*X + 0.8*W + 0.2*U + rnorm(300),
+  # X (Visible) affects Y, W (Invisible) and U (Invisible) affect Latent Selection Function
+  # Z (Visible) affect Latent Selection Function
+         select_ = 10 + 3*X + 2*W + 1*U + .5*Z + rnorm(300),
+  # Latent Selection Determines the True Selection
+         select = ifelse(select_ &amp;gt; mean(select_), 1, 0)
+         )&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;run-heckman-regression&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Run Heckman Regression&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;run_selection &amp;lt;- glm(select ~ X + Z, family = binomial( link = &amp;quot;probit&amp;quot; ), data = df)
+df$IMR &amp;lt;- dnorm(run_selection$linear.predictors)/pnorm(run_selection$linear.predictors)
+summary(run_selection)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## glm(formula = select ~ X + Z, family = binomial(link = &amp;quot;probit&amp;quot;), 
+##     data = df)
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -2.0059  -0.1287  -0.0013   0.1240   2.5195  
+## 
+## Coefficients:
+##             Estimate Std. Error z value Pr(&amp;gt;|z|)    
+## (Intercept)  -5.4514     0.6613  -8.244   &amp;lt;2e-16 ***
+## X             1.0163     0.1213   8.380   &amp;lt;2e-16 ***
+## Z             0.6183     0.2704   2.287   0.0222 *  
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 415.03  on 299  degrees of freedom
+## Residual deviance: 113.84  on 297  degrees of freedom
+## AIC: 119.84
+## 
+## Number of Fisher Scoring iterations: 8&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;run_outcome &amp;lt;- lm(Y ~ IMR + X, data = df[which(df$select == 1),])
+summary(run_outcome)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = Y ~ IMR + X, data = df[which(df$select == 1), ])
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -3.4067 -0.8600  0.0496  0.7680  3.4331 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)   2.4928     0.8875   2.809  0.00569 ** 
+## IMR           0.9237     0.4398   2.100  0.03749 *  
+## X             0.4922     0.1099   4.477 1.56e-05 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 1.338 on 139 degrees of freedom
+## Multiple R-squared:  0.1532, Adjusted R-squared:  0.141 
+## F-statistic: 12.58 on 2 and 139 DF,  p-value: 9.55e-06&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visualization&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Visualization&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;double-check&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Double Check&lt;/h1&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Run OLS (which is biased)
+run_biased &amp;lt;- lm(Y ~ X, data = df[which(df$select == 1),])
+summary(run_biased)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = Y ~ X, data = df[which(df$select == 1), ])
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -3.5643 -0.9695  0.1065  0.7926  3.2590 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)   4.0168     0.5172   7.766 1.55e-12 ***
+## X             0.3114     0.0692   4.500 1.42e-05 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 1.354 on 140 degrees of freedom
+## Multiple R-squared:  0.1263, Adjusted R-squared:  0.1201 
+## F-statistic: 20.25 on 1 and 140 DF,  p-value: 1.419e-05&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Check the Inclusion Restriction
+run_test_instrument &amp;lt;- lm(Y ~ X + Z, data = df[which(df$select == 1),])
+summary(run_test_instrument)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = Y ~ X + Z, data = df[which(df$select == 1), ])
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -3.3369 -0.9958  0.1245  0.8445  3.1289 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)  3.71761    0.54715   6.794 2.93e-10 ***
+## X            0.32192    0.06913   4.657 7.42e-06 ***
+## Z            0.37117    0.23158   1.603    0.111    
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 1.347 on 139 degrees of freedom
+## Multiple R-squared:  0.1422, Adjusted R-squared:  0.1299 
+## F-statistic: 11.52 on 2 and 139 DF,  p-value: 2.347e-05&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# In Reality, Only God Can Run This Regression (by Knowing about the Truth).
+run_ture &amp;lt;- lm(Y ~ U + W + X, data = df[which(df$select == 1),])
+summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = Y ~ U + W + X, data = df[which(df$select == 1), 
+##     ])
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -2.87402 -0.59375  0.04565  0.52228  2.12926 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept)  0.25353    0.48335   0.525   0.6008    
+## U            0.30237    0.14471   2.089   0.0385 *  
+## W            0.73932    0.05903  12.524   &amp;lt;2e-16 ***
+## X            0.48466    0.04947   9.797   &amp;lt;2e-16 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 0.9292 on 138 degrees of freedom
+## Multiple R-squared:  0.5945, Adjusted R-squared:  0.5857 
+## F-statistic: 67.44 on 3 and 138 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Control Variable</title>
       <link>/research/causal_inference_basics/causal-inference-control-variable/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>

@@ -119,6 +119,11 @@
   </url>
   
   <url>
+    <loc>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/research/causal_inference_basics/causal-inference-control-variable/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
   </url>
