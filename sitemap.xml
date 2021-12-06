@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ent_tools/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/entrepreneurship/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/personal-development/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ent_tools/the-success-formula-for-entrepreneurs/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -23,11 +63,6 @@
     <loc>/pages/research/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -64,12 +99,6 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/research/causal_inference_basics/causal-inference-fixed-effects/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
   </url>
@@ -81,18 +110,6 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/personal-development/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -188,18 +205,6 @@
   <url>
     <loc>/ent_tools/cognitive-biases-to-avoid-in-decision-making/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/ent_tools/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/entrepreneurship/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
