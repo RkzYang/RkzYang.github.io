@@ -214,30 +214,29 @@ summary(run_test_instrument)</code></pre>
 ## Residual standard error: 1.347 on 139 degrees of freedom
 ## Multiple R-squared:  0.1422, Adjusted R-squared:  0.1299 
 ## F-statistic: 11.52 on 2 and 139 DF,  p-value: 2.347e-05</code></pre>
-<pre class="r"><code># In Reality, Only God Can Run This Regression (by Knowing about the Truth).
-run_ture &lt;- lm(Y ~ U + W + X, data = df[which(df$select == 1),])
+<pre class="r"><code># In Reality, Only God Can Run This Regression (by Knowing about the Truth and Seeing the Invisibles).
+run_ture &lt;- lm(Y ~ U + W + X, data = df)
 summary(run_ture)</code></pre>
 <pre><code>## 
 ## Call:
-## lm(formula = Y ~ U + W + X, data = df[which(df$select == 1), 
-##     ])
+## lm(formula = Y ~ U + W + X, data = df)
 ## 
 ## Residuals:
 ##      Min       1Q   Median       3Q      Max 
-## -2.87402 -0.59375  0.04565  0.52228  2.12926 
+## -3.02525 -0.64811 -0.01175  0.56035  2.71664 
 ## 
 ## Coefficients:
 ##             Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept)  0.25353    0.48335   0.525   0.6008    
-## U            0.30237    0.14471   2.089   0.0385 *  
-## W            0.73932    0.05903  12.524   &lt;2e-16 ***
-## X            0.48466    0.04947   9.797   &lt;2e-16 ***
+## (Intercept) 0.008025   0.188084   0.043  0.96600    
+## U           0.330793   0.099258   3.333  0.00097 ***
+## W           0.773520   0.040014  19.331  &lt; 2e-16 ***
+## X           0.499843   0.020288  24.637  &lt; 2e-16 ***
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
 ## 
-## Residual standard error: 0.9292 on 138 degrees of freedom
-## Multiple R-squared:  0.5945, Adjusted R-squared:  0.5857 
-## F-statistic: 67.44 on 3 and 138 DF,  p-value: &lt; 2.2e-16</code></pre>
+## Residual standard error: 0.9544 on 296 degrees of freedom
+## Multiple R-squared:  0.7703, Adjusted R-squared:  0.768 
+## F-statistic: 330.9 on 3 and 296 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 
 </main>
