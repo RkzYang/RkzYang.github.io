@@ -20,10 +20,10 @@
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#content-marketing&#34;&gt;Content Marketing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#content-analysis&#34;&gt;Content Analysis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#text-generation&#34;&gt;Text Generation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#chatbot&#34;&gt;Chatbot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#content-marketing&#34; id=&#34;toc-content-marketing&#34;&gt;Content Marketing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#content-analysis&#34; id=&#34;toc-content-analysis&#34;&gt;Content Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#text-generation&#34; id=&#34;toc-text-generation&#34;&gt;Text Generation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#chatbot&#34; id=&#34;toc-chatbot&#34;&gt;Chatbot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 

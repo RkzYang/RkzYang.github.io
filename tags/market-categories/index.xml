@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>market categories on Ray Yang, Ph.D.</title>
+    <title>market-categories on Ray Yang, Ph.D.</title>
     <link>/tags/market-categories/</link>
-    <description>Recent content in market categories on Ray Yang, Ph.D.</description>
+    <description>Recent content in market-categories on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
@@ -20,9 +20,9 @@
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#motivation&#34;&gt;1 Motivation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#pipeline&#34;&gt;2 Pipeline&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#result&#34;&gt;3 Result&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#motivation&#34; id=&#34;toc-motivation&#34;&gt;1 Motivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pipeline&#34; id=&#34;toc-pipeline&#34;&gt;2 Pipeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#result&#34; id=&#34;toc-result&#34;&gt;3 Result&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -239,10 +239,10 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
 &lt;p&gt;&lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=To+be+different%2C+or+to+be+the+same%3F+It%E2%80%99s+a+question+%28and+theory%29+of+strategic+balance&amp;btnG=&#34; target=&#34;_blank&#34;&gt; Deephouse, D. L. 1999. To be different, or to be the same? It’s a question (and theory) of strategic balance. Strategic Management Journal, 20(2): 147–166. &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34; https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Optimal+distinctiveness+revisited%3A+An+integrative+framework+for+understanding+the+balance+between+differentiation+and+conformity+in+individual+and+organizational+identities&amp;btnG=&#34; target=&#34;_blank&#34;&gt; Zuckerman, E. W. 2016. Optimal distinctiveness revisited: An integrative framework for understanding the balance between differentiation and conformity in individual and organizational identities. Handbook of Organizational Identity. &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34; https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Optimal+distinctiveness%3A+Broadening+the+interface+between+institutional+theory+and+strategic+management&amp;btnG=&#34; target=&#34;_blank&#34;&gt; Zhao, E. Y., Fisher, G., Lounsbury, M., &amp;amp; Miller, D. 2017. Optimal distinctiveness: Broadening the interface between institutional theory and strategic management. Strategic Management Journal, 38(1): 93–113. &lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
+&lt;div class=&#34;footnotes footnotes-end-of-document&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.merriam-webster.com/dictionary/analysis&#34; target=&#34;_blank&#34;&gt; Merriam-Webster&lt;/a&gt; has a definition of “analysis” — “separation of a whole into its component parts.”&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.merriam-webster.com/dictionary/analysis&#34; target=&#34;_blank&#34;&gt; Merriam-Webster&lt;/a&gt; has a definition of “analysis” — “separation of a whole into its component parts.”&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

@@ -5,10 +5,45 @@
     <description>Recent content in technology on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bitcoin Value</title>
+      <link>/crypto/bitcoin-value/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/crypto/bitcoin-value/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#upside&#34; id=&#34;toc-upside&#34;&gt;Upside&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#flip-side&#34; id=&#34;toc-flip-side&#34;&gt;Flip-side&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In a world where monkeys from the Web2 jungle are perplexed by humans trading tokens for bananas in the Web3 era, the debate around Bitcoin’s value mirrors a similar situation in human history. There exists a gap between the fading world of traditional finance and the pioneering world of digital assets.&lt;/p&gt;
+&lt;div id=&#34;upside&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Upside&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Bitcoin’s Value as a Decentralized Asset&lt;/strong&gt;: One of the fundamental appeals of Bitcoin is its decentralization. Unlike fiat currencies, which are controlled and issued by central banks, Bitcoin operates on a decentralized network. This decentralization is viewed as a strength by many, as it reduces reliance on central authorities and is resistant to censorship and manipulation. This aspect offers a unique value proposition, especially in countries with unstable economies or where traditional banking systems are not accessible to everyone.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Store of Value and Digital Gold Analogy&lt;/strong&gt;: Bitcoin is often compared to gold, not because of any physical attribute, but because of its properties as a store of value. Like gold, Bitcoin has a limited supply (there will only ever be 21 million bitcoins), which can protect against inflation and currency devaluation. This scarcity, combined with increasing acceptance and usage, underpins its value proposition as “digital gold”. While it doesn’t have intrinsic value in the traditional sense, its perceived value as a hedge against inflation and a digital store of value adds to its appeal. Bitcoin is an effective medium for exchange of multitude of things, and its price is determined by market demand, similar to commodities.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Technological Innovation and Network Effects&lt;/strong&gt;: The technology underlying Bitcoin, blockchain, is a significant innovation. It offers a secure, transparent, and immutable way of recording transactions. This technology has the potential to revolutionize not just currency, but various sectors like supply chain management, voting systems, and digital identities. The value of Bitcoin, therefore, is also tied to the innovative potential of its underlying technology and the possibilities it opens up beyond being just a currency. As long as people find value in its properties and network, its market value persists.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;flip-side&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Flip-side&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Lack of Intrinsic Value&lt;/strong&gt;: Unlike tangible assets like food, which can be eaten, or artwork and jewelry, which can be visually appreciated and worn, Bitcoin does not possess such intrinsic physical qualities. It cannot be utilized in a physical sense. For instance, while you can display a piece of artwork in your home or drive a car, Bitcoin does not offer any physical utility or aesthetic pleasure. It exists purely as a digital entity without any physical form or practical use in the everyday world.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Non-Redeemability&lt;/strong&gt;: Traditional financial instruments like fiat currencies, shares, or gift cards have an issuing authority that provides a form of redemption. For example, a casino chip can be exchanged for cash, and fiat currencies are backed by governments that guarantee their value for transactions and debt servicing. In contrast, Bitcoin lacks such an issuing authority willing to redeem it. Satoshi Nakamoto, the creator of Bitcoin, does not offer any form of redemption for Bitcoins, making them fundamentally different from these traditional financial instruments.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Limited Utility&lt;/strong&gt;: Bitcoin’s utility is limited compared to traditional assets or currencies. For example, you can use fiat currency to buy goods and services almost anywhere, and shares in a company can be redeemed for a share of its assets if it liquidates. Bitcoin, however, cannot be used in such a direct way. It’s not universally accepted for transactions, nor does it provide the holder with a claim on physical assets or services. Its role is more akin to a number in an online game, where its value is not tied to a physical commodity or a guaranteed service, but rather to the collective agreement and interest of its users.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>A.I./Blockchain Adoption and Technology Substitution</title>
@@ -59,12 +94,12 @@ Let’s consider two cases here. One is about different incumbent technologies: 
 &lt;p&gt;Third, thinking from the technological (and also strategic) perspective, we see the greatly increased compatibility between two programming languages. What follows compatibility will be an increase in the adoption rate on the technology who opens up its door to embrace other technologies. Rstudio is the superpower in the R domain. Such a move will draw many Python programmers to R and also attract and retain R users with the empowerment of R-Python interoperability. This “one-way” compatibility&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; will greatly enhance the usability and desirability of the Rstudio as a platform provider.&lt;/p&gt;
 &lt;p&gt;The release of “reticulate” is a strategic move of Rstudio. More data scientists will be stay engaged in Rstudio, or they will spend more fo their time on the platform. But this is not the end of the story. The interoperability will continuously enlarge the overlap between the R and Python communities if we draw a Venn diagram in our mind. The Python-centered IEDs are also powerful. They have great features that their users wouldn’t live without. They may match the move of Rstudio. More likely, the reverse “recuticate” in Python will emerge from the large open source community, by innumerable open source developers. Even if the one-way compatibility will continue, Python IEDs will not lose the game. As R programmers can easily operate Python in Rstudio, they are also more likely to travel and contribute to the Python world. This is similar to the case when Apple allows Microsoft’s Windows operating system to be installed on Mac and Amazon’s Kindle electronic book app installed on iPad. The competing platforms will both benefit from the one-way compatibility, because the enlarged overlap of the Venn diagram will bring “two-way” flows of traffic to both sides.&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Open source can always provide more flexibility to the users, developers, and businesses involved. Perhaps we cannot formulate the dynamics of technological evolution in a game-theoretic fashion, as the players in open source are not “competing” in the same way. For example, Anaconda, the company who distributes many Python IDEs (including JupyterLab and Spyder), has long been providing Rstudio IDE on their cloud and GUI. I see “reticulate” as a strategic, but also very harmonious move to create net benefits to the open source community for data science at large.&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
+&lt;div class=&#34;footnotes footnotes-end-of-document&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;This can be easily done in Rstudio. &lt;a href=&#34;https://resources.rstudio.com/webinars/r-rstudio-1-2-amp-python-a-love-story-sean-lopp&#34; target=&#34;_blank&#34;&gt;Webinar by Rstudio&lt;a/&gt; &lt;a href=&#34;https://rstudio.github.io/reticulate/&#34; target=&#34;_blank&#34;&gt;Documentation by Rstudio&lt;a/&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;The existing python IDEs have not provided an interface for R-Python interoperability yet. Python programmers tend to use JupyterLab, Rodeo, Spyder, Visual Studio Code, and PyCharm, none of which have such an interoperability feature right now.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;For a more detailed analysis: &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Frenemies+in+Platform+Markets%3A+The+Case+of+Apple’s+iPad+vs.+Amazon’s+Kindle&#34; target=&#34;_blank&#34;&gt;Adner, R., Chen, J., &amp;amp; Zhu, F. (2016). Frenemies in Platform Markets: The Case of Apple’s iPad vs. Amazon’s Kindle. Harvard Business School Technology &amp;amp; Operations Mgt. Unit Working Paper, (15-087).&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;This can be easily done in Rstudio. &lt;a href=&#34;https://resources.rstudio.com/webinars/r-rstudio-1-2-amp-python-a-love-story-sean-lopp&#34; target=&#34;_blank&#34;&gt;Webinar by Rstudio&lt;a/&gt; &lt;a href=&#34;https://rstudio.github.io/reticulate/&#34; target=&#34;_blank&#34;&gt;Documentation by Rstudio&lt;a/&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;The existing python IDEs have not provided an interface for R-Python interoperability yet. Python programmers tend to use JupyterLab, Rodeo, Spyder, Visual Studio Code, and PyCharm, none of which have such an interoperability feature right now.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;For a more detailed analysis: &lt;a href=&#34;https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Frenemies+in+Platform+Markets%3A+The+Case+of+Apple’s+iPad+vs.+Amazon’s+Kindle&#34; target=&#34;_blank&#34;&gt;Adner, R., Chen, J., &amp;amp; Zhu, F. (2016). Frenemies in Platform Markets: The Case of Apple’s iPad vs. Amazon’s Kindle. Harvard Business School Technology &amp;amp; Operations Mgt. Unit Working Paper, (15-087).&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
