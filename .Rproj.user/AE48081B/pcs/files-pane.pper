@@ -1,9 +1,9 @@
 {
-    "path": "~/Documents/R Yang/Wed_Dev/RYangPhD_BlogDown/rkyCustomize/xmin_theme/content/research/causal_inference_basics",
+    "path": "/Users/Ray_Mac/Documents/R Yang/Wed_Dev/RYangPhD_BlogDown/rkyCustomize/xmin_theme/public",
     "sortOrder": [
         {
-            "ascending": true,
-            "columnIndex": 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
