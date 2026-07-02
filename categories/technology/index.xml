@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>technology on Ray Yang, Ph.D.</title>
-    <link>/categories/technology/</link>
+    <link>https://yangphd.com/categories/technology/</link>
     <description>Recent content in technology on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yangphd.com/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bitcoin Value</title>
-      <link>/crypto/2023-12-18-bitcoin-value/bitcoin-value/</link>
+      <link>https://yangphd.com/crypto/2023-12-18-bitcoin-value/bitcoin-value/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>/crypto/2023-12-18-bitcoin-value/bitcoin-value/</guid>
+      <guid>https://yangphd.com/crypto/2023-12-18-bitcoin-value/bitcoin-value/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>A.I./Blockchain Adoption and Technology Substitution</title>
-      <link>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</link>
+      <link>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
+      <guid>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
       <description>
 
 
@@ -79,10 +79,10 @@ Let’s consider two cases here. One is about different incumbent technologies: 
     
     <item>
       <title>Interoperability in Tech. Evolution—Thoughts on “Reticulate&#34;</title>
-      <link>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</link>
+      <link>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
+      <guid>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
       <description>
 
 

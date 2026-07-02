@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ray Yang, Ph.D.</title>
-    <link>/post/</link>
+    <link>https://yangphd.com/post/</link>
     <description>Recent content in Posts on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yangphd.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Play the Thinking Game -- from Seeing from Eyes to Seeing with the Mind</title>
-      <link>/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</link>
+      <link>https://yangphd.com/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</guid>
+      <guid>https://yangphd.com/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</guid>
       <description>
 
 
@@ -33,20 +33,20 @@ The reality (i.e., a data point), events that have already occurred, is a probab
     
     <item>
       <title>Citation Analysis on Corporate Strategy &amp; Network Change</title>
-      <link>/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</link>
+      <link>https://yangphd.com/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</guid>
+      <guid>https://yangphd.com/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</guid>
       <description>
 
 
 &lt;div id=&#34;central-themes-network-of-co-occurrence-keywords&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;1 Central Themes: Network of Co-occurrence Keywords&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-classic-papers&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2 the “Classic” Papers&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central papers (top 30) in co-citation network&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##       BAUM JAC 2000        ANJOS F 2015       GREVE H. 2014        LAVIE D 2006 
 ##            1.000000            1.000000            1.000000            1.000000 
@@ -70,10 +70,10 @@ The reality (i.e., a data point), events that have already occurred, is a probab
     
     <item>
       <title>Citation Analysis of Recent Acquisition Research</title>
-      <link>/post/2019/04/15/recent-merger-and-acquisition-research-since/</link>
+      <link>https://yangphd.com/post/2019/04/15/recent-merger-and-acquisition-research-since/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/15/recent-merger-and-acquisition-research-since/</guid>
+      <guid>https://yangphd.com/post/2019/04/15/recent-merger-and-acquisition-research-since/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -98,18 +98,18 @@ The reality (i.e., a data point), events that have already occurred, is a probab
 &lt;h1&gt;2 Central Themes&lt;/h1&gt;
 &lt;div id=&#34;network-of-co-occurrence-keywords&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.1 Network of Co-occurrence Keywords&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This graph shows the most common themes (top 30 co-occuring keywords) of these papers.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;mds-mapping-of-the-conceptual-structure&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 MDS Mapping of the Conceptual Structure&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We can use MDS (Multi-dimentional Scaling) and Dendrogram to map the distance/dissimilarity among the themes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;central-papers&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;3 Central Papers&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;div id=&#34;the-main-stream-papers&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.1 the “Main Stream” Papers&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central papers (top 20) in bibliographic coupling network&amp;quot;&lt;/code&gt;&lt;/pre&gt;
@@ -131,7 +131,7 @@ The reality (i.e., a data point), events that have already occurred, is a probab
 &lt;/div&gt;
 &lt;div id=&#34;the-classic-papers&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.2 the “Classic” Papers&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central papers (top 20) in co-citation network&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##    MOELLER SB 2004   HALEBLIAN J 1999     JENSEN MC 1986 
 ##          1.0000000          0.9891969          0.9313744 
@@ -155,10 +155,10 @@ The reality (i.e., a data point), events that have already occurred, is a probab
     
     <item>
       <title>A.I./Blockchain Adoption and Technology Substitution</title>
-      <link>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</link>
+      <link>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
+      <guid>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
       <description>
 
 
@@ -187,10 +187,10 @@ Let’s consider two cases here. One is about different incumbent technologies: 
     
     <item>
       <title>A Summary of Recent &#39;Social Evaluation&#39; Research</title>
-      <link>/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
+      <link>https://yangphd.com/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/25/social-evaluation-and-institutional-complexity/</guid>
+      <guid>https://yangphd.com/post/2019/03/25/social-evaluation-and-institutional-complexity/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -210,21 +210,21 @@ Let’s consider two cases here. One is about different incumbent technologies: 
 &lt;div id=&#34;motivation&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;1 Motivation&lt;/h2&gt;
 &lt;p&gt;The goal of this post is to analyze and review the “social evaluation” research tracing back to Zuckerman (1999)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. The analysis/review is based on hand-collected papers that directly and indirectly cite Zuckerman (1999). The review is not intended to be comprehensive but to understand the central ideas on the topic developed by management/sociology scholars in the past 20 years.&lt;/p&gt;
-&lt;p&gt;Let’s continue on the “positioning” topic from &lt;a href=&#34;/post/2019/02/25/optimal-positioning-for-firms-individuals/&#34; target=&#34;_blank&#34;&gt;one of my previous posts&lt;/a&gt; (firms are social actors being evaluated by social audiences), but shift our focus of discussion from “what actors do” to “what audience think.” That is, instead of an “actor” standpoint, let’s take an “audience” perspective to consider how firms as market participants are evaluated by market audiences. Reality doesn’t directly translate into human decisions; human beings can only understand reality from their brain, which is subjected to social construction. As a result, the evaluations on market participants do not come from complete rationality in a social vacuum. Rather, audiences’ cognition is shaped by the market’s categorical structure and/or the socially accepted categorical beliefs.&lt;/p&gt;
+&lt;p&gt;Let’s continue on the “positioning” topic from &lt;a href=&#34;https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/&#34; target=&#34;_blank&#34;&gt;one of my previous posts&lt;/a&gt; (firms are social actors being evaluated by social audiences), but shift our focus of discussion from “what actors do” to “what audience think.” That is, instead of an “actor” standpoint, let’s take an “audience” perspective to consider how firms as market participants are evaluated by market audiences. Reality doesn’t directly translate into human decisions; human beings can only understand reality from their brain, which is subjected to social construction. As a result, the evaluations on market participants do not come from complete rationality in a social vacuum. Rather, audiences’ cognition is shaped by the market’s categorical structure and/or the socially accepted categorical beliefs.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biblio-analysis&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2. Biblio-Analysis&lt;/h2&gt;
 &lt;div id=&#34;selection-criteria&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;2.1 Selection Criteria&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: The curvature argument has been deprecated in favour of strength&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_cat_eval_032619.txt&#34; target=&#34;_blank&#34;&gt; raw data&lt;/a&gt; is based on 29 hand-collected papers directed and indirectly citing Zukerman (1999) and extracted from &lt;a href=&#34;http://www.webofknowledge.com&#34; target=&#34;_blank&#34;&gt; Web of Science&lt;/a&gt;. The papers that not on the topic of “social evaluation” are excluded from the sample, based on the author’s judgment. We can get a general idea of the citation relationship among those papers from the direct citation network graph.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;central-sources-and-keywords&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;2.2 Central Sources and Keywords&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
 By quickly checking the origins (papers being cited) of the sampled papers, we can see that a big portion (the blue-colored cluster) is the classic institution work. It makes sense, as the discussion of the underlying mechanism of social evaluation should be related to how the evaluating standards are formed in the institutionalization processes. The summary in 3.2 will be based on the top-cited “social evaluation” papers in the red-colored cluster.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
 The inter-connected keyword clusters present the relationship among the main topics covered by this stream of research. It seems to have a quite strong “strategy” flavor&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. The most frequently used keywords include “industry”, “market”, and “performance.”&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -269,10 +269,10 @@ The inter-connected keyword clusters present the relationship among the main top
     
     <item>
       <title>Interoperability in Tech. Evolution—Thoughts on “Reticulate&#34;</title>
-      <link>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</link>
+      <link>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
+      <guid>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
       <description>
 
 
@@ -297,10 +297,10 @@ The inter-connected keyword clusters present the relationship among the main top
     
     <item>
       <title>“MMeM”: Modeling the Multivariate Mixed-effects</title>
-      <link>/post/2019/03/10/mmem-an-r-package/</link>
+      <link>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/10/mmem-an-r-package/</guid>
+      <guid>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -376,10 +376,10 @@ results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = s
     
     <item>
       <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results</title>
-      <link>/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
+      <link>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
+      <guid>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -463,7 +463,7 @@ print(regression_table)&lt;/code&gt;&lt;/pre&gt;
             confidence_interval = TRUE,  CI_Ribbon = FALSE, 
             xlab = &amp;quot;Weight&amp;quot;, ylab = &amp;quot;MPG&amp;quot;, moderator.lab = &amp;quot;Horsepower&amp;quot;) +
 ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;plot-the-moderating-effect-with-a-linear-spline&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;plot the moderating effect with a linear spline&lt;/h2&gt;
@@ -474,7 +474,7 @@ plot_effect(reg.coef=summary(m3)$coefficients, data = mtcars, model = m3,
             x_var.name = &amp;quot;wt&amp;quot;, y_var.name = &amp;quot;mpg&amp;quot;, moderator.name = &amp;quot;hp&amp;quot;,
             xlab=&amp;quot;Weight&amp;quot;, ylab=&amp;quot;MPG&amp;quot;, moderator.lab=&amp;quot;Horsepower&amp;quot;) +
 ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As we can see from the last line of code, the plot is customizable using &lt;a href=&#34;https://CRAN.R-project.org/package=ggplot2&#34; target=&#34;_blank&#34;&gt;“ggplot2”&lt;/a&gt;. There are a couple of other functions. Please see the &lt;a href=&#34;https://www.rdocumentation.org/packages/regrrr&#34; target=&#34;_blank&#34;&gt;reference manual on R documentation&lt;/a&gt; for details.&lt;/p&gt;
 &lt;p&gt;I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the &lt;a href=&#34;https://github.com/RayKYang/regrrr&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt; page.&lt;/p&gt;
 &lt;/div&gt;
@@ -484,10 +484,10 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
     
     <item>
       <title>A Quick Bibliometric Analysis on “Positioning”</title>
-      <link>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</link>
+      <link>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</link>
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
+      <guid>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
       <description>
 
 
@@ -502,11 +502,11 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Bibliographic coupling analysis allows us to explore the “confluence and interactions” among recent papers. Two articles are bibliographically coupled if they co-cited at least one article.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Co-citation analysis allows us to trace back to the origin of thoughts and classic papers. Two articles have a co-citation tie if they are both cited in a third article.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Reference:&lt;/p&gt;
 &lt;p&gt;Aria, M. &amp;amp; Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, Journal of Informetrics, 11(4), pp 959-975, Elsevier.&lt;/p&gt;
 </description>
@@ -514,10 +514,10 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
     
     <item>
       <title>Optimal Positioning for Firms and Individuals</title>
-      <link>/post/2019/02/25/optimal-positioning-for-firms-individuals/</link>
+      <link>https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/02/25/optimal-positioning-for-firms-individuals/</guid>
+      <guid>https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/</guid>
       <description>
 
 

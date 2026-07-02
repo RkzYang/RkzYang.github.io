@@ -1,153 +1,153 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>causal-inference-basics on Ray Yang, Ph.D.</title>
-    <link>/series/causal-inference-basics/</link>
+    <link>https://yangphd.com/series/causal-inference-basics/</link>
     <description>Recent content in causal-inference-basics on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/series/causal-inference-basics/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yangphd.com/series/causal-inference-basics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Regression Discontinuity Design</title>
-      <link>/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</link>
       <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-the-differences-in-y-not-explained-by-treatment-and-time&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove the Differences in Y NOT explained by Treatment and Time&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Difference-in-Difference</title>
-      <link>/research/causal_inference_basics/causal-inference-difference-in-difference/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-difference-in-difference/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-the-differences-in-y-not-explained-by-treatment-and-time&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove the Differences in Y NOT explained by Treatment and Time&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Matching</title>
-      <link>/research/causal_inference_basics/causal-inference-matching/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</link>
       <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-matching/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;removing-the-differences-in-y-explained-by-x-to-find-out-the-pure-effect-of-treatment-on-y&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Removing the “Differences in Y explained by X” (to find out the pure effect of Treatment on Y)&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Fixed Effects</title>
-      <link>/research/causal_inference_basics/causal-inference-fixed-effects/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-fixed-effects/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-person-vs.remove-differences-in-y-explained-by-person&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by Person” vs. Remove “Differences in Y explained by Person”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-personss-influence-on-the-effect-of-x-on-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove Persons’s influence on “the effect of X on Y” step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Post-treatment Control</title>
-      <link>/research/causal_inference_basics/causal-inference-pt-control/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</link>
       <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-pt-control/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-c-vs.remove-differences-in-y-explained-by-c&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by C” vs. Remove “Differences in Y explained by C”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-cs-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove C’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Collider Bias</title>
-      <link>/research/causal_inference_basics/causal-inference-collider-bias/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-collider-bias/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-c-vs.remove-differences-in-y-explained-by-c&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by C” vs. Remove “Differences in Y explained by C”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;what-the-model-does-remove-cs-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;What the model does: Remove C’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Instrument Variable</title>
-      <link>/research/causal_inference_basics/causal-inference-instrument-variable/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-instrument-variable/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -164,7 +164,7 @@
 
 &lt;div id=&#34;causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;generate-the-data-for-analysis&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Generate the Data for Analysis&lt;/h1&gt;
@@ -185,11 +185,11 @@ df &amp;lt;- data.frame(Z = c(rep(0, 100), rep(1, 100)),
 &lt;h1&gt;Visualization&lt;/h1&gt;
 &lt;div id=&#34;remove-differences-in-x-not-explained-by-z-vs.remove-differences-in-y-not-explained-by-z&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Remove “Differences in X NOT explained by Z” vs. Remove “Differences in Y NOT explained by Z”&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;retain-differences-in-x-and-y-explained-by-z-step-by-step&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Retain “Differences in X and Y explained by Z” step by step&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;run-the-regression-and-check-the-estimate-of-x&#34; class=&#34;section level1&#34;&gt;
@@ -210,10 +210,10 @@ summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;%
     
     <item>
       <title>Sample Selection Bias</title>
-      <link>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -228,7 +228,7 @@ summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;%
 
 &lt;div id=&#34;causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;dgp&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;DGP&lt;/h1&gt;
@@ -301,7 +301,7 @@ summary(run_outcome)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;visualization&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Visualization&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;double-check&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Double Check&lt;/h1&gt;
@@ -377,28 +377,28 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Control Variable</title>
-      <link>/research/causal_inference_basics/causal-inference-control-variable/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-control-variable/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;simpsons-paradox&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Simpson’s Paradox&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-w-vs.remove-differences-in-y-explained-by-w&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by W” vs. Remove “Differences in Y explained by W”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-ws-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove W’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

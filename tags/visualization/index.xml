@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>visualization on Ray Yang, Ph.D.</title>
-    <link>/tags/visualization/</link>
+    <link>https://yangphd.com/tags/visualization/</link>
     <description>Recent content in visualization on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yangphd.com/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mapping Twitter Topics and Sentiment about FAAMG Companies since Covid-19 Outbreak</title>
-      <link>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
+      <link>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
+      <guid>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -36,7 +36,7 @@
 &lt;h1&gt;1 Motivation&lt;/h1&gt;
 &lt;p&gt;On a whim, I mapped out what people say (the text) and feel (the sentiment) about the top tech companies (FAAMG) on twitter since the Covid-19 outbreak. The keywords and sentiment that are associated with the main topics should differ across these companies.&lt;/p&gt;
 &lt;p&gt;By no means I am drawing any causal association here. But the story starts with checking the recent price movements of the FAAMG stocks. Obviously, Covid-19 has impacted these companies quite differently.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;procedures&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2 Procedures&lt;/h1&gt;
@@ -48,7 +48,7 @@ I used Python module “tweepy” to stream the data and set the “since” par
 &lt;div id=&#34;topic-modeling&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 Topic Modeling&lt;/h2&gt;
 &lt;p&gt;Using Python module “gensim”, I detected three most significant topics (including Covid-19, business, and daily life), which are named by the associated keywords (most relevant terms).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Using Python module “vaderSentiment”, I computed sentiment scores for each tweet and aggregated the scores by company. The topic-based sentiment scores are used to construct the perceptual map, in which each company takes a different position.
 Using Python module “nltk”, I find the most frequent topic-based co-occurring words for each company.&lt;/p&gt;
 &lt;/div&gt;
@@ -57,17 +57,17 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;h1&gt;3 Results&lt;/h1&gt;
 &lt;div id=&#34;perceptual-map-of-faamg-based-on-topic-sentiment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;perceptual map and the positioning of each company&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;perceptual map and the positioning of each company&#34;&gt;&lt;/p&gt;
 &lt;p&gt;It looks Amazon does well on all topics, especially on Covid-19-related topic. Microsoft and Apple do well on “Business”.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;keywords-co-occurrence-network-on-each-topic&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/h2&gt;
 &lt;p&gt;Here are the work keywords co-occurrence patterns for each topic of these companies.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;Amazon Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;Apple Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;Facebook Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;Google Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;Microsoft Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;Amazon Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;Apple Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;Facebook Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;Google Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;Microsoft Word-Association Network&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -75,10 +75,10 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
     
     <item>
       <title>“MMeM”: Modeling the Multivariate Mixed-effects</title>
-      <link>/post/2019/03/10/mmem-an-r-package/</link>
+      <link>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/10/mmem-an-r-package/</guid>
+      <guid>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -154,10 +154,10 @@ results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = s
     
     <item>
       <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results</title>
-      <link>/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
+      <link>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
+      <guid>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -241,7 +241,7 @@ print(regression_table)&lt;/code&gt;&lt;/pre&gt;
             confidence_interval = TRUE,  CI_Ribbon = FALSE, 
             xlab = &amp;quot;Weight&amp;quot;, ylab = &amp;quot;MPG&amp;quot;, moderator.lab = &amp;quot;Horsepower&amp;quot;) +
 ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;plot-the-moderating-effect-with-a-linear-spline&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;plot the moderating effect with a linear spline&lt;/h2&gt;
@@ -252,7 +252,7 @@ plot_effect(reg.coef=summary(m3)$coefficients, data = mtcars, model = m3,
             x_var.name = &amp;quot;wt&amp;quot;, y_var.name = &amp;quot;mpg&amp;quot;, moderator.name = &amp;quot;hp&amp;quot;,
             xlab=&amp;quot;Weight&amp;quot;, ylab=&amp;quot;MPG&amp;quot;, moderator.lab=&amp;quot;Horsepower&amp;quot;) +
 ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As we can see from the last line of code, the plot is customizable using &lt;a href=&#34;https://CRAN.R-project.org/package=ggplot2&#34; target=&#34;_blank&#34;&gt;“ggplot2”&lt;/a&gt;. There are a couple of other functions. Please see the &lt;a href=&#34;https://www.rdocumentation.org/packages/regrrr&#34; target=&#34;_blank&#34;&gt;reference manual on R documentation&lt;/a&gt; for details.&lt;/p&gt;
 &lt;p&gt;I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the &lt;a href=&#34;https://github.com/RayKYang/regrrr&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt; page.&lt;/p&gt;
 &lt;/div&gt;

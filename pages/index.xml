@@ -1,57 +1,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Ray Yang, Ph.D.</title>
-    <link>/pages/</link>
+    <link>https://yangphd.com/pages/</link>
     <description>Recent content in Pages on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yangphd.com/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>research</title>
-      <link>/pages/research/</link>
+      <link>https://yangphd.com/pages/research/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>/pages/research/</guid>
+      <guid>https://yangphd.com/pages/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>strategy</title>
-      <link>/pages/strategy/</link>
+      <link>https://yangphd.com/pages/strategy/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/pages/strategy/</guid>
+      <guid>https://yangphd.com/pages/strategy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marketing</title>
-      <link>/pages/marketing/</link>
+      <link>https://yangphd.com/pages/marketing/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/pages/marketing/</guid>
+      <guid>https://yangphd.com/pages/marketing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NLP</title>
-      <link>/pages/nlp/</link>
+      <link>https://yangphd.com/pages/nlp/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/pages/nlp/</guid>
+      <guid>https://yangphd.com/pages/nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown</title>
-      <link>/pages/blogdown/</link>
+      <link>https://yangphd.com/pages/blogdown/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/pages/blogdown/</guid>
+      <guid>https://yangphd.com/pages/blogdown/</guid>
       <description></description>
     </item>
     

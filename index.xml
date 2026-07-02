@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>𝕐  on Ray Yang, Ph.D.</title>
-    <link>/</link>
+    <link>https://yangphd.com/</link>
     <description>Recent content in 𝕐  on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yangphd.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bitcoin Value</title>
-      <link>/crypto/2023-12-18-bitcoin-value/bitcoin-value/</link>
+      <link>https://yangphd.com/crypto/2023-12-18-bitcoin-value/bitcoin-value/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>/crypto/2023-12-18-bitcoin-value/bitcoin-value/</guid>
+      <guid>https://yangphd.com/crypto/2023-12-18-bitcoin-value/bitcoin-value/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>the Success Formula for Entrepreneurs</title>
-      <link>/ent_tools/the-success-formula-for-entrepreneurs/</link>
+      <link>https://yangphd.com/ent_tools/the-success-formula-for-entrepreneurs/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>/ent_tools/the-success-formula-for-entrepreneurs/</guid>
+      <guid>https://yangphd.com/ent_tools/the-success-formula-for-entrepreneurs/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -123,10 +123,10 @@
     
     <item>
       <title>A List of Data Sources for Real Estate Market Analysis</title>
-      <link>/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</link>
+      <link>https://yangphd.com/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</guid>
+      <guid>https://yangphd.com/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -207,94 +207,94 @@
     
     <item>
       <title>Regression Discontinuity Design</title>
-      <link>/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</link>
       <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-the-differences-in-y-not-explained-by-treatment-and-time&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove the Differences in Y NOT explained by Treatment and Time&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Difference-in-Difference</title>
-      <link>/research/causal_inference_basics/causal-inference-difference-in-difference/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-difference-in-difference/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-the-differences-in-y-not-explained-by-treatment-and-time&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove the Differences in Y NOT explained by Treatment and Time&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Matching</title>
-      <link>/research/causal_inference_basics/causal-inference-matching/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</link>
       <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-matching/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;removing-the-differences-in-y-explained-by-x-to-find-out-the-pure-effect-of-treatment-on-y&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Removing the “Differences in Y explained by X” (to find out the pure effect of Treatment on Y)&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Fixed Effects</title>
-      <link>/research/causal_inference_basics/causal-inference-fixed-effects/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-fixed-effects/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-person-vs.remove-differences-in-y-explained-by-person&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by Person” vs. Remove “Differences in Y explained by Person”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-personss-influence-on-the-effect-of-x-on-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove Persons’s influence on “the effect of X on Y” step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Play the Thinking Game -- from Seeing from Eyes to Seeing with the Mind</title>
-      <link>/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</link>
+      <link>https://yangphd.com/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</guid>
+      <guid>https://yangphd.com/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</guid>
       <description>
 
 
@@ -312,58 +312,58 @@ The reality (i.e., a data point), events that have already occurred, is a probab
     
     <item>
       <title>Post-treatment Control</title>
-      <link>/research/causal_inference_basics/causal-inference-pt-control/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</link>
       <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-pt-control/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-c-vs.remove-differences-in-y-explained-by-c&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by C” vs. Remove “Differences in Y explained by C”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-cs-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove C’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Collider Bias</title>
-      <link>/research/causal_inference_basics/causal-inference-collider-bias/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-collider-bias/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-c-vs.remove-differences-in-y-explained-by-c&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by C” vs. Remove “Differences in Y explained by C”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;what-the-model-does-remove-cs-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;What the model does: Remove C’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Instrument Variable</title>
-      <link>/research/causal_inference_basics/causal-inference-instrument-variable/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-instrument-variable/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -380,7 +380,7 @@ The reality (i.e., a data point), events that have already occurred, is a probab
 
 &lt;div id=&#34;causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;generate-the-data-for-analysis&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Generate the Data for Analysis&lt;/h1&gt;
@@ -401,11 +401,11 @@ df &amp;lt;- data.frame(Z = c(rep(0, 100), rep(1, 100)),
 &lt;h1&gt;Visualization&lt;/h1&gt;
 &lt;div id=&#34;remove-differences-in-x-not-explained-by-z-vs.remove-differences-in-y-not-explained-by-z&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Remove “Differences in X NOT explained by Z” vs. Remove “Differences in Y NOT explained by Z”&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;retain-differences-in-x-and-y-explained-by-z-step-by-step&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Retain “Differences in X and Y explained by Z” step by step&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;run-the-regression-and-check-the-estimate-of-x&#34; class=&#34;section level1&#34;&gt;
@@ -426,10 +426,10 @@ summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;%
     
     <item>
       <title>Sample Selection Bias</title>
-      <link>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -444,7 +444,7 @@ summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;%
 
 &lt;div id=&#34;causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;dgp&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;DGP&lt;/h1&gt;
@@ -517,7 +517,7 @@ summary(run_outcome)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;visualization&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Visualization&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;double-check&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Double Check&lt;/h1&gt;
@@ -593,38 +593,38 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Control Variable</title>
-      <link>/research/causal_inference_basics/causal-inference-control-variable/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-control-variable/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;simpsons-paradox&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Simpson’s Paradox&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-w-vs.remove-differences-in-y-explained-by-w&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by W” vs. Remove “Differences in Y explained by W”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-ws-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove W’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Quant Finance Data Source (Highly Recommended)</title>
-      <link>/note/2020/06/09/quant-finance-data/</link>
+      <link>https://yangphd.com/note/2020/06/09/quant-finance-data/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/note/2020/06/09/quant-finance-data/</guid>
+      <guid>https://yangphd.com/note/2020/06/09/quant-finance-data/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -644,10 +644,10 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>the Positioning of Stock Fundamentals and Abnormal Stock Returns</title>
-      <link>/positioning/the-positioning-of-stock-fundamentas/</link>
+      <link>https://yangphd.com/positioning/the-positioning-of-stock-fundamentas/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/positioning/the-positioning-of-stock-fundamentas/</guid>
+      <guid>https://yangphd.com/positioning/the-positioning-of-stock-fundamentas/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -669,13 +669,13 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;To implement this idea, I used XGBoost (an implementation of gradient boosted decision trees), which requires minimal feature engineering/selection, to predict the “buy-and-hold” abnormal returns using the fundamental positionings &lt;b&gt;prior to&lt;/b&gt; the holding period (90 days). To examine the predictive power of fundamental positionings, I left the base financial ratio variables along with the fundamental positionings (the relative percentile rank within an industry based on these ratios) in the feature space. After finding the best model from bayesian hyperparameter tuning, we can then evaluate the model performance and see the relative importance of fundamental positioning features and the financial ratios.&lt;/p&gt;
 &lt;p&gt;The data is streamed from “&lt;a href=&#34;https://pypi.org/project/tushare/&#34;&gt; Tushare&lt;/a&gt;,” which provides free access to the SH/SZ stock exchange.&lt;/p&gt;
 &lt;!---If you are interested in Tushare data, you can register through https://tushare.pro/register?reg=366051. This will allow me to receive 50 virtual tokens for enhanced data access and will help my research.--&gt;
-&lt;p&gt;&lt;img src=&#34;/positioning/2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/positioning/2020-05-25-the-positioning-of-stock-fundamentals_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;result&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;3 Result&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/investing/stock_fundamental_positioning/figure-html/abnormal_returns.png&#34; alt=&#34;predictions&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/investing/stock_fundamental_positioning/figure-html/abnormal_returns.png&#34; alt=&#34;predictions&#34;&gt;&lt;/p&gt;
 &lt;p&gt;In the above graph, the points in yellow are winners that beat the market, whereas the points in purple are “losers” that fail to beat the market. If we use the algorithm to pick the top three winners, I will indeed generate positive abnormal returns for us. The mean squared error of the model is 0.019.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/investing/stock_fundamental_positioning/figure-html/importance.png&#34; alt=&#34;importance&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/investing/stock_fundamental_positioning/figure-html/importance.png&#34; alt=&#34;importance&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This graph shows the relative importance of the features. I added a prefix “R” (relative standing) to the variable names to denote the “fundamental positioning” features. Around half of these important features are fundamental positionings. This shows the positioning (which is based on the percentile ranking of a focal company relative to industry peers) does contribute to the prediction of stock market returns, in addition to the financial ratios (which does not involve firm-to-firm comparisons).&lt;/p&gt;
 &lt;/div&gt;
 </description>
@@ -683,10 +683,10 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>An Ongoing Collection of Mission Statements and Vision Statements</title>
-      <link>/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</link>
+      <link>https://yangphd.com/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</guid>
+      <guid>https://yangphd.com/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</guid>
       <description>
 
 
@@ -743,10 +743,10 @@ Walmart: Be the destination for customers to save money, no matter how they want
     
     <item>
       <title>Cognitive Biases to Avoid in Decision Making</title>
-      <link>/ent_tools/cognitive-biases-to-avoid-in-decision-making/</link>
+      <link>https://yangphd.com/ent_tools/cognitive-biases-to-avoid-in-decision-making/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/ent_tools/cognitive-biases-to-avoid-in-decision-making/</guid>
+      <guid>https://yangphd.com/ent_tools/cognitive-biases-to-avoid-in-decision-making/</guid>
       <description>
 
 
@@ -789,10 +789,10 @@ Walmart: Be the destination for customers to save money, no matter how they want
     
     <item>
       <title>Tracking the Change of Industry Positioning Caused by an Acquisition</title>
-      <link>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</link>
+      <link>https://yangphd.com/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</guid>
+      <guid>https://yangphd.com/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -814,13 +814,13 @@ Walmart: Be the destination for customers to save money, no matter how they want
 &lt;div id=&#34;the-biplot&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.1 the Biplot&lt;/h2&gt;
 &lt;p&gt;Consider commercial banks as an example. Different banks may hold differently structured financial asset portfolios and occupy different positions. We can assess a bank’s position based on the proportion of cash, commercial loans, mortgage loans, etc., as a percentage in the total asset (i.e., multiple dimensions). A biplot can provide us a quick intuition about how those dimensions relate to one another. However, the relative positions shown on biplot would not be accurate due to the loss of information in dimension reduction.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/biplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/biplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-3-d-and-2-d-scatterplots-based-on-mds&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 the 3-D and 2-D Scatterplots based on MDS&lt;/h2&gt;
 &lt;p&gt;In an alternative approach, we can build distance-based features by exploring the inter-firm distance using multi-dimensional scaling (MDS). On Feb. 12th, 2018, Pacific Premier Bancorp launched an acquisition of Grandpoint Capital. Using this acquisition event as an example, we can first calculate the interfirm distance using MDS and then track how the acquisition shifts a bank’s position (in both a 3-D and 2-D scatter plots).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/3d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/2d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/3d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/2d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -828,10 +828,10 @@ Walmart: Be the destination for customers to save money, no matter how they want
     
     <item>
       <title>Dalio&#39;s Micro-economic &#39;Machine&#39; and Short-term and Long-term Debt Cycles</title>
-      <link>/investing/the-short-term-and-long-term-debt-cycle/</link>
+      <link>https://yangphd.com/investing/the-short-term-and-long-term-debt-cycle/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/investing/the-short-term-and-long-term-debt-cycle/</guid>
+      <guid>https://yangphd.com/investing/the-short-term-and-long-term-debt-cycle/</guid>
       <description>
 
 
@@ -841,7 +841,7 @@ Walmart: Be the destination for customers to save money, no matter how they want
 &lt;/div&gt;
 &lt;div id=&#34;mapping-the-micro-economic-machine&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2. Mapping the Micro-economic ‘Machine’&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/investing/2020-04-18-the-short-term-and-long-term-debt-cycle_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/investing/2020-04-18-the-short-term-and-long-term-debt-cycle_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In this system, there are two essential components, the short-term debt cycle (the solid grey lines) and the long-term debt cycle (the red dotted lines). Debt creates money. Borrowing creates cycles. We enjoy economic growth until the system creates more credit than the real income-generating produtivity.&lt;/p&gt;
 &lt;p&gt;When interest rate hits zero, and the central bank can no longer stimulate the economy with a lower interest rate, we come to the end of the long-term debt cycle and enter into the stage of deleveraging and reflation (a.k.a. “the lost decade”). Next, we will wait and see if the government can execute a beautiful deleveraging (by controlling the rate of money-printing relative to the growth of debt).&lt;/p&gt;
 &lt;/div&gt;
@@ -850,10 +850,10 @@ Walmart: Be the destination for customers to save money, no matter how they want
     
     <item>
       <title>the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
-      <link>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</link>
+      <link>https://yangphd.com/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</guid>
+      <guid>https://yangphd.com/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -871,7 +871,7 @@ Walmart: Be the destination for customers to save money, no matter how they want
 &lt;h1&gt;1 the positioning by industry presence across SIC categories&lt;/h1&gt;
 &lt;p&gt;Scholars have used SIC codes to understand interfirm differences &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;
 Big public firms typically straddle across multiple SIC industry categories. So it is straightforward and easy to see their positionings by multiple-industry participation. Accordingly, a firm’s position can be calculated as the sales distribution across multiple SIC industry categories &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/positioning_multi_industry_presence.png&#34; alt=&#34;positioning by multi-industry presence&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/positioning_multi_industry_presence.png&#34; alt=&#34;positioning by multi-industry presence&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-positioning-by-competition-description-in-10-k-filing&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2 the positioning by competition description in 10-K filing&lt;/h1&gt;
@@ -880,18 +880,18 @@ Big public firms typically straddle across multiple SIC industry categories. So 
 &lt;div id=&#34;calculating-positioning-based-on-the-competition-description&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.1 calculating positioning based on the competition description&lt;/h2&gt;
 &lt;p&gt;I collected the competition description texts of the largest 17 tech companies. Below are some frequently used words in those statements.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/word_cloud_competition_description.png&#34; alt=&#34;word cloud competition description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/word_cloud_competition_description.png&#34; alt=&#34;word cloud competition description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I ran an LDA topic modeling with 11 latent topics, which yields a low perplexity score.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/perplecity_score_topic_competition_description.png&#34; alt=&#34;perplecity score topic model on competition description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/perplecity_score_topic_competition_description.png&#34; alt=&#34;perplecity score topic model on competition description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The figure below shows how the 11 topics distribute across terms.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/topic_loading_on_words.png&#34; alt=&#34;topic loading on terms.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/topic_loading_on_words.png&#34; alt=&#34;topic loading on terms.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is the topic loading on the 11 firms’ competition description, which is used to calculate the pairwise distance.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/topic_loading_on_companies.png&#34; alt=&#34;topic loading on companies.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/topic_loading_on_companies.png&#34; alt=&#34;topic loading on companies.png&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-final-result-positioning-by-competition-description&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 the final result: positioning by competition description&lt;/h2&gt;
 &lt;p&gt;Here is the positioning map based on the competition description. The graph on the right shows the positioning of American companies. Looking at the results, we can see some interesting differences. The competition description moves some firms closer or further away from one another as compared to the SIC-presence positioning map.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/positioning_based_on_competition_description.png&#34; alt=&#34;positioning based on competition description.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/positioning_based_on_competition_description.png&#34; alt=&#34;positioning based on competition description.png&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -909,10 +909,10 @@ Big public firms typically straddle across multiple SIC industry categories. So 
     
     <item>
       <title>Mapping Twitter Topics and Sentiment about FAAMG Companies since Covid-19 Outbreak</title>
-      <link>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
+      <link>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
+      <guid>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -933,7 +933,7 @@ Big public firms typically straddle across multiple SIC industry categories. So 
 &lt;h1&gt;1 Motivation&lt;/h1&gt;
 &lt;p&gt;On a whim, I mapped out what people say (the text) and feel (the sentiment) about the top tech companies (FAAMG) on twitter since the Covid-19 outbreak. The keywords and sentiment that are associated with the main topics should differ across these companies.&lt;/p&gt;
 &lt;p&gt;By no means I am drawing any causal association here. But the story starts with checking the recent price movements of the FAAMG stocks. Obviously, Covid-19 has impacted these companies quite differently.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;procedures&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2 Procedures&lt;/h1&gt;
@@ -945,7 +945,7 @@ I used Python module “tweepy” to stream the data and set the “since” par
 &lt;div id=&#34;topic-modeling&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 Topic Modeling&lt;/h2&gt;
 &lt;p&gt;Using Python module “gensim”, I detected three most significant topics (including Covid-19, business, and daily life), which are named by the associated keywords (most relevant terms).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Using Python module “vaderSentiment”, I computed sentiment scores for each tweet and aggregated the scores by company. The topic-based sentiment scores are used to construct the perceptual map, in which each company takes a different position.
 Using Python module “nltk”, I find the most frequent topic-based co-occurring words for each company.&lt;/p&gt;
 &lt;/div&gt;
@@ -954,17 +954,17 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;h1&gt;3 Results&lt;/h1&gt;
 &lt;div id=&#34;perceptual-map-of-faamg-based-on-topic-sentiment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;perceptual map and the positioning of each company&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;perceptual map and the positioning of each company&#34;&gt;&lt;/p&gt;
 &lt;p&gt;It looks Amazon does well on all topics, especially on Covid-19-related topic. Microsoft and Apple do well on “Business”.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;keywords-co-occurrence-network-on-each-topic&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/h2&gt;
 &lt;p&gt;Here are the work keywords co-occurrence patterns for each topic of these companies.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;Amazon Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;Apple Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;Facebook Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;Google Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;Microsoft Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;Amazon Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;Apple Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;Facebook Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;Google Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;Microsoft Word-Association Network&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -972,10 +972,10 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
     
     <item>
       <title>Aim, Think, and Act: System Maps for Mental State</title>
-      <link>/ent_tools/aim-think-walk/</link>
+      <link>https://yangphd.com/ent_tools/aim-think-walk/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/ent_tools/aim-think-walk/</guid>
+      <guid>https://yangphd.com/ent_tools/aim-think-walk/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -995,7 +995,7 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;li&gt;Search more (frequency) and search farther (space).&lt;/li&gt;
 &lt;li&gt;Don’t estimate the time needed for making improvement based on the current solution.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The first type of self-motivator is goal-setting. For the future, not only you need to have a CLEAR goal, but also you need to make it CHALLENGING&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and even seem impossible&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. Aiming high generates aspiration, which will trigger SEARCH behavior&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. The more you keep aiming high, the more frequently and farther you search for alternative solutions. It is natural and typical that you don’t find a solution each time you search. But the more you search, the more likely you will experience an epiphany and find the ONE idea among a series of many ideas to improve your condition effectively and drastically. Keep aiming high, because the fulfillment of your aspiration from an improvement of your condition will also weaken your aspiration.&lt;/p&gt;
 &lt;p&gt;The pitfall: not to repeatedly and frequently energize your aspiration by keeping a clear and challenging goal, because it may seem to take a long time. You develop a false belief when you estimate the time needed to make improvement based on the current rate of progress. It seems to take a long time because you have not yet found the solution to expedite your growth. Finding a solution requires more search. More search is driven by your aspiration, which is energized by your goal. Take as much time as you need to set your goal. Write it on your wall.&lt;/p&gt;
 &lt;/div&gt;
@@ -1006,7 +1006,7 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;li&gt;Expect the DELAY to use the right solution to solve the right problem.&lt;/li&gt;
 &lt;li&gt;Avoid quick fix (e.g. instant gratification).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The second type of self-motivator is problem-solving. Your success is the way you spend your time doing your BEST—the way you take the talent you were born with and all the knowledge and skills you’ve since developed in the past and using them toward a problem at present. We have limited mental capacity to mobilize rationality and need time to reason&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. It takes time for us to think through to find the most important problem to solve. It also takes time to find the fundamental solution—the right one. If you use the right solution to solve the right problem, you also solve all the problems. It is once and for all.&lt;/p&gt;
 &lt;p&gt;The pitfall: not to take time and think deep enough to find the fundamental solution. This critical step only requires patience. But since there is a DELAY for the fundamental solution to takes effect in addressing the problem, your emotional thinking and physiological drive will offer a quick fix. The less patience you have, the more you are tempted to use the quick fix. However, the quick fix, such as an instant gratification or a duct tape, can only solve your current problem by shifting the burden to the near future—leaving you with more problems to solve. Think hard before you act.&lt;/p&gt;
 &lt;/div&gt;
@@ -1017,7 +1017,7 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;li&gt;Expect the DELAY.&lt;/li&gt;
 &lt;li&gt;FIX the goal (and never compromise).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/ent_tools/2020-03-31-aim-think-walk_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The third type of self-motivator is action-taking. A quote by Jack Welch: “you pick a general direction and implement it like hell.” Expect the DELAY for the action taken to take effect. Live in the PRESENT. Focus on the task flow&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;, in which you are fully immersed in a feeling of energized focus and enjoyment in the process. This is a simple 3-step process: fix your goal in your mind, rest your focus in the action, and let the action take its course to improve the condition.&lt;/p&gt;
 &lt;p&gt;The pitfall: not to focus on the action with a fixed goal but too much on the gap between your current condition and your goal. It is easy to think fast than act fast. Usually when people don’t act fast, they think too much. The more you move your mental energy away from the action to worry about the condition, the more psychological stress you imprudently develop, urging you and tempting you to compromise your goal. When you tune your mind into such a compromise channel, the delay for action to improve condition will seem forever and become so hard to endure. If you don’t like a mixed feeling of relaxing and helpless, fix your goal and focus on your action, not your condition.&lt;/p&gt;
 &lt;/div&gt;
@@ -1036,10 +1036,10 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
     
     <item>
       <title>An Ongoing Collection of Strategy Matrices</title>
-      <link>/str_consulting/an-ongoing-collection-of-strategy-matrices/</link>
+      <link>https://yangphd.com/str_consulting/an-ongoing-collection-of-strategy-matrices/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/str_consulting/an-ongoing-collection-of-strategy-matrices/</guid>
+      <guid>https://yangphd.com/str_consulting/an-ongoing-collection-of-strategy-matrices/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1110,14 +1110,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Costoco</title>
-      <link>/companies/mapping-costoco/</link>
+      <link>https://yangphd.com/companies/mapping-costoco/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-costoco/</guid>
+      <guid>https://yangphd.com/companies/mapping-costoco/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Costco_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Costco_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Costco’s membership renewal rates in the united states and Canada have remained at roughly 90%. The traffic-driving value that Costco offers in its stores is fueled by cost leverage that, in turn, feeds additional store visits.&lt;/p&gt;
 &lt;p&gt;Costco has achieved a competitive advantage based on its intangible assets and cost leadership. The firm’s membership subscription model has held steady through the financial crisis and the rising competitions, especially Amazon’s Prime memberships. In addition to cost management and distribution leverage, Costco’s low prices are enabled by its procurement strength.&lt;/p&gt;
 &lt;p&gt;Costco sells roughly 3,700 different stock-keeping units (SKUs) in its stores, a fraction of the 75,000 to 80,000 at Walmart in the United States, which offers a significantly greater number of items via its marketplace. Costco’s sales per SKU were over 30 million, towering above Walmart’s less than 3 million and Target’s $1 million, contributing to its procurement cost advantage.&lt;/p&gt;
@@ -1129,10 +1129,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>3-D Printing</title>
-      <link>/tech_categories/mapping-three-d-printing/</link>
+      <link>https://yangphd.com/tech_categories/mapping-three-d-printing/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-three-d-printing/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-three-d-printing/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1143,7 +1143,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-3-d-printing-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘3-D Printing’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/3D_Printing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/3D_Printing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Additive manufacturing (3-D Printing) beats subtractive manufacturing (traditional manufacturing) by reducing cost and increasing flexibility &lt;i&gt;at the same time&lt;/i&gt;. If the natural selection favors the more efficient production mode that generates less economic waste, 3-D printing will be the sure winner.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; In essence, 3-D printers can &lt;b&gt;mass-produce customized physical objects&lt;/b&gt;. This process is also called &lt;b&gt;&lt;i&gt;“mass customization,”&lt;/i&gt;&lt;/b&gt; which breaks the cost-value trade-off and shifts the &lt;a href=&#34;https://www.google.com/search?q=How-Wow-Now+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;productivity frontier&lt;/a&gt; outwards.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Traditionally, assembly lines are intended to utilize standardized modules to construct complex systems&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. However, the modularity in subtractive manufacturing is so imperfect that the supply chain carries the organizational costs from the modulization (intra-firm coordination) to the assembling (inter-firm transaction) processes&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. As a result, the traditional supply chain is comprised of specialized firms handing standardized modules&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Since such specialized firms can not be efficient without a stable external demand to match standardized internal processes, the entire supply chain will be too rigid to meet the changing demand or &lt;b&gt;transfer the “rigidity” cost to specialized firms&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -1165,10 +1165,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Block Chain</title>
-      <link>/tech_categories/mapping-block-chain/</link>
+      <link>https://yangphd.com/tech_categories/mapping-block-chain/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-block-chain/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-block-chain/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1179,7 +1179,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-block-chain-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Block Chain’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Block_Chain_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Block_Chain_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;If natural selection optimizes for efficiency &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and entropy in the universe is ever-increasing&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, there will be a trade-off between &lt;i&gt;the order&lt;/i&gt; of a social structure and &lt;i&gt;the freedom&lt;/i&gt; of its interacting agents. A social system constrains individual freedom according to the limitation of agentic inter-connectivity &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. For example, when we rely on market transactions to exchange (integrate) specialized productions (divided labor), we give power to intermediaries (firms, government, communities) to fill in the gap in inter-connectivity (in which intermediaries connect with unconnected participants). However, &lt;b&gt;when everyone is connected with everyone else, we don’t need to rely on intermediaries to maintain order&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The full connectivity creates a new social structure. As social structure serves as the medium for agency, the new social structure will enable us to achieve what’s impossible in the past &lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Because &lt;i&gt;all&lt;/i&gt; participants are interconnected with one another, &lt;b&gt;the entire system prevents a central intermediary from manipulating the flow of information&lt;/b&gt;. As there is no information asymmetry, ownership contracts will be secured (automatically verified) and transparent &lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -1201,10 +1201,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Digital Marketing</title>
-      <link>/tech_categories/mapping-digital-marketing/</link>
+      <link>https://yangphd.com/tech_categories/mapping-digital-marketing/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-digital-marketing/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-digital-marketing/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1215,7 +1215,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-digital-marketing-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Digital Marketing’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Digital_Marketing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Digital_Marketing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Digital marketing utilizes new forms of media to increase the content ROI relative to the traditional media (e.g., commercials on mass media). In the traditional mode, it is not only costly to create rich content catering to different tastes but also impossible to control the traffic-conversion rate in the long tails &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Digitization reduces content creation cost and enables niche content creators to expose their content to the entire global audience. &lt;b&gt;Niche content is more effective and efficient in traffic generation and lead conversion because of greater relevancy and closer relationship with niche audience.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A key component of the digital marketing process is user data. User data live on the consumer side of the content exchange process. Traditional content relying on one-sided communication fails to connect with the differing consumer demands, preferences, and needs &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. By contrast, in each vertical niche, connections and relationships can be repeated and interactive. Continuous user feedback becomes readily available from the recursive exchange of real, unmet human needs. During the exchange process, &lt;b&gt;valuable user data reveals profitable problems and new solutions, which is either unavailable or costly to collect through the traditional channel&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -1235,10 +1235,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>E-commerce</title>
-      <link>/tech_categories/mapping-e-commerce/</link>
+      <link>https://yangphd.com/tech_categories/mapping-e-commerce/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-e-commerce/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-e-commerce/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1249,7 +1249,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-e-commerce-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘E-commerce’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/E_Commerce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/E_Commerce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;E-commerce allows the transactions of goods and services to be conducted electronically on the internet. &lt;b&gt;The ease of electronic transaction transforms the organization form due to the reduction in transaction cost&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. For consumers, online shopping reduces the search cost for desired products. For sellers, the reduced communication cost enables businesses to outsource core functions (such as marketing, inventory, distribution, etc.) to e-commerce platforms or external providers.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The supply chain is deconstructed to allows e-commerce participants to easily switch transacting partners both up-stream and down-stream. Core business functions become easily accessible “commodities,” offered by specialized platforms (marketing cloud, on-demand inventory, delivery services) &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;The efficiency boost from business-processes outsourcing and automation enables sellers to focus more on selling and responding quickly to market demand&lt;/b&gt;. Meanwhile, platforms replace traditional supply chains, enjoying significant network effects and high customer switching costs.&lt;/p&gt;&lt;/li&gt;
@@ -1269,10 +1269,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Internet of Things</title>
-      <link>/tech_categories/mapping-internet-of-things/</link>
+      <link>https://yangphd.com/tech_categories/mapping-internet-of-things/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-internet-of-things/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-internet-of-things/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1283,7 +1283,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-internet-of-things-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Internet of Things’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/IoT_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/IoT_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Specialization creates efficiency. &lt;b&gt;Integration increases wealth&lt;/b&gt;. In modern societies, specialized “things” — physical objects created by specialized producers — result in the lack of integration among the divided things (and thus leave money on the table). The total wealth in an economy lies in the efficiency boost from specialized producers, which ultimately need to bring their products together through market exchange mechanism. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;New combinations generate new innovation. Innovation resides in the new linkages or new combinations between exiting things &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In the digital age, &lt;b&gt;new connections between existing things create new data dimensions&lt;/b&gt;, which leads to new cost-saving and value creation opportunities.&lt;/p&gt;&lt;/li&gt;
@@ -1303,10 +1303,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Platform</title>
-      <link>/tech_categories/mapping-n-sided-markets/</link>
+      <link>https://yangphd.com/tech_categories/mapping-n-sided-markets/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-n-sided-markets/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-n-sided-markets/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1317,7 +1317,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-platform-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Platform’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/N_Sided_Market_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/N_Sided_Market_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Platforms play the “game of power” by leveraging network effects. Power can be created through a virtuous cycle in which increased numbers of platform users continuously increase user experience and disproportional user dependency on the platform &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;As long as a platform can dominate a vertical field, the network effects will ultimately pay off by reducing the marginal cost for user acquisition and user retention to zero, and increasing switching cost on the user side to infinity.&lt;/b&gt; We often call this phenomenon “winner take all” &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. As a result, platforms subsidize the users or the third-party sellers (complementors) until the asymmetric dependency is established.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Single-sided network effect (or same-side network effect) occurs when a focal user can interact with a greater number of others joining the same network and using the same platform. Telephone, internet, and online social networks (almost any technology) are all this kind. As Metcalfe’s law states, the possible interconnections within the network are proportional to the square of the total number of connected users &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;After widespread adoption, users will consider the platform as an indispensable commodity. The platform enjoys significant economy of scale.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
@@ -1339,10 +1339,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Open Source</title>
-      <link>/tech_categories/mapping-open-source/</link>
+      <link>https://yangphd.com/tech_categories/mapping-open-source/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-open-source/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-open-source/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1353,7 +1353,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-open-source-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Open Source’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Open_Source_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Open_Source_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Organizations are often instruments of purpose. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Organizations create efficiency by getting individuals to work towards a common goal. However, &lt;b&gt; organizations may confine productivity and block free knowledge flows when a purpose is not commonly shared and clearly defined. &lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Emerging new technologies tend to benefit from free knowledge flows across organizational boundaries. &lt;b&gt;In the case of innovation, organizational boundaries become the barriers for good ideas to connect and interact&lt;/b&gt;. Thus, proprietory ownership of good ideas not only prevents external minds from connecting with internal minds, but also causes internal minds to miss out on the opportunity of good ideas from external inter-connected minds. Opportunity cost can quickly override the ownership benefits and render the good in-house ideas obsolete.&lt;/p&gt;&lt;/li&gt;
@@ -1373,10 +1373,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Robotics</title>
-      <link>/tech_categories/mapping-robotics/</link>
+      <link>https://yangphd.com/tech_categories/mapping-robotics/</link>
       <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-robotics/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-robotics/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1387,7 +1387,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-robotics-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Robotics’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Robotics_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Robotics_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Because robotics are built with standardized programs, robotics can leverage the scale curve. The marginal production cost reduces as the volume increases. Yet, with integration with A.I., robotics are now being programmed to perform more and more complex tasks. &lt;b&gt;Enhanced programmability will generate more and more value creation at a constant production cost&lt;/b&gt;. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Compatible with A.I. &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, robotics can fulfill highly customized needs. This means &lt;b&gt;A.I. powered robotics can learn from data and become smarter over time&lt;/b&gt;. With better user experience, A.I.-powered robots have the opportunity to spend more time interacting with human users, which creates opportunities to extract user data for improving the performance in fulfilling personalized needs.&lt;/p&gt;&lt;/li&gt;
@@ -1407,10 +1407,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Social Media</title>
-      <link>/tech_categories/mapping-social-media/</link>
+      <link>https://yangphd.com/tech_categories/mapping-social-media/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-social-media/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-social-media/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1421,7 +1421,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-social-media-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Social Media’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Social_Media_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Social_Media_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;What individuals choose and like are socially constructed. Human behaviors are under constant social influence instead of a result of rational reasoning. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; With traditional media (such as the commercials on mass media), it is unlikely for marketers to know &lt;b&gt;the likelihood of a product being sold to an audience&lt;/b&gt;. With social media and the information to predict consumer choice, it becomes an easy task.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The data of social connections can predict consumer choice because social networks are the primary source of information for human minds. In fact, networks not only preserve important information but also project the social identity of individuals. &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; Users on virtual social networks self-identify themselves in the social circles and communities, which continuously and automatically &lt;b&gt;generates market segmentation and precise targeting data at zero cost for the owners of social media sites&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -1441,14 +1441,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Uber</title>
-      <link>/companies/mapping-uber/</link>
+      <link>https://yangphd.com/companies/mapping-uber/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-uber/</guid>
+      <guid>https://yangphd.com/companies/mapping-uber/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Uber_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Uber_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Uber ’s position in the autonomous vehicle race could equalize gross and net revenue, after no longer needing to pay drivers. Uber technologies have matched riders with drivers completing trips over billions of miles. At the end of 2019, Uber had 111 million users who used the firm’s ridesharing or food delivery services at least once a month.&lt;/p&gt;
 &lt;p&gt;Uber helps people get from point A to point B by taking ride requests and matching them with drivers available in the area. The firm refers to this as personal mobility, which also shorter - distance transportation via electronic bikes and scooters. Uber faces stiff competition from players such as Lyft (in the U.S.) and didi, a business in which uber has a 20 % holding after the sale of its operations in China to didi in 2016. while uber no longer operates in China, it does compete with didi in other regions around the world. The market remains fragmented, and uber competes with many local ridesharing platforms and taxis. Globally, the market is fragmented. Uber has a 30% global market share and will be the leader in the total addressable ridesharing market ( excluding China ) by 2024.&lt;/p&gt;
 &lt;p&gt;The firm ’s food delivery service will be one of the main revenue growth drivers for the firm as it will benefit from cross-selling to its large ridesharing user base. Further, utilize of uber ’s overall on-demand platform can also help the firm progress toward profitability. Uber has been in talks to acquire Grubhub in an all-stock deal for each Grubhub share. The addition of GrubHub could strengthen the supply and demand sides of uber ’s network effect moat source. On the supply side, the firm would be better able to attract and retain restaurants. With more food delivery requests, uber is likely to also maintain more of its ride-hailing drivers. Also, this may not only reduce diner acquisition costs for uber but will also allow uber to more effectively cross-sell its two main businesses to a larger user base.&lt;/p&gt;
@@ -1459,10 +1459,10 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Virtualization</title>
-      <link>/tech_categories/mapping-virtualization/</link>
+      <link>https://yangphd.com/tech_categories/mapping-virtualization/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-virtualization/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-virtualization/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1473,7 +1473,7 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
 
 &lt;div id=&#34;overview-of-the-virtualization-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Virtualization’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Virtualization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Virtualization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Consider a form of commodity that is under private ownership but does not enter the market exchange, like the electricity coming from a private generator. Because electrical energy would be the same from different generators, electricity can be pooled together to create greater efficiencies than private generators. Thus, in most societies, individual households are renting electricity from public utility companies instead of owning it. In this case, &lt;b&gt;utility companies create a virtual version of electricity resources for households&lt;/b&gt;, which do not own real generators. Similarly, there is room to improve societal efficiency by converting some forms of ownership to rentorship, especially when private ownership creates underutilized resources.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;When individual companies perform similar business functions using the computer, it is possible to &lt;b&gt;improve societal efficiency by pooling the computing and storage resources together and create a virtual instance of a greater computer system&lt;/b&gt;. For individual companies, renting the virtual instances to have applications running on top of it is more efficient than owning (and maintaining) the actual hardware. Also, virtual instances create the flexibility for different companies with customized needs to experiment with new applications, without allocating a budget to acquire hardware before the profit potential of new applications becomes predictable.&lt;/p&gt;&lt;/li&gt;
@@ -1492,14 +1492,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Salesforce</title>
-      <link>/companies/mapping-salesforce/</link>
+      <link>https://yangphd.com/companies/mapping-salesforce/</link>
       <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-salesforce/</guid>
+      <guid>https://yangphd.com/companies/mapping-salesforce/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Salesforce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Salesforce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Salesforce dominates the salesforce automation (SFA) and customer relationship management (CRM) space and controls 30% in a highly fragmented market by the end of 2019. The company has added legs to the business clouds, including customer service, marketing automation, e-commerce, analytics, and artificial intelligence. The management has put more emphasis on expanding margins across the clouds.&lt;/p&gt;
 &lt;p&gt;Salesforce has assembled a front-office empire that it can build on for years to come. Thanks to the company’s revolution, business software is increasingly accessed through a web browser and delivered over the internet, so inventing the Software-as-a-service (SaaS) software delivery model. Salesforce also offers customers a platform-as-a-service (PaaS) solution, complete with the AppExchange, to rapidly create and distribute apps. This further strengthens the substantial community of Salesforce users.&lt;/p&gt;
 &lt;p&gt;Salesforce is widely considered a leader in its served markets. The tight integration among the solutions and the natural fit they have with one another makes for a powerful value proposition. Indeed, more than half of enterprise customers use multiple clouds. Moreover, customer retention has gradually improved over time.&lt;/p&gt;
@@ -1512,14 +1512,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Netflix</title>
-      <link>/companies/mapping-netflix/</link>
+      <link>https://yangphd.com/companies/mapping-netflix/</link>
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-netflix/</guid>
+      <guid>https://yangphd.com/companies/mapping-netflix/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Netflix_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Netflix_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Netflix has continued to burn billions of dollars of cash to create its original content with no end in sight. The need for increased content and marketing spend outside of the U.S. will limit the rate of margin expansion for the international segment. However, the volume of sales of the company has continued to grow over the past years.&lt;/p&gt;
 &lt;p&gt;Netflix has used its scale to construct a massive data set that tracks every customer interaction. The firm then leverages this customer data to better purchase content as well as finance and produce original material. Netflix has expanded rapidly into markets abroad as the service has more subscribers outside of the U.S.&lt;/p&gt;
 &lt;p&gt;Media firms will continue to reap the benefits of both an additional window for existing content and another platform for new content. Larger firms like Disney and WarnerMedia have or will soon launch their own SVOD platforms to compete against Netflix. Such a usage pattern may constrain Netflix’s ability to raise prices without inducing greater churn. Netflix has also expanded further into local-language programming to offset the weakness of its skinny offering in many countries.&lt;/p&gt;
@@ -1532,14 +1532,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Microsoft</title>
-      <link>/companies/mapping-microsoft/</link>
+      <link>https://yangphd.com/companies/mapping-microsoft/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-microsoft/</guid>
+      <guid>https://yangphd.com/companies/mapping-microsoft/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Microsoft_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Microsoft_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The shift to subscriptions accelerates growth after the initial growth pressure. The centerpiece of the new Microsoft grew at a staggering 92 % rate in fiscal 2018. It offers customers a painless way to experiment and move select workloads to the cloud. Microsoft can also leverage its massive installed base of all Microsoft solutions as a touchpoint for a strategic move. Microsoft continues to launch new services centered around these broad themes, as it continues to launch new services centers around these broad themes. Microsoft is an excellent launching point for secular trends in A.I., business intelligence, and the internet of things.&lt;/p&gt;
 &lt;p&gt;Office 365 (the cloud-based version of the traditional perpetual license Microsoft office) retained in office productivity software, which will remain steady in the foreseeable future. Customers will continue to drive the transition from on-premises to cloud solutions, and revenue growth will remain robust. The initial move to the cloud was painful, as both revenue and margins dropped. However, Microsoft’s revenue has accelerated, thanks to the cloud transition.&lt;/p&gt;
 &lt;p&gt;An office productivity suite generally consists of spreadsheet and presentation software applications. Microsoft offers a variety of versions of the office 365 suite and increasingly fewer perpetual license versions. Office 365 starts at approximately $6 per month and tops out at roughly $35 per user per month. The perpetual license version is $150. Office 365 already has more than 165 million subscribers.&lt;/p&gt;
@@ -1553,14 +1553,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Nvidia</title>
-      <link>/companies/mapping-nvidia/</link>
+      <link>https://yangphd.com/companies/mapping-nvidia/</link>
       <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-nvidia/</guid>
+      <guid>https://yangphd.com/companies/mapping-nvidia/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Nvidia_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Nvidia_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The increasing complexity of graphics processors provides a barrier to entry for most potential rivals, as it would be challenging to match Nvidia’s large R&amp;amp;D budget. The firm has a first-mover advantage in the autonomous driving market that could lead to widespread adoption of its self-driving platform. The ongoing expansion of artificial intelligence and deep learning that rely on Nvidia ’s graphics chips presented the firm with a potentially massive growth opportunity.&lt;/p&gt;
 &lt;p&gt;PC gaming enthusiasts generally purchase high-end discrete GPUs offered by the likes of Nvidia and AMD. This involves large swaths of data followed by techniques that develop algorithms to produce conclusions in the same way as humans. Today’s basic variants of AI are consumer-based digital assistants, image recognition, and natural language processing.&lt;/p&gt;
 &lt;p&gt;Nvidia’s DRIVE PX platform is a deep learning tool for autonomous driving. It is being used in research and development at more than 370 partners. The company views the car as a supercomputer on wheels, although this segment currently contributes relatively little to the top line. Nvidia has patents related to the hardware design of its GPUs in addition to the software and frameworks used to take advantage of GPUs in gaming, design, visualization, and other graphics-intensive applications. The latest pc games typically require system software updates that optimize the performance of GPUs.&lt;/p&gt;
@@ -1572,14 +1572,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Google</title>
-      <link>/companies/mapping-google/</link>
+      <link>https://yangphd.com/companies/mapping-google/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-google/</guid>
+      <guid>https://yangphd.com/companies/mapping-google/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Google_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Google_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Google uses technology to improve the user experience in nearly all its offerings while making the sale and purchase of ads efficient for publishers and advertisers. The adoption of mobile devices has been increasing. The online advertising market has taken notice and is following its target audience onto the mobile platform. Google partake in this mega-trend on the back of its Android mobile operating system’s growing market share, helping drive revenue growth and maintain Google’s leadership across many internet categories.&lt;/p&gt;
 &lt;p&gt;Google’s search engine is perceived as being the most advanced in the industry, which allows the company to remain focused on innovation and long-term growth opportunities. Google has leveraged its technical expertise to create its private cloud platform and increase its market share in this space. In the mobile internet space, Android’s dominant global market share of smartphones leaves Google well positioned to continue generating top-line growth as search traffic shifts from desktop to mobile.&lt;/p&gt;
 &lt;p&gt;Google has a massive consumer base that allows the company to collect data for precision advertising. Google can offer an attractive return on investment (ROI) for advertisers and build a growing network of advertising customers. Through network effects, the addition of each ad and advertiser improves the efficiency of Google’s programmatic advertising offerings, allowing the firm to better monetize the network.&lt;/p&gt;
@@ -1590,14 +1590,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Facebook</title>
-      <link>/companies/mapping-facebook/</link>
+      <link>https://yangphd.com/companies/mapping-facebook/</link>
       <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-facebook/</guid>
+      <guid>https://yangphd.com/companies/mapping-facebook/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Facebook_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Facebook_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Facebook ’s ad revenue per user has been growing continuously, demonstrating the value that advertisers see in working with the firm. The application of AI technology to Facebook ’s various offerings, along with the launch of VR products, will increase user engagement, driving further growth in advertising revenue. Facebook provides the most massive audience and the most valuable data for social network online advertising.&lt;/p&gt;
 &lt;p&gt;The firm’s Facebook app, along with Instagram, Messenger, and WhatsApp, is among the world’s most widely used apps on both Android and iPhone smartphones. Facebook is taking steps to further monetize its various Apps, such as providing interactive video ads. The firm is also applying artificial intelligence and virtual and augmented reality technologies to various products, which may increase Facebook user engagement even further, helping to further generate attractive revenue growth from advertisers in the future.&lt;/p&gt;
 &lt;p&gt;The company’s main offerings all have strong network effects. These network effects serve to both create barriers to success for new social - network upstarts as well as barriers to exit for existing users who might leave behind friends, contacts, pictures, memories, and more by departing to alternative platforms. Facebook has emerged and established itself as the clear-cut social media leader.&lt;/p&gt;
@@ -1610,14 +1610,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Apple</title>
-      <link>/companies/mapping-apple/</link>
+      <link>https://yangphd.com/companies/mapping-apple/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-apple/</guid>
+      <guid>https://yangphd.com/companies/mapping-apple/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Apple_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Apple_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Apple has plenty of opportunities to reap the rewards of its iPhone business. Apple’s iPhone and IOS operating systems have consistently been rated at the head of the pack in terms of customer loyalty, engagement, and security, which bodes well for long-term customer retention. Apple pay, Apple Watch, Apple TV, and Airpods are also driving incremental revenue and helping to retain iPhone users over time.&lt;/p&gt;
 &lt;p&gt;Apple’s walled garden approach for its popular iOS allows it to charge a premium for relatively commoditized hardware not too different from that sold by companies like Samsung, and Dell. Customer switching costs are elevated for Apple users as a non-apple IOS experience does not exist. Unlike computing platforms for the windows or android ecosystems that boast PCs and smartphones, Apple enjoys stellar returns on its devices by offering unique user experiences with its iOS ecosystem.&lt;/p&gt;
 &lt;p&gt;The robust App store helped foster iPhone adoption and grew Apple’s user base, with applications ranging from productivity, social media, gaming, and so on. Apple has also been focusing on newer software and services to augment the user experience and retain customers. For Apple’s customers, few other technology titans are offering comparable expertise in both hardware and software design, which allows the firm to more seamlessly build integrated products.&lt;/p&gt;
@@ -1629,14 +1629,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Amazon</title>
-      <link>/companies/mapping-amazon/</link>
+      <link>https://yangphd.com/companies/mapping-amazon/</link>
       <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-amazon/</guid>
+      <guid>https://yangphd.com/companies/mapping-amazon/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Amazon_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Amazon_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Amazon dominates North America ’s online retail category with estimated gross merchandise volume (GMV) of approximately $275 billion in the region during 2019. With more than half of the world ’s internet users coming from developing markets, Amazon has ample international growth opportunities for its marketplaces, cloud services, advertising, and devices. Amazon’s device portfolio - including Kindle, Fire TV, Dash, Echo, and Alexa - enabled products - are intriguing customer acquisition/retention tools.&lt;/p&gt;
 &lt;p&gt;The combination of competitive pricing, unparalleled logistics capabilities and speed, and high- level customer service makes Amazon an increasingly vital distribution channel for consumer brands. Amazon maintains a consumer value proposition by expediting the Prime shipping and expanding digital content library, and new member benefits. As the traditional brick-and-mortar retail industry has undergone a period of rapid transformation over the past several years.&lt;/p&gt;
 &lt;p&gt;Amazon generates strong cash flow from seller services, which is reinvested in advertising, service, and website enhancements that keep its marketplace strong. Amazon’s brand has come to represent low prices, a wide selection, convenience, and superior customer service — a rare combination among retailers. Amazon ’s operational efficiency of the distribution network, which satisfies consumer demand for free and expedited shipping.&lt;/p&gt;
@@ -1647,14 +1647,14 @@ Didn’t See the Matrix You Use? &lt;a href=&#34;https://forms.gle/8pvvvLS3DWy7c
     
     <item>
       <title>Alibaba</title>
-      <link>/companies/mapping-alibaba/</link>
+      <link>https://yangphd.com/companies/mapping-alibaba/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/companies/mapping-alibaba/</guid>
+      <guid>https://yangphd.com/companies/mapping-alibaba/</guid>
       <description>
 
 
-&lt;p&gt;&lt;img src=&#34;/companies/Alibaba_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/companies/Alibaba_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Alibaba is a big data-centric conglomerate, with transaction data from its marketplaces, financial services, and logistics businesses. Big data has also allowed the company to move into cloud computing, media/entertainment, and online-to-offline services. The strong network effect and big data obsession enable the leading E-commerce platform player in China to extend into many other growth avenues.&lt;/p&gt;
 &lt;p&gt;Alibaba’s internet services affect a staggering vast majority of Chinese internet users, an 83 % penetration rate for the Taobao/Tmall E-commerce marketplaces by the end of 2019. This provides Alibaba with an unparalleled source of data that it can use to help merchants and consumer brands develop personalized mobile marketing and content strategies to expand their target audience.&lt;/p&gt;
 &lt;p&gt;Alibaba benefits from a strong “two-sided” network effect. The value of the platform to consumers increases with a greater number of sellers, and vice versa. Millions of Chinese consumers consider Taobao and Tmall as their default go-to options when seeking products and services online. Taobao users with a strong appetite for branded products can shop Tmall for a better shopping experience, and assurance of higher quality, whereas Taobao’s online marketplaces are interconnected, which compounds its network effect then breeds other competitive advantages and growth opportunities. Taobao and Tmall have developed a powerful brand as Alibaba’s core intangible assets.&lt;/p&gt;
@@ -1668,10 +1668,10 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
     
     <item>
       <title>An Ongoing Collection of Data Sources (Strategy Research)</title>
-      <link>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</link>
+      <link>https://yangphd.com/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</guid>
+      <guid>https://yangphd.com/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1723,10 +1723,10 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
     
     <item>
       <title>An Ongoing Collection of NLP Startups</title>
-      <link>/note/2019/05/21/an-ongoing-collection-of-nlp-startups/</link>
+      <link>https://yangphd.com/note/2019/05/21/an-ongoing-collection-of-nlp-startups/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/note/2019/05/21/an-ongoing-collection-of-nlp-startups/</guid>
+      <guid>https://yangphd.com/note/2019/05/21/an-ongoing-collection-of-nlp-startups/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1778,20 +1778,20 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
     
     <item>
       <title>Citation Analysis on Corporate Strategy &amp; Network Change</title>
-      <link>/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</link>
+      <link>https://yangphd.com/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</guid>
+      <guid>https://yangphd.com/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</guid>
       <description>
 
 
 &lt;div id=&#34;central-themes-network-of-co-occurrence-keywords&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;1 Central Themes: Network of Co-occurrence Keywords&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-classic-papers&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2 the “Classic” Papers&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-23-citation-analysis-on-corporate-strategy-network-change_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central papers (top 30) in co-citation network&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##       BAUM JAC 2000        ANJOS F 2015       GREVE H. 2014        LAVIE D 2006 
 ##            1.000000            1.000000            1.000000            1.000000 
@@ -1815,10 +1815,10 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
     
     <item>
       <title>An Ongoing Collection of Blogdown Sites</title>
-      <link>/note/2019/04/22/an-ongoing-collection-of-blogdown-sites/</link>
+      <link>https://yangphd.com/note/2019/04/22/an-ongoing-collection-of-blogdown-sites/</link>
       <pubDate>Mon, 22 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/note/2019/04/22/an-ongoing-collection-of-blogdown-sites/</guid>
+      <guid>https://yangphd.com/note/2019/04/22/an-ongoing-collection-of-blogdown-sites/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1852,10 +1852,10 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
     
     <item>
       <title>Citation Analysis of Recent Acquisition Research</title>
-      <link>/post/2019/04/15/recent-merger-and-acquisition-research-since/</link>
+      <link>https://yangphd.com/post/2019/04/15/recent-merger-and-acquisition-research-since/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/15/recent-merger-and-acquisition-research-since/</guid>
+      <guid>https://yangphd.com/post/2019/04/15/recent-merger-and-acquisition-research-since/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1880,18 +1880,18 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
 &lt;h1&gt;2 Central Themes&lt;/h1&gt;
 &lt;div id=&#34;network-of-co-occurrence-keywords&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.1 Network of Co-occurrence Keywords&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This graph shows the most common themes (top 30 co-occuring keywords) of these papers.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;mds-mapping-of-the-conceptual-structure&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 MDS Mapping of the Conceptual Structure&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-3-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We can use MDS (Multi-dimentional Scaling) and Dendrogram to map the distance/dissimilarity among the themes.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;central-papers&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;3 Central Papers&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;div id=&#34;the-main-stream-papers&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.1 the “Main Stream” Papers&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central papers (top 20) in bibliographic coupling network&amp;quot;&lt;/code&gt;&lt;/pre&gt;
@@ -1913,7 +1913,7 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
 &lt;/div&gt;
 &lt;div id=&#34;the-classic-papers&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.2 the “Classic” Papers&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-04-15-merger-and-acquisition-research-since-2008_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;## [1] &amp;quot;most central papers (top 20) in co-citation network&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##    MOELLER SB 2004   HALEBLIAN J 1999     JENSEN MC 1986 
 ##          1.0000000          0.9891969          0.9313744 
@@ -1937,10 +1937,10 @@ The acquisition of NetEase’s cross-border online commerce platform Kaola is co
     
     <item>
       <title>A.I./Blockchain Adoption and Technology Substitution</title>
-      <link>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</link>
+      <link>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
+      <guid>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
       <description>
 
 
@@ -1969,10 +1969,10 @@ Let’s consider two cases here. One is about different incumbent technologies: 
     
     <item>
       <title>A Summary of Recent &#39;Social Evaluation&#39; Research</title>
-      <link>/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
+      <link>https://yangphd.com/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/25/social-evaluation-and-institutional-complexity/</guid>
+      <guid>https://yangphd.com/post/2019/03/25/social-evaluation-and-institutional-complexity/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -1992,21 +1992,21 @@ Let’s consider two cases here. One is about different incumbent technologies: 
 &lt;div id=&#34;motivation&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;1 Motivation&lt;/h2&gt;
 &lt;p&gt;The goal of this post is to analyze and review the “social evaluation” research tracing back to Zuckerman (1999)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. The analysis/review is based on hand-collected papers that directly and indirectly cite Zuckerman (1999). The review is not intended to be comprehensive but to understand the central ideas on the topic developed by management/sociology scholars in the past 20 years.&lt;/p&gt;
-&lt;p&gt;Let’s continue on the “positioning” topic from &lt;a href=&#34;/post/2019/02/25/optimal-positioning-for-firms-individuals/&#34; target=&#34;_blank&#34;&gt;one of my previous posts&lt;/a&gt; (firms are social actors being evaluated by social audiences), but shift our focus of discussion from “what actors do” to “what audience think.” That is, instead of an “actor” standpoint, let’s take an “audience” perspective to consider how firms as market participants are evaluated by market audiences. Reality doesn’t directly translate into human decisions; human beings can only understand reality from their brain, which is subjected to social construction. As a result, the evaluations on market participants do not come from complete rationality in a social vacuum. Rather, audiences’ cognition is shaped by the market’s categorical structure and/or the socially accepted categorical beliefs.&lt;/p&gt;
+&lt;p&gt;Let’s continue on the “positioning” topic from &lt;a href=&#34;https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/&#34; target=&#34;_blank&#34;&gt;one of my previous posts&lt;/a&gt; (firms are social actors being evaluated by social audiences), but shift our focus of discussion from “what actors do” to “what audience think.” That is, instead of an “actor” standpoint, let’s take an “audience” perspective to consider how firms as market participants are evaluated by market audiences. Reality doesn’t directly translate into human decisions; human beings can only understand reality from their brain, which is subjected to social construction. As a result, the evaluations on market participants do not come from complete rationality in a social vacuum. Rather, audiences’ cognition is shaped by the market’s categorical structure and/or the socially accepted categorical beliefs.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;biblio-analysis&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2. Biblio-Analysis&lt;/h2&gt;
 &lt;div id=&#34;selection-criteria&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;2.1 Selection Criteria&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: The curvature argument has been deprecated in favour of strength&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://github.com/RkzYang/Lit_Review/blob/master/data/savedrecs_cat_eval_032619.txt&#34; target=&#34;_blank&#34;&gt; raw data&lt;/a&gt; is based on 29 hand-collected papers directed and indirectly citing Zukerman (1999) and extracted from &lt;a href=&#34;http://www.webofknowledge.com&#34; target=&#34;_blank&#34;&gt; Web of Science&lt;/a&gt;. The papers that not on the topic of “social evaluation” are excluded from the sample, based on the author’s judgment. We can get a general idea of the citation relationship among those papers from the direct citation network graph.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;central-sources-and-keywords&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;2.2 Central Sources and Keywords&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
 By quickly checking the origins (papers being cited) of the sampled papers, we can see that a big portion (the blue-colored cluster) is the classic institution work. It makes sense, as the discussion of the underlying mechanism of social evaluation should be related to how the evaluating standards are formed in the institutionalization processes. The summary in 3.2 will be based on the top-cited “social evaluation” papers in the red-colored cluster.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-25-social-evaluation-and-institutional-complexity_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
 The inter-connected keyword clusters present the relationship among the main topics covered by this stream of research. It seems to have a quite strong “strategy” flavor&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. The most frequently used keywords include “industry”, “market”, and “performance.”&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -2051,10 +2051,10 @@ The inter-connected keyword clusters present the relationship among the main top
     
     <item>
       <title>Interoperability in Tech. Evolution—Thoughts on “Reticulate&#34;</title>
-      <link>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</link>
+      <link>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
+      <guid>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
       <description>
 
 
@@ -2079,10 +2079,10 @@ The inter-connected keyword clusters present the relationship among the main top
     
     <item>
       <title>“MMeM”: Modeling the Multivariate Mixed-effects</title>
-      <link>/post/2019/03/10/mmem-an-r-package/</link>
+      <link>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/10/mmem-an-r-package/</guid>
+      <guid>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -2158,10 +2158,10 @@ results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = s
     
     <item>
       <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results</title>
-      <link>/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
+      <link>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
+      <guid>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -2245,7 +2245,7 @@ print(regression_table)&lt;/code&gt;&lt;/pre&gt;
             confidence_interval = TRUE,  CI_Ribbon = FALSE, 
             xlab = &amp;quot;Weight&amp;quot;, ylab = &amp;quot;MPG&amp;quot;, moderator.lab = &amp;quot;Horsepower&amp;quot;) +
 ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;plot-the-moderating-effect-with-a-linear-spline&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;plot the moderating effect with a linear spline&lt;/h2&gt;
@@ -2256,7 +2256,7 @@ plot_effect(reg.coef=summary(m3)$coefficients, data = mtcars, model = m3,
             x_var.name = &amp;quot;wt&amp;quot;, y_var.name = &amp;quot;mpg&amp;quot;, moderator.name = &amp;quot;hp&amp;quot;,
             xlab=&amp;quot;Weight&amp;quot;, ylab=&amp;quot;MPG&amp;quot;, moderator.lab=&amp;quot;Horsepower&amp;quot;) +
 ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;quot;, size = 16))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-03-06-regrrr-released-compiling-regression-results_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As we can see from the last line of code, the plot is customizable using &lt;a href=&#34;https://CRAN.R-project.org/package=ggplot2&#34; target=&#34;_blank&#34;&gt;“ggplot2”&lt;/a&gt;. There are a couple of other functions. Please see the &lt;a href=&#34;https://www.rdocumentation.org/packages/regrrr&#34; target=&#34;_blank&#34;&gt;reference manual on R documentation&lt;/a&gt; for details.&lt;/p&gt;
 &lt;p&gt;I’m also aiming to expand the package’s usage around its core functions. If you have any ideas or want to report a bug, please contact me or suggest on the &lt;a href=&#34;https://github.com/RayKYang/regrrr&#34; target=&#34;_blank&#34;&gt; GitHub&lt;/a&gt; page.&lt;/p&gt;
 &lt;/div&gt;
@@ -2266,10 +2266,10 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
     
     <item>
       <title>System Mapping in Business Modeling</title>
-      <link>/ent_tools/using-system-map-in-business-modeling/</link>
+      <link>https://yangphd.com/ent_tools/using-system-map-in-business-modeling/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/ent_tools/using-system-map-in-business-modeling/</guid>
+      <guid>https://yangphd.com/ent_tools/using-system-map-in-business-modeling/</guid>
       <description>
 
 
@@ -2278,16 +2278,16 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
 &lt;p&gt;It involves three simple steps. First, brainstorm the essential components in a business system. Second, identify the causal linkages and loops. Third, mark the positive/negative relationships (and the leverage in the system). I find that most students can master this skill very quickly and can generate a good graph with some practice.&lt;/p&gt;
 &lt;p&gt;I also push for simplicity, as I notice the more I ask them to succinctly define the components, the more they move away from perceptual experiences to critical thinking. Such a map can be a helpful starting point for us to keep questioning ourselves on further facts, proofs, and underlying mechanisms.&lt;/p&gt;
 &lt;p&gt;Here is an example of a generic “precision online marketing” model (e.g., Google, Facebook, Youtube, etc.), made with &lt;a href=&#34;https://igraph.org/&#34; target=&#34;_blank&#34;&gt; iGraph&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/ent_tools/2019-02-28-system-mapping-business-models_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/ent_tools/2019-02-28-system-mapping-business-models_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Quick Bibliometric Analysis on “Positioning”</title>
-      <link>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</link>
+      <link>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</link>
       <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
+      <guid>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
       <description>
 
 
@@ -2302,11 +2302,11 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Bibliographic coupling analysis allows us to explore the “confluence and interactions” among recent papers. Two articles are bibliographically coupled if they co-cited at least one article.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Co-citation analysis allows us to trace back to the origin of thoughts and classic papers. Two articles have a co-citation tie if they are both cited in a third article.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/post/2019-02-26-a-rough-bibliometric-analysis-on-strategic-positioning_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Reference:&lt;/p&gt;
 &lt;p&gt;Aria, M. &amp;amp; Cuccurullo, C. (2017) bibliometrix: An R-tool for comprehensive science mapping analysis, Journal of Informetrics, 11(4), pp 959-975, Elsevier.&lt;/p&gt;
 </description>
@@ -2314,10 +2314,10 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
     
     <item>
       <title>Optimal Positioning for Firms and Individuals</title>
-      <link>/post/2019/02/25/optimal-positioning-for-firms-individuals/</link>
+      <link>https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019/02/25/optimal-positioning-for-firms-individuals/</guid>
+      <guid>https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/</guid>
       <description>
 
 
@@ -2342,10 +2342,10 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
     
     <item>
       <title>A List of Market Trackers and Economy Indicators</title>
-      <link>/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</link>
+      <link>https://yangphd.com/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</guid>
+      <guid>https://yangphd.com/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -2432,11 +2432,75 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
     </item>
     
     <item>
-      <title>Links to Quizzes</title>
-      <link>/bus103/</link>
+      <title>Dr. Yang&#39;s Blog</title>
+      <link>https://yangphd.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/bus103/</guid>
+      <guid>https://yangphd.com/about/</guid>
+      <description>
+&lt;style&gt;
+.column-left{
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.column-right{
+  float: right;
+  width: 70%;
+  text-align: justify;
+}
+.column-whole{
+  float: right;
+  width: 100%;
+  text-align: justify;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;column-left&#34;&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;img srcset=&#34;
+/./about_files/good4x.png 4x,
+/./about_files/good3x.png 3x, 
+/./about_files/good2x.png 2x, 
+/./about_files/good1x.png 1x&#34;
+
+src=&#34;https://yangphd.com/./about_files/awesome.png&#34; alt=&#34;Rui Yang Strategy Ray Yang Strategy&#34; width=&#34;68%&#34; height=&#34;68%&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&#34;column-right&#34;&gt;
+
+&lt;p&gt; Hi! Dr. Yang here&lt;/a&gt;. I do research in digital ecosystems.
+
+ &lt;!–– href=&#34;https://yangphd.com/Yang-CV.pdf&#34; target=&#34;_blank&#34; C.V. ––&gt;
+ 
+ &lt;!–– href=&#34;https://yangphd.com/research/research/&#34; target=&#34;_blank&#34; Current Research ––&gt;
+ 
+&lt;hr&gt;
+&lt;p&gt;My research contexts involve emerging technologies and corporate strategy. Beyond the phenomenon itself, I delve into the interplay between environment-shaping strategies and performance-shaping environments. 
+
+
+ &lt;!–– href=&#34;https://yangphd.com/Yang-CV.pdf&#34; target=&#34;_blank&#34; C.V.  ––&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;As we envision and observe how things connect, our minds turn to what makes them tick, producing knowledge in a loop of causal inference and probabilistic prediction.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;column-whole&#34;&gt;
+&lt;hr size=3&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Links to Quizzes</title>
+      <link>https://yangphd.com/bus103/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yangphd.com/bus103/</guid>
       <description>
 
 
@@ -2447,14 +2511,14 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
     
     <item>
       <title>My Research</title>
-      <link>/research/research/</link>
+      <link>https://yangphd.com/research/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/research/research/</guid>
+      <guid>https://yangphd.com/research/research/</guid>
       <description>
 
 
-&lt;p&gt;Check My &lt;a href=&#34;/Yang_CV.pdf&#34;&gt;&lt;b&gt;C.V.&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check My &lt;a href=&#34;https://yangphd.com/Yang_CV.pdf&#34;&gt;&lt;b&gt;C.V.&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!-- &lt;p&gt; --&gt;
 &lt;!-- My research investigates how strategic actions are both &#34;embedded in&#34; and &#34;reconstructive to&#34; the social structure of the market, and how the &#34;action-structure&#34; co-evolution drives firm performance.  --&gt;
 &lt;!-- &lt;/p&gt; --&gt;
@@ -2485,66 +2549,6 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
 &lt;!--   &lt;li&gt;Game-theoretic Sequential Choice (&lt;a href=&#34;https://link.springer.com/article/10.1007/s11238-018-9663-y&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;)&lt;/li&gt; --&gt;
 &lt;!--   &lt;li&gt;Cross-cultural Entrepreneurship (&lt;a href=&#34;https://journals.sagepub.com/doi/abs/10.5367/ijei.2015.0199&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;)&lt;/li&gt; --&gt;
 &lt;!-- &lt;/ul&gt;  --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Yang&#39;s Strategy Blog</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>
-&lt;style&gt;
-.column-left{
-  float: left;
-  width: 30%;
-  text-align: center;
-}
-.column-right{
-  float: right;
-  width: 70%;
-  text-align: justify;
-}
-.column-whole{
-  float: right;
-  width: 100%;
-  text-align: justify;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;column-left&#34;&gt;
-
-&lt;p&gt; &lt;/p&gt;
-&lt;img srcset=&#34;
-/./about_files/good4x.png 4x,
-/./about_files/good3x.png 3x, 
-/./about_files/good2x.png 2x, 
-/./about_files/good1x.png 1x&#34;
-
-src=&#34;/./about_files/awesome.png&#34; alt=&#34;Rui Yang Strategy Ray Yang Strategy&#34; width=&#34;68%&#34; height=&#34;68%&#34;&gt;
-&lt;/div&gt;
-&lt;p&gt; &lt;/p&gt;
-
-&lt;div class=&#34;column-right&#34;&gt;
-
-&lt;p&gt; Hi! I&#39;m &lt;a href=&#34;https://vgrad.z19.web.core.windows.net/ucr/413/i/#150000&#34; target=&#34;_blank&#34;&gt; Dr. &lt;/a&gt;&lt;a href=&#34;/hanzi_Yang.png&#34; target=&#34;_blank&#34;&gt;Yang&lt;/a&gt;, a business professor at Tongji University, teaching digital strategy, business-model innovation, and organization theories.
-
- &lt;!–– href=&#34;/Yang-CV.pdf&#34; target=&#34;_blank&#34; C.V. ––&gt;
- 
- &lt;!–– href=&#34;/research/research/&#34; target=&#34;_blank&#34; Current Research ––&gt;
- 
-&lt;hr&gt;
-&lt;p&gt;My research contexts involve emerging technologies, corporate strategy, and venture capital. Beyond the phenomenon itself, I delve into the interplay between environment-shaping strategies and performance-shaping environments. &lt;a href=&#34;/Yang-CV.pdf&#34; target=&#34;_blank&#34;&gt; C.V. &lt;/a&gt;
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;As we envision and observe how things connect, our minds turn to what makes them tick, producing knowledge in a loop of causal inference and probabilistic prediction.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;column-whole&#34;&gt;
-&lt;hr size=3&gt;
-&lt;/div&gt;
-
 </description>
     </item>
     

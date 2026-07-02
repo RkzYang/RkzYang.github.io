@@ -1,153 +1,153 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Researches on Ray Yang, Ph.D.</title>
-    <link>/research/</link>
+    <link>https://yangphd.com/research/</link>
     <description>Recent content in Researches on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yangphd.com/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Regression Discontinuity Design</title>
-      <link>/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</link>
       <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-the-differences-in-y-not-explained-by-treatment-and-time&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove the Differences in Y NOT explained by Treatment and Time&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/8RDD_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Difference-in-Difference</title>
-      <link>/research/causal_inference_basics/causal-inference-difference-in-difference/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-difference-in-difference/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-the-differences-in-y-not-explained-by-treatment-and-time&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove the Differences in Y NOT explained by Treatment and Time&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/7DID_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Matching</title>
-      <link>/research/causal_inference_basics/causal-inference-matching/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</link>
       <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-matching/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;removing-the-differences-in-y-explained-by-x-to-find-out-the-pure-effect-of-treatment-on-y&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Removing the “Differences in Y explained by X” (to find out the pure effect of Treatment on Y)&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/6Matching_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Fixed Effects</title>
-      <link>/research/causal_inference_basics/causal-inference-fixed-effects/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</link>
       <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-fixed-effects/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-person-vs.remove-differences-in-y-explained-by-person&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by Person” vs. Remove “Differences in Y explained by Person”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-personss-influence-on-the-effect-of-x-on-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove Persons’s influence on “the effect of X on Y” step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/5FE_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Post-treatment Control</title>
-      <link>/research/causal_inference_basics/causal-inference-pt-control/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</link>
       <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-pt-control/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-c-vs.remove-differences-in-y-explained-by-c&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by C” vs. Remove “Differences in Y explained by C”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-cs-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove C’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/4pt_control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Collider Bias</title>
-      <link>/research/causal_inference_basics/causal-inference-collider-bias/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</link>
       <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-collider-bias/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-c-vs.remove-differences-in-y-explained-by-c&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by C” vs. Remove “Differences in Y explained by C”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;what-the-model-does-remove-cs-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;What the model does: Remove C’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/3collider_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Instrument Variable</title>
-      <link>/research/causal_inference_basics/causal-inference-instrument-variable/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-instrument-variable/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -164,7 +164,7 @@
 
 &lt;div id=&#34;causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;generate-the-data-for-analysis&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Generate the Data for Analysis&lt;/h1&gt;
@@ -185,11 +185,11 @@ df &amp;lt;- data.frame(Z = c(rep(0, 100), rep(1, 100)),
 &lt;h1&gt;Visualization&lt;/h1&gt;
 &lt;div id=&#34;remove-differences-in-x-not-explained-by-z-vs.remove-differences-in-y-not-explained-by-z&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Remove “Differences in X NOT explained by Z” vs. Remove “Differences in Y NOT explained by Z”&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;retain-differences-in-x-and-y-explained-by-z-step-by-step&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Retain “Differences in X and Y explained by Z” step by step&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/2iv_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;run-the-regression-and-check-the-estimate-of-x&#34; class=&#34;section level1&#34;&gt;
@@ -210,10 +210,10 @@ summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;%
     
     <item>
       <title>Sample Selection Bias</title>
-      <link>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -228,7 +228,7 @@ summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;%
 
 &lt;div id=&#34;causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;dgp&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;DGP&lt;/h1&gt;
@@ -301,7 +301,7 @@ summary(run_outcome)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;visualization&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Visualization&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/9Heckman_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;double-check&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Double Check&lt;/h1&gt;
@@ -377,38 +377,38 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Control Variable</title>
-      <link>/research/causal_inference_basics/causal-inference-control-variable/</link>
+      <link>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/research/causal_inference_basics/causal-inference-control-variable/</guid>
+      <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</guid>
       <description>
 
 
 &lt;div id=&#34;the-causality-graph&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;the Causality Graph&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;simpsons-paradox&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Simpson’s Paradox&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-differences-in-x-explained-by-w-vs.remove-differences-in-y-explained-by-w&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove “Differences in X explained by W” vs. Remove “Differences in Y explained by W”&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;remove-ws-influence-on-x-and-y-step-by-step&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Remove W’s influence on X and Y step by step&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/causal_inference_basics/1control_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Tracking the Change of Industry Positioning Caused by an Acquisition</title>
-      <link>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</link>
+      <link>https://yangphd.com/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</link>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</guid>
+      <guid>https://yangphd.com/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -430,13 +430,13 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
 &lt;div id=&#34;the-biplot&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.1 the Biplot&lt;/h2&gt;
 &lt;p&gt;Consider commercial banks as an example. Different banks may hold differently structured financial asset portfolios and occupy different positions. We can assess a bank’s position based on the proportion of cash, commercial loans, mortgage loans, etc., as a percentage in the total asset (i.e., multiple dimensions). A biplot can provide us a quick intuition about how those dimensions relate to one another. However, the relative positions shown on biplot would not be accurate due to the loss of information in dimension reduction.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/biplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/biplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-3-d-and-2-d-scatterplots-based-on-mds&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 the 3-D and 2-D Scatterplots based on MDS&lt;/h2&gt;
 &lt;p&gt;In an alternative approach, we can build distance-based features by exploring the inter-firm distance using multi-dimensional scaling (MDS). On Feb. 12th, 2018, Pacific Premier Bancorp launched an acquisition of Grandpoint Capital. Using this acquisition event as an example, we can first calculate the interfirm distance using MDS and then track how the acquisition shifts a bank’s position (in both a 3-D and 2-D scatter plots).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/3d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/2d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/3d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/research/2020-04-19-tracking-the-movement-of-industry-positioning-caused-by-an-acquisition_files/figure-html/2d_scatterplot.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -444,10 +444,10 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
-      <link>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</link>
+      <link>https://yangphd.com/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</guid>
+      <guid>https://yangphd.com/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -465,7 +465,7 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
 &lt;h1&gt;1 the positioning by industry presence across SIC categories&lt;/h1&gt;
 &lt;p&gt;Scholars have used SIC codes to understand interfirm differences &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;
 Big public firms typically straddle across multiple SIC industry categories. So it is straightforward and easy to see their positionings by multiple-industry participation. Accordingly, a firm’s position can be calculated as the sales distribution across multiple SIC industry categories &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/positioning_multi_industry_presence.png&#34; alt=&#34;positioning by multi-industry presence&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/positioning_multi_industry_presence.png&#34; alt=&#34;positioning by multi-industry presence&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-positioning-by-competition-description-in-10-k-filing&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2 the positioning by competition description in 10-K filing&lt;/h1&gt;
@@ -474,18 +474,18 @@ Big public firms typically straddle across multiple SIC industry categories. So 
 &lt;div id=&#34;calculating-positioning-based-on-the-competition-description&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.1 calculating positioning based on the competition description&lt;/h2&gt;
 &lt;p&gt;I collected the competition description texts of the largest 17 tech companies. Below are some frequently used words in those statements.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/word_cloud_competition_description.png&#34; alt=&#34;word cloud competition description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/word_cloud_competition_description.png&#34; alt=&#34;word cloud competition description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I ran an LDA topic modeling with 11 latent topics, which yields a low perplexity score.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/perplecity_score_topic_competition_description.png&#34; alt=&#34;perplecity score topic model on competition description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/perplecity_score_topic_competition_description.png&#34; alt=&#34;perplecity score topic model on competition description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The figure below shows how the 11 topics distribute across terms.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/topic_loading_on_words.png&#34; alt=&#34;topic loading on terms.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/topic_loading_on_words.png&#34; alt=&#34;topic loading on terms.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is the topic loading on the 11 firms’ competition description, which is used to calculate the pairwise distance.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/topic_loading_on_companies.png&#34; alt=&#34;topic loading on companies.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/topic_loading_on_companies.png&#34; alt=&#34;topic loading on companies.png&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-final-result-positioning-by-competition-description&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 the final result: positioning by competition description&lt;/h2&gt;
 &lt;p&gt;Here is the positioning map based on the competition description. The graph on the right shows the positioning of American companies. Looking at the results, we can see some interesting differences. The competition description moves some firms closer or further away from one another as compared to the SIC-presence positioning map.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041620_big_firm_industry_competition/positioning_based_on_competition_description.png&#34; alt=&#34;positioning based on competition description.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041620_big_firm_industry_competition/positioning_based_on_competition_description.png&#34; alt=&#34;positioning based on competition description.png&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
@@ -503,10 +503,10 @@ Big public firms typically straddle across multiple SIC industry categories. So 
     
     <item>
       <title>Mapping Twitter Topics and Sentiment about FAAMG Companies since Covid-19 Outbreak</title>
-      <link>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
+      <link>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
+      <guid>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -527,7 +527,7 @@ Big public firms typically straddle across multiple SIC industry categories. So 
 &lt;h1&gt;1 Motivation&lt;/h1&gt;
 &lt;p&gt;On a whim, I mapped out what people say (the text) and feel (the sentiment) about the top tech companies (FAAMG) on twitter since the Covid-19 outbreak. The keywords and sentiment that are associated with the main topics should differ across these companies.&lt;/p&gt;
 &lt;p&gt;By no means I am drawing any causal association here. But the story starts with checking the recent price movements of the FAAMG stocks. Obviously, Covid-19 has impacted these companies quite differently.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/stock_price_FAAMG.png&#34; alt=&#34;FAAMG stock price&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;procedures&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;2 Procedures&lt;/h1&gt;
@@ -539,7 +539,7 @@ I used Python module “tweepy” to stream the data and set the “since” par
 &lt;div id=&#34;topic-modeling&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;2.2 Topic Modeling&lt;/h2&gt;
 &lt;p&gt;Using Python module “gensim”, I detected three most significant topics (including Covid-19, business, and daily life), which are named by the associated keywords (most relevant terms).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/lda.png&#34; alt=&#34;latent topics and revevant terms&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Using Python module “vaderSentiment”, I computed sentiment scores for each tweet and aggregated the scores by company. The topic-based sentiment scores are used to construct the perceptual map, in which each company takes a different position.
 Using Python module “nltk”, I find the most frequent topic-based co-occurring words for each company.&lt;/p&gt;
 &lt;/div&gt;
@@ -548,17 +548,17 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
 &lt;h1&gt;3 Results&lt;/h1&gt;
 &lt;div id=&#34;perceptual-map-of-faamg-based-on-topic-sentiment&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.1 Perceptual Map of FAAMG Based on Topic Sentiment&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;perceptual map and the positioning of each company&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_sentiment_FAAMG.png&#34; alt=&#34;perceptual map and the positioning of each company&#34;&gt;&lt;/p&gt;
 &lt;p&gt;It looks Amazon does well on all topics, especially on Covid-19-related topic. Microsoft and Apple do well on “Business”.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;keywords-co-occurrence-network-on-each-topic&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;3.2 Keywords Co-occurrence Network on Each Topic&lt;/h2&gt;
 &lt;p&gt;Here are the work keywords co-occurrence patterns for each topic of these companies.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;Amazon Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;Apple Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;Facebook Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;Google Word-Association Network&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;Microsoft Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_amazon.png&#34; alt=&#34;Amazon Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_apple.png&#34; alt=&#34;Apple Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_facebook.png&#34; alt=&#34;Facebook Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_google.png&#34; alt=&#34;Google Word-Association Network&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/opinion_mining/041520_FAAMG_twitter_topic_sentiment/topic_keyword_microsoft.png&#34; alt=&#34;Microsoft Word-Association Network&#34;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -566,14 +566,14 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
     
     <item>
       <title>My Research</title>
-      <link>/research/research/</link>
+      <link>https://yangphd.com/research/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/research/research/</guid>
+      <guid>https://yangphd.com/research/research/</guid>
       <description>
 
 
-&lt;p&gt;Check My &lt;a href=&#34;/Yang_CV.pdf&#34;&gt;&lt;b&gt;C.V.&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check My &lt;a href=&#34;https://yangphd.com/Yang_CV.pdf&#34;&gt;&lt;b&gt;C.V.&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!-- &lt;p&gt; --&gt;
 &lt;!-- My research investigates how strategic actions are both &#34;embedded in&#34; and &#34;reconstructive to&#34; the social structure of the market, and how the &#34;action-structure&#34; co-evolution drives firm performance.  --&gt;
 &lt;!-- &lt;/p&gt; --&gt;

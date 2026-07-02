@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>technologies-system-mapping on Ray Yang, Ph.D.</title>
-    <link>/series/technologies-system-mapping/</link>
+    <link>https://yangphd.com/series/technologies-system-mapping/</link>
     <description>Recent content in technologies-system-mapping on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/series/technologies-system-mapping/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yangphd.com/series/technologies-system-mapping/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>3-D Printing</title>
-      <link>/tech_categories/mapping-three-d-printing/</link>
+      <link>https://yangphd.com/tech_categories/mapping-three-d-printing/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-three-d-printing/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-three-d-printing/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -26,7 +26,7 @@
 
 &lt;div id=&#34;overview-of-the-3-d-printing-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘3-D Printing’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/3D_Printing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/3D_Printing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Additive manufacturing (3-D Printing) beats subtractive manufacturing (traditional manufacturing) by reducing cost and increasing flexibility &lt;i&gt;at the same time&lt;/i&gt;. If the natural selection favors the more efficient production mode that generates less economic waste, 3-D printing will be the sure winner.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; In essence, 3-D printers can &lt;b&gt;mass-produce customized physical objects&lt;/b&gt;. This process is also called &lt;b&gt;&lt;i&gt;“mass customization,”&lt;/i&gt;&lt;/b&gt; which breaks the cost-value trade-off and shifts the &lt;a href=&#34;https://www.google.com/search?q=How-Wow-Now+Matrix&amp;tbm=isch&#34; target=&#34;_blank&#34;&gt;productivity frontier&lt;/a&gt; outwards.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Traditionally, assembly lines are intended to utilize standardized modules to construct complex systems&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. However, the modularity in subtractive manufacturing is so imperfect that the supply chain carries the organizational costs from the modulization (intra-firm coordination) to the assembling (inter-firm transaction) processes&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. As a result, the traditional supply chain is comprised of specialized firms handing standardized modules&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Since such specialized firms can not be efficient without a stable external demand to match standardized internal processes, the entire supply chain will be too rigid to meet the changing demand or &lt;b&gt;transfer the “rigidity” cost to specialized firms&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -48,10 +48,10 @@
     
     <item>
       <title>Block Chain</title>
-      <link>/tech_categories/mapping-block-chain/</link>
+      <link>https://yangphd.com/tech_categories/mapping-block-chain/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-block-chain/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-block-chain/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -62,7 +62,7 @@
 
 &lt;div id=&#34;overview-of-the-block-chain-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Block Chain’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Block_Chain_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Block_Chain_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;If natural selection optimizes for efficiency &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and entropy in the universe is ever-increasing&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, there will be a trade-off between &lt;i&gt;the order&lt;/i&gt; of a social structure and &lt;i&gt;the freedom&lt;/i&gt; of its interacting agents. A social system constrains individual freedom according to the limitation of agentic inter-connectivity &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. For example, when we rely on market transactions to exchange (integrate) specialized productions (divided labor), we give power to intermediaries (firms, government, communities) to fill in the gap in inter-connectivity (in which intermediaries connect with unconnected participants). However, &lt;b&gt;when everyone is connected with everyone else, we don’t need to rely on intermediaries to maintain order&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The full connectivity creates a new social structure. As social structure serves as the medium for agency, the new social structure will enable us to achieve what’s impossible in the past &lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;. Because &lt;i&gt;all&lt;/i&gt; participants are interconnected with one another, &lt;b&gt;the entire system prevents a central intermediary from manipulating the flow of information&lt;/b&gt;. As there is no information asymmetry, ownership contracts will be secured (automatically verified) and transparent &lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -84,10 +84,10 @@
     
     <item>
       <title>Digital Marketing</title>
-      <link>/tech_categories/mapping-digital-marketing/</link>
+      <link>https://yangphd.com/tech_categories/mapping-digital-marketing/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-digital-marketing/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-digital-marketing/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -98,7 +98,7 @@
 
 &lt;div id=&#34;overview-of-the-digital-marketing-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Digital Marketing’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Digital_Marketing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Digital_Marketing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Digital marketing utilizes new forms of media to increase the content ROI relative to the traditional media (e.g., commercials on mass media). In the traditional mode, it is not only costly to create rich content catering to different tastes but also impossible to control the traffic-conversion rate in the long tails &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Digitization reduces content creation cost and enables niche content creators to expose their content to the entire global audience. &lt;b&gt;Niche content is more effective and efficient in traffic generation and lead conversion because of greater relevancy and closer relationship with niche audience.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A key component of the digital marketing process is user data. User data live on the consumer side of the content exchange process. Traditional content relying on one-sided communication fails to connect with the differing consumer demands, preferences, and needs &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. By contrast, in each vertical niche, connections and relationships can be repeated and interactive. Continuous user feedback becomes readily available from the recursive exchange of real, unmet human needs. During the exchange process, &lt;b&gt;valuable user data reveals profitable problems and new solutions, which is either unavailable or costly to collect through the traditional channel&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -118,10 +118,10 @@
     
     <item>
       <title>E-commerce</title>
-      <link>/tech_categories/mapping-e-commerce/</link>
+      <link>https://yangphd.com/tech_categories/mapping-e-commerce/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-e-commerce/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-e-commerce/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -132,7 +132,7 @@
 
 &lt;div id=&#34;overview-of-the-e-commerce-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘E-commerce’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/E_Commerce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/E_Commerce_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;E-commerce allows the transactions of goods and services to be conducted electronically on the internet. &lt;b&gt;The ease of electronic transaction transforms the organization form due to the reduction in transaction cost&lt;/b&gt; &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. For consumers, online shopping reduces the search cost for desired products. For sellers, the reduced communication cost enables businesses to outsource core functions (such as marketing, inventory, distribution, etc.) to e-commerce platforms or external providers.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The supply chain is deconstructed to allows e-commerce participants to easily switch transacting partners both up-stream and down-stream. Core business functions become easily accessible “commodities,” offered by specialized platforms (marketing cloud, on-demand inventory, delivery services) &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;The efficiency boost from business-processes outsourcing and automation enables sellers to focus more on selling and responding quickly to market demand&lt;/b&gt;. Meanwhile, platforms replace traditional supply chains, enjoying significant network effects and high customer switching costs.&lt;/p&gt;&lt;/li&gt;
@@ -152,10 +152,10 @@
     
     <item>
       <title>Internet of Things</title>
-      <link>/tech_categories/mapping-internet-of-things/</link>
+      <link>https://yangphd.com/tech_categories/mapping-internet-of-things/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-internet-of-things/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-internet-of-things/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -166,7 +166,7 @@
 
 &lt;div id=&#34;overview-of-the-internet-of-things-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Internet of Things’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/IoT_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/IoT_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Specialization creates efficiency. &lt;b&gt;Integration increases wealth&lt;/b&gt;. In modern societies, specialized “things” — physical objects created by specialized producers — result in the lack of integration among the divided things (and thus leave money on the table). The total wealth in an economy lies in the efficiency boost from specialized producers, which ultimately need to bring their products together through market exchange mechanism. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;New combinations generate new innovation. Innovation resides in the new linkages or new combinations between exiting things &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. In the digital age, &lt;b&gt;new connections between existing things create new data dimensions&lt;/b&gt;, which leads to new cost-saving and value creation opportunities.&lt;/p&gt;&lt;/li&gt;
@@ -186,10 +186,10 @@
     
     <item>
       <title>Platform</title>
-      <link>/tech_categories/mapping-n-sided-markets/</link>
+      <link>https://yangphd.com/tech_categories/mapping-n-sided-markets/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-n-sided-markets/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-n-sided-markets/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -200,7 +200,7 @@
 
 &lt;div id=&#34;overview-of-the-platform-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Platform’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/N_Sided_Market_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/N_Sided_Market_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Platforms play the “game of power” by leveraging network effects. Power can be created through a virtuous cycle in which increased numbers of platform users continuously increase user experience and disproportional user dependency on the platform &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;As long as a platform can dominate a vertical field, the network effects will ultimately pay off by reducing the marginal cost for user acquisition and user retention to zero, and increasing switching cost on the user side to infinity.&lt;/b&gt; We often call this phenomenon “winner take all” &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. As a result, platforms subsidize the users or the third-party sellers (complementors) until the asymmetric dependency is established.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Single-sided network effect (or same-side network effect) occurs when a focal user can interact with a greater number of others joining the same network and using the same platform. Telephone, internet, and online social networks (almost any technology) are all this kind. As Metcalfe’s law states, the possible interconnections within the network are proportional to the square of the total number of connected users &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. &lt;b&gt;After widespread adoption, users will consider the platform as an indispensable commodity. The platform enjoys significant economy of scale.&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;
@@ -222,10 +222,10 @@
     
     <item>
       <title>Open Source</title>
-      <link>/tech_categories/mapping-open-source/</link>
+      <link>https://yangphd.com/tech_categories/mapping-open-source/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-open-source/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-open-source/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -236,7 +236,7 @@
 
 &lt;div id=&#34;overview-of-the-open-source-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Open Source’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Open_Source_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Open_Source_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Organizations are often instruments of purpose. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Organizations create efficiency by getting individuals to work towards a common goal. However, &lt;b&gt; organizations may confine productivity and block free knowledge flows when a purpose is not commonly shared and clearly defined. &lt;/b&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Emerging new technologies tend to benefit from free knowledge flows across organizational boundaries. &lt;b&gt;In the case of innovation, organizational boundaries become the barriers for good ideas to connect and interact&lt;/b&gt;. Thus, proprietory ownership of good ideas not only prevents external minds from connecting with internal minds, but also causes internal minds to miss out on the opportunity of good ideas from external inter-connected minds. Opportunity cost can quickly override the ownership benefits and render the good in-house ideas obsolete.&lt;/p&gt;&lt;/li&gt;
@@ -256,10 +256,10 @@
     
     <item>
       <title>Robotics</title>
-      <link>/tech_categories/mapping-robotics/</link>
+      <link>https://yangphd.com/tech_categories/mapping-robotics/</link>
       <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-robotics/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-robotics/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -270,7 +270,7 @@
 
 &lt;div id=&#34;overview-of-the-robotics-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Robotics’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Robotics_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Robotics_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Because robotics are built with standardized programs, robotics can leverage the scale curve. The marginal production cost reduces as the volume increases. Yet, with integration with A.I., robotics are now being programmed to perform more and more complex tasks. &lt;b&gt;Enhanced programmability will generate more and more value creation at a constant production cost&lt;/b&gt;. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Compatible with A.I. &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;, robotics can fulfill highly customized needs. This means &lt;b&gt;A.I. powered robotics can learn from data and become smarter over time&lt;/b&gt;. With better user experience, A.I.-powered robots have the opportunity to spend more time interacting with human users, which creates opportunities to extract user data for improving the performance in fulfilling personalized needs.&lt;/p&gt;&lt;/li&gt;
@@ -290,10 +290,10 @@
     
     <item>
       <title>Social Media</title>
-      <link>/tech_categories/mapping-social-media/</link>
+      <link>https://yangphd.com/tech_categories/mapping-social-media/</link>
       <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-social-media/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-social-media/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -304,7 +304,7 @@
 
 &lt;div id=&#34;overview-of-the-social-media-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Social Media’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Social_Media_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Social_Media_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;What individuals choose and like are socially constructed. Human behaviors are under constant social influence instead of a result of rational reasoning. &lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; With traditional media (such as the commercials on mass media), it is unlikely for marketers to know &lt;b&gt;the likelihood of a product being sold to an audience&lt;/b&gt;. With social media and the information to predict consumer choice, it becomes an easy task.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The data of social connections can predict consumer choice because social networks are the primary source of information for human minds. In fact, networks not only preserve important information but also project the social identity of individuals. &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; Users on virtual social networks self-identify themselves in the social circles and communities, which continuously and automatically &lt;b&gt;generates market segmentation and precise targeting data at zero cost for the owners of social media sites&lt;/b&gt;.&lt;/p&gt;&lt;/li&gt;
@@ -324,10 +324,10 @@
     
     <item>
       <title>Virtualization</title>
-      <link>/tech_categories/mapping-virtualization/</link>
+      <link>https://yangphd.com/tech_categories/mapping-virtualization/</link>
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tech_categories/mapping-virtualization/</guid>
+      <guid>https://yangphd.com/tech_categories/mapping-virtualization/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -338,7 +338,7 @@
 
 &lt;div id=&#34;overview-of-the-virtualization-system&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview of the ‘Virtualization’ System&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/tech_categories/Virtualization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangphd.com/tech_categories/Virtualization_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Consider a form of commodity that is under private ownership but does not enter the market exchange, like the electricity coming from a private generator. Because electrical energy would be the same from different generators, electricity can be pooled together to create greater efficiencies than private generators. Thus, in most societies, individual households are renting electricity from public utility companies instead of owning it. In this case, &lt;b&gt;utility companies create a virtual version of electricity resources for households&lt;/b&gt;, which do not own real generators. Similarly, there is room to improve societal efficiency by converting some forms of ownership to rentorship, especially when private ownership creates underutilized resources.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;When individual companies perform similar business functions using the computer, it is possible to &lt;b&gt;improve societal efficiency by pooling the computing and storage resources together and create a virtual instance of a greater computer system&lt;/b&gt;. For individual companies, renting the virtual instances to have applications running on top of it is more efficient than owning (and maintaining) the actual hardware. Also, virtual instances create the flexibility for different companies with customized needs to experiment with new applications, without allocating a budget to acquire hardware before the profit potential of new applications becomes predictable.&lt;/p&gt;&lt;/li&gt;
