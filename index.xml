@@ -2432,70 +2432,6 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
     </item>
     
     <item>
-      <title>Dr. Yang&#39;s Blog</title>
-      <link>https://yangphd.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yangphd.com/about/</guid>
-      <description>
-&lt;style&gt;
-.column-left{
-  float: left;
-  width: 30%;
-  text-align: center;
-}
-.column-right{
-  float: right;
-  width: 70%;
-  text-align: justify;
-}
-.column-whole{
-  float: right;
-  width: 100%;
-  text-align: justify;
-}
-&lt;/style&gt;
-
-&lt;div class=&#34;column-left&#34;&gt;
-
-&lt;p&gt; &lt;/p&gt;
-&lt;img srcset=&#34;
-/./about_files/good4x.png 4x,
-/./about_files/good3x.png 3x, 
-/./about_files/good2x.png 2x, 
-/./about_files/good1x.png 1x&#34;
-
-src=&#34;https://yangphd.com/./about_files/awesome.png&#34; alt=&#34;Rui Yang Strategy Ray Yang Strategy&#34; width=&#34;68%&#34; height=&#34;68%&#34;&gt;
-&lt;/div&gt;
-&lt;p&gt; &lt;/p&gt;
-
-&lt;div class=&#34;column-right&#34;&gt;
-
-&lt;p&gt; Hi! Dr. Yang here&lt;/a&gt;. I do research in digital ecosystems.
-
- &lt;!–– href=&#34;https://yangphd.com/Yang-CV.pdf&#34; target=&#34;_blank&#34; C.V. ––&gt;
- 
- &lt;!–– href=&#34;https://yangphd.com/research/research/&#34; target=&#34;_blank&#34; Current Research ––&gt;
- 
-&lt;hr&gt;
-&lt;p&gt;My research contexts involve emerging technologies and corporate strategy. Beyond the phenomenon itself, I delve into the interplay between environment-shaping strategies and performance-shaping environments. 
-
-
- &lt;!–– href=&#34;https://yangphd.com/Yang-CV.pdf&#34; target=&#34;_blank&#34; C.V.  ––&gt;
-
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;As we envision and observe how things connect, our minds turn to what makes them tick, producing knowledge in a loop of causal inference and probabilistic prediction.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;column-whole&#34;&gt;
-&lt;hr size=3&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
       <title>Links to Quizzes</title>
       <link>https://yangphd.com/bus103/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2549,6 +2485,70 @@ src=&#34;https://yangphd.com/./about_files/awesome.png&#34; alt=&#34;Rui Yang St
 &lt;!--   &lt;li&gt;Game-theoretic Sequential Choice (&lt;a href=&#34;https://link.springer.com/article/10.1007/s11238-018-9663-y&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;)&lt;/li&gt; --&gt;
 &lt;!--   &lt;li&gt;Cross-cultural Entrepreneurship (&lt;a href=&#34;https://journals.sagepub.com/doi/abs/10.5367/ijei.2015.0199&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;)&lt;/li&gt; --&gt;
 &lt;!-- &lt;/ul&gt;  --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>There’s a reason you came here.</title>
+      <link>https://yangphd.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yangphd.com/about/</guid>
+      <description>
+&lt;style&gt;
+.column-left{
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.column-right{
+  float: right;
+  width: 70%;
+  text-align: justify;
+}
+.column-whole{
+  float: right;
+  width: 100%;
+  text-align: justify;
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;column-left&#34;&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;img srcset=&#34;
+/./about_files/good4x.png 4x,
+/./about_files/good3x.png 3x, 
+/./about_files/good2x.png 2x, 
+/./about_files/good1x.png 1x&#34;
+
+src=&#34;https://yangphd.com/./about_files/awesome.png&#34; alt=&#34;Rui Yang Strategy Ray Yang Strategy&#34; width=&#34;68%&#34; height=&#34;68%&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&#34;column-right&#34;&gt;
+
+&lt;p&gt; Hi! Dr. Yang here&lt;/a&gt;.
+
+ &lt;!–– href=&#34;https://yangphd.com/Yang-CV.pdf&#34; target=&#34;_blank&#34; C.V. ––&gt;
+ 
+ &lt;!–– href=&#34;https://yangphd.com/research/research/&#34; target=&#34;_blank&#34; Current Research ––&gt;
+ 
+&lt;hr&gt;
+&lt;p&gt;My research involves digital ecosystems and corporate strategy. Beyond the phenomenon itself, I delve into the interplay between environment-shaping strategies and performance-shaping environments. 
+
+
+ &lt;!–– href=&#34;https://yangphd.com/Yang-CV.pdf&#34; target=&#34;_blank&#34; C.V.  ––&gt;
+
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;As we envision and observe how things connect, our minds turn to what makes them tick, producing knowledge in a loop of causal inference and probabilistic prediction.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;column-whole&#34;&gt;
+&lt;hr size=3&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     

@@ -544,15 +544,15 @@
   </url>
   
   <url>
-    <loc>https://yangphd.com/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://yangphd.com/bus103/</loc>
   </url>
   
   <url>
     <loc>https://yangphd.com/research/research/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yangphd.com/about/</loc>
   </url>
   
 </urlset>
