@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title> | Ray Yang, Ph.D.</title>
+    
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+    <meta property="og:url" content="https://yangphd.com/growth/causal-growth-intelligence/">
+	<meta property="og:site_name" content="Ray Yang, Ph.D.">
+	<meta property="og:title" content="Ray Yang, Ph.D.">
+	<meta property="og:description" content="From Black-Box Analytics to Causal Growth Intelligence Most companies have no shortage of data, dashboards, predictive models, or AI tools. What they often lack is a reliable answer to a more important question:
+Which actions are actually creating growth—and which are merely associated with it?
+A campaign may appear to generate conversions that would have happened anyway. A churn model may accurately identify at-risk customers without revealing which interventions will prevent churn. A recommendation engine may increase clicks while reducing contribution margin, customer trust, or long-term retention.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="growth">
+		<meta property="og:image" content="https://yangphd.com/Yang_logo.png">
+
+
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+  </body>
+
+<link rel="stylesheet" href="https://yangphd.com/css/github-gist.css" rel="stylesheet" id="theme-stylesheet">
+<script src="https://yangphd.com/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+
+<p class="terms">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</p>
+
+<img src="" />
+
+</div>
+
+<main>
+<h1 id="from-black-box-analytics-to-causal-growth-intelligence">From Black-Box Analytics to Causal Growth Intelligence</h1>
+<p>Most companies have no shortage of data, dashboards, predictive models, or AI tools. What they often lack is a reliable answer to a more important question:</p>
+<blockquote>
+<p><strong>Which actions are actually creating growth—and which are merely associated with it?</strong></p>
+</blockquote>
+<p>A campaign may appear to generate conversions that would have happened anyway. A churn model may accurately identify at-risk customers without revealing which interventions will prevent churn. A recommendation engine may increase clicks while reducing contribution margin, customer trust, or long-term retention.</p>
+<p>The next generation of growth analytics is emerging at the intersection of three fields: <strong>interpretable machine learning, causal machine learning, and growth experimentation</strong>.</p>
+<p>Together, they create a more useful company-level capability: the ability to understand what a model sees, estimate what business actions actually change outcomes, and continuously improve how resources are allocated across marketing, sales, product, pricing, and customer success.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Area</th>
+					<th>Core question</th>
+					<th>Emerging direction</th>
+					<th>Business implication</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Interpretable machine learning</td>
+					<td>Why did the model predict this?</td>
+					<td>Interpretable-by-design models, concept-based models, counterfactual explanations, and model monitoring</td>
+					<td>Make AI recommendations understandable, challengeable, and usable by operating teams</td>
+			</tr>
+			<tr>
+					<td>Causal machine learning</td>
+					<td>What would happen if we changed X?</td>
+					<td>Heterogeneous treatment effects, double ML, causal forests, policy learning, causal representation learning, and continuous-treatment models</td>
+					<td>Estimate which intervention works for which customers, locations, products, or segments</td>
+			</tr>
+			<tr>
+					<td>Growth experimentation</td>
+					<td>What actually created incremental revenue or profit?</td>
+					<td>Incrementality experiments, customer and geographic holdouts, experiment-calibrated measurement, uplift targeting, and budget optimization</td>
+					<td>Stop paying for conversions that would have happened anyway and reallocate resources to true growth</td>
+			</tr>
+	</tbody>
+</table>
+<p>The opportunity is not simply to use more sophisticated analytics. It is to move from reporting activity to building a <strong>decision system for profitable, evidence-based growth</strong>.</p>
+<h2 id="interpretability-beyond-feature-importance">Interpretability Beyond Feature Importance</h2>
+<p>For many organizations, explainable AI still means adding a SHAP chart, LIME explanation, feature-importance ranking, or partial-dependence plot after training a black-box prediction model.</p>
+<p>These tools are useful. They can help analysts inspect models, identify potential data problems, detect unreasonable patterns, and communicate which variables are associated with a prediction. But they have an important limitation: they do not prove that a variable is a real-world cause of an outcome.</p>
+<p>A variable can be highly predictive without being a useful intervention target.</p>
+<p>For example, imagine a model finds that customers who contact support frequently are much more likely to churn. That insight may be useful for identifying at-risk accounts. But it does not follow that increasing support contacts will reduce churn. In fact, the relationship may exist because customers facing serious product problems both contact support more often and eventually leave.</p>
+<p>This is why the frontier of interpretability is moving beyond post-hoc explanation and toward <strong>interpretability by design</strong>.</p>
+<h3 id="glass-box-and-constrained-models">Glass-box and constrained models</h3>
+<p>Rather than beginning with an opaque model and explaining it afterward, companies can use models whose structures are already understandable. These include sparse generalized additive models, monotonic gradient-boosting models, rule lists, scorecards, and interpretable policy trees.</p>
+<p>Such models may occasionally sacrifice a small amount of predictive performance compared with the most complex black-box alternative. In return, they offer practical advantages:</p>
+<ul>
+<li>Leaders can understand the logic behind a recommendation.</li>
+<li>Operators can challenge unreasonable outputs.</li>
+<li>Risk and compliance teams can audit the system.</li>
+<li>Business teams can convert the model into a usable policy.</li>
+<li>Organizations can identify when the model begins to drift or behave unexpectedly.</li>
+</ul>
+<p>In many commercial settings, a slightly less accurate model that people trust, understand, and actually use can create more value than a technically superior model that remains trapped inside a data-science notebook.</p>
+<h3 id="concept-based-models">Concept-based models</h3>
+<p>A second direction is to organize models around business concepts rather than raw features alone.</p>
+<p>Instead of predicting churn directly from thousands of product events, clicks, customer-service fields, and transaction records, a company might structure analysis around concepts such as:</p>
+<ul>
+<li>Onboarding completion</li>
+<li>Product activation quality</li>
+<li>Service friction</li>
+<li>Price sensitivity</li>
+<li>Inventory availability</li>
+<li>Customer trust</li>
+<li>Usage depth</li>
+<li>Implementation success</li>
+</ul>
+<p>This creates a bridge between machine learning and managerial judgment. Rather than telling an executive that “Feature 184 has a large SHAP value,” the model can help answer questions such as:</p>
+<ul>
+<li>Is churn risk increasing because onboarding quality is weak?</li>
+<li>Is conversion declining because customers are becoming more price sensitive?</li>
+<li>Is retention being damaged by service friction after implementation?</li>
+<li>Does an offer work because it improves perceived value, or because it merely attracts already high-intent customers?</li>
+</ul>
+<p>Concept bottleneck models are an important research direction because they aim to make model reasoning more legible through human-recognizable concepts. Recent work is also exploring how to make those concepts more causally reliable rather than merely convenient labels. <a href="https://research.ibm.com/publications/causally-reliable-concept-bottleneck-models">IBM Research on causally reliable concept bottleneck models</a></p>
+<h3 id="counterfactual-explanations">Counterfactual explanations</h3>
+<p>The most decision-relevant explanation is often not, “What features were associated with this prediction?” It is:</p>
+<blockquote>
+<p>“What feasible change could alter this outcome?”</p>
+</blockquote>
+<p>For example, a churn-risk model may indicate that a customer would move from high risk to moderate risk if two conditions changed:</p>
+<ul>
+<li>Their support issue were resolved within two days.</li>
+<li>They successfully completed activation of a key product feature.</li>
+</ul>
+<p>This is more actionable than a static risk score. It points toward a possible intervention pathway.</p>
+<p>However, counterfactual explanations need to be interpreted carefully. A model may say that changing a variable would change its prediction. That does not automatically mean changing the variable in the real world will cause the same outcome change.</p>
+<p>A model-level counterfactual is not necessarily a causal claim. Moving from “the prediction would change” to “the customer outcome would change” requires causal evidence, business knowledge, and often experimentation.</p>
+<h3 id="interpretability-as-operating-infrastructure">Interpretability as operating infrastructure</h3>
+<p>Interpretability should not be treated as a compliance checkbox or a technical visualization exercise. It is part of the infrastructure that allows organizations to use AI responsibly and effectively.</p>
+<p>The U.S. National Institute of Standards and Technology has emphasized that explanations should be meaningful to intended users, accurate in reflecting a system’s actual operation, and appropriately limited to situations in which the system is sufficiently reliable. <a href="https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8312.pdf">NIST, <em>Four Principles of Explainable Artificial Intelligence</em></a></p>
+<p>This matters increasingly as AI becomes embedded in marketing, sales, customer service, underwriting, recruitment, pricing, and other business decisions. Regulatory expectations around transparency are also rising, especially for companies that operate in or serve the European market.</p>
+<p>But the commercial case is even clearer than the regulatory one. A CMO does not need another SHAP waterfall chart. They need to know:</p>
+<ul>
+<li>Should we expand this campaign to new regions?</li>
+<li>Should we stop targeting loyal customers who would buy anyway?</li>
+<li>Should we redesign the offer rather than increase media spend?</li>
+<li>Which customers need human intervention?</li>
+<li>Which recommendations are trustworthy enough to operationalize?</li>
+</ul>
+<p>Interpretability turns a model from a prediction engine into a decision tool.</p>
+<h2 id="causal-machine-learning-as-a-decision-engine">Causal Machine Learning as a Decision Engine</h2>
+<p>Traditional predictive machine learning estimates relationships such as:</p>
+<p>[
+\mathbb{E}[Y \mid X]
+]</p>
+<p>In plain language, this asks:</p>
+<blockquote>
+<p>Given what we know about a customer, product, market, or account, what outcome is likely?</p>
+</blockquote>
+<p>For example:</p>
+<ul>
+<li>Which customers are likely to buy?</li>
+<li>Which subscribers are likely to churn?</li>
+<li>Which leads are likely to convert?</li>
+<li>Which markets are likely to generate demand?</li>
+</ul>
+<p>These are valuable questions. But they do not answer the question that managers need to make an intervention decision:</p>
+<blockquote>
+<p>What will happen if we change something?</p>
+</blockquote>
+<p>Causal machine learning focuses on an intervention effect:</p>
+<p>[
+\tau(x) = \mathbb{E}[Y(1) - Y(0) \mid X=x]
+]</p>
+<p>This represents the expected difference in outcome for an entity with characteristics (X=x) if it receives an intervention rather than an alternative condition.</p>
+<p>For a business, the question becomes:</p>
+<ul>
+<li>What is the effect of offering a discount rather than not offering one?</li>
+<li>What is the effect of a sales call rather than no outreach?</li>
+<li>What is the effect of an onboarding intervention rather than standard onboarding?</li>
+<li>What is the effect of faster support resolution rather than the current process?</li>
+<li>What is the effect of increasing ad exposure rather than maintaining current exposure?</li>
+</ul>
+<p>This distinction is central to profitable growth.</p>
+<p>A propensity model may identify customers who are likely to purchase. But many of those customers may purchase without receiving a discount, an ad impression, a sales call, or an incentive. Targeting them may therefore generate impressive attributed conversion rates while wasting money.</p>
+<p>An uplift model, by contrast, seeks to identify customers whose behavior changes because of the treatment. It asks not only, “Who is likely to buy?” but:</p>
+<blockquote>
+<p>“Who is more likely to buy because we act?”</p>
+</blockquote>
+<p>That is the difference between optimizing observed activity and optimizing incremental value.</p>
+<h3 id="double-machine-learning">Double machine learning</h3>
+<p>One important direction in causal ML is double or debiased machine learning. This approach uses machine learning to model complex relationships in the data—such as the likelihood of receiving a treatment and the expected outcome—while reducing sensitivity to errors in those supporting models.</p>
+<p>This is particularly valuable for companies with high-dimensional data, including:</p>
+<ul>
+<li>CRM data</li>
+<li>Product-usage logs</li>
+<li>Marketing touchpoints</li>
+<li>Customer-service interactions</li>
+<li>Transaction history</li>
+<li>Account attributes</li>
+<li>Web and app behavior</li>
+<li>Call transcripts and sales notes</li>
+</ul>
+<p>The key principle is that machine learning can help control for rich patterns in the data, but it does not remove the need for a credible causal design. The organization still needs a clear treatment definition, appropriate timing, plausible confounder controls, and explicit assumptions.</p>
+<h3 id="heterogeneous-treatment-effects">Heterogeneous treatment effects</h3>
+<p>The average effect of an intervention is often not the decision that matters.</p>
+<p>A campaign may work well for newly acquired customers but not for long-term loyal customers. A discount may increase conversion for price-sensitive prospects but destroy margin among customers who would have purchased anyway. A customer-success call may reduce churn for accounts with low product activation but have little value for highly engaged accounts.</p>
+<p>Causal machine learning can estimate these differences through <strong>heterogeneous treatment effects</strong>.</p>
+<p>Methods such as causal forests, meta-learners, doubly robust learners, and related approaches aim to estimate where intervention effects differ across:</p>
+<ul>
+<li>Customer segments</li>
+<li>Product categories</li>
+<li>Markets and geographies</li>
+<li>Funnel stages</li>
+<li>Account sizes</li>
+<li>Price points</li>
+<li>Usage patterns</li>
+<li>Time periods</li>
+<li>Marketing channels</li>
+</ul>
+<p>This is the foundation of treatment-aware personalization. Instead of sending the same intervention to everyone, a company can target the people, accounts, products, or markets for which the intervention has the highest expected incremental value.</p>
+<p>Python tools such as <a href="https://www.pywhy.org/EconML/">EconML</a> help operationalize heterogeneous-treatment-effect estimation by combining econometric ideas with flexible machine-learning methods.</p>
+<h3 id="from-effect-estimation-to-policy-learning">From effect estimation to policy learning</h3>
+<p>Estimating causal effects is valuable. But the next step is deciding what to do.</p>
+<p>Policy learning, sometimes called prescriptive causal machine learning, focuses on selecting an action rule that maximizes expected value under real constraints.</p>
+<p>For example, a company may have a limited customer-success team, a finite discount budget, or only enough sales capacity to contact a subset of leads. The objective is not simply to estimate who might respond. It is to decide:</p>
+<ul>
+<li>Which customers should receive an offer?</li>
+<li>Which accounts deserve a sales call?</li>
+<li>Which regions should receive additional advertising?</li>
+<li>Which prospects should be excluded from promotion?</li>
+<li>Which customers should receive human support rather than automation?</li>
+<li>Which intervention produces enough incremental value to justify its cost?</li>
+</ul>
+<p>A good decision policy takes account of treatment cost, expected incremental revenue, expected margin, capacity constraints, customer experience, and long-term value—not merely conversion probability.</p>
+<h3 id="beyond-binary-interventions">Beyond binary interventions</h3>
+<p>Real business decisions are rarely as simple as treatment versus no treatment.</p>
+<p>Companies choose among multiple actions and varying levels of intensity:</p>
+<ul>
+<li>How deep should a discount be?</li>
+<li>How frequently should a customer be contacted?</li>
+<li>Which sales sequence should a lead receive?</li>
+<li>How much marketing budget should go to each channel?</li>
+<li>What price should be offered?</li>
+<li>How much onboarding support should an account receive?</li>
+<li>Which inventory allocation will increase profitable demand?</li>
+</ul>
+<p>This creates a growing interest in multi-treatment and continuous-treatment causal learning. Researchers are exploring methods that estimate treatment-response curves rather than only binary effects, including early work on causal foundation models for continuous treatments. <a href="https://arxiv.org/abs/2605.15133">Causal Foundation Models with Continuous Treatments</a></p>
+<p>The opportunity is significant, but practical discipline remains essential. Sophisticated models do not replace clear business definitions, credible research design, or randomized validation.</p>
+<h3 id="causal-representation-learning">Causal representation learning</h3>
+<p>Companies increasingly possess high-dimensional and unstructured data: call transcripts, CRM notes, customer emails, product telemetry, clickstreams, images, support tickets, and conversation logs.</p>
+<p>Causal representation learning aims to turn these raw inputs into useful representations that capture factors related to how different customers respond to different interventions.</p>
+<p>For example, text from customer-success notes may reveal implementation complexity. Product telemetry may reveal whether an account has reached meaningful activation. Support transcripts may identify recurring friction. These signals may help explain why the same intervention works for one segment but not another.</p>
+<p>This is a promising frontier, particularly as companies integrate LLMs and multimodal models into customer-facing workflows. At the same time, it raises the standard for validation, governance, and interpretability. More complex representations can create more powerful models, but they can also obscure assumptions and amplify hidden bias.</p>
+<h3 id="causal-ml-is-not-magic">Causal ML is not magic</h3>
+<p>The most important principle is also the least glamorous:</p>
+<blockquote>
+<p>Causal machine learning does not turn observational data into causal truth by magic.</p>
+</blockquote>
+<p>A credible causal analysis requires:</p>
+<ul>
+<li>A well-defined intervention</li>
+<li>A clear outcome and time window</li>
+<li>A plausible causal model of the business process</li>
+<li>Attention to confounding and selection bias</li>
+<li>Sufficient overlap between treated and untreated cases</li>
+<li>Appropriate controls, quasi-experimental design, or randomization</li>
+<li>Robustness checks and sensitivity analysis</li>
+<li>Honest communication of uncertainty</li>
+</ul>
+<p>When important confounders are unmeasured, companies should not manufacture certainty. They should use stronger designs: randomized experiments, customer holdouts, geographic tests, difference-in-differences, regression discontinuity, instrumental variables, negative controls, or other methods appropriate to the decision context.</p>
+<p>The purpose of causal ML is not to make bolder claims. It is to make better decisions with a clearer understanding of what evidence can—and cannot—support.</p>
+<h2 id="from-growth-hacking-to-growth-science">From Growth Hacking to Growth Science</h2>
+<p>“Growth hacking” originally described fast, creative, low-cost experimentation. It helped popularize the idea that companies could find scalable growth through disciplined testing rather than intuition alone.</p>
+<p>That spirit remains valuable. But growth hacking has evolved.</p>
+<p>The modern version is not a collection of isolated tactics, dashboards, or A/B tests. It is a learning system:</p>
+<p>[
+\text{Instrument} \rightarrow \text{Hypothesize} \rightarrow \text{Experiment} \rightarrow \text{Estimate lift} \rightarrow \text{Target} \rightarrow \text{Scale} \rightarrow \text{Monitor}
+]</p>
+<p>This is <strong>growth science</strong>: a repeatable operating model for learning which interventions create incremental, profitable growth.</p>
+<p>The shift is visible across several dimensions:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Old growth mindset</th>
+					<th>Growth science mindset</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Last-click attribution</td>
+					<td>Incrementality measurement</td>
+			</tr>
+			<tr>
+					<td>Channel-level optimization</td>
+					<td>Profit-aware portfolio allocation</td>
+			</tr>
+			<tr>
+					<td>One average campaign effect</td>
+					<td>Segment- and customer-level uplift</td>
+			</tr>
+			<tr>
+					<td>One-off A/B tests</td>
+					<td>Continuous experimentation and learning</td>
+			</tr>
+			<tr>
+					<td>Generic personalization</td>
+					<td>Treatment-aware personalization</td>
+			</tr>
+			<tr>
+					<td>Dashboard reporting</td>
+					<td>Decision policies and resource allocation</td>
+			</tr>
+			<tr>
+					<td>Conversion optimization</td>
+					<td>Incremental profit, retention, and lifetime value</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="from-attribution-to-incrementality">From attribution to incrementality</h3>
+<p>Attribution asks: “Which touchpoint received credit for a conversion?”</p>
+<p>Incrementality asks: “Would this conversion have happened without the touchpoint?”</p>
+<p>Those are fundamentally different questions.</p>
+<p>A retargeting campaign can look highly effective under last-click attribution because it reaches users already close to purchase. Brand search may appear to generate exceptional ROAS because it captures demand created elsewhere. A discount campaign may receive credit for revenue from customers who would have paid full price.</p>
+<p>Incrementality measurement attempts to estimate the causal contribution of an intervention. Common approaches include:</p>
+<ul>
+<li>Customer-level holdouts</li>
+<li>Geographic experiments</li>
+<li>Time-based switchback tests</li>
+<li>Matched-market tests</li>
+<li>Randomized A/B experiments</li>
+<li>Campaign-level lift studies</li>
+<li>Experiment-calibrated marketing-mix models</li>
+<li>Quasi-experimental analysis when randomization is infeasible</li>
+</ul>
+<p>The central question is always the counterfactual:</p>
+<blockquote>
+<p>What would have happened if we had not run this campaign, offered this incentive, made this sales contact, or changed this product experience?</p>
+</blockquote>
+<p>Without a credible answer, companies may optimize metrics that look good while spending money on behavior that would have occurred anyway.</p>
+<h3 id="from-average-effects-to-uplift">From average effects to uplift</h3>
+<p>Most growth decisions should not be based on average results alone.</p>
+<p>Suppose a company finds that a $20 discount increases average conversion by 3 percentage points. That average may conceal several very different groups:</p>
+<ul>
+<li>Customers who would buy anyway and do not need the discount</li>
+<li>Customers who will not buy even with the discount</li>
+<li>Customers who buy only because of the discount</li>
+<li>Customers who respond positively but create insufficient margin</li>
+<li>Customers who respond now but become less likely to pay full price later</li>
+</ul>
+<p>The goal is not to offer discounts to everyone. It is to identify the customers for whom the intervention creates positive incremental margin.</p>
+<p>This is where uplift modeling and causal ML become valuable. They help companies move from broad personalization to <strong>treatment-aware personalization</strong>.</p>
+<p>Instead of asking, “Who is likely to buy?” the company asks:</p>
+<blockquote>
+<p>“Who is likely to generate enough additional value because we intervene?”</p>
+</blockquote>
+<h3 id="from-dashboards-to-decision-policies">From dashboards to decision policies</h3>
+<p>Dashboards are useful for monitoring. They are not enough for decision-making.</p>
+<p>A dashboard can show that conversion fell, churn increased, or ROAS improved. But it rarely tells leadership what action to take, what tradeoffs to accept, or how certain the organization should be.</p>
+<p>A growth decision system should produce policies such as:</p>
+<ul>
+<li>Expand this campaign in three regions, but not in the existing customer base.</li>
+<li>Exclude high-intent users from discounting because they are likely to convert without an incentive.</li>
+<li>Direct customer-success capacity toward accounts with low activation and high estimated saveability.</li>
+<li>Shift budget away from a channel with high attributed conversions but low incremental lift.</li>
+<li>Test a revised onboarding sequence for a specific segment before scaling it broadly.</li>
+<li>Increase sales outreach only where its expected incremental value exceeds capacity cost.</li>
+</ul>
+<p>This is the difference between analytics that describe the business and analytics that help run the business.</p>
+<h2 id="the-strategic-opportunity">The Strategic Opportunity</h2>
+<p>The convergence of interpretable ML, causal ML, and growth experimentation creates a new kind of organizational capability.</p>
+<p>It enables companies to move from:</p>
+<ul>
+<li>Predicting customer behavior to influencing customer behavior responsibly.</li>
+<li>Measuring activity to measuring incremental value.</li>
+<li>Explaining model outputs to explaining business decisions.</li>
+<li>Optimizing channels to optimizing an entire growth portfolio.</li>
+<li>Running occasional experiments to operating a continuous learning system.</li>
+</ul>
+<p>The strongest companies will not simply use AI to automate content, customer support, or reporting. They will use it to build a more rigorous feedback loop between action and outcome.</p>
+<p>They will know which growth levers work, for whom they work, under what conditions they work, and when to stop using them.</p>
+<p>That is the promise of causal growth intelligence:</p>
+<blockquote>
+<p><strong>Scale what causes growth—not what merely correlates with it.</strong></p>
+</blockquote>
+
+</main>
+
+
+
+<hr>
+
+<style type="text/css">
+table {
+  border:1px #FFFFFF;
+}
+</style>
+
+ <table style="width:100%">
+  <tr>
+    <th align="left">
+      
+  </th>
+    <th align="right">
+  </th></tr>
+ </table> 
+
+
+
+
+
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+width: 32px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
+#share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
+#share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+</style>
+
+<span style="color: silver;">Share on: </span><div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/yangphd.com\/growth\/causal-growth-intelligence\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=https:\/\/yangphd.com\/growth\/causal-growth-intelligence\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/yangphd.com\/growth\/causal-growth-intelligence\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+
+</div>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+
+
+<div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "rkyang" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	
+
+<script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+  
+  <hr/>
+  © <!-- raw HTML omitted -->yangphd.com<!-- raw HTML omitted --> 2019 - 2026 | <a href="https://twitter.com/rky_phd">Twitter</a>
+  
+  </footer>
+  </body>
+</html>
+

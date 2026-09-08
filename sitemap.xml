@@ -1,558 +1,319 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://yangphd.com/crypto/2023-12-18-bitcoin-value/bitcoin-value/</loc>
-    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/categories/</loc>
-    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/crypto/</loc>
-    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/tags/</loc>
-    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
   <url>
     <loc>https://yangphd.com/tags/bitcoin/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yangphd.com/crypto/bitcoin-value/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yangphd.com/categories/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yangphd.com/crypto/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yangphd.com/tags/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yangphd.com/categories/technology/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/ent_tools/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/categories/entrepreneurship/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/personal-development/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/ent_tools/the-success-formula-for-entrepreneurs/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/investing/re_investing/an-imcomplete-collection-of-realestate-market-analysis/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/investing/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/pages/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/pages/research/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</loc>
-    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/research/</loc>
-    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/series/</loc>
-    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/series/causal-inference-basics/</loc>
     <lastmod>2021-06-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yangphd.com/research/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yangphd.com/series/</loc>
+    <lastmod>2021-06-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</loc>
     <lastmod>2021-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/categories/strategy/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</loc>
     <lastmod>2021-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</loc>
     <lastmod>2021-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</loc>
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</loc>
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/note/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/note/2020/06/09/quant-finance-data/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/positioning/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/big-firms/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/market-categories/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/categories/positioning/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yangphd.com/positioning/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yangphd.com/positioning/the-positioning-of-stock-fundamentas/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/str_consulting/an-ongoing-collection-of-vision-statement-vision-statement/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/str_consulting/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/pages/strategy/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/ent_tools/cognitive-biases-to-avoid-in-decision-making/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</loc>
-    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/acquisition/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/banking/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/categories/business/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yangphd.com/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</loc>
+    <lastmod>2020-04-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yangphd.com/categories/visualization/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/investing/the-short-term-and-long-term-debt-cycle/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/life-cycle/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/system-map/</loc>
     <lastmod>2020-04-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/python/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/visualization/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/ent_tools/aim-think-walk/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/str_consulting/an-ongoing-collection-of-strategy-matrices/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/companies/mapping-costoco/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/series/companies-system-mapping/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yangphd.com/companies/mapping-costoco/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-three-d-printing/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/series/technologies-system-mapping/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-block-chain/</loc>
     <lastmod>2019-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-digital-marketing/</loc>
     <lastmod>2019-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-e-commerce/</loc>
     <lastmod>2019-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-internet-of-things/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-n-sided-markets/</loc>
     <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-open-source/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-robotics/</loc>
     <lastmod>2019-10-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-social-media/</loc>
     <lastmod>2019-10-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-uber/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tech_categories/mapping-virtualization/</loc>
     <lastmod>2019-10-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-salesforce/</loc>
     <lastmod>2019-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-netflix/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-microsoft/</loc>
     <lastmod>2019-09-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-nvidia/</loc>
     <lastmod>2019-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-google/</loc>
     <lastmod>2019-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-facebook/</loc>
     <lastmod>2019-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-apple/</loc>
     <lastmod>2019-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-amazon/</loc>
     <lastmod>2019-08-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/companies/mapping-alibaba/</loc>
     <lastmod>2019-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/note/2019/06/21/an-ongoing-collection-of-interesting-data-sources/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/note/2019/05/21/an-ongoing-collection-of-nlp-startups/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/pages/marketing/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/pages/nlp/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</loc>
     <lastmod>2019-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/note/2019/04/22/an-ongoing-collection-of-blogdown-sites/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/pages/blogdown/</loc>
     <lastmod>2019-04-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2019/04/15/recent-merger-and-acquisition-research-since/</loc>
     <lastmod>2019-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/business-model/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2019/03/25/social-evaluation-and-institutional-complexity/</loc>
     <lastmod>2019-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/tags/r/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yangphd.com/categories/r-package/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yangphd.com/categories/r-package/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</loc>
     <lastmod>2019-03-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/ent_tools/using-system-map-in-business-modeling/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</loc>
     <lastmod>2019-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/note/2019/02/01/an-imcomplete-collection-of-market-trackers/</loc>
     <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://yangphd.com/growth/causal-growth-intelligence/</loc>
+  </url><url>
+    <loc>https://yangphd.com/%E5%A2%9E%E9%95%BF/%E5%9B%A0%E6%9E%9C%E5%A2%9E%E9%95%BF%E6%99%BA%E8%83%BD/</loc>
+  </url><url>
+    <loc>https://yangphd.com/growth/</loc>
+  </url><url>
     <loc>https://yangphd.com/bus103/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/research/research/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://yangphd.com/about/</loc>
+  </url><url>
+    <loc>https://yangphd.com/%E5%A2%9E%E9%95%BF/</loc>
   </url>
-  
 </urlset>
