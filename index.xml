@@ -5,15 +5,33 @@
     <description>Recent content in 𝕐  on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yangphd.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Growths</title>
+      <link>https://yangphd.com/growth/</link>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0800</pubDate>
+      
+      <guid>https://yangphd.com/growth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>增长s</title>
+      <link>https://yangphd.com/%E5%A2%9E%E9%95%BF/</link>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0800</pubDate>
+      
+      <guid>https://yangphd.com/%E5%A2%9E%E9%95%BF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cryptos</title>
       <link>https://yangphd.com/crypto/</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/crypto/</guid>
       <description></description>
@@ -22,7 +40,7 @@
     <item>
       <title>Ent_tools</title>
       <link>https://yangphd.com/ent_tools/</link>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/ent_tools/</guid>
       <description></description>
@@ -31,7 +49,7 @@
     <item>
       <title>Investings</title>
       <link>https://yangphd.com/investing/</link>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/investing/</guid>
       <description></description>
@@ -40,7 +58,7 @@
     <item>
       <title>Researches</title>
       <link>https://yangphd.com/research/</link>
-      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/</guid>
       <description></description>
@@ -49,7 +67,7 @@
     <item>
       <title>Posts</title>
       <link>https://yangphd.com/post/</link>
-      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/</guid>
       <description></description>
@@ -58,7 +76,7 @@
     <item>
       <title>Notes</title>
       <link>https://yangphd.com/note/</link>
-      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/note/</guid>
       <description></description>
@@ -67,7 +85,7 @@
     <item>
       <title>Positionings</title>
       <link>https://yangphd.com/positioning/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/positioning/</guid>
       <description></description>
@@ -76,7 +94,7 @@
     <item>
       <title>Str_consultings</title>
       <link>https://yangphd.com/str_consulting/</link>
-      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/str_consulting/</guid>
       <description></description>
@@ -85,7 +103,7 @@
     <item>
       <title>Companies</title>
       <link>https://yangphd.com/companies/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/companies/</guid>
       <description></description>
@@ -94,18 +112,9 @@
     <item>
       <title>Tech_categories</title>
       <link>https://yangphd.com/tech_categories/</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/tech_categories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Growths</title>
-      <link>https://yangphd.com/growth/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yangphd.com/growth/</guid>
       <description></description>
     </item>
     
@@ -185,15 +194,6 @@ src=&#34;https://yangphd.com/./about_files/awesome.png&#34; alt=&#34;Rui Yang St
 &lt;/div&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>增长s</title>
-      <link>https://yangphd.com/%E5%A2%9E%E9%95%BF/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yangphd.com/%E5%A2%9E%E9%95%BF/</guid>
-      <description></description>
     </item>
     
   </channel>

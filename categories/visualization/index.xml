@@ -5,7 +5,7 @@
     <description>Recent content in Visualization on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yangphd.com/categories/visualization/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Tracking the Change of Industry Positioning Caused by an Acquisition</title>
       <link>https://yangphd.com/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</link>
-      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/tracking-the-movement-of-industry-positioning-caused-by-an-acquisition/</guid>
       <description>
@@ -52,7 +52,7 @@
     <item>
       <title>the Positionings of Big Tech Firms on Industry Presence and Competition Description</title>
       <link>https://yangphd.com/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/mapping-out-the-positionings-of-public-tech-firms-based-on-industry-participation/</guid>
       <description>
@@ -111,7 +111,7 @@ Big public firms typically straddle across multiple SIC industry categories. So 
     <item>
       <title>Mapping Twitter Topics and Sentiment about FAAMG Companies since Covid-19 Outbreak</title>
       <link>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
       <description>
@@ -174,7 +174,7 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
     <item>
       <title>“MMeM”: Modeling the Multivariate Mixed-effects</title>
       <link>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</guid>
       <description>
@@ -253,7 +253,7 @@ results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = s
     <item>
       <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results</title>
       <link>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
       <description>
@@ -361,7 +361,7 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
     <item>
       <title>A Quick Bibliometric Analysis on “Positioning”</title>
       <link>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
       <description>

@@ -5,7 +5,7 @@
     <description>Recent content in Posts on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yangphd.com/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Play the Thinking Game -- from Seeing from Eyes to Seeing with the Mind</title>
       <link>https://yangphd.com/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</link>
-      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2021/06/02/play-the-thinking-game-in-causal-inference-shifting-to-what-we-see-using-our-minds/</guid>
       <description>
@@ -34,7 +34,7 @@ The reality (i.e., a data point), events that have already occurred, is a probab
     <item>
       <title>Citation Analysis on Corporate Strategy &amp; Network Change</title>
       <link>https://yangphd.com/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</link>
-      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/04/23/citation-analysis-on-corporate-strategy-network-change/</guid>
       <description>
@@ -71,7 +71,7 @@ The reality (i.e., a data point), events that have already occurred, is a probab
     <item>
       <title>Citation Analysis of Recent Acquisition Research</title>
       <link>https://yangphd.com/post/2019/04/15/recent-merger-and-acquisition-research-since/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/04/15/recent-merger-and-acquisition-research-since/</guid>
       <description>
@@ -156,7 +156,7 @@ The reality (i.e., a data point), events that have already occurred, is a probab
     <item>
       <title>A.I./Blockchain Adoption and Technology Substitution</title>
       <link>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</link>
-      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/04/02/a-i-blockchain-related-m-as-and-technology-substitution/</guid>
       <description>
@@ -188,7 +188,7 @@ Let’s consider two cases here. One is about different incumbent technologies: 
     <item>
       <title>A Summary of Recent &#39;Social Evaluation&#39; Research</title>
       <link>https://yangphd.com/post/2019/03/25/social-evaluation-and-institutional-complexity/</link>
-      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/03/25/social-evaluation-and-institutional-complexity/</guid>
       <description>
@@ -270,7 +270,7 @@ The inter-connected keyword clusters present the relationship among the main top
     <item>
       <title>Interoperability in Tech. Evolution—Thoughts on “Reticulate&#34;</title>
       <link>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/03/11/interoperability-in-technology-evolution-thoughts-on-reticulate/</guid>
       <description>
@@ -298,7 +298,7 @@ The inter-connected keyword clusters present the relationship among the main top
     <item>
       <title>“MMeM”: Modeling the Multivariate Mixed-effects</title>
       <link>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</guid>
       <description>
@@ -377,7 +377,7 @@ results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = s
     <item>
       <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results</title>
       <link>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
       <description>
@@ -485,7 +485,7 @@ ggplot2::theme(text=ggplot2::element_text(family=&amp;quot;Times New Roman&amp;q
     <item>
       <title>A Quick Bibliometric Analysis on “Positioning”</title>
       <link>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</link>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/02/26/a-quick-bibliometric-analysis-on-strategic-positioning/</guid>
       <description>
@@ -515,7 +515,7 @@ Indexes: SCI-EXPANDED, SSCI, A&amp;amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, 
     <item>
       <title>Optimal Positioning for Firms and Individuals</title>
       <link>https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/02/25/optimal-positioning-for-firms-individuals/</guid>
       <description>

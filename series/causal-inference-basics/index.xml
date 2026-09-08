@@ -5,7 +5,7 @@
     <description>Recent content in Causal-Inference-Basics on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yangphd.com/series/causal-inference-basics/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Regression Discontinuity Design</title>
       <link>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</link>
-      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-regression-discontinuity-design/</guid>
       <description>
@@ -33,7 +33,7 @@
     <item>
       <title>Difference-in-Difference</title>
       <link>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</link>
-      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-difference-in-difference/</guid>
       <description>
@@ -53,7 +53,7 @@
     <item>
       <title>Matching</title>
       <link>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</link>
-      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-matching/</guid>
       <description>
@@ -73,7 +73,7 @@
     <item>
       <title>Fixed Effects</title>
       <link>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</link>
-      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-fixed-effects/</guid>
       <description>
@@ -97,7 +97,7 @@
     <item>
       <title>Post-treatment Control</title>
       <link>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</link>
-      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-pt-control/</guid>
       <description>
@@ -121,7 +121,7 @@
     <item>
       <title>Collider Bias</title>
       <link>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</link>
-      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-collider-bias/</guid>
       <description>
@@ -145,7 +145,7 @@
     <item>
       <title>Instrument Variable</title>
       <link>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</link>
-      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-instrument-variable/</guid>
       <description>
@@ -211,7 +211,7 @@ summary(ivreg(Y ~ X | Z , data = df)) %&amp;gt;%
     <item>
       <title>Sample Selection Bias</title>
       <link>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</link>
-      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/sample-selection-bias-and-heckman-mode/</guid>
       <description>
@@ -378,7 +378,7 @@ summary(run_ture)&lt;/code&gt;&lt;/pre&gt;
     <item>
       <title>Control Variable</title>
       <link>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</link>
-      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/causal_inference_basics/causal-inference-control-variable/</guid>
       <description>

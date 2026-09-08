@@ -5,7 +5,7 @@
     <description>Recent content in Visualization on Ray Yang, Ph.D.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://yangphd.com/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Mapping Twitter Topics and Sentiment about FAAMG Companies since Covid-19 Outbreak</title>
       <link>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/research/mapping-covid-19-related-latent-topics-and-sentiment-on-twitter-about-faamg-the-top-tech-companies/</guid>
       <description>
@@ -76,7 +76,7 @@ Using Python module “nltk”, I find the most frequent topic-based co-occurrin
     <item>
       <title>“MMeM”: Modeling the Multivariate Mixed-effects</title>
       <link>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/03/10/mmem-an-r-package/</guid>
       <description>
@@ -155,7 +155,7 @@ results_henderson = MMeM_henderson3(fml = c(V1,V2) ~ X_vec + (1|Z_vec), data = s
     <item>
       <title>“regrrr”: One-stop R-toolkit for Compiling Regression Results</title>
       <link>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0800</pubDate>
       
       <guid>https://yangphd.com/post/2019/03/06/regrrr-released-compiling-regression-results/</guid>
       <description>
